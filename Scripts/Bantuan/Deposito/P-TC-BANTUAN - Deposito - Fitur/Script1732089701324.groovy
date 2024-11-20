@@ -23,13 +23,13 @@ Mobile.tap(findTestObject('Object Repository/Bantuan/Deposito/Fitur/01.PathView 
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\P-TC-BANTUAN - Deposito - Fitur\\01.png')
+Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Deposito - Fitur\\01.png')
 
 Mobile.tap(findTestObject('Object Repository/Bantuan/Deposito/Fitur/02.RectView - Deposito'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\P-TC-BANTUAN - Deposito - Fitur\\02.png')
+Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Deposito - Fitur\\02.png')
 
 Mobile.tap(findTestObject('Bantuan/Deposito/Informasi/03.PathView - Close Session'), 0)
 
@@ -37,7 +37,7 @@ Mobile.tap(findTestObject('Bantuan/Deposito/Penempatan dana/04.TextView - Penemp
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\P-TC-BANTUAN - Deposito - Fitur\\03.png')
+Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Deposito - Fitur\\03.png')
 
 Mobile.tap(findTestObject('Bantuan/Deposito/Penempatan dana/05.TextView - Question Penempatan Dana 1'), 0)
 
@@ -45,19 +45,19 @@ Mobile.tap(findTestObject('Bantuan/Deposito/Penempatan dana/05.TextView - Answer
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\P-TC-BANTUAN - Deposito - Fitur\\04.png')
+Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Deposito - Fitur\\04.png')
 
 Mobile.tap(findTestObject('Bantuan/Deposito/Fitur/04.ViewGroup - Kembali'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\P-TC-BANTUAN - Deposito - Fitur\\05.png')
+Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Deposito - Fitur\\05.png')
 
 Mobile.tap(findTestObject('Bantuan/Deposito/Penempatan dana/07.ViewGroup - Kembali'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\P-TC-BANTUAN - Deposito - Fitur\\06.png')
+Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Deposito - Fitur\\06.png')
 
 Mobile.tap(findTestObject('Atur/08.PathView - Home'), 0)
 

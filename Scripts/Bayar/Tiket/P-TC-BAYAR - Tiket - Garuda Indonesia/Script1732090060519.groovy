@@ -20,29 +20,29 @@ import org.openqa.selenium.Keys as Keys
 Mobile.startExistingApplication('com.bankmega.msmiledev')
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-BAYAR - Tiket - Garuda Indonesia\\01.png')
+Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Tiket - Garuda Indonesia\\01.png')
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Tiket/Garuda Indonesia/01. ImageView-Bayar'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-BAYAR - Tiket - Garuda Indonesia\\02.png')
+Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Tiket - Garuda Indonesia\\02.png')
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Tiket/Garuda Indonesia/02. SvgView-Tiket'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-BAYAR - Tiket - Garuda Indonesia\\03.png')
+Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Tiket - Garuda Indonesia\\03.png')
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Tiket/Garuda Indonesia/03. SvgView-Cek Saldo'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-BAYAR - Tiket - Garuda Indonesia\\04.png')
+Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Tiket - Garuda Indonesia\\04.png')
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Tiket/Garuda Indonesia/04. EditText-Tap Field Daftar Produk'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Tiket/Garuda Indonesia/05. TextView-GARUDA INDONESIA'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-BAYAR - Tiket - Garuda Indonesia\\05.png')
+Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Tiket - Garuda Indonesia\\05.png')
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Tiket/Garuda Indonesia/06. TextView-Tap Field Nopel'), 0)
 
@@ -107,21 +107,21 @@ Mobile.verifyElementText(findTestObject('Object Repository/Bayar/Tiket/Garuda In
 	'Rp. 1.043.412')
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-BAYAR - Tiket - Garuda Indonesia\\06.png')
+Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Tiket - Garuda Indonesia\\06.png')
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Tiket/Garuda Indonesia/27. ViewGroup-Bagikan'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-BAYAR - Tiket - Garuda Indonesia\\07.png')
+Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Tiket - Garuda Indonesia\\07.png')
 
 Mobile.pressBack()
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-BAYAR - Tiket - Garuda Indonesia\\08.png')
+Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Tiket - Garuda Indonesia\\08.png')
 
 Mobile.tapAtPosition(1147, 465)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-BAYAR - Tiket - Garuda Indonesia\\09.png')
+Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Tiket - Garuda Indonesia\\09.png')
 
 Mobile.closeApplication()

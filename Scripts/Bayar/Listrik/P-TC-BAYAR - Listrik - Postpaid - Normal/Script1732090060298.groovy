@@ -20,38 +20,38 @@ import org.openqa.selenium.Keys as Keys
 Mobile.startExistingApplication('com.bankmega.msmiledev')
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-BAYAR - Listrik - Postpaid - Normal\\01.png')
+Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Listrik - Postpaid - Normal\\01.png')
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Listrik/Postpaid/01. ViewGroup - Button Bayar'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-BAYAR - Listrik - Postpaid - Normal\\02.png')
+Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Listrik - Postpaid - Normal\\02.png')
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Listrik/Postpaid/02. ViewGroup - Icon Listrik'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-BAYAR - Listrik - Postpaid - Normal\\03.png')
+Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Listrik - Postpaid - Normal\\03.png')
 
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Listrik/Postpaid/03. SvgView - Cek Saldo'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-BAYAR - Listrik - Postpaid - Normal\\04.png')
+Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Listrik - Postpaid - Normal\\04.png')
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Listrik/Postpaid/04. EditText - Daftar Produk'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-BAYAR - Listrik - Postpaid - Normal\\05.png')
+Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Listrik - Postpaid - Normal\\05.png')
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Listrik/Postpaid/05. TextView - PLN Postpaid'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-BAYAR - Listrik - Postpaid - Normal\\06.png')
+Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Listrik - Postpaid - Normal\\06.png')
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Listrik/Postpaid/06. EditText - IDPEL'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-BAYAR - Listrik - Postpaid - Normal\\07.png')
+Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Listrik - Postpaid - Normal\\07.png')
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Listrik/Postpaid/07. EditText - Input Baru'), 0)
 
@@ -61,12 +61,12 @@ Mobile.setText(findTestObject('Object Repository/Bayar/Listrik/Postpaid/07. Edit
 Mobile.pressBack()
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-BAYAR - Listrik - Postpaid - Normal\\08.png')
+Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Listrik - Postpaid - Normal\\08.png')
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Listrik/Postpaid/08. ViewGroup - Button Ok'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-BAYAR - Listrik - Postpaid - Normal\\09.png')
+Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Listrik - Postpaid - Normal\\09.png')
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Listrik/Postpaid/09. ViewGroup - Lanjut'), 0)
 
@@ -95,7 +95,7 @@ Mobile.setText(findTestObject('Object Repository/Bayar/Listrik/Postpaid/16. Edit
 Mobile.pressBack()
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-BAYAR - Listrik - Postpaid - Normal\\10.png')
+Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Listrik - Postpaid - Normal\\10.png')
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Listrik/Postpaid/17. ViewGroup - Bayar'), 0)
 
@@ -121,17 +121,17 @@ Mobile.verifyElementText(findTestObject('Object Repository/Bayar/Listrik/Postpai
 	'Rp. 103.600')
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-BAYAR - Listrik - Postpaid - Normal\\11.png')
+Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Listrik - Postpaid - Normal\\11.png')
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Listrik/Postpaid/25. ViewGroup - Bagikan'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-BAYAR - Listrik - Postpaid - Normal\\12.png')
+Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Listrik - Postpaid - Normal\\12.png')
 
 Mobile.pressBack()
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-BAYAR - Listrik - Postpaid - Normal\\13.png')
+Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Listrik - Postpaid - Normal\\13.png')
 
 Mobile.tapAtPosition(1140, 430)
 

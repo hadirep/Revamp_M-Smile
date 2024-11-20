@@ -20,22 +20,22 @@ import org.openqa.selenium.Keys as Keys
 Mobile.startExistingApplication('com.bankmega.msmiledev')
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-LIHAT SEMUA - Beli - Pulsa\\01.png')
+Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Beli - Pulsa\\01.png')
 
 Mobile.tap(findTestObject('Object Repository/Lihat Semua/Beli/Pulsa/01. ViewGroup - Lihat Semua'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-LIHAT SEMUA - Beli - Pulsa\\02.png')
+Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Beli - Pulsa\\02.png')
 
 Mobile.swipe(500, 1150, 500, 500)
 
 Mobile.delay(3)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-LIHAT SEMUA - Beli - Pulsa\\03.png')
+Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Beli - Pulsa\\03.png')
 
 Mobile.tap(findTestObject('Object Repository/Lihat Semua/Beli/Pulsa/02. ImageView - Pulsa'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-LIHAT SEMUA - Beli - Pulsa\\04.png')
+Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Beli - Pulsa\\04.png')
 
 Mobile.tap(findTestObject('Object Repository/Lihat Semua/Beli/Pulsa/03. TextView - Tap Field Input Nomor'), 0)
 
@@ -44,12 +44,12 @@ Mobile.setText(findTestObject('Object Repository/Lihat Semua/Beli/Pulsa/04. Edit
 Mobile.hideKeyboard()
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-LIHAT SEMUA - Beli - Pulsa\\05.png')
+Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Beli - Pulsa\\05.png')
 
 Mobile.tap(findTestObject('Object Repository/Lihat Semua/Beli/Pulsa/05. ViewGroup - Lanjut'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-LIHAT SEMUA - Beli - Pulsa\\06.png')
+Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Beli - Pulsa\\06.png')
 
 Mobile.verifyElementText(findTestObject('Object Repository/Lihat Semua/Beli/Pulsa/06. TextView - verif Pulsa'), 
 	'Pulsa')
@@ -63,7 +63,7 @@ Mobile.verifyElementText(findTestObject('Object Repository/Lihat Semua/Beli/Puls
 	'INDOSAT OOREDOO')
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-LIHAT SEMUA - Beli - Pulsa\\06.png')
+Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Beli - Pulsa\\06.png')
 
 Mobile.tap(findTestObject('Object Repository/Lihat Semua/Beli/Pulsa/10. ViewGroup - Back Btn (Pulsa-1)'), 0)
 

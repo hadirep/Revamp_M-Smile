@@ -20,37 +20,37 @@ import org.openqa.selenium.Keys as Keys
 Mobile.startExistingApplication('com.bankmega.msmiledev')
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-LIHAT SEMUA - Bayar - Pinjaman\\01.png')
+Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Bayar - Pinjaman\\01.png')
 
 Mobile.tap(findTestObject('Object Repository/Lihat Semua/Bayar/05. Bayar - Pinjaman/01. ViewGroup - Lihat Semua'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-LIHAT SEMUA - Bayar - Pinjaman\\02.png')
+Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Bayar - Pinjaman\\02.png')
 
 Mobile.scrollToText('Lainnya')
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-LIHAT SEMUA - Bayar - Pinjaman\\03.png')
+Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Bayar - Pinjaman\\03.png')
 
 Mobile.tap(findTestObject('Object Repository/Lihat Semua/Bayar/05. Bayar - Pinjaman/02. ViewGroup - Pinjaman'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-LIHAT SEMUA - Bayar - Pinjaman\\04.png')
+Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Bayar - Pinjaman\\04.png')
 
 Mobile.tap(findTestObject('Object Repository/Lihat Semua/Bayar/05. Bayar - Pinjaman/03. SvgView - Cek Saldo'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-LIHAT SEMUA - Bayar - Pinjaman\\05.png')
+Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Bayar - Pinjaman\\05.png')
 
 Mobile.tap(findTestObject('Object Repository/Lihat Semua/Bayar/05. Bayar - Pinjaman/04. EditText - Field Daftar Produk'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-LIHAT SEMUA - Bayar - Pinjaman\\06.png')
+Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Bayar - Pinjaman\\06.png')
 
 Mobile.tap(findTestObject('Object Repository/Lihat Semua/Bayar/05. Bayar - Pinjaman/05. EditText - Cari Produk'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-LIHAT SEMUA - Bayar - Pinjaman\\07.png')
+Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Bayar - Pinjaman\\07.png')
 
 Mobile.tap(findTestObject('Object Repository/Lihat Semua/Bayar/05. Bayar - Pinjaman/06. ScrollView - Tap Body Daftar Produk'), 0)
 
@@ -67,12 +67,12 @@ Mobile.verifyElementText(findTestObject('Object Repository/Lihat Semua/Bayar/05.
 	'Mega Central Finance (MCF)')
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-LIHAT SEMUA - Bayar - Pinjaman\\08.png')
+Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Bayar - Pinjaman\\08.png')
 
 Mobile.tap(findTestObject('Object Repository/Lihat Semua/Bayar/05. Bayar - Pinjaman/11. ViewGroup - Back Button Daftar Produk'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-LIHAT SEMUA - Bayar - Pinjaman\\09.png')
+Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Bayar - Pinjaman\\09.png')
 
 Mobile.tap(findTestObject('Object Repository/Lihat Semua/Bayar/05. Bayar - Pinjaman/12. PathView - Back Button'), 0)
 

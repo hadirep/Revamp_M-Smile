@@ -23,13 +23,13 @@ Mobile.tap(findTestObject('Object Repository/Bantuan/Investasi/Subscribe/01.Path
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\P-TC-BANTUAN - Fitur Lainnya - Split Bill\\01.png')
+Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Fitur Lainnya - Split Bill\\01.png')
 
 Mobile.tap(findTestObject('Bantuan/Fitur Lainnya/Split Bill/02.RectView - Fitur Lainnya'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\P-TC-BANTUAN - Fitur Lainnya - Split Bill\\02.png')
+Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Fitur Lainnya - Split Bill\\02.png')
 
 Mobile.tap(findTestObject('Bantuan/Fitur Lainnya/Split Bill/05.TextView - Question Split Bill 1'), 0)
 
@@ -37,7 +37,7 @@ Mobile.tap(findTestObject('Bantuan/Fitur Lainnya/Split Bill/05.TextView - Answer
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\P-TC-BANTUAN - Fitur Lainnya - Split Bill\\03.png')
+Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Fitur Lainnya - Split Bill\\03.png')
 
 Mobile.tap(findTestObject('Bantuan/Fitur Lainnya/Split Bill/06.ViewGroup - Kembali'), 0)
 
@@ -47,7 +47,7 @@ Mobile.tap(findTestObject('Bantuan/Fitur Lainnya/Split Bill/07.TextView - Answer
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\P-TC-BANTUAN - Fitur Lainnya - Split Bill\\04.png')
+Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Fitur Lainnya - Split Bill\\04.png')
 
 Mobile.tap(findTestObject('Bantuan/Transaksi/Transfer/006ViewGroup - Kembali'), 0)
 
@@ -57,7 +57,7 @@ Mobile.tap(findTestObject('Bantuan/Fitur Lainnya/Split Bill/09.TextView - Answer
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\P-TC-BANTUAN - Fitur Lainnya - Split Bill\\05.png')
+Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Fitur Lainnya - Split Bill\\05.png')
 
 Mobile.tap(findTestObject('Bantuan/Transaksi/Transfer/006ViewGroup - Kembali'), 0)
 
@@ -67,7 +67,7 @@ Mobile.tap(findTestObject('Bantuan/Fitur Lainnya/Split Bill/11.TextView - Answer
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\P-TC-BANTUAN - Fitur Lainnya - Split Bill\\06.png')
+Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Fitur Lainnya - Split Bill\\06.png')
 
 Mobile.tap(findTestObject('Bantuan/Transaksi/Transfer/006ViewGroup - Kembali'), 0)
 
@@ -77,7 +77,7 @@ Mobile.tap(findTestObject('Bantuan/Fitur Lainnya/Split Bill/13.TextView - Answer
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\P-TC-BANTUAN - Fitur Lainnya - Split Bill\\07.png')
+Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Fitur Lainnya - Split Bill\\07.png')
 
 Mobile.tap(findTestObject('Bantuan/Transaksi/Transfer/006ViewGroup - Kembali'), 0)
 
@@ -87,13 +87,13 @@ Mobile.tap(findTestObject('Bantuan/Fitur Lainnya/Split Bill/15.TextView - Answer
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\P-TC-BANTUAN - Fitur Lainnya - Split Bill\\08.png')
+Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Fitur Lainnya - Split Bill\\08.png')
 
 Mobile.tap(findTestObject('Bantuan/Transaksi/Transfer/006ViewGroup - Kembali'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\P-TC-BANTUAN - Fitur Lainnya - Split Bill\\09.png')
+Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Fitur Lainnya - Split Bill\\09.png')
 
 Mobile.tap(findTestObject('Bantuan/Transaksi/Transfer/018.ViewGroup - Kembali'), 0)
 
@@ -101,7 +101,7 @@ Mobile.tap(findTestObject('Atur/08.PathView - Home'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\P-TC-BANTUAN - Fitur Lainnya - Split Bill\\10.png')
+Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Fitur Lainnya - Split Bill\\10.png')
 
 Mobile.closeApplication()
 

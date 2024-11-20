@@ -23,13 +23,13 @@ Mobile.tap(findTestObject('Object Repository/Lihat Semua/Topup/LinkAja/01.ViewGr
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\P-TC-LIHAT SEMUA - LinkAja\\01.png')
+Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp_M-Smile\\Screenshoot\\P-TC-LIHAT SEMUA - LinkAja\\01.png')
 
 Mobile.tap(findTestObject('Object Repository/Lihat Semua/Topup/LinkAja/02.ViewGroup - LinkAja'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\P-TC-LIHAT SEMUA - LinkAja\\02.png')
+Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp_M-Smile\\Screenshoot\\P-TC-LIHAT SEMUA - LinkAja\\02.png')
 
 Mobile.tap(findTestObject('Object Repository/Lihat Semua/Topup/LinkAja/03.EditText - Input Nomor'), 0)
 
@@ -40,7 +40,7 @@ Mobile.tap(findTestObject('Object Repository/Lihat Semua/Topup/LinkAja/05.TextVi
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\P-TC-LIHAT SEMUA - LinkAja\\03.png')
+Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp_M-Smile\\Screenshoot\\P-TC-LIHAT SEMUA - LinkAja\\03.png')
 
 Mobile.tap(findTestObject('Object Repository/Lihat Semua/Topup/LinkAja/06.ViewGroup - Lanjut ke e-wallet'), 0)
 
@@ -50,31 +50,31 @@ Mobile.tap(findTestObject('Object Repository/Lihat Semua/Topup/LinkAja/09.TextVi
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\P-TC-LIHAT SEMUA - LinkAja\\04.png')
+Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp_M-Smile\\Screenshoot\\P-TC-LIHAT SEMUA - LinkAja\\04.png')
 
 Mobile.tap(findTestObject('Object Repository/Lihat Semua/Topup/LinkAja/10.ViewGroup - Back to Input Nomor'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\P-TC-LIHAT SEMUA - LinkAja\\05.png')
+Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp_M-Smile\\Screenshoot\\P-TC-LIHAT SEMUA - LinkAja\\05.png')
 
 Mobile.tap(findTestObject('Object Repository/Lihat Semua/Topup/LinkAja/11.ViewGroup - Back to Lihat semua'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\P-TC-LIHAT SEMUA - LinkAja\\06.png')
+Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp_M-Smile\\Screenshoot\\P-TC-LIHAT SEMUA - LinkAja\\06.png')
 
 Mobile.tap(findTestObject('Object Repository/Lihat Semua/Topup/LinkAja/12.ViewGroup - Back to Menu Utama'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\P-TC-LIHAT SEMUA - LinkAja\\07.png')
+Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp_M-Smile\\Screenshoot\\P-TC-LIHAT SEMUA - LinkAja\\07.png')
 
 Mobile.pressBack()
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\P-TC-LIHAT SEMUA - LinkAja\\08.png')
+Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp_M-Smile\\Screenshoot\\P-TC-LIHAT SEMUA - LinkAja\\08.png')
 
 Mobile.closeApplication()
 

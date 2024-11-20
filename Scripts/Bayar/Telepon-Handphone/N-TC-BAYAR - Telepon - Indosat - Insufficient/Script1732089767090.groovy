@@ -23,7 +23,7 @@ Mobile.tap(findTestObject('Object Repository/Bayar/Telepon/Indosat/01.ViewGroup 
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\N-TC-BAYAR - Telepon - Indosat - Insufficient\\01.png')
+Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp_M-Smile\\Screenshoot\\N-TC-BAYAR - Telepon - Indosat - Insufficient\\01.png')
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Telepon/Indosat/02.ViewGroup - Telepon'), 0)
 
@@ -35,44 +35,44 @@ Mobile.swipe(900, 500, 100, 500)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\N-TC-BAYAR - Telepon - Indosat - Insufficient\\02.png')
+Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp_M-Smile\\Screenshoot\\N-TC-BAYAR - Telepon - Indosat - Insufficient\\02.png')
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Telepon/Indosat/03.ViewGroup - Daftar Produk'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\N-TC-BAYAR - Telepon - Indosat - Insufficient\\03.png')
+Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp_M-Smile\\Screenshoot\\N-TC-BAYAR - Telepon - Indosat - Insufficient\\03.png')
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Telepon/Indosat/04.TextView - INDOSAT OOREDOO'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\N-TC-BAYAR - Telepon - Indosat - Insufficient\\04.png')
+Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp_M-Smile\\Screenshoot\\N-TC-BAYAR - Telepon - Indosat - Insufficient\\04.png')
 
 Mobile.tap(findTestObject('Bayar/Telepon/Indosat/Insufficient - Dormant/006.TextView - Nomor Tagihan'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\N-TC-BAYAR - Telepon - Indosat - Insufficient\\05.png')
+Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp_M-Smile\\Screenshoot\\N-TC-BAYAR - Telepon - Indosat - Insufficient\\05.png')
 
 Mobile.setText(findTestObject('Bayar/Telepon/Indosat/Insufficient - Dormant/005.EditText - Input nomor'), '085886894278', 
     0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\N-TC-BAYAR - Telepon - Indosat - Insufficient\\06.png')
+Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp_M-Smile\\Screenshoot\\N-TC-BAYAR - Telepon - Indosat - Insufficient\\06.png')
 
 Mobile.tap(findTestObject('Bayar/Telepon/Indosat/Insufficient - Dormant/007.ViewGroup - OK'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\N-TC-BAYAR - Telepon - Indosat - Insufficient\\07.png')
+Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp_M-Smile\\Screenshoot\\N-TC-BAYAR - Telepon - Indosat - Insufficient\\07.png')
 
 Mobile.tap(findTestObject('Bayar/Telepon/Indosat/Insufficient - Dormant/008.ViewGroup - Lanjut'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\N-TC-BAYAR - Telepon - Indosat - Insufficient\\08.png')
+Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp_M-Smile\\Screenshoot\\N-TC-BAYAR - Telepon - Indosat - Insufficient\\08.png')
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Telepon/Indosat/09.ViewGroup - Total Transfer'), 0)
 
@@ -80,7 +80,7 @@ Mobile.tap(findTestObject('Object Repository/Bayar/Telepon/Indosat/10.EditText -
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\N-TC-BAYAR - Telepon - Indosat - Insufficient\\09.png')
+Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp_M-Smile\\Screenshoot\\N-TC-BAYAR - Telepon - Indosat - Insufficient\\09.png')
 
 Mobile.setText(findTestObject('Object Repository/Bayar/Telepon/Indosat/11.EditText - PIN'), '111111', 0)
 
@@ -88,44 +88,44 @@ Mobile.tap(findTestObject('Object Repository/Bayar/Telepon/Indosat/12.ScrollView
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\N-TC-BAYAR - Telepon - Indosat - Insufficient\\10.png')
+Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp_M-Smile\\Screenshoot\\N-TC-BAYAR - Telepon - Indosat - Insufficient\\10.png')
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Telepon/Indosat/13.ViewGroup - Bayar'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\N-TC-BAYAR - Telepon - Indosat - Dormant\\11.png')
+Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp_M-Smile\\Screenshoot\\N-TC-BAYAR - Telepon - Indosat - Dormant\\11.png')
 
 
 Mobile.tap(findTestObject('Bayar/Telepon/Indosat/Insufficient - Dormant/015.ViewGroup - Error Notice'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\N-TC-BAYAR - Telepon - Indosat - Dormant\\12.png')
+Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp_M-Smile\\Screenshoot\\N-TC-BAYAR - Telepon - Indosat - Dormant\\12.png')
 
 Mobile.tap(findTestObject('Bayar/Telepon/Indosat/Insufficient - Dormant/016.TextView - OK'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\N-TC-BAYAR - Telepon - Indosat - Insufficient\\13.png')
+Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp_M-Smile\\Screenshoot\\N-TC-BAYAR - Telepon - Indosat - Insufficient\\13.png')
 
 Mobile.pressBack()
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\N-TC-BAYAR - Telepon - Indosat - Insufficient\\14.png')
+Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp_M-Smile\\Screenshoot\\N-TC-BAYAR - Telepon - Indosat - Insufficient\\14.png')
 
 Mobile.pressBack()
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\N-TC-BAYAR - Telepon - Indosat - Insufficient\\15.png')
+Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp_M-Smile\\Screenshoot\\N-TC-BAYAR - Telepon - Indosat - Insufficient\\15.png')
 
 Mobile.pressBack()
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\N-TC-BAYAR - Telepon - Indosat - Insufficient\\16.png')
+Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp_M-Smile\\Screenshoot\\N-TC-BAYAR - Telepon - Indosat - Insufficient\\16.png')
 
 Mobile.closeApplication()
 

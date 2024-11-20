@@ -20,22 +20,22 @@ import org.openqa.selenium.Keys as Keys
 Mobile.startExistingApplication('com.bankmega.msmiledev')
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-LIHAT SEMUA - Bayar - Telepon, Handphone\\01.png')
+Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Bayar - Telepon, Handphone\\01.png')
 
 Mobile.tap(findTestObject('Object Repository/Lihat Semua/Bayar/01. Bayar - Telepon, Handphone/01. ViewGroup - Lihat Semua'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-LIHAT SEMUA - Bayar - Telepon, Handphone\\02.png')
+Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Bayar - Telepon, Handphone\\02.png')
 
 Mobile.scrollToText('Lainnya')
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-LIHAT SEMUA - Bayar - Telepon, Handphone\\03.png')
+Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Bayar - Telepon, Handphone\\03.png')
 
 Mobile.tap(findTestObject('Object Repository/Lihat Semua/Bayar/01. Bayar - Telepon, Handphone/02. ViewGroup - Telpon Handphone'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-LIHAT SEMUA - Bayar - Telepon, Handphone\\04.png')
+Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Bayar - Telepon, Handphone\\04.png')
 
 Mobile.tap(findTestObject('Object Repository/Lihat Semua/Bayar/01. Bayar - Telepon, Handphone/03. SvgView - Cek Saldo'), 0)
 
@@ -56,12 +56,12 @@ Mobile.verifyElementText(findTestObject('Object Repository/Lihat Semua/Bayar/01.
 Mobile.verifyElementText(findTestObject('Object Repository/Lihat Semua/Bayar/01. Bayar - Telepon, Handphone/11. TextView - INDOSAT OOREDOO'), 'INDOSAT OOREDOO')
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-LIHAT SEMUA - Bayar - Telepon, Handphone\\05.png')
+Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Bayar - Telepon, Handphone\\05.png')
 
 Mobile.tap(findTestObject('Object Repository/Lihat Semua/Bayar/01. Bayar - Telepon, Handphone/12. ViewGroup - Back Button Daftar Produk'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-LIHAT SEMUA - Bayar - Telepon, Handphone\\06.png')
+Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Bayar - Telepon, Handphone\\06.png')
 
 Mobile.tap(findTestObject('Object Repository/Lihat Semua/Bayar/01. Bayar - Telepon, Handphone/13. PathView - Back Button'), 0)
 

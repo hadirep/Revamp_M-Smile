@@ -20,22 +20,22 @@ import org.openqa.selenium.Keys as Keys
 Mobile.startExistingApplication('com.bankmega.msmiledev')
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-BAYAR - Lainnya - CT ARSA Peduli Bencana\\01.png')
+Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Lainnya - CT ARSA Peduli Bencana\\01.png')
 
 Mobile.tap(findTestObject('Object Repository/Lainnya/CT ARSA Peduli Bencana/01. ViewGroup-Bayar'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-BAYAR - Lainnya - CT ARSA Peduli Bencana\\02.png')
+Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Lainnya - CT ARSA Peduli Bencana\\02.png')
 
 Mobile.tap(findTestObject('Object Repository/Lainnya/CT ARSA Peduli Bencana/02. ViewGroup-Lainnya'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-BAYAR - Lainnya - CT ARSA Peduli Bencana\\03.png')
+Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Lainnya - CT ARSA Peduli Bencana\\03.png')
 
 Mobile.tap(findTestObject('Object Repository/Lainnya/CT ARSA Peduli Bencana/03. SvgView-Cek Saldo'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-BAYAR - Lainnya - CT ARSA Peduli Bencana\\04.png')
+Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Lainnya - CT ARSA Peduli Bencana\\04.png')
 
 Mobile.tap(findTestObject('Object Repository/Lainnya/CT ARSA Peduli Bencana/04. EditText-Daftar Produk'), 0)
 
@@ -43,19 +43,19 @@ Mobile.tap(findTestObject('Object Repository/Lainnya/CT ARSA Peduli Bencana/05. 
     0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-BAYAR - Lainnya - CT ARSA Peduli Bencana\\05.png')
+Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Lainnya - CT ARSA Peduli Bencana\\05.png')
 
 Mobile.tap(findTestObject('Object Repository/Lainnya/CT ARSA Peduli Bencana/06. TextView-Tap Nominal'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-BAYAR - Lainnya - CT ARSA Peduli Bencana\\06.png')
+Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Lainnya - CT ARSA Peduli Bencana\\06.png')
 
 Mobile.setText(findTestObject('Object Repository/Lainnya/CT ARSA Peduli Bencana/07. EditText-Set Nominal'), '10000', 0)
 
 Mobile.hideKeyboard()
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-BAYAR - Lainnya - CT ARSA Peduli Bencana\\07.png')
+Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Lainnya - CT ARSA Peduli Bencana\\07.png')
 
 Mobile.tap(findTestObject('Object Repository/Lainnya/CT ARSA Peduli Bencana/08. ViewGroup-Lanjut'), 0)
 
@@ -75,7 +75,7 @@ Mobile.verifyElementText(findTestObject('Object Repository/Lainnya/CT ARSA Pedul
     'Rp. 10.000')
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-BAYAR - Lainnya - CT ARSA Peduli Bencana\\08.png')
+Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Lainnya - CT ARSA Peduli Bencana\\08.png')
 
 Mobile.tap(findTestObject('Object Repository/Lainnya/CT ARSA Peduli Bencana/14. TextView-Tap M-PIN'), 0)
 
@@ -84,7 +84,7 @@ Mobile.setText(findTestObject('Object Repository/Lainnya/CT ARSA Peduli Bencana/
 Mobile.hideKeyboard()
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-BAYAR - Lainnya - CT ARSA Peduli Bencana\\09.png')
+Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Lainnya - CT ARSA Peduli Bencana\\09.png')
 
 Mobile.tap(findTestObject('Object Repository/Lainnya/CT ARSA Peduli Bencana/16. ViewGroup-Bayar'), 0)
 
@@ -107,22 +107,22 @@ Mobile.verifyElementText(findTestObject('Object Repository/Lainnya/CT ARSA Pedul
     'Rp. 10.000')
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-BAYAR - Lainnya - CT ARSA Peduli Bencana\\10.png')
+Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Lainnya - CT ARSA Peduli Bencana\\10.png')
 
 Mobile.tap(findTestObject('Object Repository/Lainnya/CT ARSA Peduli Bencana/23. ViewGroup-Bagikan'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-BAYAR - Lainnya - CT ARSA Peduli Bencana\\11.png')
+Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Lainnya - CT ARSA Peduli Bencana\\11.png')
 
 Mobile.pressBack()
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-BAYAR - Lainnya - CT ARSA Peduli Bencana\\12.png')
+Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Lainnya - CT ARSA Peduli Bencana\\12.png')
 
 Mobile.tapAtPosition(1123, 452)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-BAYAR - Lainnya - CT ARSA Peduli Bencana\\13.png')
+Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Lainnya - CT ARSA Peduli Bencana\\13.png')
 
 Mobile.closeApplication()
 

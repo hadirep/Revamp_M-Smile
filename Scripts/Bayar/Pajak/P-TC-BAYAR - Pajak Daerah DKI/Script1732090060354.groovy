@@ -20,19 +20,19 @@ import org.openqa.selenium.Keys as Keys
 Mobile.startExistingApplication('com.bankmega.msmiledev')
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-BAYAR - Pajak Daerah DKI\\01.png')
+Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Pajak Daerah DKI\\01.png')
 
 //Mobile.callTestCase(findTestCase('Login/P-TC-LOGIN'), [:])
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Pajak-MPN/PAJAK DAERAH (DKI Jakarta)/01.ViewGroup-Bayar'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-BAYAR - Pajak Daerah DKI\\02.png')
+Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Pajak Daerah DKI\\02.png')
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Pajak-MPN/PAJAK DAERAH (DKI Jakarta)/02.ViewGroup-Pajak'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-BAYAR - Pajak Daerah DKI\\03.png')
+Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Pajak Daerah DKI\\03.png')
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Pajak-MPN/PAJAK DAERAH (DKI Jakarta)/03.ViewGroup-Daftar Produk'), 0)
 
@@ -48,7 +48,7 @@ Mobile.setText(findTestObject('Object Repository/Bayar/Pajak-MPN/PAJAK DAERAH (D
 Mobile.pressBack()
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-BAYAR - Pajak Daerah DKI\\04.png')
+Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Pajak Daerah DKI\\04.png')
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Pajak-MPN/PAJAK DAERAH (DKI Jakarta)/08.ViewGroup-OK'), 0)
 
@@ -63,7 +63,7 @@ String nomor = Mobile.getText(findTestObject('Object Repository/Bayar/Pajak-MPN/
 println(nomor)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-BAYAR - Pajak Daerah DKI\\05.png')
+Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Pajak Daerah DKI\\05.png')
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Pajak-MPN/PAJAK DAERAH (DKI Jakarta)/10.ViewGroup-Lanjut'), 
     0)
@@ -113,7 +113,7 @@ Mobile.setText(findTestObject('Object Repository/Bayar/Pajak-MPN/PAJAK DAERAH (D
 Mobile.pressBack()
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-BAYAR - Pajak Daerah DKI\\06.png')
+Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Pajak Daerah DKI\\06.png')
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Pajak-MPN/PAJAK DAERAH (DKI Jakarta)/13.ViewGroup-Bayar'), 0)
 
@@ -133,7 +133,7 @@ Mobile.verifyElementText(findTestObject('Object Repository/Bayar/Pajak-MPN/PAJAK
     'Rp. ' + total)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-BAYAR - Pajak Daerah DKI\\07.png')
+Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Pajak Daerah DKI\\07.png')
 
 Mobile.closeApplication()
 

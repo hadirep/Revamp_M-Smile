@@ -19,23 +19,23 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('com.bankmega.msmiledev')
 
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-ATUR - Set Fingerprint\\01.png')
+Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-ATUR - Set Fingerprint\\01.png')
 
 Mobile.tap(findTestObject('Object Repository/Atur/Atur - Set Fingerprint/01. PathView - Icon Atur Akun'), 0)
 
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-ATUR - Set Fingerprint\\02.png')
+Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-ATUR - Set Fingerprint\\02.png')
 
 Mobile.tap(findTestObject('Object Repository/Atur/Atur - Set Fingerprint/02. TextView - Fingerprint'), 0)
 
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-ATUR - Set Fingerprint\\03.png')
+Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-ATUR - Set Fingerprint\\03.png')
 
 Mobile.tap(findTestObject('Object Repository/Atur/Atur - Set Fingerprint/03. Switch - Aktifkan fingerprint'), 0)
 
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-ATUR - Set Fingerprint\\04.png')
+Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-ATUR - Set Fingerprint\\04.png')
 
 Mobile.pressBack()
 
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-ATUR - Set Fingerprint\\05.png')
+Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-ATUR - Set Fingerprint\\05.png')
 
 Mobile.closeApplication()
 

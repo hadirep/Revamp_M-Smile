@@ -23,13 +23,13 @@ Mobile.tap(findTestObject('Object Repository/Bayar/Telepon/XL/01.ViewGroup - Bay
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\N-TC-BAYAR - Telepon - XL - Insufficient\\01.png')
+Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp_M-Smile\\Screenshoot\\N-TC-BAYAR - Telepon - XL - Insufficient\\01.png')
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Telepon/XL/02.ViewGroup - Telepon'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\N-TC-BAYAR - Telepon - XL - Insufficient\\02.png')
+Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp_M-Smile\\Screenshoot\\N-TC-BAYAR - Telepon - XL - Insufficient\\02.png')
 
 Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
 
@@ -48,7 +48,7 @@ Mobile.setText(findTestObject('Bayar/Telepon/Indosat/Insufficient - Dormant/005.
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\N-TC-BAYAR - Telepon - XL - Insufficient\\03.png')
+Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp_M-Smile\\Screenshoot\\N-TC-BAYAR - Telepon - XL - Insufficient\\03.png')
 
 Mobile.tap(findTestObject('Bayar/Telepon/Indosat/Insufficient - Dormant/007.ViewGroup - OK'), 0)
 
@@ -56,7 +56,7 @@ Mobile.tap(findTestObject('Bayar/Telepon/Indosat/Insufficient - Dormant/008.View
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\N-TC-BAYAR - Telepon - XL - Insufficient\\04.png')
+Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp_M-Smile\\Screenshoot\\N-TC-BAYAR - Telepon - XL - Insufficient\\04.png')
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Telepon/XL/09.EditText - input pin'), 0)
 
@@ -66,7 +66,7 @@ Mobile.tap(findTestObject('Object Repository/Bayar/Telepon/XL/11.ScrollView - Cl
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\N-TC-BAYAR - Telepon - XL - Insufficient\\05.png')
+Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp_M-Smile\\Screenshoot\\N-TC-BAYAR - Telepon - XL - Insufficient\\05.png')
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Telepon/XL/07.TextView - Bayar'), 0)
 
@@ -74,31 +74,31 @@ Mobile.tap(findTestObject('Bayar/Telepon/XL/15.ViewGroup - insufficient notice')
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\N-TC-BAYAR - Telepon - XL - Insufficient\\06.png')
+Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp_M-Smile\\Screenshoot\\N-TC-BAYAR - Telepon - XL - Insufficient\\06.png')
 
 Mobile.tap(findTestObject('Bayar/Telepon/XL/16.TextView - OK'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\N-TC-BAYAR - Telepon - XL - Insufficient\\07.png')
+Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp_M-Smile\\Screenshoot\\N-TC-BAYAR - Telepon - XL - Insufficient\\07.png')
 
 Mobile.pressBack()
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\N-TC-BAYAR - Telepon - XL - Insufficient\\08.png')
+Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp_M-Smile\\Screenshoot\\N-TC-BAYAR - Telepon - XL - Insufficient\\08.png')
 
 Mobile.pressBack()
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\N-TC-BAYAR - Telepon - XL - Insufficient\\09.png')
+Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp_M-Smile\\Screenshoot\\N-TC-BAYAR - Telepon - XL - Insufficient\\09.png')
 
 Mobile.pressBack()
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\N-TC-BAYAR - Telepon - XL - Insufficient\\10.png')
+Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp_M-Smile\\Screenshoot\\N-TC-BAYAR - Telepon - XL - Insufficient\\10.png')
 
 Mobile.closeApplication()
 

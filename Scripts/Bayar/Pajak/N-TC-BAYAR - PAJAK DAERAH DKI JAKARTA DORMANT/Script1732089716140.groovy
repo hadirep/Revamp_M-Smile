@@ -24,63 +24,63 @@ Mobile.tap(findTestObject('Object Repository/Bayar/Pajak-MPN/Pajak - Pajak DKI J
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\N-TC-BAYAR - PAJAK DAERAH DKI JAKARTA DORMANT\\01.png')
+Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp_M-Smile\\Screenshoot\\N-TC-BAYAR - PAJAK DAERAH DKI JAKARTA DORMANT\\01.png')
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Pajak-MPN/Pajak - Pajak DKI Jakarta Dormnant-Insufficient/02.SvgView - Pajak MPN'), 
     0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\N-TC-BAYAR - PAJAK DAERAH DKI JAKARTA DORMANT\\02.png')
+Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp_M-Smile\\Screenshoot\\N-TC-BAYAR - PAJAK DAERAH DKI JAKARTA DORMANT\\02.png')
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Pajak-MPN/Pajak - Pajak DKI Jakarta Dormnant-Insufficient/03.EditText - Daftra Produk'), 
     0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\N-TC-BAYAR - PAJAK DAERAH DKI JAKARTA DORMANT\\03.png')
+Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp_M-Smile\\Screenshoot\\N-TC-BAYAR - PAJAK DAERAH DKI JAKARTA DORMANT\\03.png')
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Pajak-MPN/Pajak - Pajak DKI Jakarta Dormnant-Insufficient/04.TextView - PAJAK DAERAH (DKI Jakarta)'), 
     0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\N-TC-BAYAR - PAJAK DAERAH DKI JAKARTA DORMANT\\03.png')
+Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp_M-Smile\\Screenshoot\\N-TC-BAYAR - PAJAK DAERAH DKI JAKARTA DORMANT\\03.png')
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Pajak-MPN/Pajak - Pajak DKI Jakarta Dormnant-Insufficient/05.ViewGroup - Nopel'), 
     0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\N-TC-BAYAR - PAJAK DAERAH DKI JAKARTA DORMANT\\04.png')
+Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp_M-Smile\\Screenshoot\\N-TC-BAYAR - PAJAK DAERAH DKI JAKARTA DORMANT\\04.png')
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Pajak-MPN/Pajak - Pajak DKI Jakarta Dormnant-Insufficient/06.EditText - Input Baru'), 
     0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\N-TC-BAYAR - PAJAK DAERAH DKI JAKARTA DORMANT\\05.png')
+Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp_M-Smile\\Screenshoot\\N-TC-BAYAR - PAJAK DAERAH DKI JAKARTA DORMANT\\05.png')
 
 Mobile.setText(findTestObject('Object Repository/Bayar/Pajak-MPN/Pajak - Pajak DKI Jakarta Dormnant-Insufficient/07.EditText - Input Baru Nopel'), 
     '003456786100', 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\N-TC-BAYAR - PAJAK DAERAH DKI JAKARTA DORMANT\\06.png')
+Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp_M-Smile\\Screenshoot\\N-TC-BAYAR - PAJAK DAERAH DKI JAKARTA DORMANT\\06.png')
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Pajak-MPN/Pajak - Pajak DKI Jakarta Dormnant-Insufficient/08.ScrollView - Close keyboard'), 
     0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\N-TC-BAYAR - PAJAK DAERAH DKI JAKARTA DORMANT\\07.png')
+Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp_M-Smile\\Screenshoot\\N-TC-BAYAR - PAJAK DAERAH DKI JAKARTA DORMANT\\07.png')
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Pajak-MPN/Pajak - Pajak DKI Jakarta Dormnant-Insufficient/09.ViewGroup - Ok'), 
     0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\N-TC-BAYAR - PAJAK DAERAH DKI JAKARTA DORMANT\\08.png')
+Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp_M-Smile\\Screenshoot\\N-TC-BAYAR - PAJAK DAERAH DKI JAKARTA DORMANT\\08.png')
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Pajak-MPN/Pajak - Pajak DKI Jakarta Dormnant-Insufficient/10.ViewGroup - Lanjut Konfirmasi Pembayaran'), 
     0)
@@ -90,54 +90,54 @@ Mobile.tap(findTestObject('Object Repository/Bayar/Pajak-MPN/Pajak - Pajak DKI J
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\N-TC-BAYAR - PAJAK DAERAH DKI JAKARTA DORMANT\\09.png')
+Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp_M-Smile\\Screenshoot\\N-TC-BAYAR - PAJAK DAERAH DKI JAKARTA DORMANT\\09.png')
 
 Mobile.setText(findTestObject('Bayar/Pajak-MPN/Pajak - Pajak DKI Jakarta Dormnant-Insufficient/12.EditText - PIN'), 
     '111111', 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\N-TC-BAYAR - PAJAK DAERAH DKI JAKARTA DORMANT\\10.png')
+Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp_M-Smile\\Screenshoot\\N-TC-BAYAR - PAJAK DAERAH DKI JAKARTA DORMANT\\10.png')
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Pajak-MPN/Pajak - Pajak DKI Jakarta Dormnant-Insufficient/13.ScrollView - Close Keyboard'), 
     0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\N-TC-BAYAR - PAJAK DAERAH DKI JAKARTA DORMANT\\11.png')
+Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp_M-Smile\\Screenshoot\\N-TC-BAYAR - PAJAK DAERAH DKI JAKARTA DORMANT\\11.png')
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Pajak-MPN/Pajak - Pajak DKI Jakarta Dormnant-Insufficient/15.ViewGroup - Bayar'), 
     0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\N-TC-BAYAR - PAJAK DAERAH DKI JAKARTA DORMANT\\12.png')
+Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp_M-Smile\\Screenshoot\\N-TC-BAYAR - PAJAK DAERAH DKI JAKARTA DORMANT\\12.png')
 
 Mobile.tap(findTestObject('Bayar/Pajak-MPN/Pajak - Pajak DKI Jakarta Dormnant-Insufficient/15.ViewGroup - Notice Error Dormant'), 
     0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\N-TC-BAYAR - PAJAK DAERAH DKI JAKARTA DORMANT\\13.png')
+Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp_M-Smile\\Screenshoot\\N-TC-BAYAR - PAJAK DAERAH DKI JAKARTA DORMANT\\13.png')
 
 Mobile.tap(findTestObject('Bayar/Pajak-MPN/Pajak - Pajak DKI Jakarta Dormnant-Insufficient/16.TextView - OK close keyboard'), 
     0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\N-TC-BAYAR - PAJAK DAERAH DKI JAKARTA DORMANT\\14.png')
+Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp_M-Smile\\Screenshoot\\N-TC-BAYAR - PAJAK DAERAH DKI JAKARTA DORMANT\\14.png')
 
 Mobile.pressBack()
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\N-TC-BAYAR - PAJAK DAERAH DKI JAKARTA DORMANT\\14.png')
+Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp_M-Smile\\Screenshoot\\N-TC-BAYAR - PAJAK DAERAH DKI JAKARTA DORMANT\\14.png')
 
 Mobile.pressBack()
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\N-TC-BAYAR - PAJAK DAERAH DKI JAKARTA DORMANT\\14.png')
+Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp_M-Smile\\Screenshoot\\N-TC-BAYAR - PAJAK DAERAH DKI JAKARTA DORMANT\\14.png')
 
 Mobile.pressBack()
 

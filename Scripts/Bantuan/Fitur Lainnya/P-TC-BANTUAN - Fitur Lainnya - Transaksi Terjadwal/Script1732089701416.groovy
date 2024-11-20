@@ -23,7 +23,7 @@ Mobile.tap(findTestObject('Object Repository/Bantuan/Investasi/Subscribe/01.Path
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\P-TC-BANTUAN - Fitur Lainnya - Daftar Favorit\\01.png')
+Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Fitur Lainnya - Daftar Favorit\\01.png')
 
 Mobile.tap(findTestObject('Bantuan/Fitur Lainnya/Split Bill/02.RectView - Fitur Lainnya'), 0)
 
