@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>P-TC-TOPUP - Pulsa Indosat</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>df7cfc46-241c-4df6-8b11-e2e67b5a6896</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7e08acc8-3667-4b31-a018-bdcb89c45843</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'085770056083'</defaultValue>
+      <description></description>
+      <id>7e08acc8-3667-4b31-a018-bdcb89c45843</id>
+      <masked>false</masked>
+      <name>nomor</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>N-TC-TOPUP - Paket Data XL - Insufficient Balance</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>999a71d3-538b-4747-9028-2c7a5b76d93b</testCaseGuid>
+</TestCaseEntity>

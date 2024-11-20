@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>N-TC-TOPUP - Pulsa Indosat - Insuficcient Balance</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c12bf768-1c4f-47b8-9548-002ef02ad848</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a4db982a-041d-4fa3-9e8e-5acd0950b5ae</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'085770056083'</defaultValue>
+      <description></description>
+      <id>a4db982a-041d-4fa3-9e8e-5acd0950b5ae</id>
+      <masked>false</masked>
+      <name>nomor</name>
+   </variable>
+</TestCaseEntity>

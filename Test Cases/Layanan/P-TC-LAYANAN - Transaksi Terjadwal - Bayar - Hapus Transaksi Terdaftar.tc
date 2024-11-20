@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>P-TC-LAYANAN - Transaksi Terjadwal - Bayar - Hapus Transaksi Terdaftar</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1d52a400-e216-4b2b-addc-78e1555a47ef</testCaseGuid>
+</TestCaseEntity>

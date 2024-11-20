@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>N-TC-BAYAR - Listrik - Postpaid - Sudah terbayar</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c174b0e2-06db-4a55-9a8d-21809f4da38a</testCaseGuid>
+</TestCaseEntity>

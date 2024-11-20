@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>P-TC-LAYANAN - Transaksi Terjadwal - Bayar - Daftar Baru</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f9f9780d-5349-45ff-b121-ac3227d9678f</testCaseGuid>
+</TestCaseEntity>

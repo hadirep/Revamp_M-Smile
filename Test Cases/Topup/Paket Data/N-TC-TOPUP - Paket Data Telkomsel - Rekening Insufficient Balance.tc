@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>N-TC-TOPUP - Paket Data Telkomsel - Rekening Insufficient Balance</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>eed6de41-30c4-4da1-9a42-cb4adbccb34e</testCaseGuid>
+</TestCaseEntity>

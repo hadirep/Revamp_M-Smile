@@ -1,0 +1,7 @@
+{"testCaseName":"Test Cases/Revamp/Revamp - Login/P-TC-LOGIN","testCaseId":"Test Cases/Revamp/Revamp - Login/P-TC-LOGIN","iterationVariableName":""}
+{"testCaseName":"Test Cases/Revamp/Revamp - Login/P-TC-LOGIN - Hide Unhide Password","testCaseId":"Test Cases/Revamp/Revamp - Login/P-TC-LOGIN - Hide Unhide Password","iterationVariableName":""}
+{"testCaseName":"Test Cases/Revamp/Revamp - Login/P-TC-LOGIN - Idle 3 Min","testCaseId":"Test Cases/Revamp/Revamp - Login/P-TC-LOGIN - Idle 3 Min","iterationVariableName":""}
+{"testCaseName":"Test Cases/Revamp/Revamp - Login/P-TC-LOGIN - Use Fingerprint","testCaseId":"Test Cases/Revamp/Revamp - Login/P-TC-LOGIN - Use Fingerprint","iterationVariableName":""}
+{"testCaseName":"Test Cases/Revamp/Revamp - Login/N-TC-LOGIN - Password Kosong","testCaseId":"Test Cases/Revamp/Revamp - Login/N-TC-LOGIN - Password Kosong","iterationVariableName":""}
+{"testCaseName":"Test Cases/Revamp/Revamp - Login/N-TC-LOGIN - Salah Password","testCaseId":"Test Cases/Revamp/Revamp - Login/N-TC-LOGIN - Salah Password","iterationVariableName":""}
+{"testCaseName":"Test Cases/Revamp/Revamp - Login/N-TC-LOGIN - Salah Password 3 Kali","testCaseId":"Test Cases/Revamp/Revamp - Login/N-TC-LOGIN - Salah Password 3 Kali","iterationVariableName":""}

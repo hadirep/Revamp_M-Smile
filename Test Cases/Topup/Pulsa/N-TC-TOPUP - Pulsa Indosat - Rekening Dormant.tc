@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>N-TC-TOPUP - Pulsa Indosat - Rekening Dormant</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c4140a53-f1f8-450f-8048-f3ffb7d87a6f</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ad2c70c4-6a92-4c21-bf98-1132197db384</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'085770056083'</defaultValue>
+      <description></description>
+      <id>ad2c70c4-6a92-4c21-bf98-1132197db384</id>
+      <masked>false</masked>
+      <name>nomor</name>
+   </variable>
+</TestCaseEntity>
