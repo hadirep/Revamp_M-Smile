@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Project>
    <description></description>
-   <name>Revamp M-Smile - TRFP</name>
+   <name>Revamp_M-Smile</name>
    <tag></tag>
    <UUID>0a0c27d2-7f44-4eea-84d1-361943b64a7f</UUID>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
-   <projectFileLocation>C:\Users\H23120006\Katalon Studio\Revamp M-Smile - TRFP\Msmile.prj</projectFileLocation>
+   <projectFileLocation>C:\Users\H23120006\Katalon Studio\Revamp_M-Smile\Msmile.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
