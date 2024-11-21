@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MobileElementEntity>
    <description></description>
-   <name>08. ImageView - Top Up</name>
+   <name>07. ImageView-Top Up</name>
    <tag></tag>
    <elementGuidId>8366f440-0cd2-420f-a1c8-3b0e6943710c</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>

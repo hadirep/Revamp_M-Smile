@@ -20,22 +20,22 @@ import org.openqa.selenium.Keys as Keys
 Mobile.startExistingApplication('com.bankmega.msmiledev')
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-APPLY NTP - Deposito - Mega Depo\\01.png')
+Mobile.takeScreenshot('D:Revamp_M-Smile\\Screenshot\\P-TC-APPLY NTP - Deposito - Mega Depo\\01.png')
 
 Mobile.tap(findTestObject('Object Repository/Transfer/Apply NTP/Deposito/01. ViewGroup-Apply'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-APPLY NTP - Deposito - Mega Depo\\02.png')
+Mobile.takeScreenshot('D:Revamp_M-Smile\\Screenshot\\P-TC-APPLY NTP - Deposito - Mega Depo\\02.png')
 
 Mobile.tap(findTestObject('Object Repository/Apply NTP/Deposito/02. ViewGroup-Deposito'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-APPLY NTP - Deposito - Mega Depo\\03.png')
+Mobile.takeScreenshot('D:Revamp_M-Smile\\Screenshot\\P-TC-APPLY NTP - Deposito - Mega Depo\\03.png')
 
 Mobile.tap(findTestObject('Object Repository/Apply NTP/Deposito/03. ViewGroup-Buka Rekening'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-APPLY NTP - Deposito - Mega Depo\\04.png')
+Mobile.takeScreenshot('D:Revamp_M-Smile\\Screenshot\\P-TC-APPLY NTP - Deposito - Mega Depo\\04.png')
 
 Mobile.tap(findTestObject('Object Repository/Apply NTP/Deposito/04. EditText-Tap Nominal'), 0)
 
@@ -45,31 +45,31 @@ Mobile.setText(findTestObject('Object Repository/Apply NTP/Deposito/05. EditText
 Mobile.hideKeyboard()
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-APPLY NTP - Deposito - Mega Depo\\05.png')
+Mobile.takeScreenshot('D:Revamp_M-Smile\\Screenshot\\P-TC-APPLY NTP - Deposito - Mega Depo\\05.png')
 
 Mobile.tap(findTestObject('Object Repository/Apply NTP/Deposito/06. SeekBar-6 Bulan'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-APPLY NTP - Deposito - Mega Depo\\06.png')
+Mobile.takeScreenshot('D:Revamp_M-Smile\\Screenshot\\P-TC-APPLY NTP - Deposito - Mega Depo\\06.png')
 
 Mobile.scrollToText('Saya telah membaca')
 
 Mobile.tap(findTestObject('Object Repository/Apply NTP/Deposito/07. TextView-Jenis Perpanjangan'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-APPLY NTP - Deposito - Mega Depo\\07.png')
+Mobile.takeScreenshot('D:Revamp_M-Smile\\Screenshot\\P-TC-APPLY NTP - Deposito - Mega Depo\\07.png')
 
 Mobile.tap(findTestObject('Object Repository/Apply NTP/Deposito/08. ViewGroup-Tidak Perpanjang Otomatis'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-APPLY NTP - Deposito - Mega Depo\\08.png')
+Mobile.takeScreenshot('D:Revamp_M-Smile\\Screenshot\\P-TC-APPLY NTP - Deposito - Mega Depo\\08.png')
 
 Mobile.scrollToText('Saya telah membaca')
 
 Mobile.tap(findTestObject('Object Repository/Apply NTP/Deposito/09. CheckBox-Ceklis SNK'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-APPLY NTP - Deposito - Mega Depo\\09.png')
+Mobile.takeScreenshot('D:Revamp_M-Smile\\Screenshot\\P-TC-APPLY NTP - Deposito - Mega Depo\\09.png')
 
 Mobile.tap(findTestObject('Object Repository/Apply NTP/Deposito/10. ViewGroup-Lanjut'), 0)
 
@@ -81,7 +81,7 @@ Mobile.setText(findTestObject('Object Repository/Apply NTP/Deposito/12. EditText
 Mobile.hideKeyboard()
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-APPLY NTP - Deposito - Mega Depo\\10.png')
+Mobile.takeScreenshot('D:Revamp_M-Smile\\Screenshot\\P-TC-APPLY NTP - Deposito - Mega Depo\\10.png')
 
 Mobile.tap(findTestObject('Object Repository/Apply NTP/Deposito/13. ViewGroup-Lanjut'), 0)
 
@@ -107,25 +107,25 @@ Mobile.verifyElementText(findTestObject('Object Repository/Apply NTP/Deposito/20
     'Tidak dipepanjang otomatis')
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-APPLY NTP - Deposito - Mega Depo\\11.png')
+Mobile.takeScreenshot('D:Revamp_M-Smile\\Screenshot\\P-TC-APPLY NTP - Deposito - Mega Depo\\11.png')
 
 Mobile.tap(findTestObject('Object Repository/Apply NTP/Deposito/21. ViewGroup-Bagikan'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-APPLY NTP - Deposito - Mega Depo\\12.png')
+Mobile.takeScreenshot('D:Revamp_M-Smile\\Screenshot\\P-TC-APPLY NTP - Deposito - Mega Depo\\12.png')
 
 Mobile.pressBack()
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-APPLY NTP - Deposito - Mega Depo\\13.png')
+Mobile.takeScreenshot('D:Revamp_M-Smile\\Screenshot\\P-TC-APPLY NTP - Deposito - Mega Depo\\13.png')
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-APPLY NTP - Deposito - Mega Depo\\14.png')
+Mobile.takeScreenshot('D:Revamp_M-Smile\\Screenshot\\P-TC-APPLY NTP - Deposito - Mega Depo\\14.png')
 
 Mobile.tapAtPosition(1145, 445)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-APPLY NTP - Deposito - Mega Depo\\15.png')
+Mobile.takeScreenshot('D:Revamp_M-Smile\\Screenshot\\P-TC-APPLY NTP - Deposito - Mega Depo\\15.png')
 
 Mobile.closeApplication()
 

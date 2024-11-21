@@ -20,17 +20,17 @@ import org.openqa.selenium.Keys as Keys
 Mobile.startExistingApplication('com.bankmega.msmiledev')
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-TOPUP - Pulsa Indosat\\01.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Pulsa Indosat\\01.png')
 
 Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/Indosat/01. ViewGroup - Button Top Up'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-TOPUP - Pulsa Indosat\\02.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Pulsa Indosat\\02.png')
 
 Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/Indosat/02. View - Icon Pulsa'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-TOPUP - Pulsa Indosat\\03.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Pulsa Indosat\\03.png')
 
 Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/Indosat/03. EditText - Input nomor'), 0)
 
@@ -40,7 +40,7 @@ Mobile.setText(findTestObject('Object Repository/Topup/Pulsa/Indosat/03. EditTex
 Mobile.hideKeyboard()
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-TOPUP - Pulsa Indosat\\04.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Pulsa Indosat\\04.png')
 
 Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/Indosat/05. ViewGroup - Lanjut'), 0)
 
@@ -51,7 +51,7 @@ Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/Indosat/07. SvgView - P
 Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/Indosat/08. TextView-25000'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-TOPUP - Pulsa Indosat\\05.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Pulsa Indosat\\05.png')
 
 Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/Indosat/09. ViewGroup - Lanjut'), 0)
 
@@ -90,7 +90,7 @@ Mobile.setText(findTestObject('Object Repository/Topup/Pulsa/Indosat/15. EditTex
 Mobile.hideKeyboard()
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-TOPUP - Pulsa Indosat\\06.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Pulsa Indosat\\06.png')
 
 Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/Indosat/16. ViewGroup-Lanjut'), 0)
 
@@ -116,17 +116,17 @@ Mobile.verifyElementText(findTestObject('Object Repository/Topup/Pulsa/Indosat/2
 	'Rp.  26.500')
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-TOPUP - Pulsa Indosat\\07.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Pulsa Indosat\\07.png')
 
 Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/Indosat/23. ViewGroup-Bagikan'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-TOPUP - Pulsa Indosat\\08.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Pulsa Indosat\\08.png')
 
 Mobile.pressBack()
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-TOPUP - Pulsa Indosat\\09.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Pulsa Indosat\\09.png')
 
 Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/Indosat/24. GroupView-Button Close'), 0)
 
