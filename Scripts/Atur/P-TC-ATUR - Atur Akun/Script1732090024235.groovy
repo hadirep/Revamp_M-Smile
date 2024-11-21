@@ -20,64 +20,64 @@ import org.openqa.selenium.Keys as Keys
 Mobile.startExistingApplication('com.bankmega.msmiledev')
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-ATUR - Atur Akun\\01.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-ATUR - Atur Akun\\01.png')
 
 Mobile.tap(findTestObject('Object Repository/Atur/Atur - Atur Akun/01. Button-Atur'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-ATUR - Atur Akun\\02.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-ATUR - Atur Akun\\02.png')
 
 Mobile.tap(findTestObject('Object Repository/Atur/Atur - Atur Akun/02. TextView-Atur Akun'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-ATUR - Atur Akun\\03.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-ATUR - Atur Akun\\03.png')
 
 Mobile.tap(findTestObject('Object Repository/Atur/Atur - Atur Akun/03. Switch-Aktif Sumber Dana'), 0)
 
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-ATUR - Atur Akun\\04.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-ATUR - Atur Akun\\04.png')
 
 Mobile.startExistingApplication('com.android.mms')
 
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-ATUR - Atur Akun\\05.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-ATUR - Atur Akun\\05.png')
 
 Mobile.tap(findTestObject('Object Repository/Atur/Atur - Atur Akun/04. ViewGroup-Cek SMS Bank Mega'), 0)
 
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-ATUR - Atur Akun\\06.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-ATUR - Atur Akun\\06.png')
 
 Mobile.tap(findTestObject('Object Repository/Atur/Atur - Atur Akun/05. TextView-Copy OTP'), 0)
 
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-ATUR - Atur Akun\\07.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-ATUR - Atur Akun\\07.png')
 
 Mobile.startExistingApplication('com.bankmega.msmiledev')
 
 Mobile.tap(findTestObject('Object Repository/Atur/Atur - Atur Akun/06. EditText-Tap Field Kode OTP'), 0)
 
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-ATUR - Atur Akun\\08.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-ATUR - Atur Akun\\08.png')
 
 Mobile.tapAndHold(findTestObject('Object Repository/Atur/Atur - Atur Akun/07. EditText-Tap and Hold Field Kode OTP'), 0, 0)
 
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-ATUR - Atur Akun\\09.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-ATUR - Atur Akun\\09.png')
 
 Mobile.tapAtPosition(200, 500)
 
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-ATUR - Atur Akun\\10.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-ATUR - Atur Akun\\10.png')
 
 Mobile.hideKeyboard()
 
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-ATUR - Atur Akun\\11.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-ATUR - Atur Akun\\11.png')
 Mobile.tap(findTestObject('Object Repository/Atur/Atur - Atur Akun/08. TextView-Lanjut'), 0)
 
 Mobile.delay(5)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-ATUR - Atur Akun\\12.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-ATUR - Atur Akun\\12.png')
 
 Mobile.pressBack()
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-ATUR - Atur Akun\\13.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-ATUR - Atur Akun\\13.png')
 
 Mobile.pressBack()
 
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-ATUR - Atur Akun\\14.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-ATUR - Atur Akun\\14.png')
 
 Mobile.closeApplication()
 
