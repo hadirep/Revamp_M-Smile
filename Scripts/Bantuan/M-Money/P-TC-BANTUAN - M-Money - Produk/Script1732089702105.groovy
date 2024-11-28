@@ -23,19 +23,19 @@ Mobile.tap(findTestObject('Object Repository/Bantuan/Investasi/Subscribe/01.Path
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - M-Money - Produk\\01.png')
 
 Mobile.tap(findTestObject('Bantuan/M-Money/002.RectView - M-Money'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - M-Money - Produk\\02.png')
 
 Mobile.tap(findTestObject('Bantuan/M-Money/Produk/003.TextView - Apa itu M-Money'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - M-Money - Produk\\03.png')
 
 Mobile.tap(findTestObject('Bantuan/M-Money/Produk/005.TextView - Question Apa itu M-Money 1'), 0)
 
@@ -43,21 +43,21 @@ Mobile.tap(findTestObject('Bantuan/M-Money/Produk/005.TextView - Answer Apa itu 
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - M-Money - Produk\\04.png')
 
-Mobile.tap(findTestObject('Bantuan/M-Money/006.ViewGroup - Kembali'), 0)
+Mobile.pressBack()
 
 Mobile.tap(findTestObject('Bantuan/M-Money/Produk/007.TextView - Produk'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - M-Money - Produk\\05.png')
 
-Mobile.tap(findTestObject('Bantuan/M-Money/006.ViewGroup - Kembali'), 0)
+Mobile.pressBack()
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - M-Money - Produk\\06.png')
 
 Mobile.closeApplication()
 

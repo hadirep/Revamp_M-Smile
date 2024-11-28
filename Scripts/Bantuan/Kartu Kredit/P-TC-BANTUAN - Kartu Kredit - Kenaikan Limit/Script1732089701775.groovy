@@ -23,13 +23,13 @@ Mobile.tap(findTestObject('Bantuan/Kartu Kredit/Kenaikan Limit/001.PathView - Ba
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Kartu Kredit - Kenaikan Limit\\01.png')
 
 Mobile.tap(findTestObject('Bantuan/Kartu Kredit/Kenaikan Limit/002.RectView - Kartu Kredit'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Kartu Kredit - Kenaikan Limit\\02.png')
 
 Mobile.tap(findTestObject('Bantuan/Kartu Kredit/Kenaikan Limit/003.PathView - Close Session'), 0)
 
@@ -41,7 +41,7 @@ Mobile.tap(findTestObject('Bantuan/Kartu Kredit/Kenaikan Limit/005.TextView - An
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Kartu Kredit - Kenaikan Limit\\03.png')
 
 Mobile.tap(findTestObject('Bantuan/Kartu Kredit/Kenaikan Limit/006.ViewGroup - Kembali'), 0)
 
@@ -51,7 +51,7 @@ Mobile.tap(findTestObject('Bantuan/Kartu Kredit/Kenaikan Limit/007.TextView - An
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Kartu Kredit - Kenaikan Limit\\04.png')
 
 Mobile.tap(findTestObject('Bantuan/Kartu Kredit/Kenaikan Limit/008.ViewGroup - Kembali'), 0)
 
@@ -61,7 +61,7 @@ Mobile.tap(findTestObject('Bantuan/Kartu Kredit/Kenaikan Limit/009.TextView - An
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Kartu Kredit - Kenaikan Limit\\05.png')
 
 Mobile.tap(findTestObject('Bantuan/Kartu Kredit/Kenaikan Limit/010.ViewGroup - Kembali'), 0)
 
@@ -71,20 +71,20 @@ Mobile.tap(findTestObject('Bantuan/Kartu Kredit/Kenaikan Limit/011.TextView - An
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Kartu Kredit - Kenaikan Limit\\06.png')
 
 Mobile.tap(findTestObject('Bantuan/Kartu Kredit/Kenaikan Limit/012.ViewGroup - Kembali'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Kartu Kredit - Kenaikan Limit\\07.png')
 
 Mobile.checkElement(findTestObject('Bantuan/Kartu Kredit/Kenaikan Limit/013.ViewGroup - Kembali kempusat bantuan'), 
     0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Kartu Kredit - Kenaikan Limit\\08.png')
 
 Mobile.closeApplication()
 

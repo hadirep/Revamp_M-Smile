@@ -23,25 +23,25 @@ Mobile.tap(findTestObject('Object Repository/Bantuan/Investasi/Subscribe/01.Path
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Investasi - Redeem\\01.png')
 
 Mobile.tap(findTestObject('Object Repository/Bantuan/Investasi/Subscribe/02.RectView - Investasi'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Investasi - Redeem\\02.png')
 
 Mobile.tap(findTestObject('Object Repository/Bantuan/Investasi/Subscribe/03.PathView - Close Session'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Investasi - Redeem\\03.png')
 
 Mobile.tap(findTestObject('Bantuan/Investasi/Redeem/04.TextView - Redeem'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Investasi - Redeem\\04.png')
 
 Mobile.tap(findTestObject('Bantuan/Investasi/Redeem/05.TextView - Question Redeem 1'), 0)
 
@@ -49,7 +49,7 @@ Mobile.tap(findTestObject('Bantuan/Investasi/Redeem/05.TextView - Answer Redeem 
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Investasi - Redeem\\05.png')
 
 Mobile.tap(findTestObject('Bantuan/Investasi/Redeem/16.ViewGroup - Kembali'), 0)
 
@@ -59,7 +59,7 @@ Mobile.tap(findTestObject('Bantuan/Investasi/Redeem/07.TextView - Answer Redeem 
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Investasi - Redeem\\06.png')
 
 Mobile.tap(findTestObject('Bantuan/Investasi/Redeem/16.ViewGroup - Kembali'), 0)
 
@@ -69,7 +69,7 @@ Mobile.tap(findTestObject('Bantuan/Investasi/Redeem/09.TextView - Answer Redeem 
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Investasi - Redeem\\07.png')
 
 Mobile.tap(findTestObject('Bantuan/Investasi/Redeem/16.ViewGroup - Kembali'), 0)
 
@@ -79,7 +79,7 @@ Mobile.tap(findTestObject('Bantuan/Investasi/Redeem/11.TextView - Answer Redeem 
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Investasi - Redeem\\08.png')
 
 Mobile.tap(findTestObject('Bantuan/Investasi/Redeem/16.ViewGroup - Kembali'), 0)
 
@@ -89,7 +89,7 @@ Mobile.tap(findTestObject('Bantuan/Investasi/Redeem/13.TextView - Answer Redeem 
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Investasi - Redeem\\09.png')
 
 Mobile.tap(findTestObject('Bantuan/Investasi/Redeem/16.ViewGroup - Kembali'), 0)
 
@@ -99,19 +99,19 @@ Mobile.tap(findTestObject('Bantuan/Investasi/Redeem/15.TextView - Answer Redeem 
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Investasi - Redeem\\10.png')
 
 Mobile.tap(findTestObject('Bantuan/Investasi/Redeem/16.ViewGroup - Kembali'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Investasi - Redeem\\11.png')
 
 Mobile.tap(findTestObject('Bantuan/Investasi/Redeem/16.ViewGroup - Kembali'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Investasi - Redeem\\12.png')
 
 Mobile.closeApplication()
 

@@ -23,13 +23,13 @@ Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Atur Limit/001
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Kartu Kredit - Atur Limit\\01.png')
 
 Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Atur Limit/002.RectView - Kartu Kredit'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Kartu Kredit - Atur Limit\\02.png')
 
 Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Atur Limit/003.PathView - Close Session'), 0)
 
@@ -41,7 +41,7 @@ Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Atur Limit/005
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Kartu Kredit - Atur Limit\\03.png')
 
 Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Atur Limit/006.ViewGroup - Kembali'), 0)
 
@@ -53,13 +53,13 @@ Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Atur Limit/006
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Kartu Kredit - Atur Limit\\04.png')
 
 Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Atur Limit/008.ViewGroup - Kembali ke Pusat Bantuan'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Kartu Kredit - Atur Limit\\05.png')
 
-Mobile.closeApplication()
+Mobile.closeApplication()//
 

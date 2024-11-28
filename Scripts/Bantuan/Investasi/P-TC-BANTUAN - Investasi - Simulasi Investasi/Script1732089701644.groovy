@@ -23,20 +23,20 @@ Mobile.tap(findTestObject('Object Repository/Bantuan/Investasi/Simulasi Invetasi
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Investasi - Simulasi Invetasi\\01.png')
 
 Mobile.tap(findTestObject('Object Repository/Bantuan/Investasi/Simulasi Invetasi/02.RectView - Investasi'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Investasi - Simulasi Invetasi\\02.png')
 
 Mobile.tap(findTestObject('Object Repository/Bantuan/Investasi/Simulasi Invetasi/03.TextView - Simulasi investasi'), 
     0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Investasi - Simulasi Invetasi\\03.png')
 
 Mobile.tap(findTestObject('Object Repository/Bantuan/Investasi/Simulasi Invetasi/04TextView - Question Simulasi Investasi'), 
     0)
@@ -46,20 +46,20 @@ Mobile.tap(findTestObject('Object Repository/Bantuan/Investasi/Simulasi Invetasi
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Investasi - Simulasi Invetasi\\04.png')
 
 Mobile.tap(findTestObject('Object Repository/Bantuan/Investasi/Simulasi Invetasi/05.ViewGroup - Kembali'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Investasi - Simulasi Invetasi\\05.png')
 
 Mobile.tap(findTestObject('Object Repository/Bantuan/Investasi/Simulasi Invetasi/06.ViewGroup - Kembali ke Pusat Bantuan'), 
     0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Investasi - Simulasi Invetasi\\06.png')
 
 Mobile.closeApplication()
 

@@ -23,7 +23,7 @@ Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Apply Kartu Kr
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Kartu Kredit - Apply Kartu Kredit\\01.png')
 
 Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Apply Kartu Kredit/002.TextView - KATEGORI BANTUAN'), 0)
 
@@ -31,7 +31,7 @@ Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Apply Kartu Kr
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Kartu Kredit - Apply Kartu Kredit\\02.png')
 
 Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Apply Kartu Kredit/004.TextView - Question 1 Apply Kartu Kredit'), 
     0)
@@ -41,7 +41,7 @@ Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Apply Kartu Kr
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Kartu Kredit - Apply Kartu Kredit\\03.png')
 
 Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Apply Kartu Kredit/005.ViewGroup - Kembali'), 0)
 
@@ -52,7 +52,7 @@ Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Apply Kartu Kr
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Kartu Kredit - Apply Kartu Kredit\\04.png')
 
 Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Apply Kartu Kredit/007.ViewGroup - Kembali'), 0)
 
@@ -103,7 +103,7 @@ Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Apply Kartu Kr
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Kartu Kredit - Apply Kartu Kredit\\05.png')
 
 Mobile.tap(findTestObject('Bantuan/Kartu Kredit/Apply Kartu Kredit/006.ViewGroup - Kembali'), 0)
 
@@ -113,7 +113,7 @@ Mobile.tap(findTestObject('Bantuan/Kartu Kredit/Apply Kartu Kredit/009.TextView 
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Kartu Kredit - Apply Kartu Kredit\\06.png')
 
 Mobile.tap(findTestObject('Bantuan/Kartu Kredit/Apply Kartu Kredit/006.ViewGroup - Kembali'), 0)
 
@@ -123,7 +123,7 @@ Mobile.tap(findTestObject('Bantuan/Kartu Kredit/Apply Kartu Kredit/010.TextView 
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Kartu Kredit - Apply Kartu Kredit\\07.png')
 
 Mobile.tap(findTestObject('Bantuan/Kartu Kredit/Apply Kartu Kredit/006.ViewGroup - Kembali'), 0)
 
@@ -133,7 +133,7 @@ Mobile.tap(findTestObject('Bantuan/Kartu Kredit/Apply Kartu Kredit/011.TextView 
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Kartu Kredit - Apply Kartu Kredit\\08.png')
 
 Mobile.tap(findTestObject('Bantuan/Kartu Kredit/Apply Kartu Kredit/005.ViewGroup - Kembali'), 0)
 
@@ -141,19 +141,19 @@ Mobile.tap(findTestObject('Bantuan/Kartu Kredit/Apply Kartu Kredit/012.TextView 
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Kartu Kredit - Apply Kartu Kredit\\09.png')
 
 Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Apply Kartu Kredit/008.ViewGroup - Kembali'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Kartu Kredit - Apply Kartu Kredit\\10.png')
 
 Mobile.tap(findTestObject('Bantuan/Kartu Kredit/Apply Kartu Kredit/013.ViewGroup - Kmebali ke pusat bantuan'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Kartu Kredit - Apply Kartu Kredit\\11.png')
 
-Mobile.closeApplication()
+Mobile.closeApplication()//
 

@@ -23,19 +23,19 @@ Mobile.tap(findTestObject('Object Repository/Bantuan/Investasi/Subscribe/01.Path
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - M-Money - Layanan\\01.png')
 
 Mobile.tap(findTestObject('Bantuan/M-Money/002.RectView - M-Money'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - M-Money - Layanan\\02.png')
 
 Mobile.tap(findTestObject('Bantuan/M-Money/Layanan/003.TextView - Layanan'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - M-Money - Layanan\\03.png')
 
 Mobile.tap(findTestObject('Bantuan/M-Money/Layanan/005.TextView - Question Layanan 1'), 0)
 
@@ -43,7 +43,7 @@ Mobile.tap(findTestObject('Bantuan/M-Money/Layanan/005.TextView - Answer Layanan
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - M-Money - Layanan\\04.png')
 
 Mobile.tap(findTestObject('Bantuan/M-Money/006.ViewGroup - Kembali'), 0)
 
@@ -53,19 +53,19 @@ Mobile.tap(findTestObject('Bantuan/M-Money/Layanan/005.TextView - Answer Layanan
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - M-Money - Layanan\\04.png')
 
-Mobile.tap(findTestObject('Bantuan/M-Money/006.ViewGroup - Kembali'), 0)
-
-Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.takeScreenshot()
-
-Mobile.tap(findTestObject('Bantuan/M-Money/006.ViewGroup - Kembali'), 0)
+Mobile.pressBack()
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - M-Money - Layanan\\05.png')
+
+Mobile.pressBack()
+
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - M-Money - Layanan\\06.png')
 
 Mobile.closeApplication()
 

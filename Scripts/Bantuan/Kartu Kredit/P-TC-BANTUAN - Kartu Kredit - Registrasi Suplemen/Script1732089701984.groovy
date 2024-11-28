@@ -23,7 +23,7 @@ Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Promo/001.Path
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Kartu Kredit - Registrasi Supelemen\\01.png')
 
 Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Promo/002.RectView - Kartu Kredit'), 0)
 
@@ -31,7 +31,7 @@ Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Promo/003.Path
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Kartu Kredit - Registrasi Supelemen\\02.png')
 
 Mobile.scrollToText('Registrasi Suplemen')
 
@@ -45,7 +45,7 @@ Mobile.tap(findTestObject('Bantuan/Kartu Kredit/Registrasi suplemen/005.TextView
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Kartu Kredit - Registrasi Supelemen\\03.png')
 
 Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Promo/006.ViewGroup - Kembali'), 0)
 
@@ -75,18 +75,18 @@ Mobile.tap(findTestObject('Bantuan/Kartu Kredit/Registrasi suplemen/007.TextView
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Kartu Kredit - Registrasi Supelemen\\04.png')
 
 Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Promo/006.ViewGroup - Kembali'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Kartu Kredit - Registrasi Supelemen\\05.png')
 
 Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Promo/007.ViewGroup - Kembali ke pusat bantuan'), 
     0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Kartu Kredit - Registrasi Supelemen\\06.png')
 

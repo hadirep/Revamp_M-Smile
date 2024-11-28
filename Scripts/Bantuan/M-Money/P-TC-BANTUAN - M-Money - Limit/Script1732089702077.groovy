@@ -23,19 +23,19 @@ Mobile.tap(findTestObject('Object Repository/Bantuan/Investasi/Subscribe/01.Path
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - M-Money - Limit\\01.png')
 
 Mobile.tap(findTestObject('Bantuan/M-Money/002.RectView - M-Money'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - M-Money - Limit\\02.png')
 
 Mobile.tap(findTestObject('Bantuan/M-Money/Limit/003.TextView - Limit'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - M-Money - Limit\\03.png')
 
 Mobile.tap(findTestObject('Bantuan/M-Money/Limit/005.TextView - Question Limit 1'), 0)
 
@@ -43,9 +43,9 @@ Mobile.tap(findTestObject('Bantuan/M-Money/Limit/005.TextView - Answer Limit 1')
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - M-Money - Limit\\04.png')
 
-Mobile.tap(findTestObject('Bantuan/M-Money/006.ViewGroup - Kembali'), 0)
+Mobile.pressBack()
 
 Mobile.tap(findTestObject('Bantuan/M-Money/Limit/007.TextView - Question Limit 2'), 0)
 
@@ -53,19 +53,19 @@ Mobile.tap(findTestObject('Bantuan/M-Money/Limit/007.TextView - Answer Limit 2')
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - M-Money - Limit\\05.png')
 
-Mobile.tap(findTestObject('Bantuan/M-Money/006.ViewGroup - Kembali'), 0)
-
-Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.takeScreenshot()
-
-Mobile.tap(findTestObject('Bantuan/M-Money/006.ViewGroup - Kembali'), 0)
+Mobile.pressBack()
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - M-Money - Limit\\06.png')
+
+Mobile.pressBack()
+
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - M-Money - Limit\\07.png')
 
 Mobile.closeApplication()
 

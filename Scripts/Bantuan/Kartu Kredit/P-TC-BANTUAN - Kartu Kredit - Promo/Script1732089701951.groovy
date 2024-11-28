@@ -23,7 +23,7 @@ Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Promo/001.Path
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Kartu Kredit - Promo\\01.png')
 
 Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Promo/002.RectView - Kartu Kredit'), 0)
 
@@ -31,7 +31,7 @@ Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Promo/003.Path
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Kartu Kredit - Promo\\02.png')
 
 Mobile.scrollToText('Promo')
 
@@ -43,20 +43,19 @@ Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Promo/005.Text
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Kartu Kredit - Promo\\03.png')
 
-Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Promo/006.ViewGroup - Kembali'), 0)
-
-Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.takeScreenshot()
-
-Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Promo/007.ViewGroup - Kembali ke pusat bantuan'), 
-    0)
+Mobile.pressBack()
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Kartu Kredit - Promo\\04.png')
+
+Mobile.pressBack()
+
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Kartu Kredit - Promo\\05.png')
 
 Mobile.closeApplication()
 

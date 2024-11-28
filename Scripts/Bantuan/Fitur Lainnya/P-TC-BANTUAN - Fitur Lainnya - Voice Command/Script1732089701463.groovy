@@ -27,7 +27,7 @@ Mobile.tap(findTestObject('Bantuan/Fitur Lainnya/Split Bill/02.RectView - Fitur 
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Fitur Lainnya - Voice Command\\01.png')
 
 Mobile.tap(findTestObject('Bantuan/Fitur Lainnya/Voice Command/04.PathView - Close Session'), 0)
 
@@ -35,7 +35,7 @@ Mobile.tap(findTestObject('Bantuan/Fitur Lainnya/Voice Command/03.TextView - Voi
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Fitur Lainnya - Voice Command\\01.png')
 
 Mobile.tap(findTestObject('Bantuan/Fitur Lainnya/Voice Command/05.TextView - Question Voice Command 1'), 0)
 
@@ -43,7 +43,7 @@ Mobile.tap(findTestObject('Bantuan/Fitur Lainnya/Voice Command/05.TextView - Ans
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Fitur Lainnya - Voice Command\\02.png')
 
 Mobile.tap(findTestObject('Bantuan/Fitur Lainnya/Split Bill/06.ViewGroup - Kembali'), 0)
 
@@ -53,7 +53,7 @@ Mobile.tap(findTestObject('Bantuan/Fitur Lainnya/Voice Command/007.TextView - An
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Fitur Lainnya - Voice Command\\03.png')
 
 Mobile.tap(findTestObject('Bantuan/Transaksi/Transfer/006ViewGroup - Kembali'), 0)
 
@@ -63,13 +63,13 @@ Mobile.tap(findTestObject('Bantuan/Fitur Lainnya/Voice Command/009.TextView - An
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Fitur Lainnya - Voice Command\\04.png')
 
 Mobile.tap(findTestObject('Bantuan/Transaksi/Transfer/006ViewGroup - Kembali'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Fitur Lainnya - Voice Command\\05.png')
 
 Mobile.tap(findTestObject('Bantuan/Transaksi/Transfer/018.ViewGroup - Kembali'), 0)
 
@@ -77,7 +77,7 @@ Mobile.tap(findTestObject('Atur/08.PathView - Home'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Fitur Lainnya - Voice Command\\06.png')
 
 Mobile.closeApplication()
 

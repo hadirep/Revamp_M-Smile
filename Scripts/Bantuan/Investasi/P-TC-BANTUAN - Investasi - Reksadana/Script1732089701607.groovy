@@ -23,19 +23,19 @@ Mobile.tap(findTestObject('Object Repository/Bantuan/Investasi/Fitur/01.PathView
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Investasi - Reksadana\\01.png')
 
 Mobile.tap(findTestObject('Object Repository/Bantuan/Investasi/Fitur/02.RectView - Investasi'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Investasi - Reksadana\\02.png')
 
 Mobile.tap(findTestObject('Object Repository/Bantuan/Investasi/Reksadana/03.TextView - Reksadana'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Investasi - Reksadana\\03.png')
 
 Mobile.tap(findTestObject('Bantuan/Investasi/Reksadana/04.TextView - Question Reksadana 1'), 0)
 
@@ -43,7 +43,7 @@ Mobile.tap(findTestObject('Bantuan/Investasi/Reksadana/04.TextView - Answer Reks
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Investasi - Reksadana\\04.png')
 
 Mobile.tap(findTestObject('Object Repository/Bantuan/Investasi/Reksadana/05.ViewGroup - Kembali'), 0)
 
@@ -54,7 +54,7 @@ Mobile.tap(findTestObject('Object Repository/Bantuan/Investasi/Reksadana/06.Text
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Investasi - Reksadana\\05.png')
 
 Mobile.tap(findTestObject('Object Repository/Bantuan/Investasi/Reksadana/07.ViewGroup - Kembali'), 0)
 
@@ -65,7 +65,7 @@ Mobile.tap(findTestObject('Object Repository/Bantuan/Investasi/Reksadana/08.Text
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Investasi - Reksadana\\06.png')
 
 Mobile.tap(findTestObject('Object Repository/Bantuan/Investasi/Reksadana/07.ViewGroup - Kembali'), 0)
 
@@ -76,7 +76,7 @@ Mobile.tap(findTestObject('Object Repository/Bantuan/Investasi/Reksadana/10.Text
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Investasi - Reksadana\\07.png')
 
 Mobile.tap(findTestObject('Object Repository/Bantuan/Investasi/Reksadana/11.ViewGroup - Kembali'), 0)
 
@@ -87,7 +87,7 @@ Mobile.tap(findTestObject('Object Repository/Bantuan/Investasi/Reksadana/12.Text
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Investasi - Reksadana\\08.png')
 
 Mobile.tap(findTestObject('Object Repository/Bantuan/Investasi/Reksadana/13.ViewGroup - Kembali'), 0)
 
@@ -98,7 +98,7 @@ Mobile.tap(findTestObject('Object Repository/Bantuan/Investasi/Reksadana/14.Text
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Investasi - Reksadana\\09.png')
 
 Mobile.tap(findTestObject('Object Repository/Bantuan/Investasi/Reksadana/15.ViewGroup - Kembali'), 0)
 
@@ -109,7 +109,7 @@ Mobile.tap(findTestObject('Object Repository/Bantuan/Investasi/Reksadana/16.Text
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Investasi - Reksadana\\10.png')
 
 Mobile.tap(findTestObject('Object Repository/Bantuan/Investasi/Reksadana/17.ViewGroup - Kembali'), 0)
 
@@ -120,7 +120,7 @@ Mobile.tap(findTestObject('Object Repository/Bantuan/Investasi/Reksadana/18.Text
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Investasi - Reksadana\\11.png')
 
 Mobile.tap(findTestObject('Object Repository/Bantuan/Investasi/Reksadana/19.ViewGroup - Kembali'), 0)
 
@@ -131,7 +131,7 @@ Mobile.tap(findTestObject('Object Repository/Bantuan/Investasi/Reksadana/20.Text
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Investasi - Reksadana\\12.png')
 
 Mobile.tap(findTestObject('Object Repository/Bantuan/Investasi/Reksadana/21.ViewGroup - Kembali'), 0)
 
@@ -143,7 +143,7 @@ Mobile.tap(findTestObject('Object Repository/Bantuan/Investasi/Reksadana/22.Text
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Investasi - Reksadana\\13.png')
 
 Mobile.tap(findTestObject('Object Repository/Bantuan/Investasi/Reksadana/23.ViewGroup - Kembali'), 0)
 
@@ -155,7 +155,7 @@ Mobile.tap(findTestObject('Object Repository/Bantuan/Investasi/Reksadana/24.Text
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Investasi - Reksadana\\14.png')
 
 Mobile.tap(findTestObject('Object Repository/Bantuan/Investasi/Reksadana/25.ViewGroup - Kembali'), 0)
 
@@ -165,20 +165,20 @@ Mobile.tap(findTestObject('Bantuan/Investasi/Reksadana/26.TextView - Answer Reks
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Investasi - Reksadana\\15.png')
 
 Mobile.tap(findTestObject('Bantuan/Investasi/Reksadana/27.ViewGroup - Kembali'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Investasi - Reksadana\\16.png')
 
 Mobile.tap(findTestObject('Object Repository/Bantuan/Investasi/Reksadana/28.ViewGroup - Kembali ke pusat bantuan'), 
     0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Investasi - Reksadana\\17.png')
 
 Mobile.closeApplication()
 

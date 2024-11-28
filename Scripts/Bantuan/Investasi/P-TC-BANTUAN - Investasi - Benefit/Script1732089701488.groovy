@@ -23,25 +23,25 @@ Mobile.tap(findTestObject('Object Repository/Bantuan/Investasi/Subscribe/01.Path
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Investasi - Benefit\\01.png')
 
 Mobile.tap(findTestObject('Object Repository/Bantuan/Investasi/Subscribe/02.RectView - Investasi'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Investasi - Benefit\\02.png')
 
 Mobile.tap(findTestObject('Object Repository/Bantuan/Investasi/Subscribe/03.PathView - Close Session'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Investasi - Benefit\\03.png')
 
 Mobile.tap(findTestObject('Bantuan/Investasi/Benefit/04.TextView - Benefit'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Investasi - Benefit\\04.png')
 
 Mobile.tap(findTestObject('Bantuan/Investasi/Benefit/05.TextView - Question Benefit 1'), 0)
 
@@ -49,7 +49,7 @@ Mobile.tap(findTestObject('Bantuan/Investasi/Benefit/05.TextView - Answer Benefi
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Investasi - Benefit\\05.png')
 
 Mobile.tap(findTestObject('Bantuan/Investasi/Benefit/06.ViewGroup - Kembali'), 0)
 
@@ -59,7 +59,7 @@ Mobile.tap(findTestObject('Bantuan/Investasi/Benefit/07.TextView - Answer Benefi
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Investasi - Benefit\\06.png')
 
 Mobile.tap(findTestObject('Bantuan/Investasi/Benefit/06.ViewGroup - Kembali'), 0)
 
@@ -69,19 +69,19 @@ Mobile.tap(findTestObject('Bantuan/Investasi/Benefit/09.TextView - Answer Benefi
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Investasi - Benefit\\07.png')
 
 Mobile.tap(findTestObject('Bantuan/Investasi/Benefit/06.ViewGroup - Kembali'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Investasi - Benefit\\08.png')
 
 Mobile.tap(findTestObject('Bantuan/Investasi/Benefit/06.ViewGroup - Kembali'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Investasi - Benefit\\09.png')
 
 Mobile.closeApplication()
 

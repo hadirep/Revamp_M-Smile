@@ -23,13 +23,13 @@ Mobile.tap(findTestObject('Object Repository/Bantuan/Investasi/Fitur/01.PathView
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Investasi - Fitur\\01.png')
 
 Mobile.tap(findTestObject('Object Repository/Bantuan/Investasi/Fitur/02.RectView - Investasi'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Investasi - Fitur\\02.png')
 
 Mobile.tap(findTestObject('Object Repository/Bantuan/Investasi/Fitur/03.TextView - Fitur'), 0)
 
@@ -37,7 +37,7 @@ Mobile.tap(findTestObject('Object Repository/Bantuan/Investasi/Fitur/03.TextView
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Investasi - Fitur\\03.png')
 
 Mobile.tap(findTestObject('Object Repository/Bantuan/Investasi/Fitur/04.TextView - Question Fitur 1'), 0)
 
@@ -45,19 +45,19 @@ Mobile.tap(findTestObject('Object Repository/Bantuan/Investasi/Fitur/04.TextView
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Investasi - Fitur\\04.png')
 
 Mobile.tap(findTestObject('Object Repository/Bantuan/Investasi/Fitur/05.ViewGroup - Kembali'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Investasi - Fitur\\05.png')
 
 Mobile.tap(findTestObject('Object Repository/Bantuan/Investasi/Fitur/05.ViewGroup - Kembali'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Investasi - Fitur\\06.png')
 
 Mobile.closeApplication()
 

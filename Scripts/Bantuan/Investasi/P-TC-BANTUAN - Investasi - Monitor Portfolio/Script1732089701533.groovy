@@ -23,26 +23,26 @@ Mobile.tap(findTestObject('Object Repository/Bantuan/Investasi/Subscribe/01.Path
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Investasi - Monitor Portfolio\\01.png')
 
 Mobile.tap(findTestObject('Object Repository/Bantuan/Investasi/Subscribe/02.RectView - Investasi'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Investasi - Monitor Portfolio\\02.png')
 
 Mobile.tap(findTestObject('Object Repository/Bantuan/Investasi/Subscribe/03.PathView - Close Session'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Investasi - Monitor Portfolio\\03.png')
 
 Mobile.tap(findTestObject('Bantuan/Investasi/Monitor Portfolio/04.TextView - Monitor portfolio investasi dan detail aset'), 
     0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Investasi - Monitor Portfolio\\04.png')
 
 Mobile.tap(findTestObject('Bantuan/Investasi/Monitor Portfolio/05.TextView - Question Monitor Portfolio 1'), 0)
 
@@ -50,7 +50,7 @@ Mobile.tap(findTestObject('Bantuan/Investasi/Monitor Portfolio/05.TextView - Ans
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Investasi - Monitor Portfolio\\05.png')
 
 Mobile.tap(findTestObject('Bantuan/Investasi/Monitor Portfolio/06.SvgView - Kembali'), 0)
 
@@ -60,7 +60,7 @@ Mobile.tap(findTestObject('Bantuan/Investasi/Monitor Portfolio/07.TextView - Ans
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Investasi - Monitor Portfolio\\06.png')
 
 Mobile.tap(findTestObject('Bantuan/Investasi/Monitor Portfolio/06.SvgView - Kembali'), 0)
 
@@ -70,7 +70,7 @@ Mobile.tap(findTestObject('Bantuan/Investasi/Monitor Portfolio/09.TextView - Ans
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Investasi - Monitor Portfolio\\07.png')
 
 Mobile.tap(findTestObject('Bantuan/Investasi/Monitor Portfolio/06.SvgView - Kembali'), 0)
 
@@ -80,19 +80,19 @@ Mobile.tap(findTestObject('Bantuan/Investasi/Monitor Portfolio/11.TextView - Ans
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Investasi - Monitor Portfolio\\08.png')
 
 Mobile.tap(findTestObject('Bantuan/Investasi/Monitor Portfolio/06.SvgView - Kembali'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Investasi - Monitor Portfolio\\09.png')
 
 Mobile.tap(findTestObject('Bantuan/Investasi/Monitor Portfolio/06.ViewGroup - Kembali'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Investasi - Monitor Portfolio\\10.png')
 
 Mobile.closeApplication()
 
