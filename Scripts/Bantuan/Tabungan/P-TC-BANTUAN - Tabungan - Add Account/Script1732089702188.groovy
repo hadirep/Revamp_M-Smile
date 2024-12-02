@@ -23,7 +23,7 @@ Mobile.tap(findTestObject('Object Repository/Bantuan/Tabungan/Add Account/001.Pa
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Tabungan - Add Account\\01.png')
 
 Mobile.tap(findTestObject('Object Repository/Bantuan/Tabungan/Add Account/002.RectView - Tabungan'), 0)
 
@@ -31,48 +31,42 @@ Mobile.tap(findTestObject('Object Repository/Bantuan/Tabungan/Add Account/003.Pa
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Tabungan - Add Account\\02.png')
 
 Mobile.tap(findTestObject('Object Repository/Bantuan/Tabungan/Add Account/004.TextView - Add Account'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Tabungan - Add Account\\03.png')
 
-Mobile.tap(findTestObject('Object Repository/Bantuan/Tabungan/Add Account/005.TextView - Question Add Account 1'), 
-    0)
+Mobile.tap(findTestObject('Object Repository/Bantuan/Tabungan/Add Account/005.TextView - Question Add Account 1'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Bantuan/Tabungan/Add Account/005.TextView - Answer Add Account 1'), 
-    0)
+Mobile.tap(findTestObject('Object Repository/Bantuan/Tabungan/Add Account/005.TextView - Answer Add Account 1'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Tabungan - Add Account\\04.png')
 
-Mobile.tap(findTestObject('Object Repository/Bantuan/Tabungan/Add Account/006.ViewGroup Kembali'), 0)
+Mobile.pressBack()
 
-Mobile.tap(findTestObject('Object Repository/Bantuan/Tabungan/Add Account/005.TextView - Question Add Account 2'), 
-    0)
+Mobile.tap(findTestObject('Object Repository/Bantuan/Tabungan/Add Account/005.TextView - Question Add Account 2'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Bantuan/Tabungan/Add Account/005.TextView - Answer Add Account 2'), 
-    0)
+Mobile.tap(findTestObject('Object Repository/Bantuan/Tabungan/Add Account/005.TextView - Answer Add Account 2'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Tabungan - Add Account\\05.png')
 
-Mobile.tap(findTestObject('Object Repository/Bantuan/Tabungan/Add Account/007.ViewGroup Kembali'), 0)
-
-Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.takeScreenshot()
-
-Mobile.tap(findTestObject('Object Repository/Bantuan/Tabungan/Add Account/008.ViewGroup Kembali ke pusat bantuan'), 
-    0)
+Mobile.pressBack()
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Tabungan - Add Account\\06.png')
 
-Mobile.closeApplication()
+Mobile.tap(findTestObject('Topik Populer/09.PathView - Home Button'), 0)
 
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Tabungan - Add Account\\07.png')
+
+Mobile.closeApplication()//

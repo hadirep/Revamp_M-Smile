@@ -33,7 +33,8 @@ Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Kartu Kre
 
 Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Blokir Kartu Kredit/003.PathView - Close Session'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Blokir Kartu Kredit/004.TextView - Blokir Kartu Kredit'), 0)
+Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Blokir Kartu Kredit/004.TextView - Blokir Kartu Kredit'), 
+    0)
 
 Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Blokir Kartu Kredit/005.TextView - Question Blokir Kartu Kredit 1'), 
     0)
@@ -63,7 +64,7 @@ Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Kartu Kredit - Blokir Kartu Kredit\\03.png')
 
-Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Blokir Kartu Kredit/006.ViewGroup - Kembali'), 0)
+Mobile.pressBack()
 
 Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Blokir Kartu Kredit/007.TextView - Question Blokir Kartu Kredit 2'), 
     0)
@@ -75,8 +76,7 @@ Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Kartu Kredit - Blokir Kartu Kredit\\04.png')
 
-
-Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Blokir Kartu Kredit/008.ViewGroup - Kembali'), 0)
+Mobile.pressBack()
 
 Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Blokir Kartu Kredit/009.TextView - Question Blokir Kartu Kredit 3'), 
     0)
@@ -88,17 +88,22 @@ Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Kartu Kredit - Blokir Kartu Kredit\\05.png')
 
-Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Blokir Kartu Kredit/010.ViewGroup - Kembali'), 0)
+Mobile.pressBack()
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Kartu Kredit - Blokir Kartu Kredit\\06.png')
 
-Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Blokir Kartu Kredit/011.ViewGroup - Kembali ke Pusat Bantuan'), 
-    0)
+Mobile.pressBack()
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Kartu Kredit - Blokir Kartu Kredit\\07.png')
+
+Mobile.tap(findTestObject('Topik Populer/09.PathView - Home Button'), 0)
+
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Kartu Kredit - Blokir Kartu Kredit\\08.png')
 
 Mobile.closeApplication()//

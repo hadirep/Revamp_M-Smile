@@ -23,7 +23,9 @@ Mobile.tap(findTestObject('Object Repository/Bantuan/Umum/Akun Saya/001.PathView
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Umum - Akun Saya\\01.png')
 
 Mobile.tap(findTestObject('Object Repository/Bantuan/Umum/Akun Saya/002.RectView - Umum'), 0)
 
@@ -31,7 +33,7 @@ Mobile.tap(findTestObject('Object Repository/Bantuan/Umum/Akun Saya/003.PathView
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Umum - Akun Saya\\02.png')
 
 Mobile.tap(findTestObject('Object Repository/Bantuan/Umum/Akun Saya/004.TextView - Akun Saya'), 0)
 
@@ -47,9 +49,9 @@ Mobile.tap(findTestObject('Object Repository/Bantuan/Umum/Akun Saya/005.TextView
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Umum - Akun Saya\\03.png')
 
-Mobile.tap(findTestObject('Object Repository/Bantuan/Umum/Akun Saya/006.ViewGroup - Kembali'), 0)
+Mobile.pressBack()
 
 Mobile.tap(findTestObject('Object Repository/Bantuan/Umum/Kemanan Akun/008.TextView - Question Akun Saya 2'), 0)
 
@@ -63,9 +65,9 @@ Mobile.tap(findTestObject('Object Repository/Bantuan/Umum/Kemanan Akun/008.TextV
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Umum - Akun Saya\\04.png')
 
-Mobile.tap(findTestObject('Object Repository/Bantuan/Umum/Kemanan Akun/009.ViewGroup - Kembali'), 0)
+Mobile.pressBack()
 
 Mobile.tap(findTestObject('Object Repository/Bantuan/Umum/Kemanan Akun/010.TextView - Question Akun Saya 3'), 0)
 
@@ -81,19 +83,25 @@ Mobile.tap(findTestObject('Object Repository/Bantuan/Umum/Kemanan Akun/010.TextV
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Umum - Akun Saya\\05.png')
 
-Mobile.tap(findTestObject('Object Repository/Bantuan/Umum/Kemanan Akun/011.ViewGroup - Kembali'), 0)
-
-Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.takeScreenshot()
-
-Mobile.tap(findTestObject('Object Repository/Bantuan/Umum/Akun Saya/012.ViewGroup - Kembali'), 0)
+Mobile.pressBack()
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Umum - Akun Saya\\06.png')
+
+Mobile.pressBack()
+
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Umum - Akun Saya\\07.png')
+
+Mobile.tap(findTestObject('Topik Populer/09.PathView - Home Button'), 0)
+
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Umum - Akun Saya\\08.png')
 
 Mobile.closeApplication()
 

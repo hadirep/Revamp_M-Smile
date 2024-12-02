@@ -80,5 +80,4 @@ Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Kartu Kredit - Transaksi\\07.png')
 
-Mobile.closeApplication()
-
+Mobile.closeApplication()//

@@ -47,7 +47,7 @@ Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Fitur Lainnya - Daftar Favorit\\04.png')
 
-Mobile.tap(findTestObject('Bantuan/Fitur Lainnya/Split Bill/06.ViewGroup - Kembali'), 0)
+Mobile.pressBack()
 
 Mobile.tap(findTestObject('Bantuan/Fitur Lainnya/Daftar Favorit/07.TextView - Question Daftar Favorit 2'), 0)
 
@@ -57,7 +57,7 @@ Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Fitur Lainnya - Daftar Favorit\\05.png')
 
-Mobile.tap(findTestObject('Bantuan/Transaksi/Transfer/006ViewGroup - Kembali'), 0)
+Mobile.pressBack()
 
 Mobile.tap(findTestObject('Bantuan/Fitur Lainnya/Daftar Favorit/09.TextView - Question Daftar Favorit 3'), 0)
 
@@ -67,7 +67,7 @@ Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Fitur Lainnya - Daftar Favorit\\06.png')
 
-Mobile.tap(findTestObject('Bantuan/Transaksi/Transfer/006ViewGroup - Kembali'), 0)
+Mobile.pressBack()
 
 Mobile.tap(findTestObject('Bantuan/Fitur Lainnya/Daftar Favorit/11.TextView - Question Daftar Favorit 4'), 0)
 
@@ -77,13 +77,13 @@ Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Fitur Lainnya - Daftar Favorit\\07.png')
 
-Mobile.tap(findTestObject('Bantuan/Transaksi/Transfer/006ViewGroup - Kembali'), 0)
+Mobile.pressBack()
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Fitur Lainnya - Daftar Favorit\\08.png')
 
-Mobile.tap(findTestObject('Bantuan/Transaksi/Transfer/018.ViewGroup - Kembali'), 0)
+Mobile.pressBack()
 
 Mobile.tap(findTestObject('Atur/08.PathView - Home'), 0)
 
@@ -91,5 +91,4 @@ Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Fitur Lainnya - Daftar Favorit\\09.png')
 
-Mobile.closeApplication()
-
+Mobile.closeApplication()//

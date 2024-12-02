@@ -23,7 +23,7 @@ Mobile.tap(findTestObject('Object Repository/Bantuan/Investasi/Subscribe/01.Path
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Transaksi - Kirim-Kirim\\01.png')
 
 Mobile.tap(findTestObject('Bantuan/Transaksi/Top Up/002.RectView - Transaksi'), 0)
 
@@ -31,7 +31,7 @@ Mobile.tap(findTestObject('Object Repository/Bantuan/Transaksi/QRIS/003.PathView
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot().Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Transaksi - Kirim-Kirim\\02.png')
 
 Mobile.tap(findTestObject('Bantuan/Transaksi/Kirim-Kirim/002.TextView - Kirim-Kirim'), 0)
 
@@ -41,9 +41,9 @@ Mobile.tap(findTestObject('Bantuan/Transaksi/Kirim-Kirim/005.TextView - Answer K
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Transaksi - Kirim-Kirim\\03.png')
 
-Mobile.tap(findTestObject('Bantuan/Transaksi/Top Up/006.ViewGroup - Kembali'), 0)
+Mobile.pressBack()
 
 Mobile.tap(findTestObject('Bantuan/Transaksi/Kirim-Kirim/007.TextView - Question Kirim-Kirim 2'), 0)
 
@@ -51,9 +51,9 @@ Mobile.tap(findTestObject('Bantuan/Transaksi/Kirim-Kirim/007.TextView - Answer K
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Transaksi - Kirim-Kirim\\04.png')
 
-Mobile.tap(findTestObject('Bantuan/Transaksi/Top Up/006.ViewGroup - Kembali'), 0)
+Mobile.pressBack()
 
 Mobile.checkElement(findTestObject('Bantuan/Transaksi/Kirim-Kirim/009.TextView - Question Kirim-Kirim 3'), 0)
 
@@ -61,9 +61,9 @@ Mobile.tap(findTestObject('Bantuan/Transaksi/Kirim-Kirim/009.TextView - Answer K
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Transaksi - Kirim-Kirim\\05.png')
 
-Mobile.tap(findTestObject('Bantuan/Transaksi/Top Up/006.ViewGroup - Kembali'), 0)
+Mobile.pressBack()
 
 Mobile.tap(findTestObject('Bantuan/Transaksi/Kirim-Kirim/011.TextView - Question Kirim-Kirim 4'), 0)
 
@@ -71,13 +71,13 @@ Mobile.tap(findTestObject('Bantuan/Transaksi/Kirim-Kirim/011.TextView - Answer K
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Transaksi - Kirim-Kirim\\06.png')
 
-Mobile.tap(findTestObject('Bantuan/Transaksi/Top Up/006.ViewGroup - Kembali'), 0)
+Mobile.pressBack()
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Transaksi - Kirim-Kirim\\07.png')
 
 Mobile.tap(findTestObject('Bantuan/Transaksi/Kirim-Kirim/013.TextView - Question Kirim-Kirim 5'), 0)
 
@@ -85,9 +85,9 @@ Mobile.tap(findTestObject('Bantuan/Transaksi/Kirim-Kirim/013.TextView - Answer K
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Transaksi - Kirim-Kirim\\08.png')
 
-Mobile.tap(findTestObject('Bantuan/Transaksi/Top Up/006.ViewGroup - Kembali'), 0)
+Mobile.pressBack()
 
 Mobile.tap(findTestObject('Bantuan/Transaksi/Kirim-Kirim/015.TextView - Question Kirim-Kirim 6'), 0)
 
@@ -95,9 +95,9 @@ Mobile.tap(findTestObject('Bantuan/Transaksi/Kirim-Kirim/015.TextView - Answer K
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Transaksi - Kirim-Kirim\\08.png')
 
-Mobile.tap(findTestObject('Bantuan/Transaksi/Top Up/006.ViewGroup - Kembali'), 0)
+Mobile.pressBack()
 
 Mobile.tap(findTestObject('Bantuan/Transaksi/Kirim-Kirim/017.TextView - Question Kirim-Kirim 7'), 0)
 
@@ -105,9 +105,9 @@ Mobile.tap(findTestObject('Bantuan/Transaksi/Kirim-Kirim/017.TextView - Answer K
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Transaksi - Kirim-Kirim\\09.png')
 
-Mobile.tap(findTestObject('Bantuan/Transaksi/Top Up/006.ViewGroup - Kembali'), 0)
+Mobile.pressBack()
 
 Mobile.tap(findTestObject('Bantuan/Transaksi/Kirim-Kirim/019.TextView - Question Kirim-Kirim 8'), 0)
 
@@ -115,9 +115,9 @@ Mobile.tap(findTestObject('Bantuan/Transaksi/Kirim-Kirim/019.TextView - Answer K
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Transaksi - Kirim-Kirim\\10.png')
 
-Mobile.tap(findTestObject('Bantuan/Transaksi/Top Up/006.ViewGroup - Kembali'), 0)
+Mobile.pressBack()
 
 Mobile.tap(findTestObject('Bantuan/Transaksi/Kirim-Kirim/021.TextView - Question Kirim-Kirim 9'), 0)
 
@@ -125,9 +125,9 @@ Mobile.tap(findTestObject('Bantuan/Transaksi/Kirim-Kirim/021.TextView - Answer K
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Transaksi - Kirim-Kirim\\11.png')
 
-Mobile.tap(findTestObject('Bantuan/Transaksi/Top Up/006.ViewGroup - Kembali'), 0)
+Mobile.pressBack()
 
 Mobile.scrollToText('Bagaimana caranya melihat berapa jumlah orang yang menerima Kirim-Kirim?', FailureHandling.STOP_ON_FAILURE)
 
@@ -137,9 +137,9 @@ Mobile.tap(findTestObject('Bantuan/Transaksi/Kirim-Kirim/023.TextView - Answer K
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Transaksi - Kirim-Kirim\\12.png')
 
-Mobile.tap(findTestObject('Bantuan/Transaksi/Top Up/006.ViewGroup - Kembali'), 0)
+Mobile.pressBack()
 
 Mobile.tap(findTestObject('Bantuan/Transaksi/Kirim-Kirim/024.TextView - Question Kirim-Kirim 11'), 0)
 
@@ -147,13 +147,20 @@ Mobile.tap(findTestObject('Bantuan/Transaksi/Kirim-Kirim/025.TextView - Answer K
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Transaksi - Kirim-Kirim\\13.png')
 
-Mobile.tap(findTestObject('Bantuan/Transaksi/Top Up/006.ViewGroup - Kembali'), 0)
+Mobile.pressBack()
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Transaksi - Kirim-Kirim\\14.png')
 
-Mobile.closeApplication()
+Mobile.tap(findTestObject('Topik Populer/09.PathView - Home Button'), 0)
+
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Transaksi - Kirim-Kirim\\15.png')
+
+Mobile.closeApplication( //
+    )
 

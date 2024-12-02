@@ -31,30 +31,27 @@ Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Fitur Lai
 
 Mobile.tap(findTestObject('Bantuan/Fitur Lainnya/Voice Command/04.PathView - Close Session'), 0)
 
-Mobile.tap(findTestObject('Bantuan/Fitur Lainnya/Update Versi Aplikasi/03.TextView - Update Versi Aplikasi'), 
-    0)
+Mobile.tap(findTestObject('Bantuan/Fitur Lainnya/Update Versi Aplikasi/03.TextView - Update Versi Aplikasi'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Fitur Lainnya - Update Versi Asli\\02.png')
 
-Mobile.tap(findTestObject('Bantuan/Fitur Lainnya/Update Versi Aplikasi/05.TextView - Question Update Versi Asli'), 
-    0)
+Mobile.tap(findTestObject('Bantuan/Fitur Lainnya/Update Versi Aplikasi/05.TextView - Question Update Versi Asli'), 0)
 
-Mobile.tap(findTestObject('Bantuan/Fitur Lainnya/Update Versi Aplikasi/05.TextView - Answer Update Versi Asli'), 
-    0)
+Mobile.tap(findTestObject('Bantuan/Fitur Lainnya/Update Versi Aplikasi/05.TextView - Answer Update Versi Asli'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Fitur Lainnya - Update Versi Asli\\03.png')
 
-Mobile.tap(findTestObject('Bantuan/Transaksi/Transfer/006ViewGroup - Kembali'), 0)
+Mobile.pressBack()
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Fitur Lainnya - Update Versi Asli\\04.png')
 
-Mobile.tap(findTestObject('Bantuan/Transaksi/Transfer/018.ViewGroup - Kembali'), 0)
+Mobile.pressBack()
 
 Mobile.tap(findTestObject('Atur/08.PathView - Home'), 0)
 

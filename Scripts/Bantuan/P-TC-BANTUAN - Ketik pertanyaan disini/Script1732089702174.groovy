@@ -23,7 +23,7 @@ Mobile.tap(findTestObject('Object Repository/Bantuan/Ketik Pertanyaan/001.PathVi
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Ketik Pertanyaan disini\\01.png')
 
 Mobile.tap(findTestObject('Object Repository/Bantuan/Ketik Pertanyaan/002 - Ketik pertanyaan anda disini'), 0)
 
@@ -32,30 +32,33 @@ Mobile.setText(findTestObject('Object Repository/Bantuan/Ketik Pertanyaan/003.Ed
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Ketik Pertanyaan disini\\02.png')
 
 Mobile.tap(findTestObject('Object Repository/Bantuan/Ketik Pertanyaan/004.TextView - melihat nomor rekening tabungan'), 
     0)
 
-Mobile.tap(findTestObject('Object Repository/Bantuan/Ketik Pertanyaan/005.TextView - dilihat di menu Akun Saya'), 0)
-
-Mobile.tap(findTestObject('Object Repository/Bantuan/Ketik Pertanyaan/006.TextView - Pusat Bantuan'), 0)
+Mobile.pressBack()
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Ketik Pertanyaan disini\\03.png')
 
-Mobile.tap(findTestObject('Object Repository/Bantuan/Ketik Pertanyaan/007.ViewGroup - Kembali'), 0)
-
-Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.takeScreenshot()
-
-Mobile.tap(findTestObject('Object Repository/Bantuan/Ketik Pertanyaan/008.ViewGroup - Kembali ke pusat bantuan'), 0)
+Mobile.pressBack()
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Ketik Pertanyaan disini\\04.png')
 
-Mobile.closeApplication()
+Mobile.pressBack()
 
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Ketik Pertanyaan disini\\05.png')
+
+Mobile.tap(findTestObject('Topik Populer/09.PathView - Home Button'), 0)
+
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Ketik Pertanyaan disini\\06.png')
+
+Mobile.closeApplication()//

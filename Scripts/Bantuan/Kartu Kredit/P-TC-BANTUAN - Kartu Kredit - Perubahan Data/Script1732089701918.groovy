@@ -35,47 +35,62 @@ Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Kartu Kre
 
 Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Perubahan Data/004.TextView - Perubahan Data'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Perubahan Data/005.TextView - Question Delivery Tracking 1'), 0)
+Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Perubahan Data/005.TextView - Question Delivery Tracking 1'), 
+    0)
 
-Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Perubahan Data/005.TextView - Answer Delivery Tracking 1.1'), 0)
+Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Perubahan Data/005.TextView - Answer Delivery Tracking 1.1'), 
+    0)
 
-Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Perubahan Data/005.TextView - Answer Delivery Tracking 1.2'), 0)
+Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Perubahan Data/005.TextView - Answer Delivery Tracking 1.2'), 
+    0)
 
-Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Perubahan Data/005.TextView - Answer Delivery Tracking 1.3'), 0)
+Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Perubahan Data/005.TextView - Answer Delivery Tracking 1.3'), 
+    0)
 
-Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Perubahan Data/005.TextView - Answer Delivery Tracking 1.4'), 0)
+Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Perubahan Data/005.TextView - Answer Delivery Tracking 1.4'), 
+    0)
 
-Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Perubahan Data/005.TextView - Answer Delivery Tracking 1.5'), 0)
+Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Perubahan Data/005.TextView - Answer Delivery Tracking 1.5'), 
+    0)
 
-Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Perubahan Data/005.TextView - Answer Delivery Tracking 1.6'), 0)
+Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Perubahan Data/005.TextView - Answer Delivery Tracking 1.6'), 
+    0)
 
-Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Perubahan Data/005.TextView - Answer Delivery Tracking 1.6 (1)'), 0)
+Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Perubahan Data/005.TextView - Answer Delivery Tracking 1.6 (1)'), 
+    0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Kartu Kredit - Perubahan Data\\03.png')
 
-Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Perubahan Data/006.ViewGroup - Kembali'), 0)
+Mobile.pressBack()
 
-Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Perubahan Data/007.TextView - Question Delivery Tracking 2'), 0)
+Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Perubahan Data/007.TextView - Question Delivery Tracking 2'), 
+    0)
 
-Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Perubahan Data/007.TextView - Answer Delivery Tracking 2'), 0)
+Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Perubahan Data/007.TextView - Answer Delivery Tracking 2'), 
+    0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Kartu Kredit - Perubahan Data\\04.png')
 
-Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Perubahan Data/008.ViewGroup - Kembali'), 0)
+Mobile.pressBack()
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Kartu Kredit - Perubahan Data\\05.png')
 
-Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Perubahan Data/006.ViewGroup - Kembali ke pusat bantuan'), 0)
+Mobile.pressBack()
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Kartu Kredit - Perubahan Data\\06.png')
 
-Mobile.closeApplication()//
+Mobile.tap(findTestObject('Topik Populer/09.PathView - Home Button'), 0)
 
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Kartu Kredit - Perubahan Data\\07.png')
+
+Mobile.closeApplication()//

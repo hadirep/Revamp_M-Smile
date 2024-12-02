@@ -23,7 +23,9 @@ Mobile.tap(findTestObject('Object Repository/Bantuan/Investasi/Subscribe/01.Path
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Transaksi - Top Up\\01.png')
 
 Mobile.tap(findTestObject('Bantuan/Transaksi/Top Up/002.RectView - Transaksi'), 0)
 
@@ -33,7 +35,7 @@ for (int i = 0; i < 2; i++) {
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Transaksi - Top Up\\02.png')
 
 Mobile.tap(findTestObject('Bantuan/Transaksi/Top Up/005.TextView - Question Top Up 1'), 0)
 
@@ -41,9 +43,9 @@ Mobile.tap(findTestObject('Bantuan/Transaksi/Top Up/005.TextView - Answer Top Up
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Transaksi - Top Up\\03.png')
 
-Mobile.tap(findTestObject('Bantuan/Transaksi/Top Up/006.ViewGroup - Kembali'), 0)
+Mobile.pressBack()
 
 Mobile.tap(findTestObject('Bantuan/Transaksi/Top Up/007.TextView - Question Top Up 2'), 0)
 
@@ -51,9 +53,9 @@ Mobile.tap(findTestObject('Bantuan/Transaksi/Top Up/007.TextView - Answer Top Up
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Transaksi - Top Up\\04.png')
 
-Mobile.tap(findTestObject('Bantuan/Transaksi/Top Up/006.ViewGroup - Kembali'), 0)
+Mobile.pressBack()
 
 Mobile.tap(findTestObject('Bantuan/Transaksi/Top Up/009.TextView - Question Top Up 3'), 0)
 
@@ -61,9 +63,9 @@ Mobile.checkElement(findTestObject('Bantuan/Transaksi/Top Up/009.TextView - Answ
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Transaksi - Top Up\\05.png')
 
-Mobile.tap(findTestObject('Bantuan/Transaksi/Top Up/006.ViewGroup - Kembali'), 0)
+Mobile.pressBack()
 
 Mobile.tap(findTestObject('Bantuan/Transaksi/Top Up/011.TextView - Question Top Up 4'), 0)
 
@@ -71,19 +73,25 @@ Mobile.tap(findTestObject('Bantuan/Transaksi/Top Up/011.TextView - Answer Top Up
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Transaksi - Top Up\\06.png')
 
-Mobile.tap(findTestObject('Bantuan/Transaksi/Top Up/006.ViewGroup - Kembali'), 0)
-
-Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.takeScreenshot()
-
-Mobile.tap(findTestObject('Bantuan/Transaksi/Top Up/008.ViewGroup - Kembali'), 0)
+Mobile.pressBack()
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Transaksi - Top Up\\07.png')
+
+Mobile.pressBack()
+
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Transaksi - Top Up\\08.png')
+
+Mobile.tap(findTestObject('Topik Populer/09.PathView - Home Button'), 0)
+
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Transaksi - Top Up\\09.png')
 
 Mobile.closeApplication()
 

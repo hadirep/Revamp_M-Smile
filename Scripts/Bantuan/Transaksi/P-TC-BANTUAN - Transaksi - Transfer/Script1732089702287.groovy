@@ -23,7 +23,7 @@ Mobile.tap(findTestObject('Object Repository/Bantuan/Investasi/Subscribe/01.Path
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Transaksi - Transfer\\01.png')
 
 Mobile.tap(findTestObject('Bantuan/Transaksi/QRIS/002.RectView - Transaksi'), 0)
 
@@ -31,13 +31,13 @@ Mobile.tap(findTestObject('Bantuan/Transaksi/QRIS/003.PathView - Close Session')
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Transaksi - Transfer\\02.png')
 
 Mobile.tap(findTestObject('Bantuan/Transaksi/Transfer/002.TextView - Transfer'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Transaksi - Transfer\\03.png')
 
 Mobile.tap(findTestObject('Bantuan/Transaksi/Transfer/005.TextView - Question Transfer 1'), 0)
 
@@ -45,9 +45,9 @@ Mobile.tap(findTestObject('Bantuan/Transaksi/Transfer/005.ViewGroup - Answer Tra
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Transaksi - Transfer\\04.png')
 
-Mobile.tap(findTestObject('Bantuan/Transaksi/Transfer/006ViewGroup - Kembali'), 0)
+Mobile.pressBack()
 
 Mobile.tap(findTestObject('Bantuan/Transaksi/Transfer/007.TextView - Question Transfer 2'), 0)
 
@@ -55,9 +55,9 @@ Mobile.tap(findTestObject('Bantuan/Transaksi/Transfer/007.ViewGroup - Answer Tra
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Transaksi - Transfer\\05.png')
 
-Mobile.tap(findTestObject('Bantuan/Transaksi/Transfer/006ViewGroup - Kembali'), 0)
+Mobile.pressBack()
 
 Mobile.tap(findTestObject('Bantuan/Transaksi/Transfer/009.TextView - Question Transfer 3'), 0)
 
@@ -65,9 +65,9 @@ Mobile.tap(findTestObject('Bantuan/Transaksi/Transfer/009.ViewGroup - Answer Tra
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Transaksi - Transfer\\06.png')
 
-Mobile.tap(findTestObject('Bantuan/Transaksi/Transfer/006ViewGroup - Kembali'), 0)
+Mobile.pressBack()
 
 Mobile.tap(findTestObject('Bantuan/Transaksi/Transfer/011.TextView - Question Transfer 4'), 0)
 
@@ -75,9 +75,9 @@ Mobile.tap(findTestObject('Bantuan/Transaksi/Transfer/011.ViewGroup - Answer Tra
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Transaksi - Transfer\\07.png')
 
-Mobile.tap(findTestObject('Bantuan/Transaksi/Transfer/006ViewGroup - Kembali'), 0)
+Mobile.pressBack()
 
 Mobile.tap(findTestObject('Bantuan/Transaksi/Transfer/013.TextView - Question Transfer 5'), 0)
 
@@ -85,9 +85,9 @@ Mobile.tap(findTestObject('Bantuan/Transaksi/Transfer/013.ViewGroup - Answer Tra
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Transaksi - Transfer\\08.png')
 
-Mobile.tap(findTestObject('Bantuan/Transaksi/Transfer/006ViewGroup - Kembali'), 0)
+Mobile.pressBack()
 
 Mobile.tap(findTestObject('Bantuan/Transaksi/Transfer/015.TextView - Question Transfer 6'), 0)
 
@@ -95,9 +95,9 @@ Mobile.tap(findTestObject('Bantuan/Transaksi/Transfer/015.ViewGroup - Answer Tra
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Transaksi - Transfer\\09.png')
 
-Mobile.tap(findTestObject('Bantuan/Transaksi/Transfer/006ViewGroup - Kembali'), 0)
+Mobile.pressBack()
 
 Mobile.tap(findTestObject('Bantuan/Transaksi/Transfer/017.TextView - Question Transfer 7'), 0)
 
@@ -105,19 +105,24 @@ Mobile.tap(findTestObject('Bantuan/Transaksi/Transfer/017.ViewGroup - Answer Tra
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Transaksi - Transfer\\10.png')
 
-Mobile.tap(findTestObject('Bantuan/Transaksi/Transfer/006ViewGroup - Kembali'), 0)
-
-Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.takeScreenshot()
-
-Mobile.tap(findTestObject('Bantuan/Transaksi/Transfer/018.ViewGroup - Kembali'), 0)
+Mobile.pressBack()
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Transaksi - Transfer\\11.png')
 
-Mobile.closeApplication()
+Mobile.pressBack()
 
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Transaksi - Transfer\\12.png')
+
+Mobile.tap(findTestObject('Topik Populer/09.PathView - Home Button'), 0)
+
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Transaksi - Transfer\\13.png')
+
+Mobile.closeApplication()//

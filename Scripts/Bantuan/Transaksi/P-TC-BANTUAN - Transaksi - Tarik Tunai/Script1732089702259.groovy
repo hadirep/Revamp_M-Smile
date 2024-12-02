@@ -23,7 +23,7 @@ Mobile.tap(findTestObject('Object Repository/Bantuan/Investasi/Subscribe/01.Path
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Transaksi - Tarik Tunai\\01.png')
 
 Mobile.tap(findTestObject('Bantuan/Transaksi/Top Up/002.RectView - Transaksi'), 0)
 
@@ -31,7 +31,7 @@ Mobile.tap(findTestObject('Object Repository/Bantuan/Transaksi/QRIS/003.PathView
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Transaksi - Tarik Tunai\\02.png')
 
 Mobile.tap(findTestObject('Bantuan/Transaksi/Tarik Tunai/002.TextView - Tarik Tunai'), 0)
 
@@ -41,9 +41,9 @@ Mobile.tap(findTestObject('Bantuan/Transaksi/Tarik Tunai/005.TextView - Answer T
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Transaksi - Tarik Tunai\\03.png')
 
-Mobile.tap(findTestObject('Bantuan/Transaksi/Top Up/006.ViewGroup - Kembali'), 0)
+Mobile.pressBack()
 
 Mobile.tap(findTestObject('Bantuan/Transaksi/Tarik Tunai/007.TextView - Question Tarik Tunai 2'), 0)
 
@@ -51,9 +51,9 @@ Mobile.tap(findTestObject('Bantuan/Transaksi/Tarik Tunai/007.TextView - Answer T
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Transaksi - Tarik Tunai\\04.png')
 
-Mobile.tap(findTestObject('Bantuan/Transaksi/Top Up/006.ViewGroup - Kembali'), 0)
+Mobile.pressBack()
 
 Mobile.checkElement(findTestObject('Bantuan/Transaksi/Tarik Tunai/009.TextView - Question Tarik Tunai 3'), 0)
 
@@ -61,9 +61,9 @@ Mobile.tap(findTestObject('Bantuan/Transaksi/Tarik Tunai/009.TextView - Answer T
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Transaksi - Tarik Tunai\\05.png')
 
-Mobile.tap(findTestObject('Bantuan/Transaksi/Top Up/006.ViewGroup - Kembali'), 0)
+Mobile.pressBack()
 
 Mobile.tap(findTestObject('Bantuan/Transaksi/Tarik Tunai/011.TextView - Question Tarik Tunai 4'), 0)
 
@@ -71,19 +71,19 @@ Mobile.tap(findTestObject('Bantuan/Transaksi/Tarik Tunai/011.TextView - Answer T
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Transaksi - Tarik Tunai\\06.png')
 
-Mobile.tap(findTestObject('Bantuan/Transaksi/Top Up/006.ViewGroup - Kembali'), 0)
-
-Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.takeScreenshot()
-
-Mobile.tap(findTestObject('Bantuan/Transaksi/Top Up/008.ViewGroup - Kembali'), 0)
+Mobile.pressBack()
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Transaksi - Tarik Tunai\\07.png')
+
+Mobile.tap(findTestObject('Topik Populer/09.PathView - Home Button'), 0)
+
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Transaksi - Tarik Tunai\\08.png')
 
 Mobile.closeApplication()
 

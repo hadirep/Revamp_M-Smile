@@ -23,7 +23,7 @@ Mobile.tap(findTestObject('Object Repository/Bayar/Telepon/KartuHALO/01.ViewGrou
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\N-TC-BAYAR - Telepon - KartuHALO - Dormant\\01.png')
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Telepon/KartuHALO/02.ViewGroup - Telepon'), 0)
 
@@ -40,13 +40,13 @@ Mobile.tap(findTestObject('Bayar/Telepon/KartuHALO/Insufficient - Dormant/009.Sc
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\N-TC-BAYAR - Telepon - KartuHALO - Dormant\\02.png')
 
 Mobile.tap(findTestObject('Bayar/Telepon/KartuHALO/07.ViewGroup - OK'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\N-TC-BAYAR - Telepon - KartuHALO - Dormant\\03.png')
 
 Mobile.tap(findTestObject('Bayar/Telepon/KartuHALO/08.ViewGroup - Lanjut'), 0)
 
@@ -60,7 +60,7 @@ Mobile.tap(findTestObject('Object Repository/Bayar/Telepon/Indosat/12.ScrollView
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\N-TC-BAYAR - Telepon - KartuHALO - Dormant\\04.png')
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Telepon/Indosat/13.ViewGroup - Bayar'), 0)
 
@@ -70,41 +70,43 @@ Mobile.tap(findTestObject('Bayar/Pajak-MPN/Pajak Negara/12.TextView - OK'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
-
-Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.takeScreenshot()
-
-Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\N-TC-BAYAR - Telepon - KartuHALO - Dormant\\05.png')
 
 Mobile.pressBack()
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\N-TC-BAYAR - Telepon - KartuHALO - Dormant\\06.png')
 
 Mobile.pressBack()
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\N-TC-BAYAR - Telepon - KartuHALO - Dormant\\07.png')
 
 Mobile.pressBack()
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\N-TC-BAYAR - Telepon - KartuHALO - Dormant\\08.png')
 
 Mobile.pressBack()
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\N-TC-BAYAR - Telepon - KartuHALO - Dormant\\09.png')
 
 Mobile.pressBack()
+
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\N-TC-BAYAR - Telepon - KartuHALO - Dormant\\10.png')
+
+Mobile.pressBack()
+
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\N-TC-BAYAR - Telepon - KartuHALO - Dormant\\11.png')
 
 Mobile.closeApplication()
 

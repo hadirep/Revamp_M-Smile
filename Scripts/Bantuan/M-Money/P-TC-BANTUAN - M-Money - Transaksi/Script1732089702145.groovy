@@ -101,7 +101,7 @@ Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - M-Money - Transaksi\\11.png')
 
-Mobile.pressBack()
+Mobile.tap(findTestObject('Topik Populer/09.PathView - Home Button'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 

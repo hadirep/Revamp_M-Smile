@@ -23,13 +23,13 @@ Mobile.tap(findTestObject('Object Repository/Bantuan/Investasi/Subscribe/01.Path
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Transaksi - Bayar\\01.png')
 
 Mobile.tap(findTestObject('Bantuan/Transaksi/Top Up/002.RectView - Transaksi'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Transaksi - Bayar\\02.png')
 
 Mobile.tap(findTestObject('Bantuan/Transaksi/Bayar/002.PathView - Close Session'), 0)
 
@@ -37,7 +37,7 @@ Mobile.tap(findTestObject('Bantuan/Transaksi/Bayar/003.TextView - Bayar'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Transaksi - Bayar\\03.png')
 
 Mobile.tap(findTestObject('Bantuan/Transaksi/Bayar/005.TextView - Question Bayar 1'), 0)
 
@@ -45,9 +45,9 @@ Mobile.tap(findTestObject('Bantuan/Transaksi/Bayar/005.TextView - Answer Bayar 1
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Transaksi - Bayar\\04.png')
 
-Mobile.tap(findTestObject('Bantuan/Transaksi/Bayar/006.ViewGroup - Kembali'), 0)
+Mobile.pressBack()
 
 Mobile.tap(findTestObject('Bantuan/Transaksi/Bayar/007.TextView - Question Bayar 2'), 0)
 
@@ -55,9 +55,9 @@ Mobile.tap(findTestObject('Bantuan/Transaksi/Bayar/007.TextView - Answer Bayar 2
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Transaksi - Bayar\\05.png')
 
-Mobile.checkElement(findTestObject('Bantuan/Transaksi/Bayar/006.ViewGroup - Kembali'), 0)
+Mobile.pressBack()
 
 Mobile.tap(findTestObject('Bantuan/Transaksi/Bayar/009.TextView - Question Bayar 3'), 0)
 
@@ -65,19 +65,18 @@ Mobile.tap(findTestObject('Bantuan/Transaksi/Bayar/009.TextView - Answer Bayar 3
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Transaksi - Bayar\\06.png')
 
-Mobile.tap(findTestObject('Bantuan/Transaksi/Bayar/006.ViewGroup - Kembali'), 0)
-
-Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.takeScreenshot()
-
-Mobile.tap(findTestObject('Bantuan/Transaksi/Bayar/008.ViewGroup - Kembali'), 0)
+Mobile.pressBack()
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Transaksi - Bayar\\07.png')
 
-Mobile.closeApplication()
+Mobile.tap(findTestObject('Topik Populer/09.PathView - Home Button'), 0)
 
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Transaksi - Bayar\\08.png')
+
+Mobile.closeApplication()//

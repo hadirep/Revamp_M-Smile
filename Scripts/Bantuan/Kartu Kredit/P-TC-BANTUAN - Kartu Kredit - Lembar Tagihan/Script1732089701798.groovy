@@ -25,15 +25,11 @@ Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Kartu Kredit - Lembar Tagihan\\01.png')
 
-Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Lembar Tagihan/002.RectView - Kartu Kredit'), 
-    0)
+Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Lembar Tagihan/002.RectView - Kartu Kredit'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Lembar Tagihan/003.PathView - Close Session'), 
-    0)
+Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Lembar Tagihan/003.PathView - Close Session'), 0)
 
-
-Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Lembar Tagihan/004.TextView - Lembar Tagihan'), 
-    0)
+Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Lembar Tagihan/004.TextView - Lembar Tagihan'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
@@ -67,18 +63,22 @@ Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Kartu Kredit - Lembar Tagihan\\03.png')
 
-Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Lembar Tagihan/006.ViewGroup - Kembali'), 0)
+Mobile.pressBack()
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Kartu Kredit - Lembar Tagihan\\04.png')
 
-Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Lembar Tagihan/007.ViewGroup - Kembali ke pusat bantuan'), 
-    0)
+Mobile.pressBack()
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Kartu Kredit - Lembar Tagihan\\05.png')
 
-Mobile.closeApplication()//
+Mobile.tap(findTestObject('Topik Populer/09.PathView - Home Button'), 0)
 
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Kartu Kredit - Lembar Tagihan\\06.png')
+
+Mobile.closeApplication()//

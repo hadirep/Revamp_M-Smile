@@ -47,17 +47,22 @@ Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Investasi - Fitur\\04.png')
 
-Mobile.tap(findTestObject('Object Repository/Bantuan/Investasi/Fitur/05.ViewGroup - Kembali'), 0)
+Mobile.pressBack()
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Investasi - Fitur\\05.png')
 
-Mobile.tap(findTestObject('Object Repository/Bantuan/Investasi/Fitur/05.ViewGroup - Kembali'), 0)
+Mobile.pressBack()
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Investasi - Fitur\\06.png')
 
-Mobile.closeApplication()
+Mobile.tap(findTestObject('Topik Populer/09.PathView - Home Button'), 0)
 
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Investasi - Fitur\\07.png')
+
+Mobile.closeApplication()//

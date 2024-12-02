@@ -35,43 +35,40 @@ Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Payment/003.Pa
 
 Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Payment/004.TextView - Payment'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Payment/005.TextView - Question Payment 1'), 
-    0)
+Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Payment/005.TextView - Question Payment 1'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Payment/006.TextView - Answer Payment 1.1'), 
-    0)
+Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Payment/006.TextView - Answer Payment 1.1'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Payment/006.TextView - Answer Payment 1.2'), 
-    0)
+Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Payment/006.TextView - Answer Payment 1.2'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Payment/006.TextView - Answer Payment 1.3'), 
-    0)
+Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Payment/006.TextView - Answer Payment 1.3'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Payment/006.TextView - Answer Payment 1.4'), 
-    0)
+Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Payment/006.TextView - Answer Payment 1.4'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Payment/006.TextView - Answer Payment 1.5'), 
-    0)
+Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Payment/006.TextView - Answer Payment 1.5'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Payment/006.TextView - Answer Payment 1.6'), 
-    0)
+Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Payment/006.TextView - Answer Payment 1.6'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Kartu Kredit - Payment\\03.png')
 
-Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Payment/007.ViewGroup - Kembali'), 0)
+Mobile.pressBack()
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Kartu Kredit - Payment\\04.png')
 
-Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Payment/008.ViewGroup - Kembali ke pusat bantuan'), 
-    0)
+Mobile.pressBack()
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Kartu Kredit - Payment\\05.png')
 
-Mobile.closeApplication()//
+Mobile.tap(findTestObject('Topik Populer/09.PathView - Home Button'), 0)
 
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Kartu Kredit - Payment\\06.png')
+
+Mobile.closeApplication()//

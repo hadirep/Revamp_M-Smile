@@ -23,13 +23,13 @@ Mobile.tap(findTestObject('Object Repository/Bantuan/Umum/OTP/001.PathView - Ban
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Umum - OTP\\01.png')
 
 Mobile.tap(findTestObject('Object Repository/Bantuan/Umum/OTP/002.RectView - Umum'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Umum - OTP\\02.png')
 
 Mobile.tap(findTestObject('Object Repository/Bantuan/Umum/OTP/003.PathView - Close Session'), 0)
 
@@ -41,9 +41,9 @@ Mobile.tap(findTestObject('Object Repository/Bantuan/Umum/OTP/005.TextView - Ans
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Umum - OTP\\03.png')
 
-Mobile.tap(findTestObject('Object Repository/Bantuan/Umum/OTP/006.ViewGroup - Kembali'), 0)
+Mobile.pressBack()
 
 Mobile.tap(findTestObject('Object Repository/Bantuan/Umum/OTP/007.TextView - Question OTP 2'), 0)
 
@@ -53,19 +53,25 @@ Mobile.tap(findTestObject('Object Repository/Bantuan/Umum/OTP/008.TextView - Ans
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Umum - OTP\\04.png')
 
-Mobile.tap(findTestObject('Object Repository/Bantuan/Umum/OTP/009.ViewGroup - Kembali'), 0)
-
-Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.takeScreenshot()
-
-Mobile.tap(findTestObject('Object Repository/Bantuan/Umum/OTP/010.ViewGroup - Kembali'), 0)
+Mobile.pressBack()
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Umum - OTP\\05.png')
+
+Mobile.pressBack()
+
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Umum - OTP\\06.png')
+
+Mobile.tap(findTestObject('Topik Populer/09.PathView - Home Button'), 0)
+
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Umum - OTP\\07.png')
 
 Mobile.closeApplication()
 

@@ -19,23 +19,19 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('com.bankmega.msmiledev')
 
-Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Pendaftaran Asuransi/001.PathView - Bantuan'), 
-    0)
+Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Pendaftaran Asuransi/001.PathView - Bantuan'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Kartu Kredit - Pendaftaran Asuransi\\01.png')
 
-Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Pendaftaran Asuransi/002.RectView - Kartu Kredit'), 
-    0)
+Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Pendaftaran Asuransi/002.RectView - Kartu Kredit'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Pendaftaran Asuransi/003.PathView - Close Session'), 
-    0)
+Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Pendaftaran Asuransi/003.PathView - Close Session'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Kartu Kredit - Pendaftaran Asuransi\\02.png')
-
 
 Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Pendaftaran Asuransi/004.TextView - Pendaftaran Asuransi'), 
     0)
@@ -43,7 +39,6 @@ Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Pendaftaran As
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Kartu Kredit - Pendaftaran Asuransi\\03.png')
-
 
 Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Pendaftaran Asuransi/005.TextView - Question Pendaftaran Asuransi 1'), 
     0)
@@ -55,14 +50,11 @@ Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Kartu Kredit - Pendaftaran Asuransi\\04.png')
 
-
-Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Pendaftaran Asuransi/006.ViewGroup - Kembali'), 
-    0)
+Mobile.pressBack()
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Kartu Kredit - Pendaftaran Asuransi\\05.png')
-
 
 Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Pendaftaran Asuransi/007.TextView - Question Pendaftaran Asuransi 2'), 
     0)
@@ -92,21 +84,22 @@ Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Kartu Kredit - Pendaftaran Asuransi\\06.png')
 
-
-Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Pendaftaran Asuransi/008.ViewGroup - Kembali'), 
-    0)
+Mobile.pressBack()
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Kartu Kredit - Pendaftaran Asuransi\\07.png')
 
-
-Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Pendaftaran Asuransi/009.ViewGroup - Kembali Ke Pusat Bantuan'), 
-    0)
+Mobile.pressBack()
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Kartu Kredit - Pendaftaran Asuransi\\08.png')
 
-Mobile.closeApplication()
+Mobile.tap(findTestObject('Topik Populer/09.PathView - Home Button'), 0)
 
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Kartu Kredit - Pendaftaran Asuransi\\09.png')
+
+Mobile.closeApplication()

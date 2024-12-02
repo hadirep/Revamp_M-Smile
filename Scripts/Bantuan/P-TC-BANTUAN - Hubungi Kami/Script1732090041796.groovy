@@ -107,8 +107,6 @@ Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Hubungi K
 
 Mobile.pressBack()
 
-Mobile.pressBack()
-
 Mobile.delay(1)
 
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Hubungi Kami\\13.png')
@@ -133,17 +131,10 @@ Mobile.delay(1)
 
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Hubungi Kami\\16.png')
 
-Mobile.pressBack()
+Mobile.tap(findTestObject('Topik Populer/09.PathView - Home Button'), 0)
 
 Mobile.delay(1)
 
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Hubungi Kami\\17.png')
 
-Mobile.pressBack()
-
-Mobile.delay(1)
-
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Hubungi Kami\\18.png')
-
-Mobile.closeApplication()
-
+Mobile.closeApplication()//

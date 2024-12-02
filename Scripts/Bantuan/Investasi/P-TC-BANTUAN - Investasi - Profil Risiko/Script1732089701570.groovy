@@ -51,7 +51,7 @@ Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Investasi - Profil Risiko\\05.png')
 
-Mobile.tap(findTestObject('Bantuan/Investasi/Profil Risiko/06.ViewGroup - Kembali'), 0)
+Mobile.pressBack()
 
 Mobile.tap(findTestObject('Bantuan/Investasi/Profil Risiko/07.TextView - Question Profil Risiko 2'), 0)
 
@@ -61,7 +61,7 @@ Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Investasi - Profil Risiko\\06.png')
 
-Mobile.tap(findTestObject('Bantuan/Investasi/Profil Risiko/06.ViewGroup - Kembali'), 0)
+Mobile.pressBack()
 
 Mobile.tap(findTestObject('Bantuan/Investasi/Profil Risiko/09.TextView - Question Profil Risiko 3'), 0)
 
@@ -71,17 +71,22 @@ Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Investasi - Profil Risiko\\07.png')
 
-Mobile.tap(findTestObject('Bantuan/Investasi/Profil Risiko/06.ViewGroup - Kembali'), 0)
+Mobile.pressBack()
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Investasi - Profil Risiko\\08.png')
 
-Mobile.tap(findTestObject('Bantuan/Investasi/Profil Risiko/06.ViewGroup - Kembali'), 0)
+Mobile.pressBack()
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Investasi - Profil Risiko\\09.png')
 
-Mobile.closeApplication()
+Mobile.tap(findTestObject('Topik Populer/09.PathView - Home Button'), 0)
 
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Investasi - Profil Risiko\\10.png')
+
+Mobile.closeApplication()//

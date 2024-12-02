@@ -39,7 +39,7 @@ Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Deposito - Informasi\\03.png')
 
-Mobile.tap(findTestObject('Object Repository/Bantuan/Deposito/Fitur/04.ViewGroup - Kembali'), 0)
+Mobile.pressBack()
 
 Mobile.tap(findTestObject('Object Repository/Bantuan/Deposito/Fitur/05.TextView - Question Fitur 2'), 0)
 
@@ -49,7 +49,7 @@ Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Deposito - Informasi\\04.png')
 
-Mobile.tap(findTestObject('Object Repository/Bantuan/Deposito/Fitur/06.ViewGroup - Kembali'), 0)
+Mobile.pressBack()
 
 Mobile.tap(findTestObject('Object Repository/Bantuan/Deposito/Fitur/07.TextView - Question Fitur 3'), 0)
 
@@ -59,7 +59,7 @@ Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Deposito - Informasi\\05.png')
 
-Mobile.tap(findTestObject('Object Repository/Bantuan/Deposito/Fitur/08.ViewGroup - Kembali'), 0)
+Mobile.pressBack()
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
@@ -73,5 +73,4 @@ Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Deposito - Informasi\\07.png')
 
-Mobile.closeApplication()
-
+Mobile.closeApplication()//

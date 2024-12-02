@@ -25,7 +25,8 @@ Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Kartu Kredit - Apply Kartu Kredit\\01.png')
 
-Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Apply Kartu Kredit/002.TextView - KATEGORI BANTUAN'), 0)
+Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Apply Kartu Kredit/002.TextView - KATEGORI BANTUAN'), 
+    0)
 
 Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Apply Kartu Kredit/003.RectView - Kartu Kredit'), 0)
 
@@ -43,7 +44,7 @@ Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Kartu Kredit - Apply Kartu Kredit\\03.png')
 
-Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Apply Kartu Kredit/005.ViewGroup - Kembali'), 0)
+Mobile.pressBack()
 
 Mobile.tap(findTestObject('Bantuan/Kartu Kredit/Apply Kartu Kredit/006.TextView - Question Apply Kartu Kredit 2'), 0)
 
@@ -54,7 +55,7 @@ Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Kartu Kredit - Apply Kartu Kredit\\04.png')
 
-Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Apply Kartu Kredit/007.ViewGroup - Kembali'), 0)
+Mobile.pressBack()
 
 Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Apply Kartu Kredit/008.TextView - Question Apply Kartu Kredit 3'), 
     0)
@@ -105,7 +106,7 @@ Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Kartu Kredit - Apply Kartu Kredit\\05.png')
 
-Mobile.tap(findTestObject('Bantuan/Kartu Kredit/Apply Kartu Kredit/006.ViewGroup - Kembali'), 0)
+Mobile.pressBack()
 
 Mobile.tap(findTestObject('Bantuan/Kartu Kredit/Apply Kartu Kredit/009.TextView - Question Apply Kartu Kredit 4'), 0)
 
@@ -115,7 +116,7 @@ Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Kartu Kredit - Apply Kartu Kredit\\06.png')
 
-Mobile.tap(findTestObject('Bantuan/Kartu Kredit/Apply Kartu Kredit/006.ViewGroup - Kembali'), 0)
+Mobile.pressBack()
 
 Mobile.tap(findTestObject('Bantuan/Kartu Kredit/Apply Kartu Kredit/010.TextView - Question Apply Kartu Kredit 5'), 0)
 
@@ -125,7 +126,7 @@ Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Kartu Kredit - Apply Kartu Kredit\\07.png')
 
-Mobile.tap(findTestObject('Bantuan/Kartu Kredit/Apply Kartu Kredit/006.ViewGroup - Kembali'), 0)
+Mobile.pressBack()
 
 Mobile.tap(findTestObject('Bantuan/Kartu Kredit/Apply Kartu Kredit/011.TextView - Question Apply Kartu Kredit 6'), 0)
 
@@ -135,7 +136,7 @@ Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Kartu Kredit - Apply Kartu Kredit\\08.png')
 
-Mobile.tap(findTestObject('Bantuan/Kartu Kredit/Apply Kartu Kredit/005.ViewGroup - Kembali'), 0)
+Mobile.pressBack()
 
 Mobile.tap(findTestObject('Bantuan/Kartu Kredit/Apply Kartu Kredit/012.TextView - Question Apply Kartu Kredit 7'), 0)
 
@@ -143,17 +144,18 @@ Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Kartu Kredit - Apply Kartu Kredit\\09.png')
 
-Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Apply Kartu Kredit/008.ViewGroup - Kembali'), 0)
+Mobile.pressBack()
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Kartu Kredit - Apply Kartu Kredit\\10.png')
 
-Mobile.tap(findTestObject('Bantuan/Kartu Kredit/Apply Kartu Kredit/013.ViewGroup - Kmebali ke pusat bantuan'), 0)
+Mobile.pressBack()
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Kartu Kredit - Apply Kartu Kredit\\11.png')
 
-Mobile.closeApplication()//
+Mobile.tap(findTestObject('Topik Populer/09.PathView - Home Button'), 0)
 
+Mobile.closeApplication()//

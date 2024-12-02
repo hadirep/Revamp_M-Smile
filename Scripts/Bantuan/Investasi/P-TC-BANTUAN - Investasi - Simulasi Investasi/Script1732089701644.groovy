@@ -31,8 +31,7 @@ Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Investasi - Simulasi Invetasi\\02.png')
 
-Mobile.tap(findTestObject('Object Repository/Bantuan/Investasi/Simulasi Invetasi/03.TextView - Simulasi investasi'), 
-    0)
+Mobile.tap(findTestObject('Object Repository/Bantuan/Investasi/Simulasi Invetasi/03.TextView - Simulasi investasi'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
@@ -61,5 +60,10 @@ Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Investasi - Simulasi Invetasi\\06.png')
 
-Mobile.closeApplication()
+Mobile.tap(findTestObject('Topik Populer/09.PathView - Home Button'), 0)
 
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Investasi - Simulasi Invetasi\\07.png')
+
+Mobile.closeApplication()//

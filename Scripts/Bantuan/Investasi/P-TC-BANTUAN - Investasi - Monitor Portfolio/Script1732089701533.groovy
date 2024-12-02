@@ -50,9 +50,9 @@ Mobile.tap(findTestObject('Bantuan/Investasi/Monitor Portfolio/05.TextView - Ans
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Investasi - Monitor Portfolio\\05.png')
+Mobile.pressBack()
 
-Mobile.tap(findTestObject('Bantuan/Investasi/Monitor Portfolio/06.SvgView - Kembali'), 0)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Investasi - Monitor Portfolio\\05.png')
 
 Mobile.tap(findTestObject('Bantuan/Investasi/Monitor Portfolio/07.TextView - Question Monitor Portfolio 2'), 0)
 
@@ -62,7 +62,7 @@ Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Investasi - Monitor Portfolio\\06.png')
 
-Mobile.tap(findTestObject('Bantuan/Investasi/Monitor Portfolio/06.SvgView - Kembali'), 0)
+Mobile.pressBack()
 
 Mobile.tap(findTestObject('Bantuan/Investasi/Monitor Portfolio/09.TextView - Question Monitor Portfolio 3'), 0)
 
@@ -72,7 +72,7 @@ Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Investasi - Monitor Portfolio\\07.png')
 
-Mobile.tap(findTestObject('Bantuan/Investasi/Monitor Portfolio/06.SvgView - Kembali'), 0)
+Mobile.pressBack()
 
 Mobile.tap(findTestObject('Bantuan/Investasi/Monitor Portfolio/11.TextView - Question Monitor Portfolio 4'), 0)
 
@@ -82,17 +82,22 @@ Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Investasi - Monitor Portfolio\\08.png')
 
-Mobile.tap(findTestObject('Bantuan/Investasi/Monitor Portfolio/06.SvgView - Kembali'), 0)
+Mobile.pressBack()
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Investasi - Monitor Portfolio\\09.png')
 
-Mobile.tap(findTestObject('Bantuan/Investasi/Monitor Portfolio/06.ViewGroup - Kembali'), 0)
+Mobile.pressBack()
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Investasi - Monitor Portfolio\\10.png')
 
-Mobile.closeApplication()
+Mobile.tap(findTestObject('Topik Populer/09.PathView - Home Button'), 0)
 
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Investasi - Monitor Portfolio\\11.png')
+
+Mobile.closeApplication()//

@@ -23,7 +23,7 @@ Mobile.tap(findTestObject('Object Repository/Bantuan/Umum/Umum_/001.PathView - T
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Umum - Umum\\01.png')
 
 Mobile.tap(findTestObject('Object Repository/Bantuan/Umum/Umum_/002.TextView - Pusat Bantuan'), 0)
 
@@ -33,7 +33,7 @@ Mobile.tap(findTestObject('Object Repository/Bantuan/Umum/Umum_/003.RectView - U
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Umum - Umum\\02.png')
 
 Mobile.tap(findTestObject('Object Repository/Bantuan/Umum/Umum_/004.TextView - Question umum 1'), 0)
 
@@ -41,13 +41,13 @@ Mobile.tap(findTestObject('Object Repository/Bantuan/Umum/Umum_/004.TextView - A
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Umum - Umum\\03.png')
 
-Mobile.tap(findTestObject('Object Repository/Bantuan/Umum/Umum_/005.ViewGroup - Kembali'), 0)
+Mobile.pressBack()
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Umum - Umum\\04.png')
 
 Mobile.tap(findTestObject('Object Repository/Bantuan/Umum/Umum_/006.TextView -Question 2'), 0)
 
@@ -55,13 +55,13 @@ Mobile.tap(findTestObject('Object Repository/Bantuan/Umum/Umum_/006.ViewGroup - 
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Umum - Umum\\05.png')
 
-Mobile.tap(findTestObject('Object Repository/Bantuan/Umum/Umum_/007.ViewGroup - Kembali'), 0)
+Mobile.pressBack()
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Umum - Umum\\06.png')
 
 Mobile.tap(findTestObject('Object Repository/Bantuan/Umum/Umum_/008.TextView - Question 3'), 0)
 
@@ -69,19 +69,24 @@ Mobile.tap(findTestObject('Object Repository/Bantuan/Umum/Umum_/008.TextView - A
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Umum - Umum\\07.png')
 
-Mobile.tap(findTestObject('Object Repository/Bantuan/Umum/Umum_/009.ViewGroup - Kembali'), 0)
-
-Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.takeScreenshot()
-
-Mobile.tap(findTestObject('Bantuan/Umum/Umum_/010.ViewGroup - Kembali'), 0)
+Mobile.pressBack()
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Umum - Umum\\08.png')
 
-Mobile.closeApplication()
+Mobile.pressBack()
 
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Umum - Umum\\09.png')
+
+Mobile.tap(findTestObject('Topik Populer/09.PathView - Home Button'), 0)
+
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Umum - Umum\\10.png')
+
+Mobile.closeApplication()//

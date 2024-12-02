@@ -19,8 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('com.bankmega.msmiledev')
 
-Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Penutupan Kartu Kredit/001.SvgView - Bantuan'), 
-    0)
+Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Penutupan Kartu Kredit/001.SvgView - Bantuan'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
@@ -53,19 +52,22 @@ Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Kartu Kredit - Penutupan Kartu Kredit\\04.png')
 
-Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Penutupan Kartu Kredit/006.ViewGroup - Kembali'), 
-    0)
+Mobile.pressBack()
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Kartu Kredit - Penutupan Kartu Kredit\\05.png')
 
-Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Penutupan Kartu Kredit/007.ViewGroup - Kembali ke Pusat Bantuan'), 
-    0)
+Mobile.pressBack()
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Kartu Kredit - Penutupan Kartu Kredit\\06.png')
 
-Mobile.closeApplication()
+Mobile.tap(findTestObject('Topik Populer/09.PathView - Home Button'), 0)
 
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Kartu Kredit - Penutupan Kartu Kredit\\07.png')
+
+Mobile.closeApplication()//

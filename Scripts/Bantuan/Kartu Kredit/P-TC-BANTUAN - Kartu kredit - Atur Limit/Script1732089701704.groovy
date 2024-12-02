@@ -49,17 +49,22 @@ Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Atur Limit/007
 
 Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Atur Limit/007.TextView - Answer Atur Limit 2'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Atur Limit/006.ViewGroup - Kembali'), 0)
+Mobile.pressBack()
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Kartu Kredit - Atur Limit\\04.png')
 
-Mobile.tap(findTestObject('Object Repository/Bantuan/Kartu Kredit/Atur Limit/008.ViewGroup - Kembali ke Pusat Bantuan'), 0)
+Mobile.pressBack()
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Kartu Kredit - Atur Limit\\05.png')
 
-Mobile.closeApplication()//
+Mobile.tap(findTestObject('Topik Populer/09.PathView - Home Button'), 0)
 
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Kartu Kredit - Atur Limit\\06.png')
+
+Mobile.closeApplication()//

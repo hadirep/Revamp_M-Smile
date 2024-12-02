@@ -23,7 +23,9 @@ Mobile.tap(findTestObject('Object Repository/Bantuan/Umum/Atur Sumber Dana/001.P
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Umum - Atur Sumber Dana\\01.png')
 
 Mobile.tap(findTestObject('Object Repository/Bantuan/Umum/Atur Sumber Dana/002.RectView - Umum'), 0)
 
@@ -33,7 +35,7 @@ Mobile.tap(findTestObject('Object Repository/Bantuan/Umum/Atur Sumber Dana/003Te
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Umum - Atur Sumber Dana\\02.png')
 
 Mobile.tap(findTestObject('Object Repository/Bantuan/Umum/Atur Sumber Dana/004.TextView - Question Atur sumber dana 1'), 
     0)
@@ -52,9 +54,9 @@ Mobile.tap(findTestObject('Object Repository/Bantuan/Umum/Atur Sumber Dana/004.T
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Umum - Atur Sumber Dana\\03.png')
 
-Mobile.tap(findTestObject('Object Repository/Bantuan/Umum/Atur Sumber Dana/005.ViewGroup - Kembali'), 0)
+Mobile.pressBack()
 
 Mobile.tap(findTestObject('Object Repository/Bantuan/Umum/Atur Sumber Dana/005.TextView - Question Atur sumber dana 2'), 
     0)
@@ -76,19 +78,20 @@ Mobile.tap(findTestObject('Object Repository/Bantuan/Umum/Atur Sumber Dana/006.T
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Umum - Atur Sumber Dana\\04.png')
 
-Mobile.tap(findTestObject('Object Repository/Bantuan/Umum/Atur Sumber Dana/007.ViewGroup - Kembali'), 0)
-
-Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
-
-Mobile.tap(findTestObject('Object Repository/Bantuan/Umum/Atur Sumber Dana/008.ViewGroup - Kembali'), 0)
+Mobile.pressBack()
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Umum - Atur Sumber Dana\\05.png')
 
-Mobile.closeApplication()
+Mobile.pressBack()
 
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Umum - Atur Sumber Dana\\06.png')
+
+Mobile.tap(findTestObject('Topik Populer/09.PathView - Home Button'), 0)
+
+Mobile.closeApplication()//

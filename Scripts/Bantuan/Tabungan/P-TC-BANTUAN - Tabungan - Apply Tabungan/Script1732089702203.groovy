@@ -23,121 +23,112 @@ Mobile.tap(findTestObject('Object Repository/Bantuan/Tabungan/Apply Tabungan/001
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Tabungan - Apply Tabungan\\01.png')
 
 Mobile.tap(findTestObject('Object Repository/Bantuan/Tabungan/Apply Tabungan/002.RectView - Tabungan'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Tabungan - Apply Tabungan\\02.png')
 
 Mobile.tap(findTestObject('Object Repository/Bantuan/Tabungan/Apply Tabungan/004.TextView - Question Apply Tabungan 1'), 
     0)
 
-Mobile.tap(findTestObject('Object Repository/Bantuan/Tabungan/Apply Tabungan/004.TextView - Answer Apply Tabungan 1'), 
-    0)
+Mobile.tap(findTestObject('Object Repository/Bantuan/Tabungan/Apply Tabungan/004.TextView - Answer Apply Tabungan 1'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Tabungan - Apply Tabungan\\03.png')
 
-Mobile.tap(findTestObject('Object Repository/Bantuan/Tabungan/Apply Tabungan/005.ViewGroup - Kembali'), 0)
+Mobile.pressBack()
 
 Mobile.tap(findTestObject('Object Repository/Bantuan/Tabungan/Apply Tabungan/006.TextView - Question Apply Tabungan 2'), 
     0)
 
-Mobile.tap(findTestObject('Object Repository/Bantuan/Tabungan/Apply Tabungan/006.TextView - Answer Apply Tabungan 2'), 
-    0)
+Mobile.tap(findTestObject('Object Repository/Bantuan/Tabungan/Apply Tabungan/006.TextView - Answer Apply Tabungan 2'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Tabungan - Apply Tabungan\\04.png')
 
-Mobile.tap(findTestObject('Object Repository/Bantuan/Tabungan/Apply Tabungan/007.ViewGroup - Kembali'), 0)
+Mobile.pressBack()
 
 Mobile.tap(findTestObject('Object Repository/Bantuan/Tabungan/Apply Tabungan/008.TextView - Question Apply Tabungan 3'), 
     0)
 
-Mobile.tap(findTestObject('Object Repository/Bantuan/Tabungan/Apply Tabungan/008.TextView - Answer Apply Tabungan 3'), 
-    0)
+Mobile.tap(findTestObject('Object Repository/Bantuan/Tabungan/Apply Tabungan/008.TextView - Answer Apply Tabungan 3'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Tabungan - Apply Tabungan\\05.png')
 
-Mobile.tap(findTestObject('Object Repository/Bantuan/Tabungan/Apply Tabungan/009.ViewGroup - Kembali'), 0)
+Mobile.pressBack()
 
 Mobile.tap(findTestObject('Object Repository/Bantuan/Tabungan/Apply Tabungan/010.TextView - Question Apply Tabungan 4'), 
     0)
 
-Mobile.tap(findTestObject('Object Repository/Bantuan/Tabungan/Apply Tabungan/010.TextView - Answer Apply Tabungan 4'), 
-    0)
+Mobile.tap(findTestObject('Object Repository/Bantuan/Tabungan/Apply Tabungan/010.TextView - Answer Apply Tabungan 4'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Tabungan - Apply Tabungan\\06.png')
 
-Mobile.tap(findTestObject('Object Repository/Bantuan/Tabungan/Apply Tabungan/011.ViewGroup - Kembali'), 0)
+Mobile.pressBack()
 
 Mobile.tap(findTestObject('Object Repository/Bantuan/Tabungan/Apply Tabungan/012.TextView - Question Apply Tabungan 5'), 
     0)
 
-Mobile.tap(findTestObject('Object Repository/Bantuan/Tabungan/Apply Tabungan/012.TextView - Answer Apply Tabungan 5'), 
-    0)
+Mobile.tap(findTestObject('Object Repository/Bantuan/Tabungan/Apply Tabungan/012.TextView - Answer Apply Tabungan 5'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Tabungan - Apply Tabungan\\07.png')
 
-Mobile.tap(findTestObject('Object Repository/Bantuan/Tabungan/Apply Tabungan/013.ViewGroup - Kembali'), 0)
+Mobile.pressBack()
 
 Mobile.tap(findTestObject('Object Repository/Bantuan/Tabungan/Apply Tabungan/014.TextView - Question Apply Tabungan 6'), 
     0)
 
-Mobile.tap(findTestObject('Object Repository/Bantuan/Tabungan/Apply Tabungan/014.TextView - Answer Apply Tabungan 6'), 
-    0)
+Mobile.tap(findTestObject('Object Repository/Bantuan/Tabungan/Apply Tabungan/014.TextView - Answer Apply Tabungan 6'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Tabungan - Apply Tabungan\\08.png')
 
-Mobile.tap(findTestObject('Object Repository/Bantuan/Tabungan/Apply Tabungan/015.ViewGroup - Kembali'), 0)
+Mobile.pressBack()
 
 Mobile.tap(findTestObject('Object Repository/Bantuan/Tabungan/Apply Tabungan/016.TextView - Question Apply Tabungan 7'), 
     0)
 
-Mobile.tap(findTestObject('Object Repository/Bantuan/Tabungan/Apply Tabungan/016.TextView - Answer Apply Tabungan 7'), 
-    0)
+Mobile.tap(findTestObject('Object Repository/Bantuan/Tabungan/Apply Tabungan/016.TextView - Answer Apply Tabungan 7'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Tabungan - Apply Tabungan\\09.png')
 
-Mobile.tap(findTestObject('Object Repository/Bantuan/Tabungan/Apply Tabungan/017.ViewGroup - Kembali'), 0)
+Mobile.pressBack()
 
 Mobile.tap(findTestObject('Object Repository/Bantuan/Tabungan/Apply Tabungan/018.TextView - Question Apply Tabungan 8'), 
     0)
 
-Mobile.tap(findTestObject('Object Repository/Bantuan/Tabungan/Apply Tabungan/018.TextView - Answer Apply Tabungan 8'), 
-    0)
+Mobile.tap(findTestObject('Object Repository/Bantuan/Tabungan/Apply Tabungan/018.TextView - Answer Apply Tabungan 8'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Tabungan - Apply Tabungan\\10.png')
 
-Mobile.tap(findTestObject('Object Repository/Bantuan/Tabungan/Apply Tabungan/019.ViewGroup - Kembali'), 0)
+Mobile.pressBack()
 
 Mobile.tap(findTestObject('Object Repository/Bantuan/Tabungan/Apply Tabungan/020.TextView - Question Apply Tabungan 9'), 
     0)
 
-Mobile.tap(findTestObject('Object Repository/Bantuan/Tabungan/Apply Tabungan/020.TextView - Answer Apply Tabungan 9'), 
-    0)
+Mobile.tap(findTestObject('Object Repository/Bantuan/Tabungan/Apply Tabungan/020.TextView - Answer Apply Tabungan 9'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Tabungan - Apply Tabungan\\11.png')
 
-Mobile.tap(findTestObject('Object Repository/Bantuan/Tabungan/Apply Tabungan/021.ViewGroup - Kembali'), 0)
+Mobile.pressBack()
 
 Mobile.tap(findTestObject('Object Repository/Bantuan/Tabungan/Apply Tabungan/022.TextView - Question Apply Tabungan 10'), 
     0)
@@ -147,9 +138,9 @@ Mobile.tap(findTestObject('Object Repository/Bantuan/Tabungan/Apply Tabungan/022
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Tabungan - Apply Tabungan\\12.png')
 
-Mobile.tap(findTestObject('Object Repository/Bantuan/Tabungan/Apply Tabungan/023.ViewGroup - Kembali'), 0)
+Mobile.pressBack()
 
 Mobile.tap(findTestObject('Object Repository/Bantuan/Tabungan/Apply Tabungan/024.TextView - Question Apply Tabungan 11'), 
     0)
@@ -159,22 +150,23 @@ Mobile.tap(findTestObject('Object Repository/Bantuan/Tabungan/Apply Tabungan/024
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Tabungan - Apply Tabungan\\13.png')
 
-Mobile.tap(findTestObject('Object Repository/Bantuan/Tabungan/Apply Tabungan/025.ViewGroup - Kembali'), 0)
+Mobile.pressBack()
 
 Mobile.tap(findTestObject('Object Repository/Bantuan/Tabungan/Apply Tabungan/026.PathView - Close Session'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Tabungan - Apply Tabungan\\14.png')
 
-Mobile.tap(findTestObject('Object Repository/Bantuan/Tabungan/Apply Tabungan/027.ViewGroup - Kembali Ke Pusat Bantuan'), 
-    0)
+Mobile.pressBack()
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Tabungan - Apply Tabungan\\15.png')
 
-Mobile.closeApplication()
+Mobile.tap(findTestObject('Topik Populer/09.PathView - Home Button'), 0)
+
+Mobile.closeApplication()//
 

@@ -47,13 +47,13 @@ Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Deposito - Fitur\\04.png')
 
-Mobile.tap(findTestObject('Bantuan/Deposito/Fitur/04.ViewGroup - Kembali'), 0)
+Mobile.pressBack()
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Deposito - Fitur\\05.png')
 
-Mobile.tap(findTestObject('Bantuan/Deposito/Penempatan dana/07.ViewGroup - Kembali'), 0)
+Mobile.pressBack()
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
@@ -61,5 +61,8 @@ Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Deposito 
 
 Mobile.tap(findTestObject('Atur/08.PathView - Home'), 0)
 
-Mobile.closeApplication()
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Deposito - Fitur\\07.png')
+
+Mobile.closeApplication()//
