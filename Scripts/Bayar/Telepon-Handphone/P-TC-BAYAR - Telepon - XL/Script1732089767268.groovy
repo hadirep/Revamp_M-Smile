@@ -23,7 +23,7 @@ Mobile.tap(findTestObject('Object Repository/Bayar/Telepon/XL/01.ViewGroup - Bay
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp_M-Smile\\Screenshoot\\P - Bayar - Telephone - XL\\01.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P - Bayar - Telephone - XL\\01.png')
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Telepon/XL/02.ViewGroup - Telepon'), 0)
 
@@ -33,13 +33,13 @@ Mobile.swipe(900, 500, 100, 500)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp_M-Smile\\Screenshoot\\P - Bayar - Telephone - XL\\02.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P - Bayar - Telephone - XL\\02.png')
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Telepon/XL/03.EditText - Daftar Produk'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp_M-Smile\\Screenshoot\\P - Bayar - Telephone - XL\\03.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P - Bayar - Telephone - XL\\03.png')
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Telepon/XL/04.TextView - XL'), 0)
 
@@ -50,7 +50,7 @@ Mobile.setText(findTestObject('Bayar/Telepon/Indosat/Insufficient - Dormant/005.
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp_M-Smile\\Screenshoot\\P - Bayar - Telephone - XL\\04.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P - Bayar - Telephone - XL\\04.png')
 
 Mobile.tap(findTestObject('Bayar/Telepon/Indosat/Insufficient - Dormant/007.ViewGroup - OK'), 0)
 
@@ -64,7 +64,7 @@ Mobile.tap(findTestObject('Object Repository/Bayar/Telepon/XL/11.ScrollView - Cl
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp_M-Smile\\Screenshoot\\P - Bayar - Telephone - XL\\05png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P - Bayar - Telephone - XL\\05.png')
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Telepon/XL/12.TextView - Konfirmasi Pembayaran'), 0)
 
@@ -82,49 +82,49 @@ Mobile.tap(findTestObject('Bayar/Telepon/XL/12.TextView - Rp. 71.500'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp_M-Smile\\Screenshoot\\P - Bayar - Telephone - XL\\06.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P - Bayar - Telephone - XL\\06.png')
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Telepon/XL/14.ViewGroup - Bayar'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp_M-Smile\\Screenshoot\\P - Bayar - Telephone - XL\\07.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P - Bayar - Telephone - XL\\07.png')
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Telepon/XL/15.ViewGroup - Bagikan'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp_M-Smile\\Screenshoot\\P - Bayar - Telephone - XL\\08.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P - Bayar - Telephone - XL\\08.png')
 
 Mobile.pressBack()
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp_M-Smile\\Screenshoot\\P - Bayar - Telephone - XL\\09.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P - Bayar - Telephone - XL\\09.png')
 
 Mobile.pressBack()
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp_M-Smile\\Screenshoot\\P - Bayar - Telephone - XL\\10.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P - Bayar - Telephone - XL\\10.png')
 
 Mobile.pressBack()
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp_M-Smile\\Screenshoot\\P - Bayar - Telephone - XL\\11.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P - Bayar - Telephone - XL\\11.png')
 
 Mobile.pressBack()
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp_M-Smile\\Screenshoot\\P - Bayar - Telephone - XL\\12.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P - Bayar - Telephone - XL\\12.png')
 
 Mobile.pressBack()
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp_M-Smile\\Screenshoot\\P - Bayar - Telephone - XL\\13.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P - Bayar - Telephone - XL\\13.png')
 
 Mobile.closeApplication()
 
