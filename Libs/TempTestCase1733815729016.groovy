@@ -18,9 +18,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.w
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.testng.keyword.internal.TestNGDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\H23120~1\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Akun saya\\P-TC-AKUN SAYA - Tabungan - Tarik Tunai\\20241210_104837\\execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\H23120~1\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Bayar\\Lainnya\\P-TC-BAYAR - Lainnya - CT ARSA Bakti Sosial\\20241210_142849\\execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runTestCase('Test Cases/Akun saya/P-TC-AKUN SAYA - Tabungan - Tarik Tunai', new TestCaseBinding('Test Cases/Akun saya/P-TC-AKUN SAYA - Tabungan - Tarik Tunai',[:]), FailureHandling.STOP_ON_FAILURE , false)
+        TestCaseMain.runTestCase('Test Cases/Bayar/Lainnya/P-TC-BAYAR - Lainnya - CT ARSA Bakti Sosial', new TestCaseBinding('Test Cases/Bayar/Lainnya/P-TC-BAYAR - Lainnya - CT ARSA Bakti Sosial',[:]), FailureHandling.STOP_ON_FAILURE , false)
     

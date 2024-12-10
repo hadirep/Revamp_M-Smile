@@ -20,41 +20,41 @@ import org.openqa.selenium.Keys as Keys
 Mobile.startExistingApplication('com.bankmega.msmiledev')
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Lainnya - CT ARSA Peduli Pendidikan\\01.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Lainnya - CT ARSA Peduli Pendidikan\\01.png')
 
 Mobile.tap(findTestObject('Object Repository/Lainnya/CT ARSA Peduli Pendidikan/01. ViewGroup-Bayar'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Lainnya - CT ARSA Peduli Pendidikan\\02.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Lainnya - CT ARSA Peduli Pendidikan\\02.png')
 
 Mobile.tap(findTestObject('Object Repository/Lainnya/CT ARSA Peduli Pendidikan/02. ViewGroup-Lainnya'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Lainnya - CT ARSA Peduli Pendidikan\\03.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Lainnya - CT ARSA Peduli Pendidikan\\03.png')
 
 Mobile.tap(findTestObject('Object Repository/Lainnya/CT ARSA Peduli Pendidikan/03. SvgView-Cek Saldo'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Lainnya - CT ARSA Peduli Pendidikan\\04.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Lainnya - CT ARSA Peduli Pendidikan\\04.png')
 
 Mobile.tap(findTestObject('Object Repository/Lainnya/CT ARSA Peduli Pendidikan/04. EditText-Daftar Produk'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Lainnya/CT ARSA Peduli Pendidikan/05. TextView-CT ARSA PEDULI PENDIDIKAN'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Lainnya - CT ARSA Peduli Pendidikan\\05.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Lainnya - CT ARSA Peduli Pendidikan\\05.png')
 
 Mobile.tap(findTestObject('Object Repository/Lainnya/CT ARSA Peduli Pendidikan/06. TextView-Tap Nominal'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Lainnya - CT ARSA Peduli Pendidikan\\06.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Lainnya - CT ARSA Peduli Pendidikan\\06.png')
 
 Mobile.setText(findTestObject('Object Repository/Lainnya/CT ARSA Peduli Pendidikan/07. EditText-Set Nominal'), '10000', 0)
 
 Mobile.hideKeyboard()
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Lainnya - CT ARSA Peduli Pendidikan\\07.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Lainnya - CT ARSA Peduli Pendidikan\\07.png')
 
 Mobile.tap(findTestObject('Object Repository/Lainnya/CT ARSA Peduli Pendidikan/08. ViewGroup-Lanjut'), 0)
 
@@ -74,7 +74,7 @@ Mobile.verifyElementText(findTestObject('Object Repository/Lainnya/CT ARSA Pedul
     'Rp. 10.000')
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Lainnya - CT ARSA Peduli Pendidikan\\08.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Lainnya - CT ARSA Peduli Pendidikan\\08.png')
 
 Mobile.tap(findTestObject('Object Repository/Lainnya/CT ARSA Peduli Pendidikan/14. TextView-Tap M-PIN'), 0)
 
@@ -84,7 +84,7 @@ Mobile.setText(findTestObject('Object Repository/Lainnya/CT ARSA Peduli Pendidik
 Mobile.hideKeyboard()
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Lainnya - CT ARSA Peduli Pendidikan\\09.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Lainnya - CT ARSA Peduli Pendidikan\\09.png')
 
 Mobile.tap(findTestObject('Object Repository/Lainnya/CT ARSA Peduli Pendidikan/16. ViewGroup-Bayar'), 0)
 
@@ -107,22 +107,22 @@ Mobile.verifyElementText(findTestObject('Object Repository/Lainnya/CT ARSA Pedul
     'Rp. 10.000')
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Lainnya - CT ARSA Peduli Pendidikan\\10.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Lainnya - CT ARSA Peduli Pendidikan\\10.png')
 
 Mobile.tap(findTestObject('Object Repository/Lainnya/CT ARSA Peduli Pendidikan/23. ViewGroup-Bagikan'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Lainnya - CT ARSA Peduli Pendidikan\\11.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Lainnya - CT ARSA Peduli Pendidikan\\11.png')
 
 Mobile.pressBack()
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Lainnya - CT ARSA Peduli Pendidikan\\12.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Lainnya - CT ARSA Peduli Pendidikan\\12.png')
 
 Mobile.tapAtPosition(1123, 452)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Lainnya - CT ARSA Peduli Pendidikan\\13.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Lainnya - CT ARSA Peduli Pendidikan\\13.png')
 
 Mobile.closeApplication()
 
