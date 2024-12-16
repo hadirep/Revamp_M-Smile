@@ -20,12 +20,12 @@ import org.openqa.selenium.Keys as Keys
 Mobile.startExistingApplication('com.bankmega.msmiledev')
 
 Mobile.delay(2)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-QRIS - Setor Tunai\\01.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-QRIS - Setor Tunai\\01.png')
 
 Mobile.tap(findTestObject('Object Repository/QRIS/Setor Tunai/01. ViewGroup-QRIS'), 0)
 
 Mobile.delay(2)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-QRIS - Setor Tunai\\02.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-QRIS - Setor Tunai\\02.png')
 
 Mobile.tap(findTestObject('Object Repository/QRIS/Setor Tunai/02. RectView-Setor Tunai'), 0)
 
@@ -38,12 +38,12 @@ Mobile.setText(findTestObject('Object Repository/QRIS/Setor Tunai/05. EditText-S
 Mobile.hideKeyboard()
 
 Mobile.delay(2)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-QRIS - Setor Tunai\\03.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-QRIS - Setor Tunai\\03.png')
 
 Mobile.tap(findTestObject('Object Repository/QRIS/Setor Tunai/06. ViewGroup-Lanjut'), 0)
 
 Mobile.delay(2)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-QRIS - Setor Tunai\\04.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-QRIS - Setor Tunai\\04.png')
 
 Mobile.verifyElementText(findTestObject('Object Repository/QRIS/Setor Tunai/07. TextView-HADI RAHMAH ESA PUTRA'),
 	'HADI RAHMAH ESA PUTRA')
@@ -58,60 +58,24 @@ Mobile.verifyElementText(findTestObject('Object Repository/QRIS/Setor Tunai/10. 
 	'Rp. 100.000')
 
 Mobile.delay(2)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-QRIS - Setor Tunai\\05.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-QRIS - Setor Tunai\\05.png')
 
 Mobile.tap(findTestObject('Object Repository/QRIS/Setor Tunai/11. TextView-Bagikan QRIS'), 0)
 
 Mobile.delay(2)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-QRIS - Setor Tunai\\06.png')
-
-Mobile.tap(findTestObject('Object Repository/QRIS/Setor Tunai/12. ImageView-Click WhatsApp'), 0)
-
-Mobile.delay(2)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-QRIS - Setor Tunai\\07.png')
-
-Mobile.tap(findTestObject('Object Repository/QRIS/Setor Tunai/13. ImageButton-Search'), 0)
-
-Mobile.delay(2)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-QRIS - Setor Tunai\\08.png')
-
-Mobile.setText(findTestObject('Object Repository/QRIS/Setor Tunai/14. EditText-Search name or number'), 'Data', 0)
-
-Mobile.delay(2)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-QRIS - Setor Tunai\\09.png')
-
-Mobile.tap(findTestObject('Object Repository/QRIS/Setor Tunai/15. LinearLayout-Click Contact'), 0)
-
-Mobile.delay(2)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-QRIS - Setor Tunai\\10.png')
-
-Mobile.tap(findTestObject('Object Repository/QRIS/Setor Tunai/16. ImageButton-Sent to chat'), 0)
-
-Mobile.delay(2)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-QRIS - Setor Tunai\\11.png')
-
-Mobile.tap(findTestObject('Object Repository/QRIS/Setor Tunai/17. ImageButton-Sent to chat 2'), 0)
-
-Mobile.delay(2)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-QRIS - Setor Tunai\\12.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-QRIS - Setor Tunai\\06.png')
 
 Mobile.pressBack()
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-QRIS - Setor Tunai\\13.png')
-
-Mobile.pressBack()
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-QRIS - Setor Tunai\\14.png')
-
-Mobile.pressBack()
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-QRIS - Setor Tunai\\15.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-QRIS - Setor Tunai\\07.png')
 
 Mobile.tap(findTestObject('Object Repository/QRIS/Setor Tunai/18. ViewGroup-Cek Status'), 0)
 
 Mobile.delay(2)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-QRIS - Setor Tunai\\16.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-QRIS - Setor Tunai\\08.png')
 
 Mobile.tap(findTestObject('Object Repository/QRIS/Setor Tunai/19. TextView-Pop Up OK'), 0)
 
 Mobile.delay(2)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-QRIS - Setor Tunai\\17.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-QRIS - Setor Tunai\\09.png')
 
 Mobile.closeApplication()

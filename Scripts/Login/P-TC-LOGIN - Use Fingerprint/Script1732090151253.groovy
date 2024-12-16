@@ -20,12 +20,12 @@ import org.openqa.selenium.Keys as Keys
 Mobile.startExistingApplication('com.bankmega.msmiledev')
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-LOGIN - Use Fingerprint\\01.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LOGIN - Use Fingerprint\\01.png')
 
-Mobile.tap(findTestObject('Object Repository/Login/Login/01. ButtonLogin'), 0)
+Mobile.tap(findTestObject('Object Repository/Login/Use Fingerprint/01. Button-Login'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-LOGIN - Use Fingerprint\\02.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LOGIN - Use Fingerprint\\02.png')
 
 Mobile.delay(3)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-LOGIN - Use Fingerprint\\03.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LOGIN - Use Fingerprint\\03.png')

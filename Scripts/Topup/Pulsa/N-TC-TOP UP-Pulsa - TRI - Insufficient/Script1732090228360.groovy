@@ -41,7 +41,7 @@ Mobile.tap(findTestObject('Topup/Pulsa/XL-Dormant/003.EditText -Input Number'), 
 
 Mobile.setText(findTestObject('Topup/Pulsa/XL-Dormant/003.EditText -Input Number'), '0895634311811', 0)
 
-Mobile.tap(findTestObject('Topup/Pulsa/13.TextView - Lanjut'), 0)
+Mobile.tap(findTestObject('Topup/Pulsa/XL-Dormant/13.TextView - Lanjut'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 

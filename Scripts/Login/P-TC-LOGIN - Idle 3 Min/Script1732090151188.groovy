@@ -20,34 +20,30 @@ import org.openqa.selenium.Keys as Keys
 Mobile.startExistingApplication('com.bankmega.msmiledev')
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-LOGIN - Idle 3 Min\\01.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LOGIN - Idle 3 Min\\01.png')
 
-Mobile.tap(findTestObject('Object Repository/Login/01. Button - LOGIN'), 0)
-
-Mobile.delay(1)
-
-Mobile.tap(findTestObject('Object Repository/Login/02.EditText-input password'), 0)
+Mobile.tap(findTestObject('Object Repository/Login/Idle 3 Min/01. Button-Login'), 0)
 
 Mobile.delay(1)
 
-Mobile.setText(findTestObject('Object Repository/Login/02.EditText-input password'), 'Bankmega1', 0)
+Mobile.tap(findTestObject('Object Repository/Login/Idle 3 Min/02. EditText-Input password'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-LOGIN - Idle 3 Min\\02.png')
 
-Mobile.tap(findTestObject('Object Repository/Login/03. Button - Klik Login'), 0)
-
-Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-LOGIN - Idle 3 Min\\03.png')
-
-Mobile.delay(200)
-
-Mobile.verifyElementText(findTestObject('Object Repository/Login/TextView - Youve been logged out due to inactivity'), "You've been logged out due to inactivity")
-
-Mobile.tap(findTestObject('Object Repository/Login/Button-Log Out'), 0)
+Mobile.setText(findTestObject('Object Repository/Login/Idle 3 Min/02. EditText-Input password'), 'Bankmega1', 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-LOGIN - Idle 3 Min\\04.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LOGIN - Idle 3 Min\\02.png')
+
+Mobile.tap(findTestObject('Object Repository/Login/Idle 3 Min/03. Button-Klik Login'), 0)
+
+Mobile.delay(1)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LOGIN - Idle 3 Min\\03.png')
+
+Mobile.delay(180)
+
+Mobile.delay(1)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LOGIN - Idle 3 Min\\04.png')
 
 Mobile.closeApplication()
 

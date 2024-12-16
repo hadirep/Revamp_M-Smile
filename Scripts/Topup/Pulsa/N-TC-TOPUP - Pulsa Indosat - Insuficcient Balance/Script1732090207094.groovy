@@ -19,94 +19,105 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('com.bankmega.msmiledev')
 
-Mobile.takeScreenshot()
+Mobile.delay(1)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Pulsa Indosat - Insuficcient Balance\\01.png')
 
-Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/Indosat/01. ViewGroup - Button Top Up'), 0)
+Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/Indosat - Insuficcient Balance/01. ViewGroup - Button Top Up'), 0)
 
-Mobile.takeScreenshot()
+Mobile.delay(1)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Pulsa Indosat - Insuficcient Balance\\02.png')
 
-Mobile.tap(findTestObject('Transfer/Topup/Topup Pulsa - Indosat/02-button-pulsa'), 0)
+Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/Indosat - Insuficcient Balance/02. View - Icon Pulsa'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Transfer/Topup/Topup Pulsa - Indosat/03-EditText-Input Nomor'), 0)
+Mobile.delay(1)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Pulsa Indosat - Insuficcient Balance\\03.png')
 
-Mobile.setText(findTestObject('Object Repository/Transfer/Topup/Topup Pulsa - Indosat/03-EditText-Input Nomor'), '085770056083', 0)
+Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/Indosat - Insuficcient Balance/03. EditText - Input nomor'), 0)
 
-Mobile.pressBack()
+Mobile.setText(findTestObject('Object Repository/Topup/Pulsa/Indosat - Insuficcient Balance/03. EditText - Input nomor'),
+	'085770056083', 0)
 
-Mobile.takeScreenshot()
- 
-Mobile.tap(findTestObject('Object Repository/Transfer/Topup/Topup Pulsa - Indosat/04-button-lanjut'), 0)
+Mobile.hideKeyboard()
 
-String nomor = Mobile.getText(findTestObject('Object Repository/Transfer/Topup/Topup Pulsa - Indosat/05-TextView-No'), 0)
+Mobile.delay(1)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Pulsa Indosat - Insuficcient Balance\\04.png')
 
+Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/Indosat - Insuficcient Balance/05. ViewGroup - Lanjut'), 0)
+
+Mobile.delay(1)
+
+Mobile.swipe(900, 500, 100, 500)
+
+Mobile.swipe(900, 500, 100, 500)
+
+Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/Indosat - Insuficcient Balance/06. PathView-Pilih Nominal'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/Indosat - Insuficcient Balance/07. TextView-25000'), 0)
+
+Mobile.delay(1)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Pulsa Indosat - Insuficcient Balance\\05.png')
+
+Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/Indosat - Insuficcient Balance/08. ViewGroup-Lanjut'), 0)
+
+Mobile.verifyElementText(findTestObject('Object Repository/Topup/Pulsa/Indosat - Insuficcient Balance/09. TextView-Pembelian INDOSAT OOREDOO'),
+	'Pembelian INDOSAT OOREDOO')
+
+Mobile.verifyElementText(findTestObject('Object Repository/Topup/Pulsa/Indosat - Insuficcient Balance/10. TextView-verif 085770056083'), 
+	'085770056083')
+
+String nomor = Mobile.getText(findTestObject('Object Repository/Topup/Pulsa/Indosat - Insuficcient Balance/10. TextView-verif 085770056083'), 0)
 println(nomor)
 
-Mobile.tap(findTestObject('Transfer/Topup/Topup Pulsa - Indosat/06-dropdown-nominal'), 0)
+Mobile.verifyElementText(findTestObject('Object Repository/Topup/Pulsa/Indosat - Insuficcient Balance/11. TextView-Rp. 25.000'), 
+	'Rp. 25.000')
 
-Mobile.tap(findTestObject('Transfer/Topup/Topup Pulsa - Indosat/06-dropdown-TextView-Rp. 100.000'), 0)
-
-String nominal = Mobile.getText(findTestObject('Transfer/Topup/Topup Pulsa - Indosat/07-dropdown-nominal aftr'), 0)
-
+String nominal = Mobile.getText(findTestObject('Object Repository/Topup/Pulsa/Indosat - Insuficcient Balance/11. TextView-Rp. 25.000'), 0)
 println(nominal)
 
-Mobile.takeScreenshot()
+Mobile.verifyElementText(findTestObject('Object Repository/Topup/Pulsa/Indosat - Insuficcient Balance/12. TextView-Rp. 1.500'), 
+	'Rp. 1.500')
 
-Mobile.tap(findTestObject('Object Repository/Transfer/Topup/Topup Pulsa - Indosat/08-button-lnjt'),0)
+String admin = Mobile.getText(findTestObject('Object Repository/Topup/Pulsa/Indosat - Insuficcient Balance/12. TextView-Rp. 1.500'), 0)
+println(admin)
 
-Mobile.verifyElementText(findTestObject('Object Repository/Transfer/Topup/Topup Pulsa - Indosat/09-TextView-no'), nomor)
+Mobile.verifyElementText(findTestObject('Object Repository/Topup/Pulsa/Indosat - Insuficcient Balance/13. TextView-Rp. 26.500'), 
+	'Rp.  26.500')
 
-Mobile.verifyElementText(findTestObject('Object Repository/Transfer/Topup/Topup Pulsa - Indosat/09-TextView-Nominal'), nominal)
+String total = Mobile.getText(findTestObject('Object Repository/Topup/Pulsa/Indosat - Insuficcient Balance/13. TextView-Rp. 26.500'), 0)
+println(total)
 
-int byadm = 1500
+Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/Indosat - Insuficcient Balance/14. EditText-M-PIN'), 0)
 
-String adm = String.format('%,d', byadm).replace(',', '.')
+Mobile.setText(findTestObject('Object Repository/Topup/Pulsa/Indosat - Insuficcient Balance/14. EditText-M-PIN'), 
+	'111111', 0)
 
-Mobile.verifyElementText(findTestObject('Object Repository/Transfer/Topup/Topup Pulsa - Indosat/09-TextView-byadm'), 'Rp. ' + adm)
+Mobile.hideKeyboard()
 
-String byadmin = Mobile.getText(findTestObject('Object Repository/Transfer/Topup/Topup Pulsa - Indosat/09-TextView-byadm'), 0)
+Mobile.delay(1)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Pulsa Indosat - Insuficcient Balance\\06.png')
 
-String nominalangka = nominal.replaceAll('[^\\d]', '') //mereplace string selain angka (Rp.) agar dapat diubah tipe datanya
+Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/Indosat - Insuficcient Balance/15. ViewGroup-Lanjut'), 0)
 
-int nominalint = nominalangka.toInteger()
-//merubah tipe data nominal dari string ke int
+Mobile.delay(1)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Pulsa Indosat - Insuficcient Balance\\07.png')
 
-int totaltopup = nominalint + byadm //perhitungan nominal paket data ditambah biaya admin
+Mobile.verifyElementText(findTestObject('Object Repository/Topup/Pulsa/Indosat - Insuficcient Balance/16. TextView-verif Insuficcient Balance'),
+	'Dana Anda tidak cukup untuk melakukan transaksi. Pastikan sumber dana yang anda pilih cukup untuk melakukan transaksi [H51]')
 
-println(totaltopup)
+Mobile.delay(1)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Pulsa Indosat - Insuficcient Balance\\08.png')
 
-String tot = String.format('%,d', totaltopup).replace(',', '.')
+Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/Indosat - Insuficcient Balance/17. TextView-OK'), 0)
 
-println(tot)
-
-Mobile.verifyElementText(findTestObject('Object Repository/Transfer/Topup/Topup Pulsa - Indosat/09-TextView-Total'), 'Rp.  ' + tot)
-
-String total = Mobile.getText(findTestObject('Object Repository/Transfer/Topup/Topup Pulsa - Indosat/09-TextView-Total'), 0)
-
-Mobile.tap(findTestObject('Object Repository/Transfer/Topup/Topup Pulsa - Indosat/10-EditText-M-pin'), 0)
-
-Mobile.setText(findTestObject('Object Repository/Transfer/Topup/Topup Pulsa - Indosat/10-EditText-M-pin'), '111111', 0)
-
-Mobile.pressBack()
-
-Mobile.takeScreenshot()
-
-Mobile.tap(findTestObject('Object Repository/Transfer/Topup/Topup Pulsa - Indosat/11-button-lanjut'), 0)
-
-Mobile.waitForElementPresent(findTestObject('Object Repository/Transfer/Topup/Topup Pulsa - Indosat/16-TextView-Error'), 0)
-
-Mobile.verifyElementText(findTestObject('Object Repository/Transfer/Topup/Topup Pulsa - Indosat/16-TextView-Error'), 'Error')
-
-Mobile.verifyElementText(findTestObject('Object Repository/Transfer/Topup/Topup Pulsa - Indosat/15-TextView-Insufficient'), 'Dana Anda tidak cukup untuk melakukan transaksi. Pastikan sumber dana yang anda pilih cukup untuk melakukan transaksi [H51]')
-
-Mobile.takeScreenshot()
-
-Mobile.tap(findTestObject('Object Repository/Transfer/Topup/Topup Pulsa - Indosat/17-Button-OK'), 0)
-
-Mobile.delay(2)
-
-Mobile.tap(findTestObject('Object Repository/Transfer/Topup/Topup Pulsa - Indosat/11-button-batal'),0)
-
-Mobile.delay(2)
+Mobile.delay(1)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Pulsa Indosat - Insuficcient Balance\\09.png')
 
 Mobile.pressBack()
 
+Mobile.pressBack()
+
+Mobile.pressBack()
+
+Mobile.pressBack()
+
+Mobile.closeApplication()

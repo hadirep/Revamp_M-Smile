@@ -20,17 +20,17 @@ import org.openqa.selenium.Keys as Keys
 Mobile.startExistingApplication('com.bankmega.msmiledev')
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-TOPUP - Paket Data Telkomsel\\01.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Paket Data Telkomsel\\01.png')
 
 Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/Telkomsel/01-button-topup'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-TOPUP - Paket Data Telkomsel\\01.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Paket Data Telkomsel\\02.png')
 
 Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/Telkomsel/02-button-paket data'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-TOPUP - Paket Data Telkomsel\\01.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Paket Data Telkomsel\\03.png')
 
 Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/Telkomsel/03-EditText-input nomor'), 0)
 
@@ -39,7 +39,7 @@ Mobile.setText(findTestObject('Object Repository/Topup/Paket Data/Telkomsel/03-E
 Mobile.pressBack()
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-TOPUP - Paket Data Telkomsel\\01.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Paket Data Telkomsel\\04.png')
 
 Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/Telkomsel/04-button-lanjut'), 0)
 
@@ -47,9 +47,9 @@ String nomor = Mobile.getText(findTestObject('Object Repository/Topup/Paket Data
 
 println(nomor)
 
-Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/Telkomsel/06-dropdown-jenispkt'), 0)
+Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/Telkomsel/06. SvgView-Jenis Paket'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/Telkomsel/06-dropdown-paket internet'), 0)
+Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/Telkomsel/07. ViewGroup-10000'), 0)
 
 String nominal = Mobile.getText(findTestObject('Object Repository/Topup/Paket Data/Telkomsel/07-TextView-nominal'), 0)
 
@@ -60,7 +60,7 @@ Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/Telkomsel/08-dropd
 Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/Telkomsel/08-dropdown-sekarang'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-TOPUP - Paket Data Telkomsel\\01.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Paket Data Telkomsel\\05.png')
 
 Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/Telkomsel/09-button-lanjut'), 0)
 
@@ -102,7 +102,7 @@ Mobile.setText(findTestObject('Object Repository/Topup/Paket Data/Telkomsel/11-E
 Mobile.pressBack()
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-TOPUP - Paket Data Telkomsel\\01.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Paket Data Telkomsel\\06.png')
 
 Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/Telkomsel/12-button- lanjut'), 0)
 
@@ -117,7 +117,7 @@ Mobile.verifyElementText(findTestObject('Object Repository/Topup/Paket Data/Telk
 Mobile.verifyElementText(findTestObject('Object Repository/Topup/Paket Data/Telkomsel/13-TextView-total'), total)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-TOPUP - Paket Data Telkomsel\\01.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Paket Data Telkomsel\\07.png')
 
 Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/Telkomsel/14-button-close'), 0)
 

@@ -20,17 +20,17 @@ import org.openqa.selenium.Keys as Keys
 Mobile.startExistingApplication('com.bankmega.msmiledev')
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\N-TC-TOPUP - PLN - Prepaid\\01.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\N-TC-TOPUP - PLN - Prepaid\\01.png')
 
 Mobile.tap(findTestObject('Object Repository/Transfer/Topup/Topup - PLN/N-TC-TOPUP - PLN - Prepaid/01. ViewGroup - Top Up'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\N-TC-TOPUP - PLN - Prepaid\\02.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\N-TC-TOPUP - PLN - Prepaid\\02.png')
 
 Mobile.tap(findTestObject('Object Repository/Transfer/Topup/Topup - PLN/N-TC-TOPUP - PLN - Prepaid/02. View-PLN'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\N-TC-TOPUP - PLN - Prepaid\\03.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\N-TC-TOPUP - PLN - Prepaid\\03.png')
 
 Mobile.tap(findTestObject('Object Repository/Transfer/Topup/Topup - PLN/N-TC-TOPUP - PLN - Prepaid/03. TextView-Tap nopel'), 0)
 
@@ -40,27 +40,27 @@ Mobile.setText(findTestObject('Object Repository/Transfer/Topup/Topup - PLN/N-TC
 Mobile.hideKeyboard()
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\N-TC-TOPUP - PLN - Prepaid\\04.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\N-TC-TOPUP - PLN - Prepaid\\04.png')
 
 Mobile.tap(findTestObject('Object Repository/Transfer/Topup/Topup - PLN/N-TC-TOPUP - PLN - Prepaid/05. ViewGroup-Lanjut'), 
     0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\N-TC-TOPUP - PLN - Prepaid\\05.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\N-TC-TOPUP - PLN - Prepaid\\05.png')
 
 Mobile.tap(findTestObject('Object Repository/Transfer/Topup/Topup - PLN/N-TC-TOPUP - PLN - Prepaid/06. ViewGroup-OK'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\N-TC-TOPUP - PLN - Prepaid\\06.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\N-TC-TOPUP - PLN - Prepaid\\06.png')
 
 Mobile.pressBack()
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\N-TC-TOPUP - PLN - Prepaid\\07.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\N-TC-TOPUP - PLN - Prepaid\\07.png')
 
 Mobile.pressBack()
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\N-TC-TOPUP - PLN - Prepaid\\08.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\N-TC-TOPUP - PLN - Prepaid\\08.png')
 
 Mobile.closeApplication()

@@ -20,12 +20,12 @@ import org.openqa.selenium.Keys as Keys
 Mobile.startExistingApplication('com.bankmega.msmiledev')
 
 Mobile.delay(2)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-QRIS - Terima Transfer\\01.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-QRIS - Terima Transfer\\01.png')
 
 Mobile.tap(findTestObject('Object Repository/QRIS/Terima Transfer/01. ViewGroup-QRIS'), 0)
 
 Mobile.delay(2)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-QRIS - Terima Transfer\\02.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-QRIS - Terima Transfer\\02.png')
 
 Mobile.tap(findTestObject('Object Repository/QRIS/Terima Transfer/02. GroupView-Terima Transfer'), 0)
 
@@ -38,7 +38,7 @@ Mobile.setText(findTestObject('Object Repository/QRIS/Terima Transfer/04. EditTe
 Mobile.hideKeyboard()
 
 Mobile.delay(2)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-QRIS - Terima Transfer\\03.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-QRIS - Terima Transfer\\03.png')
 
 Mobile.tap(findTestObject('Object Repository/QRIS/Terima Transfer/05. ViewGroup-Lanjut'), 0)
 
@@ -52,22 +52,22 @@ Mobile.verifyElementText(findTestObject('Object Repository/QRIS/Terima Transfer/
 	'010740021017780')
 
 Mobile.delay(2)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-QRIS - Terima Transfer\\04.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-QRIS - Terima Transfer\\04.png')
 
 Mobile.tap(findTestObject('Object Repository/QRIS/Terima Transfer/09. ViewGroup-Bagikan QRIS'), 0)
 
 Mobile.delay(2)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-QRIS - Terima Transfer\\05.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-QRIS - Terima Transfer\\05.png')
 
 Mobile.pressBack()
 
 Mobile.delay(2)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-QRIS - Terima Transfer\\06.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-QRIS - Terima Transfer\\06.png')
 
 Mobile.tap(findTestObject('Object Repository/QRIS/Terima Transfer/10. ViewGroup-Cek Status'), 0)
 
 Mobile.delay(2)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-QRIS - Terima Transfer\\07.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-QRIS - Terima Transfer\\07.png')
 
 Mobile.verifyElementText(findTestObject('Object Repository/QRIS/Terima Transfer/11. TextView-Transaksi Berhasil'),
 	'Transaksi Berhasil!')
@@ -87,11 +87,11 @@ Mobile.verifyElementText(findTestObject('Object Repository/QRIS/Terima Transfer/
 Mobile.tap(findTestObject('Object Repository/QRIS/Terima Transfer/16. ViewGroup-Bagikan'), 0)
 
 Mobile.delay(2)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-QRIS - Terima Transfer\\08.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-QRIS - Terima Transfer\\08.png')
 
 Mobile.pressBack()
 
 Mobile.delay(2)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-QRIS - Terima Transfer\\09.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-QRIS - Terima Transfer\\09.png')
 
 Mobile.closeApplication()

@@ -39,32 +39,32 @@ import org.openqa.selenium.Keys as Keys
 Mobile.startExistingApplication('com.bankmega.msmiledev')
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-QRIS - Upload QRIS - Albums\\01.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-QRIS - Upload QRIS - Albums\\01.png')
 
 Mobile.tap(findTestObject('Object Repository/QRIS/Upload QRIS - Albums/01. ViewGroup - Button QRIS'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-QRIS - Upload QRIS - Albums\\02.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-QRIS - Upload QRIS - Albums\\02.png')
 
 Mobile.tapAtPosition(980, 2050)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-QRIS - Upload QRIS - Albums\\03.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-QRIS - Upload QRIS - Albums\\03.png')
 
 Mobile.tap(findTestObject('Object Repository/QRIS/Upload QRIS - Albums/02. TextView-Albums'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-QRIS - Upload QRIS - Albums\\04.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-QRIS - Upload QRIS - Albums\\04.png')
 
 Mobile.tap(findTestObject('Object Repository/QRIS/Upload QRIS - Albums/03. CardView-WhatsApp Album'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-QRIS - Upload QRIS - Albums\\05.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-QRIS - Upload QRIS - Albums\\05.png')
 
 Mobile.tap(findTestObject('Object Repository/QRIS/Upload QRIS - Albums/04. ImageView-Barcode'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-QRIS - Upload QRIS - Albums\\06.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-QRIS - Upload QRIS - Albums\\06.png')
 
 Mobile.tap(findTestObject('Object Repository/QRIS/Upload QRIS - Albums/05. SvgView - Cek Saldo'), 0)
 
@@ -81,7 +81,7 @@ Mobile.verifyElementText(findTestObject('Object Repository/QRIS/Upload QRIS - Al
 	'Rp. 10.000')
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-QRIS - Upload QRIS - Albums\\07.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-QRIS - Upload QRIS - Albums\\07.png')
 
 Mobile.tap(findTestObject('Object Repository/QRIS/Upload QRIS - Albums/10. ViewGroup - Button Lanjut'), 0)
 
@@ -121,7 +121,7 @@ Mobile.setText(findTestObject('Object Repository/QRIS/Upload QRIS - Albums/22. E
 Mobile.hideKeyboard()
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-QRIS - Upload QRIS - Albums\\08.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-QRIS - Upload QRIS - Albums\\08.png')
 
 Mobile.tap(findTestObject('Object Repository/QRIS/Upload QRIS - Albums/23. ViewGroup-Bayar'), 0)
 
@@ -144,42 +144,42 @@ Mobile.verifyElementText(findTestObject('Object Repository/QRIS/Upload QRIS - Al
 	'Rp. 10.000')
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-QRIS - Upload QRIS - Albums\\09.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-QRIS - Upload QRIS - Albums\\09.png')
 
 Mobile.tap(findTestObject('Object Repository/QRIS/Upload QRIS - Albums/30. ViewGroup-Bagikan'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-QRIS - Upload QRIS - Albums\\10.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-QRIS - Upload QRIS - Albums\\10.png')
 
 Mobile.tap(findTestObject('Object Repository/QRIS/Upload QRIS - Albums/31. ImageView-Click WhatsApp'), 0)
 
 Mobile.delay(2)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-QRIS - Upload QRIS - Albums\\11.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-QRIS - Upload QRIS - Albums\\11.png')
 
 Mobile.tap(findTestObject('Object Repository/QRIS/Upload QRIS - Albums/32. ImageButton-Search'), 0)
 
 Mobile.delay(2)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-QRIS - Upload QRIS - Albums\\12.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-QRIS - Upload QRIS - Albums\\12.png')
 
 Mobile.setText(findTestObject('Object Repository/QRIS/Upload QRIS - Albums/33. EditText-Search name or number'), 'Data', 0)
 
 Mobile.delay(2)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-QRIS - Upload QRIS - Albums\\13.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-QRIS - Upload QRIS - Albums\\13.png')
 
 Mobile.tap(findTestObject('Object Repository/QRIS/Upload QRIS - Albums/34. LinearLayout-Click Contact'), 0)
 
 Mobile.delay(2)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-QRIS - Upload QRIS - Albums\\14.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-QRIS - Upload QRIS - Albums\\14.png')
 
 Mobile.tap(findTestObject('Object Repository/QRIS/Upload QRIS - Albums/35. ImageButton-Sent to chat'), 0)
 
 Mobile.delay(2)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-QRIS - Upload QRIS - Albums\\15.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-QRIS - Upload QRIS - Albums\\15.png')
 
 Mobile.tap(findTestObject('Object Repository/QRIS/Upload QRIS - Albums/36. ImageButton-Sent to chat 2'), 0)
 
 Mobile.delay(2)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-QRIS - Upload QRIS - Albums\\16.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-QRIS - Upload QRIS - Albums\\16.png')
 
 Mobile.pressBack()
 
@@ -190,6 +190,6 @@ Mobile.pressBack()
 Mobile.tap(findTestObject('Object Repository/QRIS/Upload QRIS - Albums/37. PathView-Close Button'), 0)
 
 Mobile.delay(2)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-QRIS - Upload QRIS - Albums\\17.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-QRIS - Upload QRIS - Albums\\17.png')
 
 Mobile.closeApplication()

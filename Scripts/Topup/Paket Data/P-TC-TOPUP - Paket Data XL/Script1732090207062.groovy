@@ -20,17 +20,17 @@ import org.openqa.selenium.Keys as Keys
 Mobile.startExistingApplication('com.bankmega.msmiledev')
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-TOPUP - Paket Data XL-Axis\\01.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Paket Data XL-Axis\\01.png')
 
 Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/XL-Axis/01-button-topup'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-TOPUP - Paket Data XL-Axis\\02.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Paket Data XL-Axis\\02.png')
 
 Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/XL-Axis/02-button-paket data'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-TOPUP - Paket Data XL-Axis\\03.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Paket Data XL-Axis\\03.png')
 
 Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/XL-Axis/03-EditText-input nomor'), 0)
 
@@ -40,7 +40,7 @@ Mobile.setText(findTestObject('Object Repository/Topup/Paket Data/XL-Axis/03-Edi
 Mobile.pressBack()
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-TOPUP - Paket Data XL-Axis\\04.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Paket Data XL-Axis\\04.png')
 
 Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/XL-Axis/04-button-lanjut'), 0)
 
@@ -62,7 +62,7 @@ Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/XL-Axis/08-dropdow
 Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/XL-Axis/08-dropdown-sekarang'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-TOPUP - Paket Data XL-Axis\\05.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Paket Data XL-Axis\\05.png')
 
 Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/XL-Axis/09-button-lanjut'), 0)
 
@@ -110,7 +110,7 @@ Mobile.setText(findTestObject('Object Repository/Topup/Paket Data/XL-Axis/11-Edi
 Mobile.pressBack()
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-TOPUP - Paket Data XL-Axis\\06.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Paket Data XL-Axis\\06.png')
 
 Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/XL-Axis/12-button- lanjut'), 0)
 
@@ -126,17 +126,17 @@ Mobile.verifyElementText(findTestObject('Object Repository/Topup/Paket Data/XL-A
 Mobile.verifyElementText(findTestObject('Object Repository/Topup/Paket Data/XL-Axis/13.TextView-total'), total)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-TOPUP - Paket Data XL-Axis\\07.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Paket Data XL-Axis\\07.png')
 
 Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/XL-Axis/14-button-close'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-TOPUP - Paket Data XL-Axis\\08.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Paket Data XL-Axis\\08.png')
 
 Mobile.pressBack()
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-TOPUP - Paket Data XL-Axis\\09.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Paket Data XL-Axis\\09.png')
 
 Mobile.closeApplication()
 

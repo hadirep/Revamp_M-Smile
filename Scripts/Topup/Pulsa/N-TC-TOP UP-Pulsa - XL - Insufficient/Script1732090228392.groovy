@@ -41,7 +41,7 @@ Mobile.tap(findTestObject('Topup/Pulsa/XL-Dormant/003.EditText -Input Number'), 
 
 Mobile.setText(findTestObject('Topup/Pulsa/XL-Dormant/003.EditText -Input Number'), '087785626440', 0)
 
-Mobile.tap(findTestObject('Topup/Pulsa/android.widget.TextView - Lanjut'), 0)
+Mobile.tap(findTestObject('Topup/Pulsa/XL-Dormant/android.widget.TextView - Lanjut'), 0)
 
 Mobile.tap(findTestObject('Topup/Pulsa/Smartfren/013.PathView - Button Picklist'), 0)
 
