@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>P-TC-LAYANAN - Kartu Kredit - Ubah PIN</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>38f943df-84ce-4a61-847b-9ea9cca14d81</testCaseGuid>
+</TestCaseEntity>

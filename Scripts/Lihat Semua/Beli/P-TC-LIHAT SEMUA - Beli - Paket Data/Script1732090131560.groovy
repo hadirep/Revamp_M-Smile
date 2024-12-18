@@ -20,19 +20,19 @@ import org.openqa.selenium.Keys as Keys
 Mobile.startExistingApplication('com.bankmega.msmiledev')
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Beli - Paket Data\\01.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Beli - Paket Data\\01.png')
 
 Mobile.tap(findTestObject('Object Repository/Lihat Semua/Beli/Paket Data/01. ViewGroup - Lihat Semua'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Beli - Paket Data\\02.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Beli - Paket Data\\02.png')
 
 Mobile.delay(3)
 
 Mobile.swipe(500, 1150, 500, 500)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Beli - Paket Data\\03.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Beli - Paket Data\\03.png')
 
 Mobile.tap(findTestObject('Object Repository/Lihat Semua/Beli/Paket Data/02. ImageView - Paket Data'), 0)
 
@@ -47,7 +47,7 @@ Mobile.setText(findTestObject('Object Repository/Lihat Semua/Beli/Paket Data/05.
 Mobile.hideKeyboard()
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Beli - Paket Data\\04.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Beli - Paket Data\\04.png')
 
 
 Mobile.tap(findTestObject('Object Repository/Lihat Semua/Beli/Paket Data/06. ViewGroup - Lanjut'), 0)
@@ -61,7 +61,7 @@ Mobile.verifyElementText(findTestObject('Object Repository/Lihat Semua/Beli/Pake
 	'085711357924')
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Beli - Paket Data\\05.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Beli - Paket Data\\05.png')
 
 Mobile.tap(findTestObject('Object Repository/Lihat Semua/Beli/Paket Data/10. ViewGroup - Back Btn (Paket Data-1)'), 0)
 

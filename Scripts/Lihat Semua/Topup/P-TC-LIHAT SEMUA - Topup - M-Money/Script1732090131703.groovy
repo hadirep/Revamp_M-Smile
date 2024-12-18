@@ -20,46 +20,49 @@ import org.openqa.selenium.Keys as Keys
 Mobile.startExistingApplication('com.bankmega.msmiledev')
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Topup - M-Money\\01.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Topup - M-Money\\01.png')
 
 Mobile.tap(findTestObject('Object Repository/Lihat Semua/Topup/M-Money/01. ViewGroup-Lihat Semua'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Topup - M-Money\\02.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Topup - M-Money\\02.png')
 
-Mobile.tap(findTestObject('Object Repository/Lihat Semua/Topup/M-Money/02. ImageView-Icon M-Money'), 0)
+Mobile.tap(findTestObject('Object Repository/Lihat Semua/Topup/M-Money/02. ImageView-M-Money'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Topup - M-Money\\03.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Topup - M-Money\\03.png')
 
-Mobile.tap(findTestObject('Object Repository/Lihat Semua/Topup/M-Money/03. TextView-Tap field nopel'), 0)
+Mobile.tap(findTestObject('Object Repository/Lihat Semua/Topup/M-Money/03. EditText-Tap Nopel'), 0)
 
-Mobile.setText(findTestObject('Object Repository/Lihat Semua/Topup/M-Money/04. EditText-Set nopel'), '085711357924', 0)
+Mobile.setText(findTestObject('Object Repository/Lihat Semua/Topup/M-Money/04. EditText-Input No HP'), '085711357924', 0)
 
 Mobile.hideKeyboard()
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Topup - M-Money\\04.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Topup - M-Money\\04.png')
 
 Mobile.tap(findTestObject('Object Repository/Lihat Semua/Topup/M-Money/05. ViewGroup-Lanjut'), 0)
 
-Mobile.verifyElementText(findTestObject('Object Repository/Lihat Semua/Topup/M-Money/06. TextView-E-Wallet'), 
-	'E-Wallet')
-
-Mobile.tap(findTestObject('Object Repository/Lihat Semua/Topup/M-Money/07. SvgView-Cek Saldo'), 0)
-
-Mobile.verifyElementText(findTestObject('Object Repository/Lihat Semua/Topup/M-Money/08. EditText-085711357924'), 
+Mobile.verifyElementText(findTestObject('Object Repository/Lihat Semua/Topup/M-Money/06. EditText-verif 085711357924'), 
 	'085711357924')
 
-Mobile.verifyElementText(findTestObject('Object Repository/Lihat Semua/Topup/M-Money/09. EditText-M-Money'), 
+Mobile.verifyElementText(findTestObject('Object Repository/Lihat Semua/Topup/M-Money/07. EditText-verif M-Money'), 
 	'M-Money')
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Topup - M-Money\\05.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Topup - M-Money\\05.png')
 
 Mobile.pressBack()
+Mobile.delay(1)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Topup - M-Money\\06.png')
+
 Mobile.pressBack()
+Mobile.delay(1)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Topup - M-Money\\07.png')
+
 Mobile.pressBack()
+Mobile.delay(1)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Topup - M-Money\\08.png')
 
 Mobile.closeApplication()
 

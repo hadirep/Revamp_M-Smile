@@ -19,128 +19,112 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('com.bankmega.msmiledev')
 
-Mobile.delay(1)
-
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BAYAR - Telepon - Telkom Pay\\01.png')
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Telepon - Telkom Pay\\01.png')
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Telepon/Telkom Pay/01. ViewGroup-Bayar'), 0)
 
-Mobile.delay(1)
-
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BAYAR - Telepon - Telkom Pay\\02.png')
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Telepon - Telkom Pay\\02.png')
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Telepon/Telkom Pay/02. ViewGroup-Telepon'), 0)
 
-Mobile.delay(1)
-
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BAYAR - Telepon - Telkom Pay\\03.png')
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Telepon - Telkom Pay\\03.png')
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Telepon/Telkom Pay/03. SvgView-Cek Saldo'), 0)
 
-Mobile.delay(1)
-
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BAYAR - Telepon - Telkom Pay\\04.png')
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Telepon - Telkom Pay\\04.png')
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Telepon/Telkom Pay/04. TextView-Daftar Produk'), 0)
 
-Mobile.delay(1)
-
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BAYAR - Telepon - Telkom Pay\\05.png')
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Telepon - Telkom Pay\\05.png')
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Telepon/Telkom Pay/05. TextView-TELKOM PAY'), 0)
 
-Mobile.delay(1)
-
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BAYAR - Telepon - Telkom Pay\\06.png')
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Telepon - Telkom Pay\\06.png')
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Telepon/Telkom Pay/06. TextView-Tap Nopel'), 0)
 
-Mobile.delay(1)
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Telepon - Telkom Pay\\07.png')
 
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BAYAR - Telepon - Telkom Pay\\07.png')
-
-Mobile.setText(findTestObject('Object Repository/Bayar/Telepon/Telkom Pay/07. EditText-Set Nopel'), '081102125001', 
-    0)
+Mobile.setText(findTestObject('Object Repository/Bayar/Telepon/Telkom Pay/07. EditText-Set Nopel'), '081102125001', 0)
 
 Mobile.hideKeyboard()
 
-Mobile.delay(1)
-
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BAYAR - Telepon - Telkom Pay\\08.png')
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Telepon - Telkom Pay\\08.png')
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Telepon/Telkom Pay/08. ViewGroup-Ok'), 0)
 
-Mobile.delay(
-)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BAYAR - Telepon - Telkom Pay\\09.png')
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Telepon - Telkom Pay\\09.png')
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Telepon/Telkom Pay/09. ViewGroup-Lanjut'), 0)
 
 Mobile.verifyElementText(findTestObject('Object Repository/Bayar/Telepon/Telkom Pay/10. TextView-verif TELKOM PAY'), 
 	'TELKOM PAY')
 
-Mobile.delay(1)
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Telepon - Telkom Pay\\10.png')
 
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BAYAR - Telepon - Telkom Pay\\10.png')
+Mobile.tap(findTestObject('Object Repository/Bayar/Telepon/Telkom Pay/11. ViewGroup-Tap M-PIN'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Bayar/Telepon/Telkom Pay/16. ViewGroup-Tap M-PIN'), 0)
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Telepon - Telkom Pay\\11.png')
 
-Mobile.delay(1)
-
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BAYAR - Telepon - Telkom Pay\\11.png')
-
-Mobile.setText(findTestObject('Object Repository/Bayar/Telepon/Telkom Pay/17. EditText-Set M-PIN'), 
+Mobile.setText(findTestObject('Object Repository/Bayar/Telepon/Telkom Pay/12. EditText-Set M-PIN'), 
 	'111111', 0)
 
 Mobile.hideKeyboard()
 
-Mobile.delay(1)
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Telepon - Telkom Pay\\12.png')
 
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BAYAR - Telepon - Telkom Pay\\12.png')
+Mobile.tap(findTestObject('Object Repository/Bayar/Telepon/Telkom Pay/13. ViewGroup-Bayar'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Bayar/Telepon/Telkom Pay/18. ViewGroup-Bayar'), 0)
-
-Mobile.verifyElementText(findTestObject('Object Repository/Bayar/Telepon/Telkom Pay/19. TextView-verif Pembayaran Berhasil'), 
+Mobile.verifyElementText(findTestObject('Object Repository/Bayar/Telepon/Telkom Pay/14. TextView-verif Pembayaran Berhasil'), 
     'Pembayaran Berhasil!')
+
+Mobile.verifyElementText(findTestObject('Object Repository/Bayar/Telepon/Telkom Pay/15. TextView-verif Rp. 51.903'), 
+	'Rp. 51.903')
+
+Mobile.verifyElementText(findTestObject('Object Repository/Bayar/Telepon/Telkom Pay/16. TextView-verif 081102125001'), 
+	'081102125001')
+
+Mobile.verifyElementText(findTestObject('Object Repository/Bayar/Telepon/Telkom Pay/17. TextView-verif WARREN CUCCURULLO'), 
+    'WARREN CUCCURULLO')
+
+Mobile.verifyElementText(findTestObject('Object Repository/Bayar/Telepon/Telkom Pay/18. TextView-verif Rp. 49.403'), 
+	'Rp. 49.403')
+
+Mobile.verifyElementText(findTestObject('Object Repository/Bayar/Telepon/Telkom Pay/19. TextView-verif Rp. 2500'), 
+	'Rp. 2500')
 
 Mobile.verifyElementText(findTestObject('Object Repository/Bayar/Telepon/Telkom Pay/20. TextView-verif Rp. 51.903'), 
 	'Rp. 51.903')
 
-Mobile.verifyElementText(findTestObject('Object Repository/Bayar/Telepon/Telkom Pay/21. TextView-verif 081102125001'), 
-	'081102125001')
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Telepon - Telkom Pay\\13.png')
 
-Mobile.verifyElementText(findTestObject('Object Repository/Bayar/Telepon/Telkom Pay/22. TextView-verif WARREN CUCCURULLO'), 
-    'WARREN CUCCURULLO')
+Mobile.tap(findTestObject('Object Repository/Bayar/Telepon/Telkom Pay/21. ViewGroup-Bagikan'), 0)
 
-Mobile.verifyElementText(findTestObject('Object Repository/Bayar/Telepon/Telkom Pay/23. TextView-verif Rp. 49.403'), 
-	'Rp. 49.403')
-
-Mobile.verifyElementText(findTestObject('Object Repository/Bayar/Telepon/Telkom Pay/24. TextView-verif Rp. 2500'), 
-	'Rp. 2500')
-
-Mobile.verifyElementText(findTestObject('Object Repository/Bayar/Telepon/Telkom Pay/25. TextView-verif Rp. 51.903'), 
-	'Rp. 51.903')
-
-Mobile.delay(1)
-
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BAYAR - Telepon - Telkom Pay\\13.png')
-
-Mobile.tap(findTestObject('Object Repository/Bayar/Telepon/Telkom Pay/26. ViewGroup-Bagikan'), 0)
-
-Mobile.delay(1)
-
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BAYAR - Telepon - Telkom Pay\\14.png')
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Telepon - Telkom Pay\\14.png')
 
 Mobile.pressBack()
 
-Mobile.delay(1)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BAYAR - Telepon - Telkom Pay\\15.png')
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Telepon - Telkom Pay\\15.png')
 
 Mobile.tapAtPosition(1140, 465)
 
-Mobile.delay(1)
-
-Mobile.takeScreenshot()
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Telepon - Telkom Pay\\16.png')
 
 Mobile.closeApplication()
 

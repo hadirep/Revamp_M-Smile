@@ -67,111 +67,112 @@ Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-AKUN SAYA - Tabungan
 
 Mobile.pressBack()
 
-Mobile.tap(findTestObject('Object Repository/Akun saya/Tabungan/Bayar/08. ImageView - Bayar'), 0)
-
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-AKUN SAYA - Tabungan - Bayar\\06.png')
 
-Mobile.tap(findTestObject('Object Repository/Akun saya/Tabungan/Bayar/09. ViewGroup - Kartu Kredit'), 0)
+Mobile.tap(findTestObject('Object Repository/Akun saya/Tabungan/Bayar/07. ViewGroup-Bayar'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Akun saya/Tabungan/Bayar/10. SvgView - Cek Saldo'), 0)
-
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-AKUN SAYA - Tabungan - Bayar\\07.png')
 
-Mobile.tap(findTestObject('Object Repository/Akun saya/Tabungan/Bayar/11. EditText - Daftar Produk'), 0)
+Mobile.tap(findTestObject('Object Repository/Akun saya/Tabungan/Bayar/08. ViewGroup-Telepon'), 0)
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-AKUN SAYA - Tabungan - Bayar\\08.png')
 
-Mobile.tap(findTestObject('Object Repository/Akun saya/Tabungan/Bayar/12. TextView - CREDIT CARD MEGA'),
-	0)
+Mobile.tap(findTestObject('Object Repository/Akun saya/Tabungan/Bayar/09. SvgView-Cek Saldo'), 0)
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-AKUN SAYA - Tabungan - Bayar\\09.png')
 
-Mobile.tap(findTestObject('Object Repository/Akun saya/Tabungan/Bayar/13. EditText - Nomor Pelanggan'), 0)
+Mobile.tap(findTestObject('Object Repository/Akun saya/Tabungan/Bayar/10. TextView-Daftar Produk'), 0)
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-AKUN SAYA - Tabungan - Bayar\\10.png')
 
-Mobile.tap(findTestObject('Object Repository/Akun saya/Tabungan/Bayar/14. EditText - Input Baru'),0)
+Mobile.tap(findTestObject('Object Repository/Akun saya/Tabungan/Bayar/11. TextView-TELKOM PAY'), 0)
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-AKUN SAYA - Tabungan - Bayar\\11.png')
 
-Mobile.setText(findTestObject('Object Repository/Akun saya/Tabungan/Bayar/14. EditText - Input Baru'),'4201940050189378', 0)
+Mobile.tap(findTestObject('Object Repository/Akun saya/Tabungan/Bayar/12. TextView-Tap Nopel'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Akun saya/Tabungan/Bayar/15. ScrollView - Tap Body'), 0)
-
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-AKUN SAYA - Tabungan - Bayar\\12.png')
 
-Mobile.tap(findTestObject('Object Repository/Akun saya/Tabungan/Bayar/16. ViewGroup - Ok'), 0)
+Mobile.setText(findTestObject('Object Repository/Akun saya/Tabungan/Bayar/13. EditText-Set Nopel'), '081102125001', 0)
 
-Mobile.delay(1)
+Mobile.hideKeyboard()
+
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-AKUN SAYA - Tabungan - Bayar\\13.png')
 
-Mobile.tap(findTestObject('Object Repository/Akun saya/Tabungan/Bayar/17. ViewGroup - Lanjut'), 0)
+Mobile.tap(findTestObject('Object Repository/Akun saya/Tabungan/Bayar/14. ViewGroup-Ok'), 0)
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-AKUN SAYA - Tabungan - Bayar\\14.png')
 
-Mobile.verifyElementText(findTestObject('Object Repository/Akun saya/Tabungan/Bayar/18. TextView - ANITA CHANDRA'), 'ANITA CHANDRA')
+Mobile.tap(findTestObject('Object Repository/Akun saya/Tabungan/Bayar/15. ViewGroup-Lanjut'), 0)
 
-Mobile.verifyElementText(findTestObject('Object Repository/Akun saya/Tabungan/Bayar/19. TextView - 4201940050189378'), '4201940050189378')
+Mobile.verifyElementText(findTestObject('Object Repository/Akun saya/Tabungan/Bayar/16. TextView-verif TELKOM PAY'),
+	'TELKOM PAY')
 
-Mobile.tap(findTestObject('Object Repository/Akun saya/Tabungan/Bayar/20. EditText - Amount'), 0)
-
-Mobile.delay(1)
-
-Mobile.setText(findTestObject('Object Repository/Akun saya/Tabungan/Bayar/20. EditText - Amount'), '1000.000', 0)
-
-Mobile.verifyElementText(findTestObject('Object Repository/Akun saya/Tabungan/Bayar/21. EditText - Amount 1.000.000'), '1.000.000')
-
-Mobile.tap(findTestObject('Object Repository/Akun saya/Tabungan/Bayar/22. ScrollView - Tap Body Amount'), 0)
-
-Mobile.delay(1)
-
-Mobile.tap(findTestObject('Object Repository/Akun saya/Tabungan/Bayar/23. EditText - M-PIN'), 0)
-
-Mobile.delay(1)
-
-Mobile.setText(findTestObject('Object Repository/Akun saya/Tabungan/Bayar/23. EditText - M-PIN'), '111111', 0)
-
-Mobile.tap(findTestObject('Object Repository/Akun saya/Tabungan/Bayar/24. ScrollView - Tap Body M-PIN'), 0)
-
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-AKUN SAYA - Tabungan - Bayar\\15.png')
 
-Mobile.tap(findTestObject('Object Repository/Akun saya/Tabungan/Bayar/25. ViewGroup - Bayar'), 0)
+Mobile.tap(findTestObject('Object Repository/Akun saya/Tabungan/Bayar/17. ViewGroup-Tap M-PIN'), 0)
 
-Mobile.verifyElementText(findTestObject('Object Repository/Akun saya/Tabungan/Bayar/26. TextView - Pembayaran Berhasil'), 'Pembayaran Berhasil!')
-
-Mobile.verifyElementText(findTestObject('Object Repository/Akun saya/Tabungan/Bayar/27. TextView - Pembayaran Berhasil Rp. 1.000.000'), 'Rp. 1.000.000')
-
-Mobile.verifyElementText(findTestObject('Object Repository/Akun saya/Tabungan/Bayar/28. TextView - ANITA CHANDRA'), 'ANITA CHANDRA')
-
-Mobile.verifyElementText(findTestObject('Object Repository/Akun saya/Tabungan/Bayar/29. TextView-verif nominal Rp. 5.065.000'), 'Rp. 5.065.000')
-
-Mobile.verifyElementText(findTestObject('Object Repository/Akun saya/Tabungan/Bayar/30. TextView - Biaya Admin Rp. 0'), 'Rp. 0')
-
-Mobile.verifyElementText(findTestObject('Object Repository/Akun saya/Tabungan/Bayar/31. TextView - Total Bayar Rp. 1.000.000'), 'Rp. 1.000.000')
-
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-AKUN SAYA - Tabungan - Bayar\\16.png')
 
-Mobile.tap(findTestObject('Object Repository/Akun saya/Tabungan/Bayar/32. ViewGroup-Bagikan'), 0)
+Mobile.setText(findTestObject('Object Repository/Akun saya/Tabungan/Bayar/18. EditText-Set M-PIN'),
+	'111111', 0)
+
+Mobile.hideKeyboard()
+
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-AKUN SAYA - Tabungan - Bayar\\17.png')
+
+Mobile.tap(findTestObject('Object Repository/Akun saya/Tabungan/Bayar/19. ViewGroup-Bayar'), 0)
+
+Mobile.verifyElementText(findTestObject('Object Repository/Akun saya/Tabungan/Bayar/20. TextView-verif Pembayaran Berhasil'),
+	'Pembayaran Berhasil!')
+
+Mobile.verifyElementText(findTestObject('Object Repository/Akun saya/Tabungan/Bayar/21. TextView-verif Rp. 51.903'),
+	'Rp. 51.903')
+
+Mobile.verifyElementText(findTestObject('Object Repository/Akun saya/Tabungan/Bayar/22. TextView-verif 081102125001'),
+	'081102125001')
+
+Mobile.verifyElementText(findTestObject('Object Repository/Akun saya/Tabungan/Bayar/23. TextView-verif WARREN CUCCURULLO'),
+	'WARREN CUCCURULLO')
+
+Mobile.verifyElementText(findTestObject('Object Repository/Akun saya/Tabungan/Bayar/24. TextView-verif Rp. 49.403'),
+	'Rp. 49.403')
+
+Mobile.verifyElementText(findTestObject('Object Repository/Akun saya/Tabungan/Bayar/25. TextView-verif Rp. 2500'),
+	'Rp. 2500')
+
+Mobile.verifyElementText(findTestObject('Object Repository/Akun saya/Tabungan/Bayar/26. TextView-verif Rp. 51.903'),
+	'Rp. 51.903')
+
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-AKUN SAYA - Tabungan - Bayar\\18.png')
+
+Mobile.tap(findTestObject('Object Repository/Akun saya/Tabungan/Bayar/27. ViewGroup-Bagikan'), 0)
+
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-AKUN SAYA - Tabungan - Bayar\\19.png')
 
 Mobile.pressBack()
 
-Mobile.delay(1)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-AKUN SAYA - Tabungan - Bayar\\17.png')
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-AKUN SAYA - Tabungan - Bayar\\20.png')
 
-Mobile.tapAtPosition(1140, 430)
+Mobile.tapAtPosition(1140, 465)
 
-Mobile.delay(1)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-AKUN SAYA - Tabungan - Bayar\\18.png')
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-AKUN SAYA - Tabungan - Bayar\\21.png')
 
 Mobile.closeApplication()
 
