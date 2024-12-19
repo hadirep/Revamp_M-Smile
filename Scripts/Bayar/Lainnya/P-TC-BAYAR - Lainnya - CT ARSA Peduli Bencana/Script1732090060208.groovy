@@ -19,22 +19,22 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('com.bankmega.msmiledev')
 
-Mobile.delay(1)
+Mobile.delay(3)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Lainnya - CT ARSA Peduli Bencana\\01.png')
 
 Mobile.tap(findTestObject('Object Repository/Lainnya/CT ARSA Peduli Bencana/01. ViewGroup-Bayar'), 0)
 
-Mobile.delay(1)
+Mobile.delay(3)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Lainnya - CT ARSA Peduli Bencana\\02.png')
 
 Mobile.tap(findTestObject('Object Repository/Lainnya/CT ARSA Peduli Bencana/02. ViewGroup-Lainnya'), 0)
 
-Mobile.delay(1)
+Mobile.delay(3)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Lainnya - CT ARSA Peduli Bencana\\03.png')
 
 Mobile.tap(findTestObject('Object Repository/Lainnya/CT ARSA Peduli Bencana/03. SvgView-Cek Saldo'), 0)
 
-Mobile.delay(1)
+Mobile.delay(3)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Lainnya - CT ARSA Peduli Bencana\\04.png')
 
 Mobile.tap(findTestObject('Object Repository/Lainnya/CT ARSA Peduli Bencana/04. EditText-Daftar Produk'), 0)
@@ -42,19 +42,19 @@ Mobile.tap(findTestObject('Object Repository/Lainnya/CT ARSA Peduli Bencana/04. 
 Mobile.tap(findTestObject('Object Repository/Lainnya/CT ARSA Peduli Bencana/05. TextView-CT ARSA PEDULI BENCANA'), 
     0)
 
-Mobile.delay(1)
+Mobile.delay(3)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Lainnya - CT ARSA Peduli Bencana\\05.png')
 
 Mobile.tap(findTestObject('Object Repository/Lainnya/CT ARSA Peduli Bencana/06. TextView-Tap Nominal'), 0)
 
-Mobile.delay(1)
+Mobile.delay(3)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Lainnya - CT ARSA Peduli Bencana\\06.png')
 
-Mobile.setText(findTestObject('Object Repository/Lainnya/CT ARSA Peduli Bencana/07. EditText-Set Nominal'), '10000', 0)
+Mobile.setText(findTestObject('Object Repository/Lainnya/CT ARSA Peduli Bencana/07. EditText-Set Nominal'), '100000', 0)
 
 Mobile.hideKeyboard()
 
-Mobile.delay(1)
+Mobile.delay(3)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Lainnya - CT ARSA Peduli Bencana\\07.png')
 
 Mobile.tap(findTestObject('Object Repository/Lainnya/CT ARSA Peduli Bencana/08. ViewGroup-Lanjut'), 0)
@@ -65,16 +65,16 @@ Mobile.verifyElementText(findTestObject('Object Repository/Lainnya/CT ARSA Pedul
 Mobile.verifyElementText(findTestObject('Object Repository/Lainnya/CT ARSA Peduli Bencana/10. TextView-verif BENCANA TEST'), 
     'BENCANA TEST')
 
-Mobile.verifyElementText(findTestObject('Object Repository/Lainnya/CT ARSA Peduli Bencana/11. TextView-verif Rp. 10.000'), 
-	'Rp. 10.000')
+Mobile.verifyElementText(findTestObject('Object Repository/Lainnya/CT ARSA Peduli Bencana/11. TextView-verif Nominal Rp. 100.000'), 
+	'Rp. 100.000')
 
 Mobile.verifyElementText(findTestObject('Object Repository/Lainnya/CT ARSA Peduli Bencana/12. TextView-verif adm Rp. 0'), 
 	'Rp. 0')
 
-Mobile.verifyElementText(findTestObject('Object Repository/Lainnya/CT ARSA Peduli Bencana/13. TextView-verif total Rp. 10.000'), 
-    'Rp. 10.000')
+Mobile.verifyElementText(findTestObject('Object Repository/Lainnya/CT ARSA Peduli Bencana/13. TextView-verif Total Rp. 100.000'), 
+    'Rp. 100.000')
 
-Mobile.delay(1)
+Mobile.delay(3)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Lainnya - CT ARSA Peduli Bencana\\08.png')
 
 Mobile.tap(findTestObject('Object Repository/Lainnya/CT ARSA Peduli Bencana/14. TextView-Tap M-PIN'), 0)
@@ -83,7 +83,7 @@ Mobile.setText(findTestObject('Object Repository/Lainnya/CT ARSA Peduli Bencana/
 
 Mobile.hideKeyboard()
 
-Mobile.delay(1)
+Mobile.delay(3)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Lainnya - CT ARSA Peduli Bencana\\09.png')
 
 Mobile.tap(findTestObject('Object Repository/Lainnya/CT ARSA Peduli Bencana/16. ViewGroup-Bayar'), 0)
@@ -91,37 +91,37 @@ Mobile.tap(findTestObject('Object Repository/Lainnya/CT ARSA Peduli Bencana/16. 
 Mobile.verifyElementText(findTestObject('Object Repository/Lainnya/CT ARSA Peduli Bencana/17. TextView-verif Pembayaran Berhasil'), 
     'Pembayaran Berhasil!')
 
-Mobile.verifyElementText(findTestObject('Object Repository/Lainnya/CT ARSA Peduli Bencana/18. TextView-verif Rp. 10.000'), 
-	'Rp. 10.000')
+Mobile.verifyElementText(findTestObject('Object Repository/Lainnya/CT ARSA Peduli Bencana/18. TextView-verif Rp. 100.000'), 
+	'Rp. 100.000')
 
 Mobile.verifyElementText(findTestObject('Object Repository/Lainnya/CT ARSA Peduli Bencana/19. TextView-verif BENCANA TEST'), 
     'BENCANA TEST                  ')
 
-Mobile.verifyElementText(findTestObject('Object Repository/Lainnya/CT ARSA Peduli Bencana/20. TextView-verif Nominal Rp. 10.000'), 
-    'Rp. 10.000')
+Mobile.verifyElementText(findTestObject('Object Repository/Lainnya/CT ARSA Peduli Bencana/20. TextView-verif Nominal Rp. 100.000'), 
+    'Rp. 100.000')
 
 Mobile.verifyElementText(findTestObject('Object Repository/Lainnya/CT ARSA Peduli Bencana/21. TextView-verif adm Rp. 0'),
 	'Rp. 0')
 
-Mobile.verifyElementText(findTestObject('Object Repository/Lainnya/CT ARSA Peduli Bencana/22. TextView-verif total Rp. 10.000'), 
-    'Rp. 10.000')
+Mobile.verifyElementText(findTestObject('Object Repository/Lainnya/CT ARSA Peduli Bencana/22. TextView-verif Total Rp. 100.000'), 
+    'Rp. 100.000')
 
-Mobile.delay(1)
+Mobile.delay(3)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Lainnya - CT ARSA Peduli Bencana\\10.png')
 
 Mobile.tap(findTestObject('Object Repository/Lainnya/CT ARSA Peduli Bencana/23. ViewGroup-Bagikan'), 0)
 
-Mobile.delay(1)
+Mobile.delay(3)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Lainnya - CT ARSA Peduli Bencana\\11.png')
 
 Mobile.pressBack()
 
-Mobile.delay(1)
+Mobile.delay(3)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Lainnya - CT ARSA Peduli Bencana\\12.png')
 
 Mobile.tapAtPosition(1123, 452)
 
-Mobile.delay(1)
+Mobile.delay(3)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Lainnya - CT ARSA Peduli Bencana\\13.png')
 
 Mobile.closeApplication()

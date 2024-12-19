@@ -71,7 +71,7 @@
       <guid>7fdfc9aa-d2b5-48b6-b85a-cde9eb551d41</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Topup/Pulsa/N-TC-TOPUP - Pulsa Indosat - Insuficcient Balance</testCaseId>
+      <testCaseId>Test Cases/Topup/Pulsa/Indosat/N-TC-TOPUP - Pulsa Indosat - Insuficcient Balance</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -84,7 +84,7 @@
       <guid>a7b08f0f-2aa0-4a43-bbb7-f8971ed498e4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Topup/Pulsa/N-TC-TOPUP - Pulsa Indosat - Rekening Dormant</testCaseId>
+      <testCaseId>Test Cases/Topup/Pulsa/Indosat/N-TC-TOPUP - Pulsa Indosat - Rekening Dormant</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -104,7 +104,7 @@
       <guid>c2c35230-65b5-49e4-97c3-902545550759</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Topup/Pulsa/P-TC-TOPUP - Pulsa Indosat</testCaseId>
+      <testCaseId>Test Cases/Topup/Pulsa/Indosat/P-TC-TOPUP - Pulsa Indosat</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
