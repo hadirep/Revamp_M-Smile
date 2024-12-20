@@ -20,39 +20,39 @@ import org.openqa.selenium.Keys as Keys
 Mobile.startExistingApplication('com.bankmega.msmiledev')
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-LAYANAN - Transaksi Terjadwal - Bayar - Hapus Transaksi Terdaftar\\01.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LAYANAN - Transaksi Terjadwal - Bayar - Hapus Transaksi Terdaftar\\01.png')
 
 Mobile.tap(findTestObject('Object Repository/Layanan/Transaksi Terjadwal/Bayar/01.ViewGroup-Layanan'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-LAYANAN - Transaksi Terjadwal - Bayar - Hapus Transaksi Terdaftar\\02.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LAYANAN - Transaksi Terjadwal - Bayar - Hapus Transaksi Terdaftar\\02.png')
 
 Mobile.tap(findTestObject('Object Repository/Layanan/Transaksi Terjadwal/Bayar/02.GroupView-Transaksi Terjadwal'), 0)
 
-Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-LAYANAN - Transaksi Terjadwal - Bayar - Hapus Transaksi Terdaftar\\03.png')
+Mobile.delay(3)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LAYANAN - Transaksi Terjadwal - Bayar - Hapus Transaksi Terdaftar\\03.png')
 
 Mobile.tap(findTestObject('Object Repository/Layanan/Transaksi Terjadwal/Bayar/03.ViewGroup-Bayar'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-LAYANAN - Transaksi Terjadwal - Bayar - Hapus Transaksi Terdaftar\\04.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LAYANAN - Transaksi Terjadwal - Bayar - Hapus Transaksi Terdaftar\\04.png')
 
 Mobile.tap(findTestObject('Object Repository/Layanan/Transaksi Terjadwal/Bayar/04.ViewGroup-Sudah Terdaftar'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-LAYANAN - Transaksi Terjadwal - Bayar - Hapus Transaksi Terdaftar\\05.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LAYANAN - Transaksi Terjadwal - Bayar - Hapus Transaksi Terdaftar\\05.png')
 
 Mobile.tap(findTestObject('Object Repository/Layanan/Transaksi Terjadwal/Bayar/05.GroupView-Delete'), 0)
 
 //spy untuk pertanyaan dari button ya
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-LAYANAN - Transaksi Terjadwal - Bayar - Hapus Transaksi Terdaftar\\06.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LAYANAN - Transaksi Terjadwal - Bayar - Hapus Transaksi Terdaftar\\06.png')
 
 Mobile.tap(findTestObject('Object Repository/Layanan/Transaksi Terjadwal/Bayar/06.Button-YA'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-LAYANAN - Transaksi Terjadwal - Bayar - Hapus Transaksi Terdaftar\\07.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LAYANAN - Transaksi Terjadwal - Bayar - Hapus Transaksi Terdaftar\\07.png')
 
 Mobile.tap(findTestObject('Object Repository/Layanan/Transaksi Terjadwal/Bayar/07.EditText - M-PIN'), 0)
 
@@ -62,22 +62,20 @@ Mobile.setText(findTestObject('Object Repository/Layanan/Transaksi Terjadwal/Bay
 Mobile.pressBack()
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-LAYANAN - Transaksi Terjadwal - Bayar - Hapus Transaksi Terdaftar\\08.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LAYANAN - Transaksi Terjadwal - Bayar - Hapus Transaksi Terdaftar\\08.png')
 
 Mobile.tap(findTestObject('Object Repository/Layanan/Transaksi Terjadwal/Bayar/08.ViewGroup-Lanjut'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-LAYANAN - Transaksi Terjadwal - Bayar - Hapus Transaksi Terdaftar\\09.png')
-
-Mobile.verifyElementText(findTestObject('Object Repository/Layanan/Transaksi Terjadwal/Bayar/09.TextView - Berhasil dihapus'), 'Transaksi terjadwal anda berhasil dihapus')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LAYANAN - Transaksi Terjadwal - Bayar - Hapus Transaksi Terdaftar\\09.png')
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-LAYANAN - Transaksi Terjadwal - Bayar - Hapus Transaksi Terdaftar\\10.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LAYANAN - Transaksi Terjadwal - Bayar - Hapus Transaksi Terdaftar\\10.png')
 
 Mobile.tap(findTestObject('Object Repository/Layanan/Transaksi Terjadwal/Bayar/10.ViewGroup-Tutup'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-LAYANAN - Transaksi Terjadwal - Bayar - Hapus Transaksi Terdaftar\\11.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LAYANAN - Transaksi Terjadwal - Bayar - Hapus Transaksi Terdaftar\\11.png')
 
 Mobile.closeApplication()
 

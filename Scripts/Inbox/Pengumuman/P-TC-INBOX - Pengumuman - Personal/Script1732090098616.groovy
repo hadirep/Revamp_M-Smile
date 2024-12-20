@@ -20,22 +20,22 @@ import org.openqa.selenium.Keys as Keys
 Mobile.startExistingApplication('com.bankmega.msmiledev')
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-INBOX - Pengumuman - Personal\\01.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-INBOX - Pengumuman - Personal\\01.png')
 
 Mobile.tap(findTestObject('Object Repository/Inbox/Pengumuman/Personal/01. ViewGroup-Inbox'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-INBOX - Pengumuman - Personal\\02.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-INBOX - Pengumuman - Personal\\02.png')
 
 Mobile.tap(findTestObject('Object Repository/Inbox/Pengumuman/Personal/02. ViewGroup-Pengumuman'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-INBOX - Pengumuman - Personal\\03.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-INBOX - Pengumuman - Personal\\03.png')
 
 Mobile.tap(findTestObject('Object Repository/Inbox/Pengumuman/Personal/03. ViewGroup-Personal'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-INBOX - Pengumuman - Personal\\04.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-INBOX - Pengumuman - Personal\\04.png')
 
 Mobile.verifyElementText(findTestObject('Object Repository/Inbox/Pengumuman/Personal/04. TextView-Anda Baru saja menerima dana dari Bank Mega 10740021008901 an Fadlilaili Whahda Sabila ke Mega Salary no 808 Anda sebesar Rp. 60.000'), 
     'Anda Baru saja menerima dana dari Bank Mega 10740021008901 an Fadlilaili Whahda Sabila ke Mega Salary no ***808 Anda sebesar Rp. 60.000')
@@ -58,12 +58,12 @@ Mobile.verifyElementText(findTestObject('Object Repository/Inbox/Pengumuman/Pers
 	'Pergi liburan naik kereta api bayar tiketnya tanpa antri. Klik menu bayar di M-Smile dan pilih tiket kereta api ya! Bayarnya gampang bikin liburan makin nyaman!')
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-INBOX - Pengumuman - Personal\\05.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-INBOX - Pengumuman - Personal\\05.png')
 
 Mobile.pressBack()
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-INBOX - Pengumuman - Personal\\06.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-INBOX - Pengumuman - Personal\\06.png')
 
 Mobile.tap(findTestObject('Object Repository/Inbox/Pengumuman/Personal/11. ViewGroup-Tap list 2'), 0)
 
@@ -77,7 +77,7 @@ Mobile.verifyElementText(findTestObject('Object Repository/Inbox/Pengumuman/Pers
 	'Pergi liburan naik kereta api bayar tiketnya tanpa antri. Klik menu bayar di M-Smile dan pilih tiket kereta api ya! Bayarnya gampang bikin liburan makin nyaman!')
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-INBOX - Pengumuman - Personal\\07.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-INBOX - Pengumuman - Personal\\07.png')
 
 Mobile.pressBack()
 
@@ -93,7 +93,7 @@ Mobile.verifyElementText(findTestObject('Object Repository/Inbox/Pengumuman/Pers
 	'Pergi liburan naik kereta api bayar tiketnya tanpa antri. Klik menu bayar di M-Smile dan pilih tiket kereta api ya! Bayarnya gampang bikin liburan makin nyaman!')
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-INBOX - Pengumuman - Personal\\08.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-INBOX - Pengumuman - Personal\\08.png')
 
 Mobile.pressBack()
 

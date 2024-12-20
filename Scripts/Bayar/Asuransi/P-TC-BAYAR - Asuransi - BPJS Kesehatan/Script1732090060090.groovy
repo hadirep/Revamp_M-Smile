@@ -22,56 +22,56 @@ Mobile.startExistingApplication('com.bankmega.msmiledev')
 Mobile.delay(1)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Asuransi - BPJS Kesehatan\\01.png')
 
-Mobile.tap(findTestObject('Object Repository/Bayar/Asuransi/BPJS Kesehatan/01. ViewGroup - Button Bayar'), 0)
+Mobile.tap(findTestObject('Object Repository/Bayar/Asuransi/BPJS Kesehatan/01. ViewGroup-Bayar'), 0)
 
 Mobile.delay(1)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Asuransi - BPJS Kesehatan\\02.png')
 
-Mobile.tap(findTestObject('Object Repository/Bayar/Asuransi/BPJS Kesehatan/02. ViewGroup - Button Asuransi'), 0)
+Mobile.tap(findTestObject('Object Repository/Bayar/Asuransi/BPJS Kesehatan/02. ViewGroup-Asuransi'), 0)
 
-//Mobile.tap(findTestObject('Object Repository/Bayar/Asuransi/BPJS Kesehatan/03. SvgView - Button Cek Saldo'), 0)
+Mobile.tap(findTestObject('Object Repository/Bayar/Asuransi/BPJS Kesehatan/03. SvgView-Cek Saldo'), 0)
 
 Mobile.delay(1)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Asuransi - BPJS Kesehatan\\03.png')
 
-Mobile.tap(findTestObject('Object Repository/Bayar/Asuransi/BPJS Kesehatan/04. ViewGroup - Field Daftar Produk'), 0)
+Mobile.tap(findTestObject('Object Repository/Bayar/Asuransi/BPJS Kesehatan/04. ViewGroup-Daftar Produk'), 0)
 
 Mobile.delay(1)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Asuransi - BPJS Kesehatan\\04.png')
 
-Mobile.tap(findTestObject('Object Repository/Bayar/Asuransi/BPJS Kesehatan/05. ViewGroup - Pilih BPJS Kesehatan'), 0)
+Mobile.tap(findTestObject('Object Repository/Bayar/Asuransi/BPJS Kesehatan/05. ViewGroup-Pilih BPJS Kesehatan'), 0)
 
 Mobile.delay(1)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Asuransi - BPJS Kesehatan\\05.png')
 
-Mobile.tap(findTestObject('Object Repository/Bayar/Asuransi/BPJS Kesehatan/06. ViewGroup - Field Nomor Pelanggan'), 0)
+Mobile.tap(findTestObject('Object Repository/Bayar/Asuransi/BPJS Kesehatan/06. ViewGroup-Nopel'), 0)
 
 Mobile.delay(1)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Asuransi - BPJS Kesehatan\\06.png')
 
-Mobile.tap(findTestObject('Object Repository/Bayar/Asuransi/BPJS Kesehatan/07. EditText - Tap Field Input Baru'), 0)
+Mobile.tap(findTestObject('Object Repository/Bayar/Asuransi/BPJS Kesehatan/07. EditText-Tap Nopel'), 0)
 
-Mobile.setText(findTestObject('Object Repository/Bayar/Asuransi/BPJS Kesehatan/08. EditText - Set Text Field No Pel'), '8888800122115324', 
+Mobile.setText(findTestObject('Object Repository/Bayar/Asuransi/BPJS Kesehatan/08. EditText-Set Nopel'), '8888800122115324', 
     0)
 
-Mobile.tap(findTestObject('Object Repository/Bayar/Asuransi/BPJS Kesehatan/09. ScrollView - Tap Body'), 0)
+Mobile.tap(findTestObject('Object Repository/Bayar/Asuransi/BPJS Kesehatan/09. ScrollView-Tap Body'), 0)
 
 Mobile.delay(1)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Asuransi - BPJS Kesehatan\\07.png')
 
-Mobile.tap(findTestObject('Object Repository/Bayar/Asuransi/BPJS Kesehatan/10. ViewGroup - Button Ok'), 0)
+Mobile.tap(findTestObject('Object Repository/Bayar/Asuransi/BPJS Kesehatan/10. ViewGroup-OK'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Bayar/Asuransi/BPJS Kesehatan/11. ViewGroup - Tap Field Tenor'), 0)
+Mobile.tap(findTestObject('Object Repository/Bayar/Asuransi/BPJS Kesehatan/11. ViewGroup-Tap Tenor'), 0)
 
 Mobile.delay(1)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Asuransi - BPJS Kesehatan\\08.png')
 
-Mobile.tap(findTestObject('Object Repository/Bayar/Asuransi/BPJS Kesehatan/12. ViewGroup - Pilih Tenor 1 Bulan'), 0)
+Mobile.tap(findTestObject('Object Repository/Bayar/Asuransi/BPJS Kesehatan/12. ViewGroup-Pilih Tenor 1 Bulan'), 0)
 
 Mobile.delay(1)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Asuransi - BPJS Kesehatan\\09.png')
 
-Mobile.tap(findTestObject('Object Repository/Bayar/Asuransi/BPJS Kesehatan/13. ViewGroup - Button Lanjut'), 0)
+Mobile.tap(findTestObject('Object Repository/Bayar/Asuransi/BPJS Kesehatan/13. ViewGroup-Lanjut'), 0)
 
 Mobile.verifyElementText(findTestObject('Object Repository/Bayar/Asuransi/BPJS Kesehatan/14. TextView - BPJS Kesehatan'),
 	'BPJS Kesehatan')

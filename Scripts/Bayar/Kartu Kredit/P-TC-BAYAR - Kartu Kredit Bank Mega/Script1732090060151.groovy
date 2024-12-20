@@ -19,65 +19,59 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('com.bankmega.msmiledev')
 
-Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Kartu Kredit Bank Mega\\01.png')
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Kartu Kredit Bank Mega\\01.png')
 
-Mobile.tap(findTestObject('Object Repository/Bayar/Kartu Kredit/Kartu Kredit Bank Mega/01. ViewGroup - Bayar'), 0)
+Mobile.tap(findTestObject('Object Repository/Bayar/Kartu Kredit/Kartu Kredit Bank Mega/01. ViewGroup-Bayar'), 0)
 
-Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Kartu Kredit Bank Mega\\02.png')
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Kartu Kredit Bank Mega\\02.png')
 
-Mobile.tap(findTestObject('Object Repository/Bayar/Kartu Kredit/Kartu Kredit Bank Mega/02. ViewGroup - Kartu Kredit'), 0)
+Mobile.tap(findTestObject('Object Repository/Bayar/Kartu Kredit/Kartu Kredit Bank Mega/02. ViewGroup-Kartu Kredit'), 0)
 
-Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Kartu Kredit Bank Mega\\03.png')
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Kartu Kredit Bank Mega\\03.png')
 
-Mobile.tap(findTestObject('Object Repository/Bayar/Kartu Kredit/Kartu Kredit Bank Mega/03. SvgView - Cek Saldo'), 0)
+Mobile.tap(findTestObject('Object Repository/Bayar/Kartu Kredit/Kartu Kredit Bank Mega/03. SvgView-Cek Saldo'), 0)
 
-Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Kartu Kredit Bank Mega\\04.png')
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Kartu Kredit Bank Mega\\04.png')
 
-Mobile.tap(findTestObject('Object Repository/Bayar/Kartu Kredit/Kartu Kredit Bank Mega/04. EditText - Daftar Produk'), 0)
+Mobile.tap(findTestObject('Object Repository/Bayar/Kartu Kredit/Kartu Kredit Bank Mega/04. EditText-Daftar Produk'), 0)
 
-Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Kartu Kredit Bank Mega\\05.png')
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Kartu Kredit Bank Mega\\05.png')
 
-Mobile.tap(findTestObject('Object Repository/Bayar/Kartu Kredit/Kartu Kredit Bank Mega/05. TextView - CREDIT CARD MEGA'), 
+Mobile.tap(findTestObject('Object Repository/Bayar/Kartu Kredit/Kartu Kredit Bank Mega/05. TextView-CREDIT CARD MEGA'), 
     0)
 
-Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Kartu Kredit Bank Mega\\06.png')
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Kartu Kredit Bank Mega\\06.png')
 
-Mobile.tap(findTestObject('Object Repository/Bayar/Kartu Kredit/Kartu Kredit Bank Mega/06. EditText - Nomor Pelanggan'), 0)
+Mobile.tap(findTestObject('Object Repository/Bayar/Kartu Kredit/Kartu Kredit Bank Mega/06. EditText-Nomor Pelanggan'), 0)
 
-Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Kartu Kredit Bank Mega\\07.png')
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Kartu Kredit Bank Mega\\07.png')
 
-Mobile.tap(findTestObject('Object Repository/Bayar/Kartu Kredit/Kartu Kredit Bank Mega/07. EditText - Input Baru'), 
+Mobile.tap(findTestObject('Object Repository/Bayar/Kartu Kredit/Kartu Kredit Bank Mega/07. EditText-Input Baru'), 
     0)
 
-Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Kartu Kredit Bank Mega\\08.png')
+Mobile.setText(findTestObject('Object Repository/Bayar/Kartu Kredit/Kartu Kredit Bank Mega/07. EditText-Input Baru'), GlobalVariable.ccmega , 0)
 
-Mobile.setText(findTestObject('Object Repository/Bayar/Kartu Kredit/Kartu Kredit Bank Mega/07. EditText - Input Baru'), GlobalVariable.ccmega , 0)
+Mobile.pressBack()
 
-Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Kartu Kredit Bank Mega\\08.png')
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Kartu Kredit Bank Mega\\08.png')
 
-Mobile.tap(findTestObject('Object Repository/Bayar/Kartu Kredit/Kartu Kredit Bank Mega/08. ScrollView - Tap Body'), 0)
+Mobile.tap(findTestObject('Object Repository/Bayar/Kartu Kredit/Kartu Kredit Bank Mega/08. ViewGroup-Ok'), 0)
 
-Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Kartu Kredit Bank Mega\\09.png')
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Kartu Kredit Bank Mega\\09.png')
 
-Mobile.tap(findTestObject('Object Repository/Transfer/Bayar/Kartu Kredit Bank Mega/09. ViewGroup - OK'), 0)
+Mobile.tap(findTestObject('Object Repository/Bayar/Kartu Kredit/Kartu Kredit Bank Mega/09. ViewGroup-Lanjut'), 0)
 
-Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Kartu Kredit Bank Mega\\10.png')
-
-Mobile.tap(findTestObject('Object Repository/Bayar/Kartu Kredit/Kartu Kredit Bank Mega/10. ViewGroup - Lanjut'), 0)
-
-Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Kartu Kredit Bank Mega\\11.png')
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Kartu Kredit Bank Mega\\10.png')
 
 Mobile.verifyElementText(findTestObject('Object Repository/Bayar/Kartu Kredit/Kartu Kredit Bank Mega/11. TextView - ANITA CHANDRA'), 'ANITA CHANDRA')
 
@@ -85,7 +79,7 @@ Mobile.verifyElementText(findTestObject('Object Repository/Bayar/Kartu Kredit/Ka
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Kartu Kredit/Kartu Kredit Bank Mega/13. EditText - Amount'), 0)
 
-Mobile.delay(1)
+Mobile.delay(2)
 
 Mobile.setText(findTestObject('Object Repository/Bayar/Kartu Kredit/Kartu Kredit Bank Mega/13. EditText - Amount'), '1000.000', 0)
 
@@ -93,18 +87,18 @@ Mobile.verifyElementText(findTestObject('Object Repository/Bayar/Kartu Kredit/Ka
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Kartu Kredit/Kartu Kredit Bank Mega/15. ScrollView - Tap Body Amount'), 0)
 
-Mobile.delay(1)
+Mobile.delay(2)
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Kartu Kredit/Kartu Kredit Bank Mega/16. EditText - M-PIN'), 0)
 
-Mobile.delay(1)
+Mobile.delay(2)
 
 Mobile.setText(findTestObject('Object Repository/Bayar/Kartu Kredit/Kartu Kredit Bank Mega/16. EditText - M-PIN'), GlobalVariable.mpin, 0)
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Kartu Kredit/Kartu Kredit Bank Mega/17. ScrollView - Tap Body M-PIN'), 0)
 
-Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Kartu Kredit Bank Mega\\12.png')
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Kartu Kredit Bank Mega\\11.png')
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Kartu Kredit/Kartu Kredit Bank Mega/18. ViewGroup - Bayar'), 0)
 
@@ -122,18 +116,18 @@ Mobile.verifyElementText(findTestObject('Object Repository/Bayar/Kartu Kredit/Ka
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Kartu Kredit/Kartu Kredit Bank Mega/26. ViewGroup - Bagikan'), 0)
 
-Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Kartu Kredit Bank Mega\\13.png')
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Kartu Kredit Bank Mega\\12.png')
 
 Mobile.pressBack()
 
-Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Kartu Kredit Bank Mega\\14.png')
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Kartu Kredit Bank Mega\\13.png')
 
 Mobile.tapAtPosition(1140, 430)
 
-Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Kartu Kredit Bank Mega\\15.png')
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Kartu Kredit Bank Mega\\14.png')
 
 Mobile.closeApplication()
 

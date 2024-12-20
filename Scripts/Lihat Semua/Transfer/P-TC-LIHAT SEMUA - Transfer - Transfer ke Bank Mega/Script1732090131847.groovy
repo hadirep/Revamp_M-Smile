@@ -19,46 +19,39 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('com.bankmega.msmiledev')
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Transfer - ke Bank Mega\\01.png')
 
-Mobile.tap(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Mega/01. ViewGroup - Lihat Semua'), 
-    0)
+Mobile.tap(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Mega/01. ViewGroup - Lihat Semua'), 0)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Transfer - ke Bank Mega\\02.png')
 
-Mobile.tap(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Mega/02. ImageView - Transfer ke Bank Mega'), 
-    0)
+Mobile.tap(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Mega/02. ImageView - Transfer ke Bank Mega'), 0)
 
 Mobile.verifyElementText(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Mega/03. TextView - verif Transfer Bank Mega'), 
     'Transfer Bank Mega')
 
-Mobile.tap(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Mega/04. SvgView - Cek Saldo'), 
-    0)
+Mobile.tap(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Mega/04. SvgView - Cek Saldo'), 0)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Transfer - ke Bank Mega\\03.png')
 
-Mobile.tap(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Mega/05. TextView - Rekening Tujuan'), 
-    0)
+Mobile.tap(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Mega/05. TextView - Rekening Tujuan'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Mega/06. EditText - Tap Nopel'), 
-    0)
+Mobile.tap(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Mega/06. EditText - Tap Nopel'), 0)
 
 Mobile.setText(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Mega/07. EditText - Set Nopel'), 
     '010740020456886', 0)
 
 Mobile.hideKeyboard()
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Transfer - ke Bank Mega\\04.png')
 
 Mobile.tap(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Mega/08. ViewGroup - OK'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Mega/09. GroupView - Cek Saldo'), 
-    0)
+Mobile.tap(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Mega/09. GroupView - Cek Saldo'), 0)
 
 Mobile.verifyElementText(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Mega/10. TextView - verif 010740020456886'), '010740020456886')
 
-Mobile.tap(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Mega/11. ViewGroup - Back Btn (Transfer)'), 
-    0)
+Mobile.tap(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Mega/11. ViewGroup - Back Btn (Transfer)'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Mega/12. ViewGroup - Back Btn (Lihat Semua)'), 0)
 

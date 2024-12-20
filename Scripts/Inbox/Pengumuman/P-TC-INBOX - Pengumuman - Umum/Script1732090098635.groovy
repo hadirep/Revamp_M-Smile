@@ -20,12 +20,12 @@ import org.openqa.selenium.Keys as Keys
 Mobile.startExistingApplication('com.bankmega.msmiledev')
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-INBOX - Pengumuman - Umum\\01.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-INBOX - Pengumuman - Umum\\01.png')
 
 Mobile.tap(findTestObject('Object Repository/Inbox/Pengumuman/Umum/01. ViewGroup-Inbox'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-INBOX - Pengumuman - Umum\\02.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-INBOX - Pengumuman - Umum\\02.png')
 
 Mobile.tap(findTestObject('Object Repository/Inbox/Pengumuman/Umum/02. TextView-Pengumuman'), 0)
 
@@ -42,7 +42,7 @@ Mobile.verifyElementText(findTestObject('Object Repository/Inbox/Pengumuman/Umum
 	'Pergi liburan naik kereta api bayar tiketnya tanpa antri. Klik menu bayar di M-Smile dan pilih tiket kereta api ya! Bayarnya gampang bikin liburan makin nyaman!')
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-INBOX - Pengumuman - Umum\\03.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-INBOX - Pengumuman - Umum\\03.png')
 
 Mobile.tap(findTestObject('Object Repository/Inbox/Pengumuman/Umum/07. ImageView-Pengumuman 1'), 0)
 
@@ -56,12 +56,12 @@ Mobile.verifyElementText(findTestObject('Object Repository/Inbox/Pengumuman/Umum
 
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-INBOX - Pengumuman - Umum\\04.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-INBOX - Pengumuman - Umum\\04.png')
 
 Mobile.pressBack()
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-INBOX - Pengumuman - Umum\\05.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-INBOX - Pengumuman - Umum\\05.png')
 
 Mobile.tap(findTestObject('Object Repository/Inbox/Pengumuman/Umum/11. ImageView-Pengumuman 2'), 0)
 
@@ -74,12 +74,12 @@ Mobile.verifyElementText(findTestObject('Object Repository/Inbox/Pengumuman/Umum
 	'Pergi liburan naik kereta api bayar tiketnya tanpa antri. Klik menu bayar di M-Smile dan pilih tiket kereta api ya! Bayarnya gampang bikin liburan makin nyaman!')
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-INBOX - Pengumuman - Umum\\06.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-INBOX - Pengumuman - Umum\\06.png')
 
 Mobile.pressBack()
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-INBOX - Pengumuman - Umum\\07.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-INBOX - Pengumuman - Umum\\07.png')
 
 Mobile.closeApplication()
 

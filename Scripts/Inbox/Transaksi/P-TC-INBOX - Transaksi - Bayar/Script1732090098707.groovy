@@ -20,17 +20,17 @@ import org.openqa.selenium.Keys as Keys
 Mobile.startExistingApplication('com.bankmega.msmiledev')
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-INBOX - Transaksi - Bayar\\01.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-INBOX - Transaksi - Bayar\\01.png')
 
 Mobile.tap(findTestObject('Object Repository/Inbox/Transaksi/Bayar/01. ViewGroup-Inbox'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-INBOX - Transaksi - Bayar\\02.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-INBOX - Transaksi - Bayar\\02.png')
 
 Mobile.tap(findTestObject('Object Repository/Inbox/Transaksi/Bayar/02. ViewGroup-Bayar'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-INBOX - Transaksi - Bayar\\03.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-INBOX - Transaksi - Bayar\\03.png')
 
 Mobile.verifyElementText(findTestObject('Object Repository/Inbox/Transaksi/Bayar/03. TextView-verif kartu kredit bank lain'), 
     'kartu kredit bank lain')
@@ -54,22 +54,22 @@ Mobile.verifyElementText(findTestObject('Object Repository/Inbox/Transaksi/Bayar
 Mobile.verifyElementText(findTestObject('Object Repository/Inbox/Transaksi/Bayar/12. TextView-verif total Rp.  15.000'), 'Rp.  15.000')
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-INBOX - Transaksi - Bayar\\04.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-INBOX - Transaksi - Bayar\\04.png')
 
 Mobile.tap(findTestObject('Object Repository/Inbox/Transaksi/Bayar/13. ViewGroup-Bagikan'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-INBOX - Transaksi - Bayar\\05.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-INBOX - Transaksi - Bayar\\05.png')
 
 Mobile.pressBack()
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-INBOX - Transaksi - Bayar\\06.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-INBOX - Transaksi - Bayar\\06.png')
 
 Mobile.tap(findTestObject('Object Repository/Inbox/Transaksi/Bayar/14. GroupView-Close Button'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-INBOX - Transaksi - Bayar\\07.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-INBOX - Transaksi - Bayar\\07.png')
 
 Mobile.pressBack()
 

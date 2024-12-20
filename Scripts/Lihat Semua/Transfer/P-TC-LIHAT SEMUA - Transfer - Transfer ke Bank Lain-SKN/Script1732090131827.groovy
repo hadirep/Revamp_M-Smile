@@ -20,22 +20,19 @@ import org.openqa.selenium.Keys as Keys
 Mobile.startExistingApplication('com.bankmega.msmiledev')
 
 Mobile.delay(1)
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Transfer - ke Bank Lain - SKN\\01.png')
 
-Mobile.tap(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Lain-SKN/01. ViewGroup-Lihat Semua'), 
-    0)
-
-Mobile.delay(1)
-Mobile.takeScreenshot()
-
-Mobile.tap(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Lain-SKN/02. ImageView-Transfer ke Bank Lain-SKN'), 
-    0)
+Mobile.tap(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Lain-SKN/01. ViewGroup-Lihat Semua'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Transfer - ke Bank Lain - SKN\\02.png')
 
-Mobile.tap(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Lain-SKN/03. EditText-Tap Norek'), 
-    0)
+Mobile.tap(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Lain-SKN/02. ImageView-Transfer ke Bank Lain-SKN'), 0)
+
+Mobile.delay(1)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Transfer - ke Bank Lain - SKN\\03.png')
+
+Mobile.tap(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Lain-SKN/03. EditText-Tap Norek'), 0)
 
 Mobile.setText(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Lain-SKN/04. EditText-Input Norek'), 
     '081801060326530', 0)
@@ -44,21 +41,17 @@ Mobile.hideKeyboard()
 
 Mobile.tap(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Lain-SKN/05. ViewGroup-OK'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Lain-SKN/06. GroupView-Cek Saldo'), 
-    0)
+Mobile.tap(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Lain-SKN/06. GroupView-Cek Saldo'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Transfer - ke Bank Lain - SKN\\04.png')
 
-Mobile.tap(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Lain-SKN/07. TextView-Bank Tujuan'), 
-    0)
-
+Mobile.tap(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Lain-SKN/07. TextView-Bank Tujuan'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Transfer - ke Bank Lain - SKN\\05.png')
 
-Mobile.tap(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Lain-SKN/08. EditText-Tap Field Cari Nama Bank'), 
-    0)
+Mobile.tap(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Lain-SKN/08. EditText-Tap Field Cari Nama Bank'), 0)
 
 Mobile.setText(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Lain-SKN/09. EditText-Set BRI'), 
     'BRI', 0)
@@ -67,13 +60,11 @@ Mobile.hideKeyboard()
 
 
 Mobile.delay(1)
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Transfer - ke Bank Lain - SKN\\06.png')
 
-Mobile.tap(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Lain-SKN/10. ViewGroup-Tap BRI'), 
-    0)
+Mobile.tap(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Lain-SKN/10. ViewGroup-Tap BRI'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Lain-SKN/11. EditText-Tap Nominal'), 
-    0)
+Mobile.tap(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Lain-SKN/11. EditText-Tap Nominal'), 0)
 
 Mobile.setText(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Lain-SKN/12. EditText-Set Nominal'), 
     '100000', 0)
@@ -82,47 +73,39 @@ Mobile.hideKeyboard()
 
 
 Mobile.delay(1)
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Transfer - ke Bank Lain - SKN\\07.png')
 
-Mobile.tap(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Lain-SKN/13. TextView-Tap Pesan'), 
-    0)
+Mobile.tap(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Lain-SKN/13. TextView-Tap Pesan'), 0)
 
 Mobile.setText(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Lain-SKN/14. EditText-Set Pesan'), 
     'Test', 0)
 
 Mobile.hideKeyboard()
 
-
 Mobile.delay(1)
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Transfer - ke Bank Lain - SKN\\08.png')
 
-Mobile.tap(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Lain-SKN/android.widget.TextView - Pilih Jenis'), 
-    0)
+Mobile.tap(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Lain-SKN/android.widget.TextView - Pilih Jenis'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Lain-SKN/15. ViewGroup-Perorangan'), 
-    0)
+Mobile.tap(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Lain-SKN/15. ViewGroup-Perorangan'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Lain-SKN/16. TextView-OK'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Lain-SKN/17. ViewGroup-Tujuan Transaksi'), 
-    0)
+Mobile.tap(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Lain-SKN/17. ViewGroup-Tujuan Transaksi'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Lain-SKN/18. ViewGroup-Penduduk'), 
-    0)
+Mobile.tap(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Lain-SKN/18. ViewGroup-Penduduk'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Lain-SKN/19. TextView-OK'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Lain-SKN/20. EditText-Tap Alamat'), 
-    0)
+Mobile.tap(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Lain-SKN/20. EditText-Tap Alamat'), 0)
 
 Mobile.setText(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Lain-SKN/21. EditText-Set Alamat'), 
     'Tangerang', 0)
 
 Mobile.hideKeyboard()
 
-
 Mobile.delay(1)
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Transfer - ke Bank Lain - SKN\\09.png')
 
 Mobile.verifyElementText(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Lain-SKN/22. TextView-verif 081801060326530'), 
     '081801060326530')
@@ -148,17 +131,17 @@ Mobile.verifyElementText(findTestObject('Object Repository/Lihat Semua/Transfer/
 Mobile.pressBack()
 
 Mobile.delay(1)
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Transfer - ke Bank Lain - SKN\\10.png')
 
 Mobile.pressBack()
 
 Mobile.delay(1)
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Transfer - ke Bank Lain - SKN\\11.png')
 
 Mobile.pressBack()
 
 Mobile.delay(1)
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Transfer - ke Bank Lain - SKN\\12.png')
 
 Mobile.closeApplication()
 

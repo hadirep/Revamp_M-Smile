@@ -20,22 +20,22 @@ import org.openqa.selenium.Keys as Keys
 Mobile.startExistingApplication('com.bankmega.msmiledev')
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\N-TC-TRANSFER - Ke Bank Lain-Online - Insufficient Balance\\01.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\N-TC-TRANSFER - Ke Bank Lain-Online - Insufficient Balance\\01.png')
 
 Mobile.tap(findTestObject('Object Repository/Transfer/Transfer - Online/01.ViewGroup-Transfer'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\N-TC-TRANSFER - Ke Bank Lain-Online - Insufficient Balance\\02.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\N-TC-TRANSFER - Ke Bank Lain-Online - Insufficient Balance\\02.png')
 
 Mobile.tap(findTestObject('Object Repository/Transfer/Transfer - Online/02.ViewGroup-Transfer Online'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\N-TC-TRANSFER - Ke Bank Lain-Online - Insufficient Balance\\03.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\N-TC-TRANSFER - Ke Bank Lain-Online - Insufficient Balance\\03.png')
 
 Mobile.tap(findTestObject('Object Repository/Transfer/Transfer - Online/03.EditText-Input Norek'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\N-TC-TRANSFER - Ke Bank Lain-Online - Insufficient Balance\\04.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\N-TC-TRANSFER - Ke Bank Lain-Online - Insufficient Balance\\04.png')
 
 Mobile.setText(findTestObject('Object Repository/Transfer/Transfer - Online/03.EditText-Input Norek (1)'), '12345678', 
     0)
@@ -43,7 +43,7 @@ Mobile.setText(findTestObject('Object Repository/Transfer/Transfer - Online/03.E
 Mobile.pressBack()
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\N-TC-TRANSFER - Ke Bank Lain-Online - Insufficient Balance\\05.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\N-TC-TRANSFER - Ke Bank Lain-Online - Insufficient Balance\\05.png')
 
 Mobile.tap(findTestObject('Object Repository/Transfer/Transfer - Online/04.ViewGroup-OK'), 0)
 
@@ -64,7 +64,7 @@ String nominal = Mobile.getText(findTestObject('Object Repository/Transfer/Trans
 Mobile.pressBack()
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\N-TC-TRANSFER - Ke Bank Lain-Online - Insufficient Balance\\06.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\N-TC-TRANSFER - Ke Bank Lain-Online - Insufficient Balance\\06.png')
 
 Mobile.tap(findTestObject('Object Repository/Transfer/Transfer - Online/08.ViewGroup-Lanjut'), 0)
 
@@ -97,7 +97,7 @@ println(tot)
 Mobile.verifyElementText(findTestObject('Object Repository/Transfer/Transfer - Online/09.TextView-Total'), 'Rp. ' + tot+' ')
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\N-TC-TRANSFER - Ke Bank Lain-Online - Insufficient Balance\\07.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\N-TC-TRANSFER - Ke Bank Lain-Online - Insufficient Balance\\07.png')
 
 Mobile.tap(findTestObject('Object Repository/Transfer/Transfer - Online/10.ViewGroup-Input M-Pin'), 0)
 
@@ -107,7 +107,7 @@ Mobile.setText(findTestObject('Object Repository/Transfer/Transfer - Online/10.E
 Mobile.pressBack()
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\N-TC-TRANSFER - Ke Bank Lain-Online - Insufficient Balance\\08.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\N-TC-TRANSFER - Ke Bank Lain-Online - Insufficient Balance\\08.png')
 
 Mobile.tap(findTestObject('Object Repository/Transfer/Transfer - Online/11.ViewGroup-Lanjut'), 0)
 
@@ -119,22 +119,22 @@ Mobile.verifyElementText(findTestObject('Object Repository/Transfer/Transfer - O
 Mobile.verifyElementText(findTestObject('Object Repository/Transfer/Transfer - Online/14.TextView - Dana tidak cukup'), 'Dana Anda tidak cukup untuk melakukan transaksi. Pastikan sumber dana yang anda pilih cukup untuk melakukan transaksi [H51]')
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\N-TC-TRANSFER - Ke Bank Lain-Online - Insufficient Balance\\09.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\N-TC-TRANSFER - Ke Bank Lain-Online - Insufficient Balance\\09.png')
 
 Mobile.tap(findTestObject('Object Repository/Transfer/Transfer - Online/14.ViewGroup-OK'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\N-TC-TRANSFER - Ke Bank Lain-Online - Insufficient Balance\\10.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\N-TC-TRANSFER - Ke Bank Lain-Online - Insufficient Balance\\10.png')
 
 Mobile.tap(findTestObject('Object Repository/Transfer/Transfer - Online/11.ViewGroup-Batal'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\N-TC-TRANSFER - Ke Bank Lain-Online - Insufficient Balance\\11.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\N-TC-TRANSFER - Ke Bank Lain-Online - Insufficient Balance\\11.png')
 
 Mobile.pressBack()
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\N-TC-TRANSFER - Ke Bank Lain-Online - Insufficient Balance\\12.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\N-TC-TRANSFER - Ke Bank Lain-Online - Insufficient Balance\\12.png')
 
 Mobile.closeApplication()
 

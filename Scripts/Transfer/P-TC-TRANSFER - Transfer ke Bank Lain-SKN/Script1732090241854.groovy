@@ -20,17 +20,17 @@ import org.openqa.selenium.Keys as Keys
 Mobile.startExistingApplication('com.bankmega.msmiledev')
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-TRANSFER - Transfer Ke Bank Lain-SKN\\01.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TRANSFER - Transfer Ke Bank Lain-SKN\\01.png')
 
 Mobile.tap(findTestObject('Object Repository/Transfer/Transfer - SKN/01. ViewGroup-Transfer'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-TRANSFER - Transfer Ke Bank Lain-SKN\\02.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TRANSFER - Transfer Ke Bank Lain-SKN\\02.png')
 
 Mobile.tap(findTestObject('Object Repository/Transfer/Transfer - SKN/02. ViewGroup-Transfer ke Bank Lain-SKN'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-TRANSFER - Transfer Ke Bank Lain-SKN\\03.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TRANSFER - Transfer Ke Bank Lain-SKN\\03.png')
 
 Mobile.tap(findTestObject('Object Repository/Transfer/Transfer - SKN/03. EditText-Tap Norek'), 0)
 
@@ -39,19 +39,19 @@ Mobile.setText(findTestObject('Object Repository/Transfer/Transfer - SKN/04. Edi
 Mobile.hideKeyboard()
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-TRANSFER - Transfer Ke Bank Lain-SKN\\04.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TRANSFER - Transfer Ke Bank Lain-SKN\\04.png')
 
 Mobile.tap(findTestObject('Object Repository/Transfer/Transfer - SKN/05. ViewGroup-OK'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-TRANSFER - Transfer Ke Bank Lain-SKN\\05.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TRANSFER - Transfer Ke Bank Lain-SKN\\05.png')
 
 Mobile.tap(findTestObject('Object Repository/Transfer/Transfer - SKN/06. SvgView-Cek Saldo'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Transfer/Transfer - SKN/07. ViewGroup-Bank Tujuan'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-TRANSFER - Transfer Ke Bank Lain-SKN\\06.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TRANSFER - Transfer Ke Bank Lain-SKN\\06.png')
 
 Mobile.tap(findTestObject('Object Repository/Transfer/Transfer - SKN/08. EditText-Tap Field Cari Nama Bank'), 0)
 
@@ -60,7 +60,7 @@ Mobile.setText(findTestObject('Object Repository/Transfer/Transfer - SKN/09. Edi
 Mobile.hideKeyboard()
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-TRANSFER - Transfer Ke Bank Lain-SKN\\07.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TRANSFER - Transfer Ke Bank Lain-SKN\\07.png')
 
 Mobile.tap(findTestObject('Object Repository/Transfer/Transfer - SKN/10. RadioButton-BRI'), 0)
 
@@ -71,7 +71,7 @@ Mobile.setText(findTestObject('Object Repository/Transfer/Transfer - SKN/12. Edi
 Mobile.hideKeyboard()
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-TRANSFER - Transfer Ke Bank Lain-SKN\\08.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TRANSFER - Transfer Ke Bank Lain-SKN\\08.png')
 
 Mobile.tap(findTestObject('Object Repository/Transfer/Transfer - SKN/13. EditText-Tap Pesan'), 0)
 
@@ -98,7 +98,7 @@ Mobile.setText(findTestObject('Object Repository/Transfer/Transfer - SKN/22. Edi
 Mobile.hideKeyboard()
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-TRANSFER - Transfer Ke Bank Lain-SKN\\09.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TRANSFER - Transfer Ke Bank Lain-SKN\\09.png')
 
 Mobile.tap(findTestObject('Object Repository/Transfer/Transfer - SKN/23. ViewGroup-Lanjut'), 0)
 
@@ -132,22 +132,27 @@ Mobile.verifyElementText(findTestObject('Object Repository/Transfer/Transfer - S
     'Rp. 102.900')
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-TRANSFER - Transfer Ke Bank Lain-SKN\\10.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TRANSFER - Transfer Ke Bank Lain-SKN\\10.png')
 
 Mobile.tap(findTestObject('Object Repository/Transfer/Transfer - SKN/36. ViewGroup-Bagikan'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-TRANSFER - Transfer Ke Bank Lain-SKN\\11.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TRANSFER - Transfer Ke Bank Lain-SKN\\11.png')
 
 Mobile.pressBack()
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-TRANSFER - Transfer Ke Bank Lain-SKN\\12.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TRANSFER - Transfer Ke Bank Lain-SKN\\12.png')
 
 Mobile.tap(findTestObject('Object Repository/Transfer/Transfer - SKN/43. GroupView-Close Button'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-TRANSFER - Transfer Ke Bank Lain-SKN\\13.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TRANSFER - Transfer Ke Bank Lain-SKN\\13.png')
+
+Mobile.pressBack()
+
+Mobile.delay(1)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TRANSFER - Transfer Ke Bank Lain-SKN\\14.png')
 
 Mobile.closeApplication()
 

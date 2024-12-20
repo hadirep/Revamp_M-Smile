@@ -19,13 +19,13 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('com.bankmega.msmiledev')
 
-Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-TRANSFER - Overbooking\\01.png')
+Mobile.delay(3)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TRANSFER - Overbooking\\01.png')
 
 Mobile.tap(findTestObject('Transfer/Transfer - Overbooking/01.Button-Transfer'), 0)
 
-Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-TRANSFER - Overbooking\\02.png')
+Mobile.delay(3)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TRANSFER - Overbooking\\02.png')
 
 Mobile.tap(findTestObject('Object Repository/Transfer/Transfer - Overbooking/02.Button-tf bank mega'), 0)
 
@@ -35,8 +35,8 @@ Mobile.setText(findTestObject('Object Repository/Transfer/Transfer - Overbooking
 
 Mobile.pressBack()
 
-Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-TRANSFER - Overbooking\\03.png')
+Mobile.delay(3)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TRANSFER - Overbooking\\03.png')
 
 Mobile.tap(findTestObject('Object Repository/Transfer/Transfer - Overbooking/04.Button-OK'), 0)
 
@@ -60,8 +60,8 @@ Mobile.setText(findTestObject('Object Repository/Transfer/Transfer - Overbooking
 
 Mobile.pressBack()
 
-Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-TRANSFER - Overbooking\\04.png')
+Mobile.delay(3)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TRANSFER - Overbooking\\04.png')
 
 Mobile.tap(findTestObject('Object Repository/Transfer/Transfer - Overbooking/09.button-lanjut'), 0)
 
@@ -97,8 +97,8 @@ Mobile.tap(findTestObject('Object Repository/Transfer/Transfer - Overbooking/11.
 
 Mobile.setText(findTestObject('Object Repository/Transfer/Transfer - Overbooking/11.EditText-mpin'), '111111', 0)
 
-Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-TRANSFER - Overbooking\\05.png')
+Mobile.delay(3)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TRANSFER - Overbooking\\05.png')
 
 Mobile.tap(findTestObject('Object Repository/Transfer/Transfer - Overbooking/12-button-lanjut'), 0)
 
@@ -116,8 +116,8 @@ Mobile.verifyElementText(findTestObject('Transfer/Transfer - Overbooking/13.Text
 
 Mobile.verifyElementText(findTestObject('Transfer/Transfer - Overbooking/13.TextView-TotalTF'), 'Rp. ' + tot)
 
-Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-TRANSFER - Overbooking\\06.png')
+Mobile.delay(3)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TRANSFER - Overbooking\\06.png')
 
 Mobile.tap(findTestObject('Object Repository/Transfer/Transfer - Overbooking/14.button-close'), 0)
 

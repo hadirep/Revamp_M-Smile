@@ -20,46 +20,46 @@ import org.openqa.selenium.Keys as Keys
 Mobile.startExistingApplication('com.bankmega.msmiledev')
 
 Mobile.delay(2)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-PROMO - Lainnya\\01.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-PROMO - Lainnya\\01.png')
 
 Mobile.tap(findTestObject('Object Repository/Promo/Lainnya/01. Button - Promo'), 0)
 
 Mobile.delay(2)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-PROMO - Lainnya\\02.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-PROMO - Lainnya\\02.png')
 
 Mobile.swipe(1100, 880, 70, 855)
 
 Mobile.delay(2)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-PROMO - Lainnya\\03.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-PROMO - Lainnya\\03.png')
 
 Mobile.tap(findTestObject('Object Repository/Promo/Lainnya/02. ViewGroup - Lainnya'), 0)
 
 Mobile.delay(2)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-PROMO - Lainnya\\04.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-PROMO - Lainnya\\04.png')
 
 Mobile.tap(findTestObject('Object Repository/Promo/Lainnya/03. ViewGroup - Lainnya 1'), 0)
 
 Mobile.delay(2)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-PROMO - Lainnya\\05.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-PROMO - Lainnya\\05.png')
 
 Mobile.tap(findTestObject('Object Repository/Promo/Lainnya/04. ViewGroup - Back Btn Lainnya 1'), 0)
 
 Mobile.delay(2)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-PROMO - Lainnya\\06.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-PROMO - Lainnya\\06.png')
 
 Mobile.tap(findTestObject('Object Repository/Promo/Lainnya/05. ViewGroup - Lainnya 2'), 0)
 
 Mobile.delay(2)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-PROMO - Lainnya\\07.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-PROMO - Lainnya\\07.png')
 
 Mobile.tap(findTestObject('Object Repository/Promo/Lainnya/06. ViewGroup - Back Btn Lainnya 2'), 0)
 
 Mobile.delay(2)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-PROMO - Lainnya\\08.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-PROMO - Lainnya\\08.png')
 
 Mobile.pressBack()
 
 Mobile.delay(2)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-PROMO - Lainnya\\09.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-PROMO - Lainnya\\09.png')
 
 Mobile.closeApplication()

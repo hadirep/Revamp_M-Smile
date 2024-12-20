@@ -19,69 +19,66 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('com.bankmega.msmiledev')
 
-Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Kartu Kredit Bank Lain\\01.png')
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Kartu Kredit Bank Lain\\01.png')
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Kartu Kredit/Kartu Kredit Bank Lain/01. ViewGroup - Bayar'), 0)
 
-Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Kartu Kredit Bank Lain\\02.png')
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Kartu Kredit Bank Lain\\02.png')
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Kartu Kredit/Kartu Kredit Bank Lain/02. ViewGroup - Kartu Kredit'), 0)
 
-Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Kartu Kredit Bank Lain\\03.png')
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Kartu Kredit Bank Lain\\03.png')
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Kartu Kredit/Kartu Kredit Bank Lain/03. SvgView - Cek Saldo'), 0)
 
-Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Kartu Kredit Bank Lain\\04.png')
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Kartu Kredit Bank Lain\\04.png')
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Kartu Kredit/Kartu Kredit Bank Lain/03. SvgView - Cek Saldo'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Kartu Kredit/Kartu Kredit Bank Lain/04. ViewGroup - Daftar Produk'), 0)
 
-Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Kartu Kredit Bank Lain\\05.png')
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Kartu Kredit Bank Lain\\05.png')
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Kartu Kredit/Kartu Kredit Bank Lain/05. TextView - KARTU KREDIT BANK LAIN'), 0)
 
-Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Kartu Kredit Bank Lain\\06.png')
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Kartu Kredit Bank Lain\\06.png')
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Kartu Kredit/Kartu Kredit Bank Lain/06. TextView - Nomor Pelanggan'), 0)
 
-Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Kartu Kredit Bank Lain\\07.png')
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Kartu Kredit Bank Lain\\07.png')
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Kartu Kredit/Kartu Kredit Bank Lain/07. EditText - Input Baru'), 0)
 
 Mobile.setText(findTestObject('Object Repository/Bayar/Kartu Kredit/Kartu Kredit Bank Lain/07. EditText - Input Baru'), '5401844210627787', 0)
 
-Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Kartu Kredit Bank Lain\\08.png')
-
 Mobile.tap(findTestObject('Object Repository/Bayar/Kartu Kredit/Kartu Kredit Bank Lain/08. ScrollView - Tap Body'), 0)
 
-Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Kartu Kredit Bank Lain\\09.png')
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Kartu Kredit Bank Lain\\08.png')
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Kartu Kredit/Kartu Kredit Bank Lain/09. ViewGroup - Ok'), 0)
 
-Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Kartu Kredit Bank Lain\\10.png')
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Kartu Kredit Bank Lain\\09.png')
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Kartu Kredit/Kartu Kredit Bank Lain/10. ViewGroup - Bank Tujuan'), 0)
 
-Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Kartu Kredit Bank Lain\\11.png')
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Kartu Kredit Bank Lain\\10.png')
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Kartu Kredit/Kartu Kredit Bank Lain/11. EditText - Cari'), 0)
 
 Mobile.setText(findTestObject('Object Repository/Bayar/Kartu Kredit/Kartu Kredit Bank Lain/11. EditText - Cari'), 'CITIBANK', 0)
 
-Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Kartu Kredit Bank Lain\\12.png')
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Kartu Kredit Bank Lain\\11.png')
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Kartu Kredit/Kartu Kredit Bank Lain/11. EditText - Cari'), 0)
 
@@ -89,13 +86,13 @@ Mobile.tap(findTestObject('Object Repository/Bayar/Kartu Kredit/Kartu Kredit Ban
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Kartu Kredit/Kartu Kredit Bank Lain/13. TextView - Tap CITIBANK'), 0)
 
-Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Kartu Kredit Bank Lain\\13.png')
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Kartu Kredit Bank Lain\\12.png')
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Kartu Kredit/Kartu Kredit Bank Lain/14. ViewGroup - Lanjut'), 0)
 
 Mobile.delay(5)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Kartu Kredit Bank Lain\\14.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Kartu Kredit Bank Lain\\13.png')
 
 Mobile.verifyElementText(findTestObject('Object Repository/Bayar/Kartu Kredit/Kartu Kredit Bank Lain/15. TextView - verif KARTU KREDIT BANK LAIN'), 
 	'KARTU KREDIT BANK LAIN')
@@ -122,8 +119,8 @@ Mobile.setText(findTestObject('Object Repository/Bayar/Kartu Kredit/Kartu Kredit
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Kartu Kredit/Kartu Kredit Bank Lain/22. ViewGroup - Tap Body'), 0)
 
-Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Kartu Kredit Bank Lain\\15.png')
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Kartu Kredit Bank Lain\\14.png')
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Kartu Kredit/Kartu Kredit Bank Lain/23. ViewGroup - Bayar'), 0)
 
@@ -148,22 +145,22 @@ Mobile.verifyElementText(findTestObject('Object Repository/Bayar/Kartu Kredit/Ka
 Mobile.verifyElementText(findTestObject('Object Repository/Bayar/Kartu Kredit/Kartu Kredit Bank Lain/30. TextView-verif total Rp. 15.000'), 
 	'Rp. 15.000')
 
-Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Kartu Kredit Bank Lain\\16.png')
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Kartu Kredit Bank Lain\\15.png')
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Kartu Kredit/Kartu Kredit Bank Lain/32. ViewGroup-Bagikan'), 0)
 
-Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Kartu Kredit Bank Lain\\17.png')
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Kartu Kredit Bank Lain\\16.png')
 
 Mobile.pressBack()
 
-Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Kartu Kredit Bank Lain\\18.png')
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Kartu Kredit Bank Lain\\17.png')
 
 Mobile.tapAtPosition(1160, 440)
 
-Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Kartu Kredit Bank Lain\\19.png')
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Kartu Kredit Bank Lain\\18.png')
 
 Mobile.closeApplication()

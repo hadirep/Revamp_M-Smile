@@ -23,7 +23,7 @@ Mobile.tap(findTestObject('Object Repository/Bayar/Tiket/KAI Dormant Insuficient
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp_M-Smile\\Screenshoot\\N-TC-BAYAR- Tiket - KAI - Insufficient\\01.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\N-TC-BAYAR- Tiket - KAI - Insufficient\\01.png')
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Tiket/KAI Dormant Insuficient/02.RectView - Tiket'), 0)
 
@@ -35,7 +35,7 @@ Mobile.swipe(900, 500, 100, 500)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp_M-Smile\\Screenshoot\\N-TC-BAYAR- Tiket - KAI - Insufficient\\02.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\N-TC-BAYAR- Tiket - KAI - Insufficient\\02.png')
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Tiket/KAI Dormant Insuficient/03.EditText - Daftar Produk'), 
     0)
@@ -46,7 +46,7 @@ Mobile.tap(findTestObject('Object Repository/Bayar/Tiket/KAI Dormant Insuficient
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp_M-Smile\\Screenshoot\\N-TC-BAYAR- Tiket - KAI - Insufficient\\03.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\N-TC-BAYAR- Tiket - KAI - Insufficient\\03.png')
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Tiket/KAI Dormant Insuficient/05.EditText - Input Nomor'), 0)
 
@@ -55,26 +55,26 @@ Mobile.setText(findTestObject('Object Repository/Bayar/Tiket/KAI Dormant Insufic
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp_M-Smile\\Screenshoot\\N-TC-BAYAR- Tiket - KAI - Insufficient\\04.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\N-TC-BAYAR- Tiket - KAI - Insufficient\\04.png')
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Tiket/KAI Dormant Insuficient/08.ScrollView - Close Keyboard'), 
     0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp_M-Smile\\Screenshoot\\N-TC-BAYAR- Tiket - KAI - Insufficient\\05.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\N-TC-BAYAR- Tiket - KAI - Insufficient\\05.png')
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Tiket/KAI Dormant Insuficient/09.ViewGroup - Ok'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp_M-Smile\\Screenshoot\\N-TC-BAYAR- Tiket - KAI - Insufficient\\06.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\N-TC-BAYAR- Tiket - KAI - Insufficient\\06.png')
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Tiket/KAI Dormant Insuficient/10.ViewGroup - Lanjut'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp_M-Smile\\Screenshoot\\N-TC-BAYAR- Tiket - KAI - Insufficient\\07.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\N-TC-BAYAR- Tiket - KAI - Insufficient\\07.png')
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Tiket/KAI Dormant Insuficient/11.TextView - Konfirmasi Pembayaran'), 
     0)
@@ -89,7 +89,7 @@ Mobile.tap(findTestObject('Object Repository/Bayar/Tiket/KAI Dormant Insuficient
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp_M-Smile\\Screenshoot\\N-TC-BAYAR- Tiket - KAI - Insufficient\\08.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\N-TC-BAYAR- Tiket - KAI - Insufficient\\08.png')
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Tiket/KAI Dormant Insuficient/15.ViewGroup - Bayar'), 0)
 
@@ -97,31 +97,31 @@ Mobile.tap(findTestObject('Bayar/Tiket/KAI Dormant Insuficient/16.ViewGroup - No
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp_M-Smile\\Screenshoot\\N-TC-BAYAR- Tiket - KAI - Insufficient\\10.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\N-TC-BAYAR- Tiket - KAI - Insufficient\\10.png')
 
 Mobile.tap(findTestObject('Bayar/Tiket/KAI Dormant Insuficient/17.TextView - OKk'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp_M-Smile\\Screenshoot\\N-TC-BAYAR- Tiket - KAI - Insufficient\\11.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\N-TC-BAYAR- Tiket - KAI - Insufficient\\11.png')
 
 Mobile.pressBack()
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp_M-Smile\\Screenshoot\\N-TC-BAYAR- Tiket - KAI - Insufficient\\12.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\N-TC-BAYAR- Tiket - KAI - Insufficient\\12.png')
 
 Mobile.pressBack()
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp_M-Smile\\Screenshoot\\N-TC-BAYAR- Tiket - KAI - Insufficient\\013.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\N-TC-BAYAR- Tiket - KAI - Insufficient\\013.png')
 
 Mobile.pressBack()
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp_M-Smile\\Screenshoot\\N-TC-BAYAR- Tiket - KAI - Insufficient\\14.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\N-TC-BAYAR- Tiket - KAI - Insufficient\\14.png')
 
 Mobile.closeApplication()
 

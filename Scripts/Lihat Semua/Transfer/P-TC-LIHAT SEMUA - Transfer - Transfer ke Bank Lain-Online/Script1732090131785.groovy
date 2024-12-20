@@ -20,13 +20,13 @@ import org.openqa.selenium.Keys as Keys
 Mobile.startExistingApplication('com.bankmega.msmiledev')
 
 Mobile.delay(1)
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Transfer - ke Bank Lain - Online\\01.png')
 
 Mobile.tap(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Lain-Online/01. ViewGroup-Lihat Semua'), 
     0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Transfer - ke Bank Lain - Online\\02.png')
 
 Mobile.tap(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Lain-Online/02. ImageView-Transfer ke Bank Lain-Online'), 
     0)
@@ -40,7 +40,7 @@ Mobile.setText(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer k
 Mobile.hideKeyboard()
 
 Mobile.delay(1)
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Transfer - ke Bank Lain - Online\\03.png')
 
 Mobile.tap(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Lain-Online/05. ViewGroup-OK'), 
     0)
@@ -63,7 +63,7 @@ Mobile.tap(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Ba
     0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Transfer - ke Bank Lain - Online\\04.png')
 
 Mobile.tap(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Lain-Online/11. EditText-Tap Nominal'), 
     0)
@@ -86,7 +86,7 @@ Mobile.verifyElementText(findTestObject('Object Repository/Lihat Semua/Transfer/
     '10.000')
 
 Mobile.delay(1)
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Transfer - ke Bank Lain - Online\\05.png')
 
 Mobile.pressBack()
 

@@ -20,22 +20,22 @@ import org.openqa.selenium.Keys as Keys
 Mobile.startExistingApplication('com.bankmega.msmiledev')
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-INBOX - Transaksi - Topup\\01.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-INBOX - Transaksi - Topup\\01.png')
 
 Mobile.tap(findTestObject('Object Repository/Inbox/Transaksi/Top Up/01. ViewGroup-Tap Icon Inbox'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-INBOX - Transaksi - Topup\\02.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-INBOX - Transaksi - Topup\\02.png')
 
 Mobile.tap(findTestObject('Object Repository/Inbox/Transaksi/Top Up/02. ViewGroup-Top Up'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-INBOX - Transaksi - Topup\\03.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-INBOX - Transaksi - Topup\\03.png')
 
 Mobile.tap(findTestObject('Object Repository/Inbox/Transaksi/Top Up/03. ViewGroup-Tap Baris 1'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-INBOX - Transaksi - Topup\\04.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-INBOX - Transaksi - Topup\\04.png')
 
 Mobile.verifyElementText(findTestObject('Object Repository/Inbox/Transaksi/Top Up/04. TextView-Top Up Berhasil'), 
 	'Top Up Berhasil!')
@@ -56,43 +56,43 @@ Mobile.verifyElementText(findTestObject('Object Repository/Inbox/Transaksi/Top U
 	'Rp.  41.000')
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-INBOX - Transaksi - Topup\\05.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-INBOX - Transaksi - Topup\\05.png')
 
 Mobile.tap(findTestObject('Object Repository/Inbox/Transaksi/Top Up/10. ViewGroup-Bagikan'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-INBOX - Transaksi - Topup\\06.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-INBOX - Transaksi - Topup\\06.png')
 
 Mobile.tap(findTestObject('Object Repository/Inbox/Transaksi/Top Up/11. ImageView-WhatsApp'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-INBOX - Transaksi - Topup\\07.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-INBOX - Transaksi - Topup\\07.png')
 
 Mobile.tap(findTestObject('Object Repository/Inbox/Transaksi/Top Up/12. Button-Search Contact'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-INBOX - Transaksi - Topup\\08.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-INBOX - Transaksi - Topup\\08.png')
 
 Mobile.setText(findTestObject('Object Repository/Inbox/Transaksi/Top Up/13. EditText-Search name or number'),
 	'Data', 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-INBOX - Transaksi - Topup\\09.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-INBOX - Transaksi - Topup\\09.png')
 
 Mobile.tap(findTestObject('Object Repository/Inbox/Transaksi/Top Up/14. LinearLayout-Click Contact'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-INBOX - Transaksi - Topup\\10.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-INBOX - Transaksi - Topup\\10.png')
 
 Mobile.tap(findTestObject('Object Repository/Inbox/Transaksi/Top Up/15. ImageButton-Share to contact'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-INBOX - Transaksi - Topup\\11.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-INBOX - Transaksi - Topup\\11.png')
 
 Mobile.tap(findTestObject('Object Repository/Inbox/Transaksi/Top Up/16. ImageButton-Share to contact 2'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-INBOX - Transaksi - Topup\\12.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-INBOX - Transaksi - Topup\\12.png')
 
 Mobile.pressBack()
 Mobile.pressBack()
@@ -101,7 +101,7 @@ Mobile.pressBack()
 Mobile.tap(findTestObject('Object Repository/Inbox/Transaksi/Top Up/17. GroupView-Close Button'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-INBOX - Transaksi - Topup\\13.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-INBOX - Transaksi - Topup\\13.png')
 
 Mobile.tap(findTestObject('Object Repository/Inbox/Transaksi/Top Up/18. ViewGroup-Top Up'), 0)
 
@@ -115,22 +115,22 @@ Mobile.verifyElementText(findTestObject('Object Repository/Inbox/Transaksi/Top U
 	'Rp. 41.000')
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-INBOX - Transaksi - Topup\\14.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-INBOX - Transaksi - Topup\\14.png')
 
 Mobile.tap(findTestObject('Object Repository/Inbox/Transaksi/Top Up/22. ViewGroup-Icon Delete'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-INBOX - Transaksi - Topup\\15.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-INBOX - Transaksi - Topup\\15.png')
 
 Mobile.tap(findTestObject('Object Repository/Inbox/Transaksi/Top Up/23. ImageView-Ceklis Item'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-INBOX - Transaksi - Topup\\16.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-INBOX - Transaksi - Topup\\16.png')
 
 Mobile.tap(findTestObject('Object Repository/Inbox/Transaksi/Top Up/24. ViewGroup-Hapus'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23120006\\Katalon Studio\\Revamp_M-Smile\\Screenshot\\P-TC-INBOX - Transaksi - Topup\\17.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-INBOX - Transaksi - Topup\\17.png')
 
 Mobile.pressBack()
 Mobile.pressBack()
