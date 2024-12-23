@@ -123,5 +123,8 @@ Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/Telkomsel/14-butto
 
 Mobile.pressBack()
 
+Mobile.delay(1)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Paket Data Telkomsel\\08.png')
+
 Mobile.closeApplication()
 

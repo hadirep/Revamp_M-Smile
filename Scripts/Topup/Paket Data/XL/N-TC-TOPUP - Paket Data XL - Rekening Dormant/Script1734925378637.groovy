@@ -66,19 +66,19 @@ Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Scre
 
 Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/XL-Axis/09-button-lanjut'), 0)
 
-Mobile.verifyElementText(findTestObject('Object Repository/Topup/Paket Data/XL-Axis/10-TextView-no'), nomor)
+Mobile.verifyElementText(findTestObject('null'), nomor)
 
-Mobile.verifyElementText(findTestObject('Object Repository/Topup/Paket Data/XL-Axis/10-TextView-nominaltrx'), 
+Mobile.verifyElementText(findTestObject('null'), 
     nominal)
 
 int byadm = 1500
 
 String adm = String.format('%,d', byadm).replace(',', '.')
 
-Mobile.verifyElementText(findTestObject('Object Repository/Topup/Paket Data/XL-Axis/10-TextView-biaya-admin'), 
+Mobile.verifyElementText(findTestObject('null'), 
     'Rp. ' + adm)
 
-String byadmin = Mobile.getText(findTestObject('Object Repository/Topup/Paket Data/XL-Axis/10-TextView-biaya-admin'), 
+String byadmin = Mobile.getText(findTestObject('null'), 
     0)
 
 String nominalangka = nominal.replaceAll('[^\\d]', '' //mereplace string selain angka (Rp.) agar dapat diubah tipe datanya
@@ -95,39 +95,39 @@ String tot = String.format('%,d', totaltopup).replace(',', '.')
 
 println(tot)
 
-Mobile.verifyElementText(findTestObject('Object Repository/Topup/Paket Data/XL-Axis/10-TextView-totalpembelian'), 
+Mobile.verifyElementText(findTestObject('null'), 
     'Rp.  ' + tot)
 
-String total = Mobile.getText(findTestObject('Object Repository/Topup/Paket Data/XL-Axis/10-TextView-totalpembelian'), 
+String total = Mobile.getText(findTestObject('null'), 
     0)
 
 println(total)
 
-Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/XL-Axis/11-EditText-m-pin'), 0)
+Mobile.tap(findTestObject('null'), 0)
 
-Mobile.setText(findTestObject('Object Repository/Topup/Paket Data/XL-Axis/11-EditText-m-pin'), '111111', 0)
+Mobile.setText(findTestObject('null'), '111111', 0)
 
 Mobile.pressBack()
 
 Mobile.delay(1)
 Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\N-TC-TOPUP - Paket Data XL - Rekening Dormant\\06.png')
 
-Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/XL-Axis/12-button- lanjut'), 0)
+Mobile.tap(findTestObject('null'), 0)
 
-Mobile.verifyElementText(findTestObject('Object Repository/Topup/Paket Data/XL-Axis/15-TextView-Error'), 'Error')
+Mobile.verifyElementText(findTestObject('null'), 'Error')
 
-Mobile.verifyElementText(findTestObject('Object Repository/Topup/Paket Data/XL-Axis/15-TextView-message error'), 'Nomor rekening tujuan tidak ditemukan/rekening sumber dana Anda tidak aktif. Untuk aktivasi rekening sumber dana, lakukan pada menu Pengaturan Atur Akun, dengan nonantifkan dan aktifkan kembali sebagai sumber dana lalu lakukan transaksi atas rekening tersebut. [M77]')
+Mobile.verifyElementText(findTestObject('null'), 'Nomor rekening tujuan tidak ditemukan/rekening sumber dana Anda tidak aktif. Untuk aktivasi rekening sumber dana, lakukan pada menu Pengaturan Atur Akun, dengan nonantifkan dan aktifkan kembali sebagai sumber dana lalu lakukan transaksi atas rekening tersebut. [M77]')
 
 Mobile.delay(1)
 Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\N-TC-TOPUP - Paket Data XL - Rekening Dormant\\01.png')
 
 Mobile.delay(2)
 
-Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/XL-Axis/15-ViewGroup-button ok'), 0)
+Mobile.tap(findTestObject('null'), 0)
 
 Mobile.delay(2)
 
-Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/XL-Axis/16-ViewGroup-button Batal'), 0)
+Mobile.tap(findTestObject('null'), 0)
 
 Mobile.pressBack()
 

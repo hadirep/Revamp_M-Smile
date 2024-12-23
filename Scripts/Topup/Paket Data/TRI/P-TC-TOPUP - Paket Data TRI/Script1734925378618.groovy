@@ -44,45 +44,38 @@ Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Paket Data T
 
 Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/TRI/04. Button-Lanjut'), 0)
 
-//Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/TRI/05. SvgView-Cek Saldo'), 0)
+Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/TRI/05. SvgView-Jenis Paket'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/TRI/07. Dropdown-Jenis Paket'), 0)
+Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/TRI/06. ViewGroup-Happy 10 GB'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/TRI/08. ViewGroup-Paket Internet'), 0)
+Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/TRI/07. SvgView-Waktu Transaksi'), 0)
 
-String nominal = Mobile.verifyElementText(findTestObject('Object Repository/Topup/Paket Data/TRI/09. TextView-Nominal'), 
-	'Rp. 41.000')
-
-println(nominal)
-
-Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/TRI/10. Dropdown-Waktu Transaksi'), 0)
-
-Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/TRI/11. Dropdown-Sekarang'), 0)
+Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/TRI/08. ViewGroup-Sekarang'), 0)
 
 Mobile.delay(1)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Paket Data TRI\\05.png')
 
-Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/TRI/12. Button-Lanjut'), 0)
+Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/TRI/09. Button-Lanjut'), 0)
 
-Mobile.verifyElementText(findTestObject('Object Repository/Topup/Paket Data/TRI/13. TextView-Pembelian PAKET DATA TRI'), 
+Mobile.verifyElementText(findTestObject('Object Repository/Topup/Paket Data/TRI/10. TextView-verif Pembelian PAKET DATA TRI'), 
 	'Pembelian PAKET DATA TRI')
 
-Mobile.verifyElementText(findTestObject('Object Repository/Topup/Paket Data/TRI/14. TextView-0895703376666'),
+Mobile.verifyElementText(findTestObject('Object Repository/Topup/Paket Data/TRI/11. TextView-verif 0895703376666'),
 	'0895703376666')
 
-Mobile.verifyElementText(findTestObject('Object Repository/Topup/Paket Data/TRI/15. TextView-Nominal Rp. 41.000'),
+Mobile.verifyElementText(findTestObject('Object Repository/Topup/Paket Data/TRI/12. TextView-verif Nominal Rp. 41.000'),
 	'Rp. 41.000')
 
-Mobile.verifyElementText(findTestObject('Object Repository/Topup/Paket Data/TRI/16. TextView-Adm Rp. 0'),
+Mobile.verifyElementText(findTestObject('Object Repository/Topup/Paket Data/TRI/13. TextView-verif Adm Rp. 0'),
 	'Rp. 0')
 
-Mobile.verifyElementText(findTestObject('Object Repository/Topup/Paket Data/TRI/17. TextView-Total Rp.  41.000'),
+Mobile.verifyElementText(findTestObject('Object Repository/Topup/Paket Data/TRI/14. TextView-verif Total Rp. 41.000'),
 	'Rp.  41.000')
 
 
-Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/TRI/18. TextView-Tap M-PIN'), 0)
+Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/TRI/15. TextView-Tap M-PIN'), 0)
 
-Mobile.setText(findTestObject('Object Repository/Topup/Paket Data/TRI/19. EditText-Set M-PIN'), 
+Mobile.setText(findTestObject('Object Repository/Topup/Paket Data/TRI/16. EditText-Set M-PIN'), 
 	'111111', 0)
 
 Mobile.hideKeyboard()
@@ -90,30 +83,30 @@ Mobile.hideKeyboard()
 Mobile.delay(1)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Paket Data TRI\\06.png')
 
-Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/TRI/20. ViewGroup-Lanjut'), 0)
+Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/TRI/17. ViewGroup-Lanjut'), 0)
 
-Mobile.verifyElementText(findTestObject('Object Repository/Topup/Paket Data/TRI/21. TextView-Top Up Berhasil'),
+Mobile.verifyElementText(findTestObject('Object Repository/Topup/Paket Data/TRI/18. TextView-verif Top Up Berhasil'),
 	 'Top Up Berhasil!')
 
-Mobile.verifyElementText(findTestObject('Object Repository/Topup/Paket Data/TRI/22. TextView-Rp. 41.000'),
+Mobile.verifyElementText(findTestObject('Object Repository/Topup/Paket Data/TRI/19. TextView-verif Rp. 41.000'),
 	'Rp.  41.000')
 
-Mobile.verifyElementText(findTestObject('Object Repository/Topup/Paket Data/TRI/23. TextView-0895703376666'),
+Mobile.verifyElementText(findTestObject('Object Repository/Topup/Paket Data/TRI/20. TextView-verif 0895703376666'),
 	'0895703376666')
 
-Mobile.verifyElementText(findTestObject('Object Repository/Topup/Paket Data/TRI/24. TextView-Nominal Rp. 41.000'),
+Mobile.verifyElementText(findTestObject('Object Repository/Topup/Paket Data/TRI/21. TextView-verif Nominal Rp. 41.000'),
 	'Rp. 41.000')
 
-Mobile.verifyElementText(findTestObject('Object Repository/Topup/Paket Data/TRI/25. TextView-Adm Rp. 0'),
+Mobile.verifyElementText(findTestObject('Object Repository/Topup/Paket Data/TRI/22. TextView-verif Adm Rp. 0'),
 	'Rp. 0')
 
-Mobile.verifyElementText(findTestObject('Object Repository/Topup/Paket Data/TRI/26. TextView-Total Rp. 41.000'),
+Mobile.verifyElementText(findTestObject('Object Repository/Topup/Paket Data/TRI/23. TextView-verif Total Rp. 41.000'),
 	'Rp.  41.000')
 
 Mobile.delay(1)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Paket Data TRI\\07.png')
 
-Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/TRI/27. ViewGroup-Bagikan'), 0)
+Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/TRI/24. ViewGroup-Bagikan'), 0)
 
 Mobile.delay(1)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Paket Data TRI\\08.png')
@@ -123,10 +116,15 @@ Mobile.pressBack()
 Mobile.delay(1)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Paket Data TRI\\09.png')
 
-Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/TRI/28. GroupView-Button Close'), 0)
+Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/TRI/25. GroupView-Button Close'), 0)
 
 Mobile.delay(1)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Paket Data TRI\\10.png')
+
+Mobile.pressBack()
+
+Mobile.delay(1)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Paket Data TRI\\11.png')
 
 Mobile.closeApplication()
 

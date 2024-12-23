@@ -34,8 +34,7 @@ Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Paket Data X
 
 Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/XL-Axis/03-EditText-input nomor'), 0)
 
-Mobile.setText(findTestObject('Object Repository/Topup/Paket Data/XL-Axis/03-EditText-input nomor'), '087777190770', 
-    0)
+Mobile.setText(findTestObject('Object Repository/Topup/Paket Data/XL-Axis/03-EditText-input nomor'), '087777190770', 0)
 
 Mobile.pressBack()
 
@@ -44,91 +43,67 @@ Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Paket Data X
 
 Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/XL-Axis/04-button-lanjut'), 0)
 
-String nomor = Mobile.getText(findTestObject('Object Repository/Topup/Paket Data/XL-Axis/05-EditText-no'), 0)
+Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/XL-Axis/05. SvgView-Jenis Paket'), 0)
 
-println(nomor)
+Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/XL-Axis/06. ViewGroup-32000'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/XL-Axis/06-dropdown-jenispkt'), 0)
+Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/XL-Axis/07. SvgView-Waktu Transaksi'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Transfer/Topup/XL-Axis/06-ViewGroup-paket internet'), 0)
-
-String nominal = Mobile.getText(findTestObject('Object Repository/Topup/Paket Data/XL-Axis/07-TextView-Nominal'), 
-    0)
-
-println(nominal)
-
-Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/XL-Axis/08-dropdown-waktu-tx'), 0)
-
-Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/XL-Axis/08-dropdown-sekarang'), 0)
+Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/XL-Axis/08. ViewGroup-Sekarang'), 0)
 
 Mobile.delay(1)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Paket Data XL-Axis\\05.png')
 
-Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/XL-Axis/09-button-lanjut'), 0)
+Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/XL-Axis/09. ViewGroup-Lanjut'), 0)
 
-Mobile.verifyElementText(findTestObject('Object Repository/Topup/Paket Data/XL-Axis/10-TextView-no'), nomor)
+Mobile.verifyElementText(findTestObject('Object Repository/Topup/Paket Data/XL-Axis/10. TextView-verif Pembelian PAKET DATA XL'), 
+	'Pembelian PAKET DATA XL')
 
-Mobile.verifyElementText(findTestObject('Object Repository/Topup/Paket Data/XL-Axis/10-TextView-nominaltrx'), 
-    nominal)
+Mobile.verifyElementText(findTestObject('Object Repository/Topup/Paket Data/XL-Axis/11. TextView-verif 087777190770'), 
+	'087777190770')
 
-int byadm = 1500
+Mobile.verifyElementText(findTestObject('Object Repository/Topup/Paket Data/XL-Axis/12. TextView-verif Nominal Rp. 32.000'), 
+	'Rp. 32.000')
 
-String adm = String.format('%,d', byadm).replace(',', '.')
+Mobile.verifyElementText(findTestObject('Object Repository/Topup/Paket Data/XL-Axis/13. TextView-verif Adm Rp. 1.500'), 
+	'Rp. 1.500')
 
-Mobile.verifyElementText(findTestObject('Object Repository/Topup/Paket Data/XL-Axis/10-TextView-biaya-admin'), 
-    'Rp. ' + adm)
+Mobile.verifyElementText(findTestObject('Object Repository/Topup/Paket Data/XL-Axis/14. TextView-verif Rp.  33.500'), 
+	'Rp.  33.500')
 
-String byadmin = Mobile.getText(findTestObject('Object Repository/Topup/Paket Data/XL-Axis/10-TextView-biaya-admin'), 
-    0)
+Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/XL-Axis/15. EditText-Tap M-PIN'), 0)
 
-String nominalangka = nominal.replaceAll('[^\\d]', '' //mereplace string selain angka (Rp.) agar dapat diubah tipe datanya
-    )
+Mobile.setText(findTestObject('Object Repository/Topup/Paket Data/XL-Axis/16. EditText-Set M-PIN'), '111111', 0)
 
-int nominalint = nominalangka.toInteger()
-
-//merubah tipe data nominal dari string ke int
-int totaltopup = nominalint + byadm //perhitungan nominal paket data ditambah biaya admin
-
-println(totaltopup)
-
-String tot = String.format('%,d', totaltopup).replace(',', '.')
-
-println(tot)
-
-Mobile.verifyElementText(findTestObject('Object Repository/Topup/Paket Data/XL-Axis/10-TextView-totalpembelian'), 
-    'Rp.  ' + tot)
-
-String total = Mobile.getText(findTestObject('Object Repository/Topup/Paket Data/XL-Axis/10-TextView-totalpembelian'), 
-    0)
-
-println(total)
-
-Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/XL-Axis/11-EditText-m-pin'), 0)
-
-Mobile.setText(findTestObject('Object Repository/Topup/Paket Data/XL-Axis/11-EditText-m-pin'), '111111', 0)
-
-Mobile.pressBack()
+Mobile.hideKeyboard()
 
 Mobile.delay(1)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Paket Data XL-Axis\\06.png')
 
-Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/XL-Axis/12-button- lanjut'), 0)
+Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/XL-Axis/17. ViewGroup-Lanjut'), 0)
 
-Mobile.verifyElementText(findTestObject('Object Repository/Topup/Paket Data/XL-Axis/13-TextView-Top Up Berhasil'), 
-    'Top Up Berhasil!')
+Mobile.verifyElementText(findTestObject('Object Repository/Topup/Paket Data/XL-Axis/18. TextView-verif Top Up Berhasil'), 
+	'Top Up Berhasil!')
 
-Mobile.verifyElementText(findTestObject('Object Repository/Topup/Paket Data/XL-Axis/13.TextView-nohp'), nomor)
+Mobile.verifyElementText(findTestObject('Object Repository/Topup/Paket Data/XL-Axis/19. TextView-verif Rp.  33.500'), 
+	'Rp.  33.500')
 
-Mobile.verifyElementText(findTestObject('Object Repository/Topup/Paket Data/XL-Axis/13.TextView-nominal'), nominal)
+Mobile.verifyElementText(findTestObject('Object Repository/Topup/Paket Data/XL-Axis/20. TextView-verif 087777190770'), 
+	'087777190770')
 
-Mobile.verifyElementText(findTestObject('Object Repository/Topup/Paket Data/XL-Axis/13.TextView-adm'), byadmin)
+Mobile.verifyElementText(findTestObject('Object Repository/Topup/Paket Data/XL-Axis/21. TextView-verif Rp. 32.000'), 
+	'Rp. 32.000')
 
-Mobile.verifyElementText(findTestObject('Object Repository/Topup/Paket Data/XL-Axis/13.TextView-total'), total)
+Mobile.verifyElementText(findTestObject('Object Repository/Topup/Paket Data/XL-Axis/22. TextView-verif Rp. 1.500'), 
+	'Rp. 1.500')
+
+Mobile.verifyElementText(findTestObject('Object Repository/Topup/Paket Data/XL-Axis/23. TextView-verif Rp.  33.500'), 
+	'Rp.  33.500')
 
 Mobile.delay(1)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Paket Data XL-Axis\\07.png')
 
-Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/XL-Axis/14-button-close'), 0)
+Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/XL-Axis/24. ViewGroup-Bagikan'), 0)
 
 Mobile.delay(1)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Paket Data XL-Axis\\08.png')
@@ -137,6 +112,16 @@ Mobile.pressBack()
 
 Mobile.delay(1)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Paket Data XL-Axis\\09.png')
+
+Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/XL-Axis/25. GroupView-Close Button'), 0)
+
+Mobile.delay(1)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Paket Data XL-Axis\\10.png')
+
+Mobile.pressBack()
+
+Mobile.delay(1)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Paket Data XL-Axis\\11.png')
 
 Mobile.closeApplication()
 

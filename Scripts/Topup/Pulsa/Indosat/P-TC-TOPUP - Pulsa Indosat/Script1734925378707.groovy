@@ -121,6 +121,7 @@ Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/Indosat/22. ViewGroup-B
 Mobile.delay(1)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Pulsa Indosat\\08.png')
 
+Mobile.delay(2)
 Mobile.pressBack()
 
 Mobile.delay(1)

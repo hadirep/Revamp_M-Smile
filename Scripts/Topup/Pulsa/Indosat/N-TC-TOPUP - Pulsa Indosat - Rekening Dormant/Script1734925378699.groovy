@@ -96,7 +96,7 @@ Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Pulsa Indosa
 
 Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/Indosat - Dormant/15. ViewGroup-Lanjut'), 0)
 
-Mobile.delay(1)
+Mobile.delay(4)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Pulsa Indosat - Dormant\\07.png')
 
 Mobile.verifyElementText(findTestObject('Object Repository/Topup/Pulsa/Indosat - Dormant/16. TextView-verif Dormant'),
@@ -110,12 +110,25 @@ Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/Indosat - Dormant/17. T
 Mobile.delay(1)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Pulsa Indosat - Dormant\\09.png')
 
+Mobile.delay(2)
 Mobile.pressBack()
+
+Mobile.delay(1)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Pulsa Indosat - Dormant\\10.png')
 
 Mobile.pressBack()
 
-Mobile.pressBack()
+Mobile.delay(1)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Pulsa Indosat - Dormant\\11.png')
 
 Mobile.pressBack()
+
+Mobile.delay(1)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Pulsa Indosat - Dormant\\12.png')
+
+Mobile.pressBack()
+
+Mobile.delay(1)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Pulsa Indosat - Dormant\\13.png')
 
 Mobile.closeApplication()

@@ -98,7 +98,7 @@ Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Pulsa Indosa
 
 Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/Indosat - Insuficcient Balance/15. ViewGroup-Lanjut'), 0)
 
-Mobile.delay(1)
+Mobile.delay(4)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Pulsa Indosat - Insuficcient Balance\\07.png')
 
 Mobile.verifyElementText(findTestObject('Object Repository/Topup/Pulsa/Indosat - Insuficcient Balance/16. TextView-verif Insuficcient Balance'),
@@ -107,17 +107,30 @@ Mobile.verifyElementText(findTestObject('Object Repository/Topup/Pulsa/Indosat -
 Mobile.delay(1)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Pulsa Indosat - Insuficcient Balance\\08.png')
 
+Mobile.delay(1)
 Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/Indosat - Insuficcient Balance/17. TextView-OK'), 0)
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Pulsa Indosat - Insuficcient Balance\\09.png')
 
 Mobile.pressBack()
 
-Mobile.pressBack()
+Mobile.delay(1)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Pulsa Indosat - Insuficcient Balance\\10.png')
 
 Mobile.pressBack()
 
+Mobile.delay(1)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Pulsa Indosat - Insuficcient Balance\\11.png')
+
 Mobile.pressBack()
+
+Mobile.delay(1)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Pulsa Indosat - Insuficcient Balance\\12.png')
+
+Mobile.pressBack()
+
+Mobile.delay(1)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Pulsa Indosat - Insuficcient Balance\\13.png')
 
 Mobile.closeApplication()

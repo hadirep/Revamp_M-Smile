@@ -113,14 +113,15 @@ Mobile.verifyElementText(findTestObject('Object Repository/Topup/Pulsa/TRI/19. T
 Mobile.verifyElementText(findTestObject('Object Repository/Topup/Pulsa/TRI/20. TextView-verif Total Rp. 30.000'), 
 	'Rp.  30.000')
 
-Mobile.delay(1)
+Mobile.delay(4)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Pulsa TRI\\07.png')
 
 Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/TRI/21. ViewGroup-Bagikan'), 0)
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Pulsa TRI\\08.png')
 
+Mobile.delay(2)
 Mobile.pressBack()
 
 Mobile.delay(1)

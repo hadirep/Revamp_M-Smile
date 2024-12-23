@@ -15,28 +15,28 @@
       <guid>74e037c1-e2e4-40ae-99a5-b6ec5a0d73fa</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Topup/Pulsa/N-TC-TOP UP-Pulsa - Smartfren - Dormant</testCaseId>
+      <testCaseId>Test Cases/Topup/Pulsa/Smartfren/N-TC-TOP UP-Pulsa - Smartfren - Dormant</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>10d0bdd9-433a-4c8c-8a43-6cfd939714fb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Topup/Pulsa/N-TC-TOP UP-Pulsa - Smartfren - Insufficient</testCaseId>
+      <testCaseId>Test Cases/Topup/Pulsa/Smartfren/N-TC-TOP UP-Pulsa - Smartfren - Insufficient</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>6bb0fabc-7a0d-491b-b3d5-0ee43e2cef3e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Topup/Pulsa/N-TC-TOP UP-Pulsa - Telkomsel - Dormant</testCaseId>
+      <testCaseId>Test Cases/Topup/Pulsa/Telkomsel/N-TC-TOP UP-Pulsa - Telkomsel - Dormant</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>0228ba5f-5d9f-46c4-b462-e914e502ca55</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Topup/Pulsa/N-TC-TOP UP-Pulsa - Telkomsel - Insufficient</testCaseId>
+      <testCaseId>Test Cases/Topup/Pulsa/Telkomsel/N-TC-TOP UP-Pulsa - Telkomsel - Insufficient</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -97,7 +97,7 @@
       <guid>c6889c55-86e8-413f-90cc-0a604aca3e42</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Topup/Pulsa/P-TC-TOP UP-Pulsa - Smartfren</testCaseId>
+      <testCaseId>Test Cases/Topup/Pulsa/Smartfren/P-TC-TOP UP-Pulsa - Smartfren</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -117,7 +117,7 @@
       <guid>e62e6b7c-3666-4c8e-b585-a64a029168e1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Topup/Pulsa/P-TC-TOPUP - Pulsa Telkomsel</testCaseId>
+      <testCaseId>Test Cases/Topup/Pulsa/Telkomsel/P-TC-TOP UP - Pulsa Telkomsel</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
