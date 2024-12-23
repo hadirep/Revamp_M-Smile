@@ -18,9 +18,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.w
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.testng.keyword.internal.TestNGDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\H24090~1\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Bantuan\\Fitur Lainnya\\P-TC-BANTUAN - Fitur Lainnya - Daftar Favorit\\20241210_091452\\execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\H24090~1\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Topup\\LinkAja\\20241217_163946\\execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runTestCase('Test Cases/Bantuan/Fitur Lainnya/P-TC-BANTUAN - Fitur Lainnya - Daftar Favorit', new TestCaseBinding('Test Cases/Bantuan/Fitur Lainnya/P-TC-BANTUAN - Fitur Lainnya - Daftar Favorit',[:]), FailureHandling.STOP_ON_FAILURE , false)
+        TestCaseMain.runTestCase('Test Cases/Topup/LinkAja', new TestCaseBinding('Test Cases/Topup/LinkAja',[:]), FailureHandling.STOP_ON_FAILURE , false)
     
