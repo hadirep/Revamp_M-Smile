@@ -20,115 +20,104 @@ import org.openqa.selenium.Keys as Keys
 Mobile.startExistingApplication('com.bankmega.msmiledev')
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\N-TC-TOPUP - Paket Data XL - Rekening Dormant\\01.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Paket Data XL-Axis - Dormant\\01.png')
 
-Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/XL-Axis/01-button-topup'), 0)
-
-Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\N-TC-TOPUP - Paket Data XL - Rekening Dormant\\02.png')
-
-Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/XL-Axis/02-button-paket data'), 0)
+Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/XL-Axis - Dormant/01. Button-Topup'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\N-TC-TOPUP - Paket Data XL - Rekening Dormant\\03.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Paket Data XL-Axis - Dormant\\02.png')
 
-Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/XL-Axis/03-EditText-input nomor'), 0)
+Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/XL-Axis - Dormant/02. Button-Paket Data'), 0)
 
-Mobile.setText(findTestObject('Object Repository/Topup/Paket Data/XL-Axis/03-EditText-input nomor'), '087777190770', 
-    0)
+Mobile.delay(1)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Paket Data XL-Axis - Dormant\\03.png')
+
+Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/XL-Axis - Dormant/03. EditText-Input Nomor'), 0)
+
+Mobile.setText(findTestObject('Object Repository/Topup/Paket Data/XL-Axis - Dormant/03. EditText-Input Nomor'), '087777190770', 0)
 
 Mobile.pressBack()
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\N-TC-TOPUP - Paket Data XL - Rekening Dormant\\04.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Paket Data XL-Axis - Dormant\\04.png')
 
-Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/XL-Axis/04-button-lanjut'), 0)
+Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/XL-Axis - Dormant/04. Button-Lanjut'), 0)
 
-String nomor = Mobile.getText(findTestObject('Object Repository/Topup/Paket Data/XL-Axis/05-EditText-no'), 0)
+Mobile.delay(3)
+Mobile.swipe(900, 500, 100, 500)
 
-println(nomor)
+Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/XL-Axis - Dormant/05. SvgView-Jenis Paket'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/XL-Axis/06-dropdown-jenispkt'), 0)
+Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/XL-Axis - Dormant/06. ViewGroup-32000'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Transfer/Topup/XL-Axis/06-ViewGroup-paket internet'), 0)
+Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/XL-Axis - Dormant/07. SvgView-Waktu Transaksi'), 0)
 
-String nominal = Mobile.getText(findTestObject('Object Repository/Topup/Paket Data/XL-Axis/07-TextView-Nominal'), 
-    0)
-
-println(nominal)
-
-Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/XL-Axis/08-dropdown-waktu-tx'), 0)
-
-Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/XL-Axis/08-dropdown-sekarang'), 0)
+Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/XL-Axis - Dormant/08. ViewGroup-Sekarang'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\N-TC-TOPUP - Paket Data XL - Rekening Dormant\\05.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Paket Data XL-Axis - Dormant\\05.png')
 
-Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/XL-Axis/09-button-lanjut'), 0)
+Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/XL-Axis - Dormant/09. ViewGroup-Lanjut'), 0)
 
-Mobile.verifyElementText(findTestObject('null'), nomor)
+Mobile.verifyElementText(findTestObject('Object Repository/Topup/Paket Data/XL-Axis - Dormant/10. TextView-verif Pembelian PAKET DATA XL'), 
+	'Pembelian PAKET DATA XL')
 
-Mobile.verifyElementText(findTestObject('null'), 
-    nominal)
+Mobile.verifyElementText(findTestObject('Object Repository/Topup/Paket Data/XL-Axis - Dormant/11. TextView-verif 087777190770'), 
+	'087777190770')
 
-int byadm = 1500
+Mobile.verifyElementText(findTestObject('Object Repository/Topup/Paket Data/XL-Axis - Dormant/12. TextView-verif Nominal Rp. 32.000'), 
+	'Rp. 32.000')
 
-String adm = String.format('%,d', byadm).replace(',', '.')
+Mobile.verifyElementText(findTestObject('Object Repository/Topup/Paket Data/XL-Axis - Dormant/13. TextView-verif Adm Rp. 1.500'), 
+	'Rp. 1.500')
 
-Mobile.verifyElementText(findTestObject('null'), 
-    'Rp. ' + adm)
+Mobile.verifyElementText(findTestObject('Object Repository/Topup/Paket Data/XL-Axis - Dormant/14. TextView-verif Rp.  33.500'), 
+	'Rp.  33.500')
 
-String byadmin = Mobile.getText(findTestObject('null'), 
-    0)
+Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/XL-Axis - Dormant/15. EditText-Tap M-PIN'), 0)
 
-String nominalangka = nominal.replaceAll('[^\\d]', '' //mereplace string selain angka (Rp.) agar dapat diubah tipe datanya
-    )
+Mobile.setText(findTestObject('Object Repository/Topup/Paket Data/XL-Axis - Dormant/16. EditText-Set M-PIN'), '111111', 0)
 
-int nominalint = nominalangka.toInteger()
-
-//merubah tipe data nominal dari string ke int
-int totaltopup = nominalint + byadm //perhitungan nominal paket data ditambah biaya admin
-
-println(totaltopup)
-
-String tot = String.format('%,d', totaltopup).replace(',', '.')
-
-println(tot)
-
-Mobile.verifyElementText(findTestObject('null'), 
-    'Rp.  ' + tot)
-
-String total = Mobile.getText(findTestObject('null'), 
-    0)
-
-println(total)
-
-Mobile.tap(findTestObject('null'), 0)
-
-Mobile.setText(findTestObject('null'), '111111', 0)
-
-Mobile.pressBack()
+Mobile.hideKeyboard()
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\N-TC-TOPUP - Paket Data XL - Rekening Dormant\\06.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Paket Data XL-Axis - Dormant\\06.png')
 
-Mobile.tap(findTestObject('null'), 0)
-
-Mobile.verifyElementText(findTestObject('null'), 'Error')
-
-Mobile.verifyElementText(findTestObject('null'), 'Nomor rekening tujuan tidak ditemukan/rekening sumber dana Anda tidak aktif. Untuk aktivasi rekening sumber dana, lakukan pada menu Pengaturan Atur Akun, dengan nonantifkan dan aktifkan kembali sebagai sumber dana lalu lakukan transaksi atas rekening tersebut. [M77]')
+Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/XL-Axis - Dormant/17. ViewGroup-Lanjut'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\N-TC-TOPUP - Paket Data XL - Rekening Dormant\\01.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Paket Data XL-Axis - Dormant\\07.png')
+
+Mobile.verifyElementText(findTestObject('Object Repository/Topup/Paket Data/XL-Axis - Dormant/18. TextView-verif Rekening Dormant'),
+	'Nomor rekening tujuan tidak ditemukan/rekening sumber dana Anda tidak aktif. Untuk aktivasi rekening sumber dana, lakukan pada menu Pengaturan Atur Akun, dengan nonantifkan dan aktifkan kembali sebagai sumber dana lalu lakukan transaksi atas rekening tersebut. [M77]')
 
 Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Paket Data XL-Axis - Dormant\\08.png')
 
-Mobile.tap(findTestObject('null'), 0)
+Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/XL-Axis - Dormant/19. ViewGroup-OK'), 0)
 
 Mobile.delay(2)
-
-Mobile.tap(findTestObject('null'), 0)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Paket Data XL-Axis - Dormant\\09.png')
 
 Mobile.pressBack()
+
+Mobile.delay(1)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Paket Data XL-Axis - Dormant\\10.png')
+
+Mobile.pressBack()
+
+Mobile.delay(1)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Paket Data XL-Axis - Dormant\\11.png')
+
+Mobile.pressBack()
+
+Mobile.delay(1)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Paket Data XL-Axis - Dormant\\12.png')
+
+Mobile.pressBack()
+
+Mobile.delay(1)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Paket Data XL-Axis - Dormant\\13.png')
 
 Mobile.closeApplication()
+

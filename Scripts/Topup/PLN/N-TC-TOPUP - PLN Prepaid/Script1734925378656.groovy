@@ -19,69 +19,61 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('com.bankmega.msmiledev')
 
-Mobile.delay(2)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\N-TC-TOPUP - PLN - Prepaid\\01.png')
+Mobile.delay(1)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - PLN - Prepaid\\01.png')
 
-Mobile.tap(findTestObject('Object Repository/Topup/PLN/Prepaid-Negative/01. ViewGroup-Top Up'), 0)
+Mobile.tap(findTestObject('Object Repository/Topup/PLN/Prepaid-Negative/01. ViewGroup-Topup'), 0)
 
-Mobile.delay(2)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\N-TC-TOPUP - PLN - Prepaid\\02.png')
+Mobile.delay(1)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - PLN - Prepaid\\02.png')
 
 Mobile.tap(findTestObject('Object Repository/Topup/PLN/Prepaid-Negative/02. View-PLN'), 0)
 
-Mobile.delay(2)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\N-TC-TOPUP - PLN - Prepaid\\03.png')
+Mobile.delay(1)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - PLN - Prepaid\\03.png')
 
-Mobile.tap(findTestObject('Object Repository/Topup/PLN/Prepaid-Negative/03. TextView-Tap nopel'), 0)
+Mobile.tap(findTestObject('Object Repository/Topup/PLN/Prepaid-Negative/03. EditText-Tap Nopel'), 0)
 
-Mobile.setText(findTestObject('Object Repository/Topup/PLN/Prepaid-Negative/04. EditText-Set Nopel'), 
-    '55555', 0)
+Mobile.setText(findTestObject('Object Repository/Topup/PLN/Prepaid-Negative/04. EditText-Set Nopel'), '123456', 0)
 
 Mobile.hideKeyboard()
 
-Mobile.delay(2)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\N-TC-TOPUP - PLN - Prepaid\\04.png')
+Mobile.delay(1)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - PLN - Prepaid\\04.png')
 
 Mobile.tap(findTestObject('Object Repository/Topup/PLN/Prepaid-Negative/05. ViewGroup-Lanjut'), 0)
 
-Mobile.delay(2)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\N-TC-TOPUP - PLN - Prepaid\\05.png')
-
-Mobile.tap(findTestObject('Object Repository/Topup/PLN/Prepaid-Negative/06. GroupView-Pilih Produk'), 0)
-
-Mobile.delay(2)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\N-TC-TOPUP - PLN - Prepaid\\06.png')
+Mobile.tap(findTestObject('Object Repository/Topup/PLN/Prepaid-Negative/06. SvgView-Daftar Produk'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Topup/PLN/Prepaid-Negative/07. TextView-PLN PRABAYAR'), 0)
 
-Mobile.delay(2)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\N-TC-TOPUP - PLN - Prepaid\\07.png')
-
 Mobile.tap(findTestObject('Object Repository/Topup/PLN/Prepaid-Negative/08. ViewGroup-Lanjut'), 0)
 
-Mobile.verifyElementText(findTestObject('Object Repository/Topup/PLN/Prepaid-Negative/09. TextView-verif Nopel Salah'), 'NOMOR METER/IDPEL YANG ANDA MASUKKAN SALAH, MOHON TELITI KEMBALI.  [S31]')
+Mobile.tap(findTestObject('Object Repository/Topup/PLN/Prepaid-Negative/09. EditText-PLN PRABAYAR'), 0)
 
-Mobile.delay(3)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\N-TC-TOPUP - PLN - Prepaid\\08.png')
+Mobile.delay(1)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - PLN - Prepaid\\05.png')
 
-Mobile.tap(findTestObject('Object Repository/Topup/PLN/Prepaid-Negative/10. TextView-OK'), 0)
+Mobile.tap(findTestObject('Object Repository/Topup/PLN/Prepaid-Negative/10. ViewGroup-OK'), 0)
 
 Mobile.delay(2)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\N-TC-TOPUP - PLN - Prepaid\\09.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - PLN - Prepaid\\06.png')
 
 Mobile.pressBack()
 
 Mobile.delay(2)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\N-TC-TOPUP - PLN - Prepaid\\10.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - PLN - Prepaid\\07.png')
 
+Mobile.delay(1)
 Mobile.pressBack()
 
-Mobile.delay(2)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\N-TC-TOPUP - PLN - Prepaid\\11.png')
+Mobile.delay(1)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - PLN - Prepaid\\08.png')
 
+Mobile.delay(1)
 Mobile.pressBack()
 
-Mobile.delay(2)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\N-TC-TOPUP - PLN - Prepaid\\12.png')
+Mobile.delay(1)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - PLN - Prepaid\\09.png')
 
 Mobile.closeApplication()

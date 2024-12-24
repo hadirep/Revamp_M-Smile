@@ -22,7 +22,7 @@ Mobile.startExistingApplication('com.bankmega.msmiledev')
 Mobile.delay(1)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Paket Data XL-Axis\\01.png')
 
-Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/XL-Axis/01-button-topup'), 0)
+Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/XL-Axis/01. Button-Topup'), 0)
 
 Mobile.delay(1)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Paket Data XL-Axis\\02.png')
@@ -32,16 +32,16 @@ Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/XL-Axis/02-button-
 Mobile.delay(1)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Paket Data XL-Axis\\03.png')
 
-Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/XL-Axis/03-EditText-input nomor'), 0)
+Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/XL-Axis/03. EditText-Input Nomor'), 0)
 
-Mobile.setText(findTestObject('Object Repository/Topup/Paket Data/XL-Axis/03-EditText-input nomor'), '087777190770', 0)
+Mobile.setText(findTestObject('Object Repository/Topup/Paket Data/XL-Axis/03. EditText-Input Nomor'), '087777190770', 0)
 
 Mobile.pressBack()
 
 Mobile.delay(1)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Paket Data XL-Axis\\04.png')
 
-Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/XL-Axis/04-button-lanjut'), 0)
+Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/XL-Axis/04. Button-Lanjut'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/XL-Axis/05. SvgView-Jenis Paket'), 0)
 
@@ -105,7 +105,7 @@ Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Paket Data X
 
 Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/XL-Axis/24. ViewGroup-Bagikan'), 0)
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Paket Data XL-Axis\\08.png')
 
 Mobile.pressBack()

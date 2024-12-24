@@ -22,7 +22,7 @@ Mobile.startExistingApplication('com.bankmega.msmiledev')
 Mobile.delay(1)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - PLN - Prepaid\\01.png')
 
-Mobile.tap(findTestObject('Object Repository/Topup/PLN/Prepaid-Positive/01. ViewGroup-Top up'), 0)
+Mobile.tap(findTestObject('Object Repository/Topup/PLN/Prepaid-Positive/01. ViewGroup-Topup'), 0)
 
 Mobile.delay(1)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - PLN - Prepaid\\02.png')
@@ -32,7 +32,7 @@ Mobile.tap(findTestObject('Object Repository/Topup/PLN/Prepaid-Positive/02. View
 Mobile.delay(1)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - PLN - Prepaid\\03.png')
 
-Mobile.tap(findTestObject('Object Repository/Topup/PLN/Prepaid-Positive/03. TextView-Tap nopel'), 0)
+Mobile.tap(findTestObject('Object Repository/Topup/PLN/Prepaid-Positive/03. EditText-Tap Nopel'), 0)
 
 Mobile.setText(findTestObject('Object Repository/Topup/PLN/Prepaid-Positive/04. EditText-Set Nopel'), '110026302395', 0)
 
@@ -43,21 +43,21 @@ Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - PLN - Prepai
 
 Mobile.tap(findTestObject('Object Repository/Topup/PLN/Prepaid-Positive/05. ViewGroup-Lanjut'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Topup/PLN/Prepaid-Positive/06. PathView-Pilih Produk'), 0)
+Mobile.tap(findTestObject('Object Repository/Topup/PLN/Prepaid-Positive/06. SvgView-Daftar Produk'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Topup/PLN/Prepaid-Positive/07. TextView-PLN PRABAYAR'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Topup/PLN/Prepaid-Positive/08. ViewGroup-Lanjut'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Topup/PLN/Prepaid-Positive/09. PathView-Pilih Nominal'), 0)
+Mobile.tap(findTestObject('Object Repository/Topup/PLN/Prepaid-Positive/09. SvgView-Tap Nominal'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Topup/PLN/Prepaid-Positive/10. TextView-NOMINAL BARU'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Topup/PLN/Prepaid-Positive/11. PathView-Pilih Nominal'), 0)
+Mobile.tap(findTestObject('Object Repository/Topup/PLN/Prepaid-Positive/11. SvgView-Tap Nominal Baru'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Topup/PLN/Prepaid-Positive/12. TextView-Rp. 20.000'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Topup/PLN/Prepaid-Positive/13. TextView-Tap M-PIN'), 0)
+Mobile.tap(findTestObject('Object Repository/Topup/PLN/Prepaid-Positive/13. EditText-Tap M-PIN'), 0)
 
 Mobile.setText(findTestObject('Object Repository/Topup/PLN/Prepaid-Positive/14. EditText-Set M-PIN'), '111111', 0)
 
@@ -76,18 +76,18 @@ Mobile.tap(findTestObject('Object Repository/Topup/PLN/Prepaid-Positive/16. View
 Mobile.delay(5)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - PLN - Prepaid\\07.png')
 
-Mobile.tap(findTestObject('Object Repository/Topup/PLN/Prepaid-Positive/17. Button - Cancel'), 0)
+Mobile.pressBack()
 
 Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - PLN - Prepaid\\08.png')
 
 Mobile.delay(1)
-Mobile.tap(findTestObject('Object Repository/Topup/PLN/Prepaid-Positive/18. PathView-Close Button'), 0)
+Mobile.tap(findTestObject('Object Repository/Topup/PLN/Prepaid-Positive/17. GroupView-Close Button'), 0)
 
 Mobile.delay(1)
 Mobile.pressBack()
 
-Mobile.delay(5)
+Mobile.delay(1)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - PLN - Prepaid\\09.png')
 
 Mobile.closeApplication()

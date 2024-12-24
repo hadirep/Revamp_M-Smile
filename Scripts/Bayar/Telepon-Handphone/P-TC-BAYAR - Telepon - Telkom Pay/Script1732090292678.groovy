@@ -24,12 +24,12 @@ Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Telepon - Te
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Telepon/Telkom Pay/01. ViewGroup-Bayar'), 0)
 
-Mobile.delay(2)
+Mobile.delay(3)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Telepon - Telkom Pay\\02.png')
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Telepon/Telkom Pay/02. ViewGroup-Telepon'), 0)
 
-Mobile.delay(2)
+Mobile.delay(3)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Telepon - Telkom Pay\\03.png')
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Telepon/Telkom Pay/03. SvgView-Cek Saldo'), 0)
