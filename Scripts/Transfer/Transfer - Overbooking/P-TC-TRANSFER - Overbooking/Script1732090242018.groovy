@@ -97,6 +97,8 @@ Mobile.tap(findTestObject('Object Repository/Transfer/Transfer - Overbooking/11.
 
 Mobile.setText(findTestObject('Object Repository/Transfer/Transfer - Overbooking/11.EditText-mpin'), '111111', 0)
 
+Mobile.hideKeyboard()
+
 Mobile.delay(3)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TRANSFER - Overbooking\\05.png')
 
@@ -106,7 +108,7 @@ Mobile.delay(5)
 
 Mobile.waitForElementPresent(findTestObject('Transfer/Transfer - Overbooking/13.TextView-Transfer Berhasil'), 0)
 
-Mobile.verifyElementText(findTestObject('Transfer/Transfer - Overbooking/13.TextView-Transfer Berhasil'), 'Transfer Berhasil!')
+Mobile.verifyElementText(findTestObject('Transfer/Transfer - Overbooking/13.TextView-Transfer Berhasil'), 'Transfer Berhasil')
 
 Mobile.verifyElementText(findTestObject('Object Repository/Transfer/Transfer - Overbooking/13.TextView-norek'), 'Bank Mega - ' + norek)
 

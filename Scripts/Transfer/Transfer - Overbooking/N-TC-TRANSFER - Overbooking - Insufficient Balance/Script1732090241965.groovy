@@ -20,12 +20,12 @@ import org.openqa.selenium.Keys as Keys
 Mobile.startExistingApplication('com.bankmega.msmiledev')
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\N-TC-TRANSFER - Overbooking - Insufficient Balance\\01.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\N-TC-TRANSFER - Overbooking - Insufficient Balance\\01.png')
 
 Mobile.tap(findTestObject('Transfer/Transfer - Overbooking/01.Button-Transfer'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\N-TC-TRANSFER - Overbooking - Insufficient Balance\\02.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\N-TC-TRANSFER - Overbooking - Insufficient Balance\\02.png')
 
 Mobile.tap(findTestObject('Object Repository/Transfer/Transfer - Overbooking/02.Button-tf bank mega'), 0)
 
@@ -36,7 +36,7 @@ Mobile.setText(findTestObject('Object Repository/Transfer/Transfer - Overbooking
 Mobile.pressBack()
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\N-TC-TRANSFER - Overbooking - Insufficient Balance\\03.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\N-TC-TRANSFER - Overbooking - Insufficient Balance\\03.png')
 
 Mobile.tap(findTestObject('Object Repository/Transfer/Transfer - Overbooking/04.Button-OK'), 0)
 
@@ -60,8 +60,14 @@ Mobile.setText(findTestObject('Object Repository/Transfer/Transfer - Overbooking
 
 Mobile.pressBack()
 
+Mobile.delay(3)
+Mobile.swipe(900, 500, 100, 500)
+
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\N-TC-TRANSFER - Overbooking - Insufficient Balance\\04.png')
+Mobile.swipe(900, 500, 100, 500)
+
+Mobile.delay(1)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\N-TC-TRANSFER - Overbooking - Insufficient Balance\\04.png')
 
 Mobile.tap(findTestObject('Object Repository/Transfer/Transfer - Overbooking/09.button-lanjut'), 0)
 
@@ -98,7 +104,7 @@ Mobile.tap(findTestObject('Object Repository/Transfer/Transfer - Overbooking/11.
 Mobile.setText(findTestObject('Object Repository/Transfer/Transfer - Overbooking/11.EditText-mpin'), '111111', 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\N-TC-TRANSFER - Overbooking - Insufficient Balance\\05.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\N-TC-TRANSFER - Overbooking - Insufficient Balance\\05.png')
 
 Mobile.tap(findTestObject('Object Repository/Transfer/Transfer - Overbooking/12-button-lanjut'), 0)
 
@@ -109,13 +115,21 @@ Mobile.verifyElementText(findTestObject('Object Repository/Transfer/Transfer - O
 Mobile.verifyElementText(findTestObject('Object Repository/Transfer/Transfer - Overbooking/13.TextView-DanaTidakCukup-iscf'), 'Dana Anda tidak cukup untuk melakukan transaksi. Pastikan sumber dana yang anda pilih cukup untuk melakukan transaksi [H51]')
 
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\N-TC-TRANSFER - Overbooking - Insufficient Balance\\06.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\N-TC-TRANSFER - Overbooking - Insufficient Balance\\06.png')
 
 Mobile.tap(findTestObject('Object Repository/Transfer/Transfer - Overbooking/14.Button-OK-iscf'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Transfer/Transfer - Overbooking/15.Button-Batal'), 0)
 
 Mobile.delay(2)
+
+Mobile.pressBack()
+
+Mobile.pressBack()
+
+Mobile.pressBack()
+
+Mobile.pressBack()
 
 Mobile.pressBack()
 

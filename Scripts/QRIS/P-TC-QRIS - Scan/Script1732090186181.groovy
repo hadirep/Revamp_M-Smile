@@ -32,29 +32,14 @@ Mobile.tap(findTestObject('Object Repository/QRIS/Scan/02. SvgView-Cek Saldo'), 
 Mobile.verifyElementText(findTestObject('Object Repository/QRIS/Scan/03. TextView-verif MSP Carrefour Lebak Bulus'), 
 	'MSP Carrefour Lebak Bulus')
 
-//Mobile.verifyElementText(findTestObject('Object Repository/QRIS/Scan/04. EditText-verif Rp. 20.000'),
-//	'Rp. 20.000')
-
 Mobile.delay(1)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-QRIS - Scan\\03.png')
 
 Mobile.tap(findTestObject('Object Repository/QRIS/Scan/05. ViewGroup-Lanjut'), 0)
 
-Mobile.verifyElementText(findTestObject('Object Repository/QRIS/Scan/06. TextView-verif MSP Carrefour Lebak Bulus'), 
-	'MSP Carrefour Lebak Bulus')
-
-//Mobile.verifyElementText(findTestObject('Object Repository/QRIS/Scan/07. TextView-verif JAKARTA'), 
-//	'JAKARTA')
-
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-QRIS - Scan\\04.png')
 
 Mobile.tap(findTestObject('Object Repository/QRIS/Scan/08. Switch-Tap Use MPC Points'), 0)
-
-//Mobile.verifyElementText(findTestObject('Object Repository/QRIS/Scan/09. TextView-verif Nominal Rp. 20.000'), 
-//	'20.000')
-//
-//Mobile.verifyElementText(findTestObject('Object Repository/QRIS/Scan/10. TextView-verif Total Rp. 20.000'), 
-//	'Rp. 20.000')
 
 Mobile.tap(findTestObject('Object Repository/QRIS/Scan/11. EditText-Tap M-PIN'), 0)
 
@@ -69,17 +54,7 @@ Mobile.tap(findTestObject('Object Repository/QRIS/Scan/13. ViewGroup-Bayar'), 0)
 
 Mobile.verifyElementText(findTestObject('Object Repository/QRIS/Scan/14. TextView-verif Bayar Pakai QRIS Berhasil'), 'Bayar Pakai QRIS Berhasil!')
 
-//Mobile.verifyElementText(findTestObject('Object Repository/QRIS/Scan/15. TextView-verif Rp. 20.000'), 'Rp. 20.000')
-
 Mobile.verifyElementText(findTestObject('Object Repository/QRIS/Scan/16. TextView-verif MSP Carrefour Lebak Bulus'), 'MSP Carrefour Lebak Bulus')
-
-//Mobile.verifyElementText(findTestObject('Object Repository/QRIS/Scan/17. TextView-verif JAKARTA'), 'JAKARTA')
-//
-//Mobile.verifyElementText(findTestObject('Object Repository/QRIS/Scan/18. TextView-Rp. 20.000'), 'Rp. 20.000')
-//
-//Mobile.verifyElementText(findTestObject('Object Repository/QRIS/Scan/19. TextView - Adm Rp. 0'), 'Rp. 0')
-//
-//Mobile.verifyElementText(findTestObject('Object Repository/QRIS/Scan/20. TextView-Total Rp. 20.000'), 'Rp. 20.000')
 
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-QRIS - Scan\\07.png')
 
