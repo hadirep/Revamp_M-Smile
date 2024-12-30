@@ -19,82 +19,82 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('com.bankmega.msmiledev')
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LAYANAN - Kartu Kredit - Mega Ultima Shield\\01.png')
 
 Mobile.tap(findTestObject('Object Repository/Layanan/Kartu Kredit/Mega Ultima Shield/01. ViewGroup-Layanan'), 0)
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LAYANAN - Kartu Kredit - Mega Ultima Shield\\02.png')
 
 Mobile.tap(findTestObject('Object Repository/Layanan/Kartu Kredit/Mega Ultima Shield/02. RectView-Mega Ultima Shield'), 0)
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LAYANAN - Kartu Kredit - Mega Ultima Shield\\03.png')
 
 Mobile.tap(findTestObject('Object Repository/Layanan/Kartu Kredit/Mega Ultima Shield/03. ViewGroup-Tentang Perusahaan Asuransi'), 0)
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LAYANAN - Kartu Kredit - Mega Ultima Shield\\04.png')
 
 Mobile.tap(findTestObject('Object Repository/Layanan/Kartu Kredit/Mega Ultima Shield/03. ViewGroup-Tentang Perusahaan Asuransi'), 0)
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LAYANAN - Kartu Kredit - Mega Ultima Shield\\05.png')
 
 Mobile.tap(findTestObject('Object Repository/Layanan/Kartu Kredit/Mega Ultima Shield/04. ViewGroup-Manfaat Produk, Uang Pertanggungan dan Premi'), 0)
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LAYANAN - Kartu Kredit - Mega Ultima Shield\\06.png')
 
 Mobile.scrollToText('Major Organ Failure')
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LAYANAN - Kartu Kredit - Mega Ultima Shield\\07.png')
 
 Mobile.scrollToText('Manfaat Produk, Uang Pertanggungan & Premi')
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LAYANAN - Kartu Kredit - Mega Ultima Shield\\08.png')
 
 Mobile.tap(findTestObject('Object Repository/Layanan/Kartu Kredit/Mega Ultima Shield/04. ViewGroup-Manfaat Produk, Uang Pertanggungan dan Premi'), 0)
 
-Mobile.delay(1)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LAYANAN - Kartu Kredit - Mega Ultima Shield\\09png')
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LAYANAN - Kartu Kredit - Mega Ultima Shield\\09.png')
 
 Mobile.tap(findTestObject('Object Repository/Layanan/Kartu Kredit/Mega Ultima Shield/05. ViewGroup-Rincian Produk'), 0)
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LAYANAN - Kartu Kredit - Mega Ultima Shield\\10.png')
 
 Mobile.scrollToText('Cara Pembayaran Premi')
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LAYANAN - Kartu Kredit - Mega Ultima Shield\\11.png')
 
 Mobile.tap(findTestObject('Object Repository/Layanan/Kartu Kredit/Mega Ultima Shield/05. ViewGroup-Rincian Produk'), 0)
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LAYANAN - Kartu Kredit - Mega Ultima Shield\\12.png')
 
 Mobile.tap(findTestObject('Object Repository/Layanan/Kartu Kredit/Mega Ultima Shield/06. ViewGroup-Untuk Diperhatikan'), 0)
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LAYANAN - Kartu Kredit - Mega Ultima Shield\\13.png')
 
 Mobile.scrollToText('Otoritas Jasa Keuangan')
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LAYANAN - Kartu Kredit - Mega Ultima Shield\\14.png')
 
 Mobile.scrollToText('Untuk Diperhatikan')
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LAYANAN - Kartu Kredit - Mega Ultima Shield\\15.png')
 
 Mobile.tap(findTestObject('Object Repository/Layanan/Kartu Kredit/Mega Ultima Shield/06. ViewGroup-Untuk Diperhatikan'), 0)
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LAYANAN - Kartu Kredit - Mega Ultima Shield\\16.png')
 
 Mobile.tap(findTestObject('Object Repository/Layanan/Kartu Kredit/Mega Ultima Shield/07. ViewGroup-Lanjut'), 0)
@@ -105,12 +105,12 @@ Mobile.tap(findTestObject('Object Repository/Layanan/Kartu Kredit/Mega Ultima Sh
 
 Mobile.tap(findTestObject('Object Repository/Layanan/Kartu Kredit/Mega Ultima Shield/10. ImageView-Centang SnK'), 0)
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LAYANAN - Kartu Kredit - Mega Ultima Shield\\17.png')
 
 Mobile.tap(findTestObject('Object Repository/Layanan/Kartu Kredit/Mega Ultima Shield/11. ViewGroup-Pilih Produk'), 0)
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LAYANAN - Kartu Kredit - Mega Ultima Shield\\18.png')
 
 Mobile.closeApplication()

@@ -19,12 +19,12 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('com.bankmega.msmiledev')
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Transfer - VA Bank Mega\\01.png')
 
 Mobile.tap(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer VA Bank Mega/01. ViewGroup-Lihat Semua'), 0)
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Transfer - VA Bank Mega\\02.png')
 
 Mobile.tap(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer VA Bank Mega/02. ImageView-Transfer VA Bank Mega'), 0)
@@ -34,7 +34,7 @@ Mobile.verifyElementText(findTestObject('Object Repository/Lihat Semua/Transfer/
 
 Mobile.tap(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer VA Bank Mega/04. SvgView-Cek Saldo'),0)
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Transfer - VA Bank Mega\\03.png')
 
 Mobile.tap(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer VA Bank Mega/05. TextView-Tap Field Nomor VA'), 0)
@@ -46,8 +46,8 @@ Mobile.setText(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer V
 
 Mobile.hideKeyboard()
 
-Mobile.delay(1)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Transfer - VA Bank Mega\\01.png')
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Transfer - VA Bank Mega\\04.png')
 
 Mobile.tap(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer VA Bank Mega/08. ViewGroup - OK'), 0)
 
@@ -55,12 +55,18 @@ Mobile.tap(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer VA Ba
 
 Mobile.verifyElementText(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer VA Bank Mega/10. TextView-verif 8111222000000009'), '8111222000000009')
 
-Mobile.delay(1)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Transfer - VA Bank Mega\\04.png')
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Transfer - VA Bank Mega\\05.png')
 
 Mobile.pressBack()
 
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Transfer - VA Bank Mega\\06.png')
+
 Mobile.pressBack()
+
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Transfer - VA Bank Mega\\07.png')
 
 Mobile.closeApplication()
 

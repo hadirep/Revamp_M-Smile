@@ -19,17 +19,17 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('com.bankmega.msmiledev')
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LAYANAN - Kartu Kredit - Ubah PIN\\01.png')
 
 Mobile.tap(findTestObject('Object Repository/Layanan/Kartu Kredit/Ubah PIN/01. ViewGroup-Layanan'), 0)
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LAYANAN - Kartu Kredit - Ubah PIN\\02.png')
 
 Mobile.tap(findTestObject('Object Repository/Layanan/Kartu Kredit/Ubah PIN/02. SvgView-Ubah PIN'), 0)
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LAYANAN - Kartu Kredit - Ubah PIN\\03.png')
 
 Mobile.tap(findTestObject('Object Repository/Layanan/Kartu Kredit/Ubah PIN/03. ViewGroup-Tanggal Lahir'), 0)
@@ -51,7 +51,7 @@ Mobile.setText(findTestObject('Object Repository/Layanan/Kartu Kredit/Ubah PIN/0
 
 Mobile.hideKeyboard()
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LAYANAN - Kartu Kredit - Ubah PIN\\05.png')
 
 Mobile.tap(findTestObject('Object Repository/Layanan/Kartu Kredit/Ubah PIN/09. ViewGroup-Ubah'), 0)
@@ -61,7 +61,7 @@ Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LAYANAN - Kartu Kred
 
 Mobile.tap(findTestObject('Object Repository/Layanan/Kartu Kredit/Ubah PIN/10. ViewGroup-OK'), 0)
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LAYANAN - Kartu Kredit - Ubah PIN\\07.png')
 
 Mobile.closeApplication()

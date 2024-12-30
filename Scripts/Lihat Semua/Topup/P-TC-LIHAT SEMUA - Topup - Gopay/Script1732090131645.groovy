@@ -29,29 +29,25 @@ Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Topup 
 
 Mobile.tap(findTestObject('Object Repository/Lihat Semua/Topup/Go-Pay/02. ImageView - Gopay'), 0)
 
-Mobile.delay(1)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Topup - Gopay\\03.png')
-
 Mobile.verifyElementText(findTestObject('Object Repository/Lihat Semua/Topup/Go-Pay/03. TextView - Go-Pay'),
 	'Go-Pay')
 
 Mobile.delay(1)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Topup - Gopay\\04.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Topup - Gopay\\03.png')
 
 Mobile.tap(findTestObject('Object Repository/Lihat Semua/Topup/Go-Pay/04. EditText - Tap Nopel'), 0)
 
-Mobile.setText(findTestObject('Object Repository/Lihat Semua/Topup/Go-Pay/05. EditText - Input Nopel'), '085711357924', 
-    0)
+Mobile.setText(findTestObject('Object Repository/Lihat Semua/Topup/Go-Pay/05. EditText - Input Nopel'),
+	'085711357924', 0)
+
+Mobile.hideKeyboard()
 
 Mobile.delay(1)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Topup - Gopay\\05.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Topup - Gopay\\04.png')
 
 Mobile.tap(findTestObject('Object Repository/Lihat Semua/Topup/Go-Pay/06. ViewGroup - Lanjut'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Lihat Semua/Topup/Go-Pay/07. SvgView - Cek Saldo'), 0)
-
-Mobile.delay(1)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Topup - Gopay\\06.png')
+Mobile.tap(findTestObject('Object Repository/Lihat Semua/Topup/Go-Pay/07. SvgView-Cek Saldo'), 0)
 
 Mobile.verifyElementText(findTestObject('Object Repository/Lihat Semua/Topup/Go-Pay/08. EditText - verif 085711357924'),
 	'085711357924')
@@ -63,21 +59,21 @@ Mobile.verifyElementText(findTestObject('Object Repository/Lihat Semua/Topup/Go-
 	'E-Wallet')
 
 Mobile.delay(1)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Topup - Gopay\\05.png')
+
+Mobile.pressBack()
+
+Mobile.delay(1)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Topup - Gopay\\06.png')
+
+Mobile.pressBack()
+
+Mobile.delay(1)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Topup - Gopay\\07.png')
 
-Mobile.tap(findTestObject('Object Repository/Lihat Semua/Topup/Go-Pay/12. ViewGroup - Back Btn (E-Wallet)'), 0)
+Mobile.pressBack()
 
 Mobile.delay(1)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Topup - Gopay\\08.png')
-
-Mobile.tap(findTestObject('Object Repository/Lihat Semua/Topup/Go-Pay/13. ViewGroup - Back Btn (Go-Pay)'), 0)
-
-Mobile.delay(1)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Topup - Gopay\\09.png')
-
-Mobile.tap(findTestObject('Object Repository/Lihat Semua/Topup/Go-Pay/14. ViewGroup - Back Btn (Lihat Semua)'), 0)
-
-Mobile.delay(1)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Topup - Gopay\\10.png')
 
 Mobile.closeApplication()

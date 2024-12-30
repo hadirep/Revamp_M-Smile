@@ -19,132 +19,109 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('com.bankmega.msmiledev')
 
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Transfer - ke Bank Lain - BI Fast\\01.png')
 
-Mobile.tap(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Lain - BI Fast/01. ViewGroup - Lihat Semua'), 
-    0)
+Mobile.tap(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Lain - BI Fast/01. ViewGroup-Lihat Semua'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Lain - BI Fast/02. ImageView - Transfer ke Bank Lain BI Fast'), 
-    0)
-
-Mobile.verifyElementText(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Lain - BI Fast/03. TextView - verif Transfer BI Fast'), 
-    'Transfer BI Fast')
-
-Mobile.tap(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Lain - BI Fast/04. SvgView - Cek Saldo'), 
-    0)
-
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Transfer - ke Bank Lain - BI Fast\\02.png')
 
-Mobile.tap(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Lain - BI Fast/05. ViewGroup - Jenis Tujuan'), 
-    0)
+Mobile.tap(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Lain - BI Fast/02. ImageView-Transfer ke Bank Lain BI Fast'), 0)
 
-Mobile.verifyElementText(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Lain - BI Fast/06. TextView - verif No Rekening'), 
-    'No Rekening')
-
-Mobile.verifyElementText(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Lain - BI Fast/07. TextView - verif No Handphone'), 
-    'No Handphone')
-
-Mobile.verifyElementText(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Lain - BI Fast/08. TextView - verif Email'), 
-    'Email')
-
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Transfer - ke Bank Lain - BI Fast\\03.png')
 
-Mobile.tap(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Lain - BI Fast/09. ViewGroup - Tap No Rekening'), 
-    0)
+Mobile.tap(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Lain - BI Fast/03. EditText-Tap No Rek'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Lain - BI Fast/10. TextView - Tap OK'), 
-    0)
-
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Transfer - ke Bank Lain - BI Fast\\04.png')
-
-Mobile.tap(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Lain - BI Fast/11. TextView - No Rekening Tujuan'), 
-    0)
-
-Mobile.tap(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Lain - BI Fast/12. EditText - Tap No Rek'), 
-    0)
-
-Mobile.setText(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Lain - BI Fast/13. EditText - Set No Rek'), 
+Mobile.setText(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Lain - BI Fast/04. EditText-Set No Rek'), 
     '081801060326530', 0)
 
 Mobile.hideKeyboard()
 
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Transfer - ke Bank Lain - BI Fast\\04.png')
+
+Mobile.tap(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Lain - BI Fast/05. ViewGroup-Tap OK'),0)
+
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Transfer - ke Bank Lain - BI Fast\\05.png')
 
-Mobile.tap(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Lain - BI Fast/14. ViewGroup - Tap OK'), 
-    0)
+Mobile.tap(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Lain - BI Fast/06. TextView-Tap Bank Tujuan'), 0)
 
+Mobile.tap(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Lain - BI Fast/07. EditText-Tap Cari Nama Bank'), 0)
+
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Transfer - ke Bank Lain - BI Fast\\06.png')
 
-Mobile.tap(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Lain - BI Fast/15. TextView - Tap Bank Tujuan'), 
-    0)
-
-Mobile.tap(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Lain - BI Fast/16. EditText - Tap Cari Nama Bank'), 
-    0)
-
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Transfer - ke Bank Lain - BI Fast\\07.png')
-
-Mobile.setText(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Lain - BI Fast/17. EditText - Set BRI'), 
+Mobile.setText(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Lain - BI Fast/08. EditText-Set BRI'), 
     'BRI', 0)
 
 Mobile.hideKeyboard()
 
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Transfer - ke Bank Lain - BI Fast\\07.png')
+
+Mobile.tap(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Lain - BI Fast/09. TextView-BRI'), 0)
+
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Transfer - ke Bank Lain - BI Fast\\08.png')
 
-Mobile.tap(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Lain - BI Fast/18. TextView - BRI'), 
-    0)
+Mobile.tap(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Lain - BI Fast/10. EditText-Tap Nominal'), 0)
 
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Transfer - ke Bank Lain - BI Fast\\09.png')
-
-Mobile.tap(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Lain - BI Fast/19. EditText - Tap Nominal'), 
-    0)
-
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Transfer - ke Bank Lain - BI Fast\\10.png')
-
-Mobile.setText(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Lain - BI Fast/20. EditText - Set Nominal'), 
+Mobile.setText(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Lain - BI Fast/11. EditText-Set Nominal'), 
     '10000', 0)
 
 Mobile.hideKeyboard()
 
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Transfer - ke Bank Lain - BI Fast\\11.png')
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Transfer - ke Bank Lain - BI Fast\\09.png')
 
-Mobile.tap(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Lain - BI Fast/21. TextView - Tap Pesan'), 
-    0)
+Mobile.tap(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Lain - BI Fast/12. TextView-Tap Pesan'), 0)
 
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Transfer - ke Bank Lain - BI Fast\\12.png')
-
-Mobile.setText(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Lain - BI Fast/22. EditText - Set Pesan'), 
+Mobile.setText(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Lain - BI Fast/13. EditText-Set Pesan'), 
     'Test', 0)
 
 Mobile.hideKeyboard()
 
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Transfer - ke Bank Lain - BI Fast\\13.png')
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Transfer - ke Bank Lain - BI Fast\\10.png')
 
-Mobile.verifyElementText(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Lain - BI Fast/23. TextView - verif No Rekening'), 
+Mobile.verifyElementText(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Lain - BI Fast/14. TextView-verif No Rekening'), 
     'No Rekening')
 
-Mobile.verifyElementText(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Lain - BI Fast/24. TextView - verif 081801060326530'), 
+Mobile.verifyElementText(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Lain - BI Fast/15. TextView-verif 081801060326530'), 
     '081801060326530')
 
-Mobile.verifyElementText(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Lain - BI Fast/25. TextView - BRI'), 
+Mobile.verifyElementText(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Lain - BI Fast/16. TextView-verif BRI'), 
     'BRI')
 
-Mobile.verifyElementText(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Lain - BI Fast/26. EditText - verif 10.000'), 
+Mobile.verifyElementText(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Lain - BI Fast/17. EditText-verif 10.000'), 
     '10.000')
 
-Mobile.verifyElementText(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Lain - BI Fast/27. TextView - Lainnya'), 
+Mobile.verifyElementText(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Lain - BI Fast/18. TextView-Lainnya'), 
     'Lainnya')
 
-Mobile.verifyElementText(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Lain - BI Fast/28. EditText - verif Test'), 
+Mobile.verifyElementText(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Lain - BI Fast/19. EditText-verif Test'), 
     'Test')
 
-Mobile.verifyElementText(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Lain - BI Fast/29. TextView - Sekarang'), 
+Mobile.verifyElementText(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Lain - BI Fast/20. TextView-Sekarang'), 
     'Sekarang')
 
-Mobile.tap(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Lain - BI Fast/30. ViewGroup - Tap Back Btn (Transfer BI Fast)'), 
-    0)
+Mobile.pressBack()
 
-Mobile.tap(findTestObject('Object Repository/Lihat Semua/Transfer/Transfer ke Bank Lain - BI Fast/31. ViewGroup - Tap Back Button (Lainnya)'), 
-    0)
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Transfer - ke Bank Lain - BI Fast\\11.png')
+
+Mobile.pressBack()
+
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Transfer - ke Bank Lain - BI Fast\\12.png')
+
+Mobile.pressBack()
+
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Transfer - ke Bank Lain - BI Fast\\13.png')
 
 Mobile.closeApplication()
 

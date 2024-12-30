@@ -12,15 +12,15 @@
       <name>class</name>
       <type>Main</type>
       <value>android.view.ViewGroup</value>
-      <webElementGuid>50464dc6-900c-4cc3-8327-e2f023ac42f4</webElementGuid>
+      <webElementGuid>c40b9fdf-8c28-47d1-9f8e-60e23a2e4dd2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>index</name>
       <type>Main</type>
-      <value>5</value>
-      <webElementGuid>3cfd519c-7b3d-496c-a1ad-7144032d4d9e</webElementGuid>
+      <value>6</value>
+      <webElementGuid>b149d6e4-6132-4447-9054-bd29a8f91004</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,15 +28,15 @@
       <name>package</name>
       <type>Main</type>
       <value>com.bankmega.msmiledev</value>
-      <webElementGuid>19a3654a-2c07-43bd-ad47-794d6358c447</webElementGuid>
+      <webElementGuid>b954c0fa-c358-456a-8d43-04f3c8397b3b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>content-desc</name>
       <type>Main</type>
-      <value>BANK MEGA PT             JAKARTA      ID, Rp. 1.000.000, 17 Desember 2024, </value>
-      <webElementGuid>3b5759da-b711-48a8-88bd-cebaf2e50d4b</webElementGuid>
+      <value>BANK MEGA PT             JAKARTA      ID, Rp. 1.000.000, 30 Desember 2024, </value>
+      <webElementGuid>c3b437ed-4159-457b-9348-70300c19beb5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -44,7 +44,7 @@
       <name>checkable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>ff656c2d-5c8f-4a0a-8aed-329744883bc0</webElementGuid>
+      <webElementGuid>f46c38ae-503f-49e7-b880-457c12e3ca49</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -52,7 +52,7 @@
       <name>checked</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>eecae2c5-7185-4392-8e49-2493b7f3cb02</webElementGuid>
+      <webElementGuid>1d614dca-c95b-4bc2-8a5e-2d0da57864f3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -60,7 +60,7 @@
       <name>clickable</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>b6ad5072-a259-4c70-b8b9-63448ca28d2c</webElementGuid>
+      <webElementGuid>5991f3a4-aedf-4786-b1df-3d6d0cb73b6c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -68,7 +68,7 @@
       <name>enabled</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>e875b85a-dbba-49d5-9b9e-7be6cc659148</webElementGuid>
+      <webElementGuid>90483343-5c28-44a3-8bf8-f681bbda3138</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -76,7 +76,7 @@
       <name>focusable</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>d3a6f601-a16c-4207-a9e5-75c226f797b4</webElementGuid>
+      <webElementGuid>ad75085c-2233-411a-8f91-922efc947326</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -84,7 +84,7 @@
       <name>focused</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>8e2ac144-e496-4022-909a-3fc1e19f6f45</webElementGuid>
+      <webElementGuid>0f685f1a-e12c-480a-99e6-ced454e210d1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -92,7 +92,7 @@
       <name>scrollable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>cb92d9c0-5f5e-4d84-b206-5da9a575880c</webElementGuid>
+      <webElementGuid>776a0ee8-102f-4085-a04d-dd91f1b1f5a8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -100,7 +100,7 @@
       <name>long-clickable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>39542023-f68d-49a1-b40c-c4edbf5171b0</webElementGuid>
+      <webElementGuid>95292c19-244c-4972-88fb-b77463e8d2ff</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -108,7 +108,7 @@
       <name>password</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>3644819d-7b6b-4c4f-913a-6b7775995b96</webElementGuid>
+      <webElementGuid>8ac01b7f-faf6-486e-b086-3ac471aec3ed</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -116,7 +116,7 @@
       <name>selected</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>e9d61eb9-58e8-4c2b-aa60-b62bf24e5492</webElementGuid>
+      <webElementGuid>f9e88772-0357-4371-9bca-453d88f61a16</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -124,15 +124,15 @@
       <name>x</name>
       <type>Main</type>
       <value>60</value>
-      <webElementGuid>f2b2d68f-e3ff-44b7-9e4d-40f87a6692fd</webElementGuid>
+      <webElementGuid>a834d7df-f16a-4d9b-85f3-a6463e1a13d3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>y</name>
       <type>Main</type>
-      <value>1622</value>
-      <webElementGuid>4949e406-5b00-40dc-92a6-0da7ceb6e176</webElementGuid>
+      <value>1901</value>
+      <webElementGuid>6365d312-4030-4dd1-8214-f3143954852e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -140,7 +140,7 @@
       <name>width</name>
       <type>Main</type>
       <value>1100</value>
-      <webElementGuid>d90ed56c-cb9b-4c3c-8c23-1480c0e8c060</webElementGuid>
+      <webElementGuid>42e44d7c-6535-403d-8542-3330f67cea92</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -148,15 +148,15 @@
       <name>height</name>
       <type>Main</type>
       <value>231</value>
-      <webElementGuid>062532f8-da53-43d7-8b74-0a07de80fd4c</webElementGuid>
+      <webElementGuid>62faf736-0869-412a-a658-ebf69c54dff9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>bounds</name>
       <type>Main</type>
-      <value>[60,1622][1160,1853]</value>
-      <webElementGuid>deddfecc-2491-4edc-aca7-17b46b68c817</webElementGuid>
+      <value>[60,1901][1160,2132]</value>
+      <webElementGuid>2aa2758d-06b6-4dbc-8cf1-6564f4fb5234</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -164,7 +164,7 @@
       <name>displayed</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>1a49e095-d3c7-4073-b323-f25b33247869</webElementGuid>
+      <webElementGuid>56286aa7-3a36-40fc-99d4-3276da32edf9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -172,16 +172,16 @@
       <name>text</name>
       <type>Main</type>
       <value></value>
-      <webElementGuid>6d975199-ca7d-4b8b-b4f5-62e76e55e6ce</webElementGuid>
+      <webElementGuid>4f9210d9-1548-4376-a9e1-d57ccff930f3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[3]</value>
-      <webElementGuid>aaa7272e-9d59-4220-bb7d-092649229837</webElementGuid>
+      <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]</value>
+      <webElementGuid>413653ba-0a78-4e66-9c7d-c498f7d2060d</webElementGuid>
    </webElementProperties>
-   <locator>BANK MEGA PT             JAKARTA      ID, Rp. 1.000.000, 17 Desember 2024, </locator>
-   <locatorStrategy>ACCESSIBILITY</locatorStrategy>
+   <locator>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]</locator>
+   <locatorStrategy>XPATH</locatorStrategy>
 </MobileElementEntity>

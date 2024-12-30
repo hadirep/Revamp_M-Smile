@@ -19,48 +19,50 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('com.bankmega.msmiledev')
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LAYANAN - Kartu Kredit - Ubah Jadi Cicilan\\01.png')
 
 Mobile.tap(findTestObject('Object Repository/Layanan/Kartu Kredit/Ubah Jadi Cicilan/01. ViewGroup-Layanan'), 0)
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LAYANAN - Kartu Kredit - Ubah Jadi Cicilan\\02.png')
 
 Mobile.tap(findTestObject('Object Repository/Layanan/Kartu Kredit/Ubah Jadi Cicilan/02. RectView-Ubah Jadi Cicilan'), 0)
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LAYANAN - Kartu Kredit - Ubah Jadi Cicilan\\03.png')
 
 Mobile.tap(findTestObject('Object Repository/Layanan/Kartu Kredit/Ubah Jadi Cicilan/03. ViewGroup-1 Jt'), 0)
 
-Mobile.delay(1)
+Mobile.delay(4)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LAYANAN - Kartu Kredit - Ubah Jadi Cicilan\\04.png')
 
 Mobile.tap(findTestObject('Object Repository/Layanan/Kartu Kredit/Ubah Jadi Cicilan/04. ViewGroup-Lanjut'), 0)
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LAYANAN - Kartu Kredit - Ubah Jadi Cicilan\\05.png')
 
 Mobile.scrollToText('Saya telah setuju')
 
 Mobile.tap(findTestObject('Object Repository/Layanan/Kartu Kredit/Ubah Jadi Cicilan/05. ImageView-Ceklis SNK'), 0)
 
-Mobile.delay(1)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LAYANAN - Kartu Kredit - Ubah Jadi Cicilan\\06.png')
-
 Mobile.tap(findTestObject('Object Repository/Layanan/Kartu Kredit/Ubah Jadi Cicilan/06. EditText-Tap M-PIN'), 0)
 
 Mobile.setText(findTestObject('Object Repository/Layanan/Kartu Kredit/Ubah Jadi Cicilan/07. EditText-Set M-PIN'), '111111', 0)
 
+Mobile.hideKeyboard()
+
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LAYANAN - Kartu Kredit - Ubah Jadi Cicilan\\06.png')
+
 Mobile.tap(findTestObject('Object Repository/Layanan/Kartu Kredit/Ubah Jadi Cicilan/08. ViewGroup-Lanjut'), 0)
 
-Mobile.delay(1)
+Mobile.delay(4)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LAYANAN - Kartu Kredit - Ubah Jadi Cicilan\\07.png')
 
 Mobile.tap(findTestObject('Object Repository/Layanan/Kartu Kredit/Ubah Jadi Cicilan/09. ViewGroup-Kembali ke Homepage'), 0)
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LAYANAN - Kartu Kredit - Ubah Jadi Cicilan\\08.png')
 
 Mobile.closeApplication()

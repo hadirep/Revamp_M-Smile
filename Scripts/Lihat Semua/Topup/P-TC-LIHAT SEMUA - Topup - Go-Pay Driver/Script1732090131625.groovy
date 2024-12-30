@@ -59,8 +59,19 @@ Mobile.delay(1)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Topup - Go-Pay Driver\\04.png')
 
 Mobile.pressBack()
+
+Mobile.delay(1)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Topup - Go-Pay Driver\\05.png')
+
 Mobile.pressBack()
+
+Mobile.delay(1)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Topup - Go-Pay Driver\\06.png')
+
 Mobile.pressBack()
+
+Mobile.delay(1)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Topup - Go-Pay Driver\\07.png')
 
 Mobile.closeApplication()
 

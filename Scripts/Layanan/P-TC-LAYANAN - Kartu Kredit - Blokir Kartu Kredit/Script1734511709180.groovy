@@ -19,12 +19,12 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('com.bankmega.msmiledev')
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LAYANAN - Kartu Kredit - Blokir Kartu Kredit\\01.png')
 
 Mobile.tap(findTestObject('Object Repository/Layanan/Kartu Kredit/Blokir Kartu Kredit/01. ViewGroup-Layanan'), 0)
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LAYANAN - Kartu Kredit - Blokir Kartu Kredit\\02.png')
 
 Mobile.tap(findTestObject('Object Repository/Layanan/Kartu Kredit/Blokir Kartu Kredit/02. SvgView-Blokir Kartu Kredit'), 0)

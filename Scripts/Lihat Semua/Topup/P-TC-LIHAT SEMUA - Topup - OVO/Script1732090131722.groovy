@@ -35,28 +35,21 @@ Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Topup 
 Mobile.verifyElementText(findTestObject('Object Repository/Lihat Semua/Topup/OVO/03. TextView - OVO'),
 	'OVO')
 
-Mobile.delay(1)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Topup - OVO\\04.png')
-
 Mobile.tap(findTestObject('Object Repository/Lihat Semua/Topup/OVO/04. EditText - Tap Nopel'), 0)
 
 Mobile.setText(findTestObject('Object Repository/Lihat Semua/Topup/OVO/05. EditText - Input Nopel'), '085711357924', 0)
 
+Mobile.hideKeyboard()
+
 Mobile.delay(1)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Topup - OVO\\05.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Topup - OVO\\04.png')
 
 Mobile.tap(findTestObject('Object Repository/Lihat Semua/Topup/OVO/06. ViewGroup - Lanjut'), 0)
-
-Mobile.delay(1)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Topup - OVO\\06.png')
 
 Mobile.verifyElementText(findTestObject('Object Repository/Lihat Semua/Topup/OVO/07. TextView - verif E-Wallet'), 
 	'E-Wallet')
 
-Mobile.tap(findTestObject('Object Repository/Lihat Semua/Topup/OVO/08. SvgView - Cek Saldo'), 0)
-
-Mobile.delay(1)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Topup - OVO\\07.png')
+Mobile.tap(findTestObject('Object Repository/Lihat Semua/Topup/OVO/08. SvgView-Cek Saldo'), 0)
 
 Mobile.verifyElementText(findTestObject('Object Repository/Lihat Semua/Topup/OVO/09. EditText - verif 085711357924'), 
 	'085711357924')
@@ -64,19 +57,22 @@ Mobile.verifyElementText(findTestObject('Object Repository/Lihat Semua/Topup/OVO
 Mobile.verifyElementText(findTestObject('Object Repository/Lihat Semua/Topup/OVO/10. EditText - verif OVO'), 
 	'OVO')
 
-Mobile.tap(findTestObject('Object Repository/Lihat Semua/Topup/OVO/11. ViewGroup - Back Btn (E-Wallet)'), 0)
+Mobile.delay(1)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Topup - OVO\\05.png')
+
+Mobile.pressBack()
+
+Mobile.delay(1)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Topup - OVO\\06.png')
+
+Mobile.pressBack()
+
+Mobile.delay(1)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Topup - OVO\\07.png')
+
+Mobile.pressBack()
 
 Mobile.delay(1)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Topup - OVO\\08.png')
-
-Mobile.tap(findTestObject('Object Repository/Lihat Semua/Topup/OVO/12. ViewGroup - Back Btn (Go-Pay)'), 0)
-
-Mobile.delay(1)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Topup - OVO\\09.png')
-
-Mobile.tap(findTestObject('Object Repository/Lihat Semua/Topup/OVO/13. ViewGroup - Back Btn (Lihat Semua)'), 0)
-
-Mobile.delay(1)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Topup - OVO\\10.png')
 
 Mobile.closeApplication()
