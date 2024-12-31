@@ -19,22 +19,22 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('com.bankmega.msmiledev')
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Beli - PLN\\01.png')
 
 Mobile.tap(findTestObject('Object Repository/Lihat Semua/Beli/PLN/01. ViewGroup-Lihat Semua'), 0)
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Beli - PLN\\02.png')
 
 Mobile.swipe(600, 600, 600, 0)
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Beli - PLN\\03.png')
 
 Mobile.tap(findTestObject('Object Repository/Lihat Semua/Beli/PLN/02. ImageView-PLN'), 0)
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Beli - PLN\\04.png')
 
 Mobile.tap(findTestObject('Object Repository/Lihat Semua/Beli/PLN/03. EditText-Tap Nopel'), 0)
@@ -43,39 +43,39 @@ Mobile.setText(findTestObject('Object Repository/Lihat Semua/Beli/PLN/04. EditTe
 
 Mobile.hideKeyboard()
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Beli - PLN\\05.png')
 
 Mobile.tap(findTestObject('Object Repository/Lihat Semua/Beli/PLN/05. ViewGroup-Lanjut'), 0)
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Beli - PLN\\06.png')
 
 Mobile.tap(findTestObject('Object Repository/Lihat Semua/Beli/PLN/06. PathView-Pilih Daftar Produk'), 0)
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Beli - PLN\\07.png')
 
 Mobile.tap(findTestObject('Object Repository/Lihat Semua/Beli/PLN/07. ViewGroup-PLN Prabayar'), 0)
 
 Mobile.verifyElementText(findTestObject('Object Repository/Lihat Semua/Beli/PLN/08. EditText-verif PLN PRABAYAR'), 'PLN PRABAYAR')
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Beli - PLN\\08.png')
 
 Mobile.pressBack()
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Beli - PLN\\9.png')
 
 Mobile.pressBack()
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Beli - PLN\\10.png')
 
 Mobile.pressBack()
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Beli - PLN\\11.png')
 
 Mobile.closeApplication()

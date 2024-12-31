@@ -19,55 +19,57 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('com.bankmega.msmiledev')
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Beli - Paket Data\\01.png')
 
-Mobile.tap(findTestObject('Object Repository/Lihat Semua/Beli/Paket Data/01. ViewGroup - Lihat Semua'), 0)
+Mobile.tap(findTestObject('Object Repository/Lihat Semua/Beli/Paket Data/01. ViewGroup-Lihat Semua'), 0)
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Beli - Paket Data\\02.png')
 
 Mobile.delay(3)
 
 Mobile.swipe(500, 1150, 500, 500)
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Beli - Paket Data\\03.png')
 
-Mobile.tap(findTestObject('Object Repository/Lihat Semua/Beli/Paket Data/02. ImageView - Paket Data'), 0)
+Mobile.tap(findTestObject('Object Repository/Lihat Semua/Beli/Paket Data/02. ImageView-Paket Data'), 0)
 
-Mobile.verifyElementText(findTestObject('Object Repository/Lihat Semua/Beli/Paket Data/03. TextView - Paket Data'), 
-	'Paket Data')
+Mobile.tap(findTestObject('Object Repository/Lihat Semua/Beli/Paket Data/03. TextView-Tap Nopel'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Lihat Semua/Beli/Paket Data/04. TextView - Tap Nopel'), 0)
-
-Mobile.setText(findTestObject('Object Repository/Lihat Semua/Beli/Paket Data/05. EditText - Set Nopel'), '085711357924', 
-    0)
+Mobile.setText(findTestObject('Object Repository/Lihat Semua/Beli/Paket Data/04. EditText-Set Nopel'),
+	'085711357924', 0)
 
 Mobile.hideKeyboard()
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Beli - Paket Data\\04.png')
 
 
-Mobile.tap(findTestObject('Object Repository/Lihat Semua/Beli/Paket Data/06. ViewGroup - Lanjut'), 0)
+Mobile.tap(findTestObject('Object Repository/Lihat Semua/Beli/Paket Data/05. ViewGroup-Lanjut'), 0)
 
-Mobile.verifyElementText(findTestObject('Object Repository/Lihat Semua/Beli/Paket Data/07. TextView - Paket Data'), 
-	'Paket Data')
+Mobile.tap(findTestObject('Object Repository/Lihat Semua/Beli/Paket Data/06. SvgView-Cek Saldo'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Lihat Semua/Beli/Paket Data/08. SvgView - Check Saldo'), 0)
-
-Mobile.verifyElementText(findTestObject('Object Repository/Lihat Semua/Beli/Paket Data/09. EditText - verif 085711357924'), 
+Mobile.verifyElementText(findTestObject('Object Repository/Lihat Semua/Beli/Paket Data/07. EditText-verif 085711357924'), 
 	'085711357924')
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Beli - Paket Data\\05.png')
 
-Mobile.tap(findTestObject('Object Repository/Lihat Semua/Beli/Paket Data/10. ViewGroup - Back Btn (Paket Data-1)'), 0)
+Mobile.pressBack()
 
-Mobile.tap(findTestObject('Object Repository/Lihat Semua/Beli/Paket Data/11. ViewGroup - Back Btn (Paket Data-2)'), 0)
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Beli - Paket Data\\06.png')
 
-Mobile.tap(findTestObject('Object Repository/Lihat Semua/Beli/Paket Data/12. ViewGroup - Back Btn (Lihat Semua)'), 0)
+Mobile.pressBack()
+
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Beli - Paket Data\\07.png')
+
+Mobile.pressBack()
+
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Beli - Paket Data\\08.png')
 
 Mobile.closeApplication()
-

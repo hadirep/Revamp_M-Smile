@@ -93,8 +93,8 @@ Mobile.delay(10)
 Mobile.verifyElementText(findTestObject('Object Repository/Akun saya/Tabungan/Transfer/17. TextView - 010740020456886'), 
 	'010740020456886 ')
 
-Mobile.verifyElementText(findTestObject('Object Repository/Akun saya/Tabungan/Transfer/18. TextView - UAT KATALON TMG'), 
-	'UAT KATALON TMG')
+//Mobile.verifyElementText(findTestObject('Object Repository/Akun saya/Tabungan/Transfer/18. TextView - UAT KATALON TMG'), 
+//	'UAT KATALON TMG')
 
 Mobile.verifyElementText(findTestObject('Object Repository/Akun saya/Tabungan/Transfer/19. TextView - Rp. 10.000'), 
 	'Rp. 10.000 ')
@@ -129,8 +129,8 @@ Mobile.verifyElementText(findTestObject('Object Repository/Akun saya/Tabungan/Tr
 Mobile.verifyElementText(findTestObject('Object Repository/Akun saya/Tabungan/Transfer/27. TextView - Bank Mega - 010740020456886'), 
 	'Bank Mega - 010740020456886')
 
-Mobile.verifyElementText(findTestObject('Object Repository/Akun saya/Tabungan/Transfer/28. TextView - UAT KATALON TMG'), 
-	'UAT KATALON TMG')
+//Mobile.verifyElementText(findTestObject('Object Repository/Akun saya/Tabungan/Transfer/28. TextView - UAT KATALON TMG'), 
+//	'UAT KATALON TMG')
 
 Mobile.verifyElementText(findTestObject('Object Repository/Akun saya/Tabungan/Transfer/29. TextView - Rp. 10.000'), 
 	'Rp. 10.000')

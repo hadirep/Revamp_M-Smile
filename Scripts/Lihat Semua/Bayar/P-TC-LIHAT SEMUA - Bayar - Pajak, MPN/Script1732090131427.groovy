@@ -19,55 +19,59 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('com.bankmega.msmiledev')
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Bayar - Pajak, MPN\\01.png')
 
-Mobile.tap(findTestObject('Object Repository/Lihat Semua/Bayar/02. Bayar - Pajak, MPN/01. ViewGroup - Lihat Semua'), 0)
+Mobile.tap(findTestObject('Object Repository/Lihat Semua/Bayar/02. Bayar - Pajak, MPN/01. ViewGroup-Lihat Semua'), 0)
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Bayar - Pajak, MPN\\02.png')
 
 Mobile.scrollToText('Lainnya')
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Bayar - Pajak, MPN\\03.png')
 
-Mobile.tap(findTestObject('Object Repository/Lihat Semua/Bayar/02. Bayar - Pajak, MPN/02. ViewGroup - Pajak MPN'), 0)
+Mobile.tap(findTestObject('Object Repository/Lihat Semua/Bayar/02. Bayar - Pajak, MPN/02. ViewGroup-Pajak MPN'), 0)
 
-Mobile.delay(1)
+Mobile.tap(findTestObject('Object Repository/Lihat Semua/Bayar/02. Bayar - Pajak, MPN/03. SvgView-Cek Saldo'), 0)
+
+Mobile.delay(4)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Bayar - Pajak, MPN\\04.png')
 
-Mobile.tap(findTestObject('Object Repository/Lihat Semua/Bayar/02. Bayar - Pajak, MPN/03. SvgView - Cek Saldo'), 0)
+Mobile.tap(findTestObject('Object Repository/Lihat Semua/Bayar/02. Bayar - Pajak, MPN/04. EditText-Daftar Produk'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Lihat Semua/Bayar/02. Bayar - Pajak, MPN/04. EditText - Field Daftar Produk'), 0)
-
-Mobile.tap(findTestObject('Object Repository/Lihat Semua/Bayar/02. Bayar - Pajak, MPN/05. EditText - Cari Produk'), 0)
-
-Mobile.tap(findTestObject('Object Repository/Lihat Semua/Bayar/02. Bayar - Pajak, MPN/06. ScrollView - Tap Body Daftar Produk'), 0)
-
-Mobile.verifyElementText(findTestObject('Object Repository/Lihat Semua/Bayar/02. Bayar - Pajak, MPN/07. TextView - PAJAK BUMI BANGUNAN (DKI Jakarta)'), 
+Mobile.verifyElementText(findTestObject('Object Repository/Lihat Semua/Bayar/02. Bayar - Pajak, MPN/05. TextView-PAJAK BUMI BANGUNAN (DKI Jakarta)'), 
 	'PAJAK BUMI BANGUNAN (DKI Jakarta)')
 
-Mobile.verifyElementText(findTestObject('Object Repository/Lihat Semua/Bayar/02. Bayar - Pajak, MPN/08. TextView - PAJAK DAERAH (DKI Jakarta)'), 
+Mobile.verifyElementText(findTestObject('Object Repository/Lihat Semua/Bayar/02. Bayar - Pajak, MPN/06. TextView-PAJAK DAERAH (DKI Jakarta)'), 
 	'PAJAK DAERAH (DKI Jakarta)')
 
-Mobile.verifyElementText(findTestObject('Object Repository/Lihat Semua/Bayar/02. Bayar - Pajak, MPN/09. TextView - PAJAK KENDARAAN BERMOTOR'), 
+Mobile.verifyElementText(findTestObject('Object Repository/Lihat Semua/Bayar/02. Bayar - Pajak, MPN/07. TextView-PAJAK KENDARAAN BERMOTOR'), 
 	'PAJAK KENDARAAN BERMOTOR')
 
-Mobile.verifyElementText(findTestObject('Object Repository/Lihat Semua/Bayar/02. Bayar - Pajak, MPN/10. TextView - Penerimaan NegaraMPN'), 
+Mobile.verifyElementText(findTestObject('Object Repository/Lihat Semua/Bayar/02. Bayar - Pajak, MPN/08. TextView-Penerimaan NegaraMPN'), 
 	'Penerimaan Negara/MPN')
 
-Mobile.verifyElementText(findTestObject('Object Repository/Lihat Semua/Bayar/02. Bayar - Pajak, MPN/11. TextView - PBB'), 
+Mobile.verifyElementText(findTestObject('Object Repository/Lihat Semua/Bayar/02. Bayar - Pajak, MPN/09. TextView-PBB'), 
 	'PBB')
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Bayar - Pajak, MPN\\05.png')
 
-Mobile.tap(findTestObject('Object Repository/Lihat Semua/Bayar/02. Bayar - Pajak, MPN/12. ViewGroup - Back Button Daftar Produk'), 0)
+Mobile.pressBack()
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Bayar - Pajak, MPN\\06.png')
 
-Mobile.tap(findTestObject('Object Repository/Lihat Semua/Bayar/02. Bayar - Pajak, MPN/13. PathView - Back Button'), 0)
+Mobile.pressBack()
+
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Bayar - Pajak, MPN\\07.png')
+
+Mobile.pressBack()
+
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Bayar - Pajak, MPN\\08.png')
 
 Mobile.closeApplication()

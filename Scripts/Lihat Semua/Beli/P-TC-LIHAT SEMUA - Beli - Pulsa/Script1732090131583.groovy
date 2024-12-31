@@ -19,12 +19,12 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('com.bankmega.msmiledev')
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Beli - Pulsa\\01.png')
 
-Mobile.tap(findTestObject('Object Repository/Lihat Semua/Beli/Pulsa/01. ViewGroup - Lihat Semua'), 0)
+Mobile.tap(findTestObject('Object Repository/Lihat Semua/Beli/Pulsa/01. ViewGroup-Lihat Semua'), 0)
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Beli - Pulsa\\02.png')
 
 Mobile.swipe(500, 1150, 500, 500)
@@ -32,47 +32,47 @@ Mobile.swipe(500, 1150, 500, 500)
 Mobile.delay(3)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Beli - Pulsa\\03.png')
 
-Mobile.tap(findTestObject('Object Repository/Lihat Semua/Beli/Pulsa/02. ImageView - Pulsa'), 0)
+Mobile.tap(findTestObject('Object Repository/Lihat Semua/Beli/Pulsa/02. ImageView-Pulsa'), 0)
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Beli - Pulsa\\04.png')
 
-Mobile.tap(findTestObject('Object Repository/Lihat Semua/Beli/Pulsa/03. TextView - Tap Field Input Nomor'), 0)
+Mobile.tap(findTestObject('Object Repository/Lihat Semua/Beli/Pulsa/03. TextView-Tap Nomor'), 0)
 
-Mobile.setText(findTestObject('Object Repository/Lihat Semua/Beli/Pulsa/04. EditText - Set Nomor'), '085711357924', 0)
+Mobile.setText(findTestObject('Object Repository/Lihat Semua/Beli/Pulsa/04. EditText-Set Nomor'), '085711357924', 0)
 
 Mobile.hideKeyboard()
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Beli - Pulsa\\05.png')
 
-Mobile.tap(findTestObject('Object Repository/Lihat Semua/Beli/Pulsa/05. ViewGroup - Lanjut'), 0)
+Mobile.tap(findTestObject('Object Repository/Lihat Semua/Beli/Pulsa/05. ViewGroup-Lanjut'), 0)
 
-Mobile.delay(1)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Beli - Pulsa\\06.png')
+Mobile.tap(findTestObject('Object Repository/Lihat Semua/Beli/Pulsa/06. SvgView-Cek Saldo'), 0)
 
-Mobile.verifyElementText(findTestObject('Object Repository/Lihat Semua/Beli/Pulsa/06. TextView - verif Pulsa'), 
-	'Pulsa')
-
-Mobile.tap(findTestObject('Object Repository/Lihat Semua/Beli/Pulsa/07. SvgView - Cek Saldo'), 0)
-
-Mobile.verifyElementText(findTestObject('Object Repository/Lihat Semua/Beli/Pulsa/08. EditText - verif 085711357924'), 
+Mobile.verifyElementText(findTestObject('Object Repository/Lihat Semua/Beli/Pulsa/07. EditText-verif 085711357924'), 
 	'085711357924')
 
-Mobile.verifyElementText(findTestObject('Object Repository/Lihat Semua/Beli/Pulsa/09. EditText - verif INDOSAT OOREDOO'), 
+Mobile.verifyElementText(findTestObject('Object Repository/Lihat Semua/Beli/Pulsa/08. EditText-verif INDOSAT OOREDOO'), 
 	'INDOSAT OOREDOO')
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Beli - Pulsa\\06.png')
 
-Mobile.tap(findTestObject('Object Repository/Lihat Semua/Beli/Pulsa/10. ViewGroup - Back Btn (Pulsa-1)'), 0)
+Mobile.pressBack()
 
-Mobile.verifyElementText(findTestObject('Object Repository/Lihat Semua/Beli/Pulsa/11. TextView - verif Pulsa'), 
-	'Pulsa')
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Beli - Pulsa\\07.png')
 
-Mobile.tap(findTestObject('Object Repository/Lihat Semua/Beli/Pulsa/12. ViewGroup - Back Btn (Pulsa-2)'), 0)
+Mobile.pressBack()
 
-Mobile.tap(findTestObject('Object Repository/Lihat Semua/Beli/Pulsa/13. ViewGroup - Back Btn (Lihat Semua)'), 0)
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Beli - Pulsa\\08.png')
+
+Mobile.pressBack()
+
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Beli - Pulsa\\09.png')
 
 Mobile.closeApplication()
 

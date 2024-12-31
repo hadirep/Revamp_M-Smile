@@ -19,43 +19,50 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('com.bankmega.msmiledev')
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Bayar - Listrik\\01.png')
 
-Mobile.tap(findTestObject('Object Repository/Lihat Semua/Bayar/03. Bayar - Listrik/01. ViewGroup - Lihat Semua'), 0)
+Mobile.tap(findTestObject('Object Repository/Lihat Semua/Bayar/03. Bayar - Listrik/01. ViewGroup-Lihat Semua'), 0)
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Bayar - Listrik\\02.png')
 
 Mobile.scrollToText('Lainnya')
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Bayar - Listrik\\03.png')
 
-Mobile.tap(findTestObject('Object Repository/Lihat Semua/Bayar/03. Bayar - Listrik/02. ViewGroup - Listrik'), 0)
+Mobile.tap(findTestObject('Object Repository/Lihat Semua/Bayar/03. Bayar - Listrik/02. ViewGroup-Listrik'), 0)
 
-Mobile.delay(1)
+Mobile.tap(findTestObject('Object Repository/Lihat Semua/Bayar/03. Bayar - Listrik/03. SvgView-Cek Saldo'), 0)
+
+Mobile.delay(4)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Bayar - Listrik\\04.png')
 
-Mobile.tap(findTestObject('Object Repository/Lihat Semua/Bayar/03. Bayar - Listrik/03. SvgView - Cek Saldo'), 0)
+Mobile.tap(findTestObject('Object Repository/Lihat Semua/Bayar/03. Bayar - Listrik/04. EditText-Daftar Produk'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Lihat Semua/Bayar/03. Bayar - Listrik/04. EditText - Field Daftar Produk'), 0)
-
-Mobile.tap(findTestObject('Object Repository/Lihat Semua/Bayar/03. Bayar - Listrik/05. EditText - Cari Produk'), 0)
-
-Mobile.tap(findTestObject('Object Repository/Lihat Semua/Bayar/03. Bayar - Listrik/06. ScrollView - Tap Body Daftar Produk'), 0)
-
-Mobile.verifyElementText(findTestObject('Object Repository/Lihat Semua/Bayar/03. Bayar - Listrik/07. TextView - PLN Postpaid'), 
+Mobile.verifyElementText(findTestObject('Object Repository/Lihat Semua/Bayar/03. Bayar - Listrik/05. TextView-verif PLN Postpaid'), 
 	'PLN Postpaid')
 
-Mobile.verifyElementText(findTestObject('Object Repository/Lihat Semua/Bayar/03. Bayar - Listrik/08. TextView - PLN Non Taglis'), 
+Mobile.verifyElementText(findTestObject('Object Repository/Lihat Semua/Bayar/03. Bayar - Listrik/06. TextView-verif PLN Non Taglis'), 
 	'PLN Non Taglis')
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Bayar - Listrik\\05.png')
 
-Mobile.tap(findTestObject('Object Repository/Lihat Semua/Bayar/03. Bayar - Listrik/09. ViewGroup - Back Button Daftar Produk'), 0)
+Mobile.pressBack()
 
-Mobile.tap(findTestObject('Object Repository/Lihat Semua/Bayar/03. Bayar - Listrik/10. PathView - Back Button'), 0)
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Bayar - Listrik\\06.png')
+
+Mobile.pressBack()
+
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Bayar - Listrik\\07.png')
+
+Mobile.pressBack()
+
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Bayar - Listrik\\08.png')
 
 Mobile.closeApplication()

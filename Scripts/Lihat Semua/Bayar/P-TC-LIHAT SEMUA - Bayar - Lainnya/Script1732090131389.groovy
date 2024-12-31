@@ -19,61 +19,53 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('com.bankmega.msmiledev')
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Bayar - Lainnya\\01.png')
 
-Mobile.tap(findTestObject('Object Repository/Lihat Semua/Bayar/12. Bayar - Lainnya/01. ViewGroup - Lihat Semua'), 0)
+Mobile.tap(findTestObject('Object Repository/Lihat Semua/Bayar/12. Bayar - Lainnya/01. ViewGroup-Lihat Semua'), 0)
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Bayar - Lainnya\\02.png')
 
 Mobile.scrollToText('Lainnya')
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Bayar - Lainnya\\03.png')
 
-Mobile.tap(findTestObject('Object Repository/Lihat Semua/Bayar/12. Bayar - Lainnya/02. ViewGroup - Lainnya'), 0)
+Mobile.tap(findTestObject('Object Repository/Lihat Semua/Bayar/12. Bayar - Lainnya/02. ViewGroup-Lainnya'), 0)
 
-Mobile.delay(1)
+Mobile.tap(findTestObject('Object Repository/Lihat Semua/Bayar/12. Bayar - Lainnya/03. SvgView-Cek Saldo'), 0)
+
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Bayar - Lainnya\\04.png')
 
-Mobile.tap(findTestObject('Object Repository/Lihat Semua/Bayar/12. Bayar - Lainnya/03. SvgView - Cek Saldo'), 0)
+Mobile.tap(findTestObject('Object Repository/Lihat Semua/Bayar/12. Bayar - Lainnya/04. EditText-Daftar Produk'), 0)
 
-Mobile.delay(1)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Bayar - Lainnya\\05.png')
-
-Mobile.tap(findTestObject('Object Repository/Lihat Semua/Bayar/12. Bayar - Lainnya/04. EditText - Field Daftar Produk'), 0)
-
-Mobile.delay(1)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Bayar - Lainnya\\06.png')
-
-Mobile.tap(findTestObject('Object Repository/Lihat Semua/Bayar/12. Bayar - Lainnya/05. EditText - Cari Produk'), 0)
-
-Mobile.delay(1)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Bayar - Lainnya\\07.png')
-
-Mobile.tap(findTestObject('Object Repository/Lihat Semua/Bayar/12. Bayar - Lainnya/06. ScrollView - Tap Body Daftar Produk'), 0)
-
-Mobile.verifyElementText(findTestObject('Object Repository/Lihat Semua/Bayar/12. Bayar - Lainnya/07. TextView - CT ARSA PEDULI BAKTI SOSIAL'), 
+Mobile.verifyElementText(findTestObject('Object Repository/Lihat Semua/Bayar/12. Bayar - Lainnya/05. TextView-CT ARSA PEDULI BAKTI SOSIAL'), 
 	'CT ARSA PEDULI BAKTI SOSIAL')
 
-Mobile.verifyElementText(findTestObject('Object Repository/Lihat Semua/Bayar/12. Bayar - Lainnya/08. TextView - CT ARSA PEDULI BENCANA'), 
+Mobile.verifyElementText(findTestObject('Object Repository/Lihat Semua/Bayar/12. Bayar - Lainnya/06. TextView-CT ARSA PEDULI BENCANA'), 
 	'CT ARSA PEDULI BENCANA')
 
-Mobile.verifyElementText(findTestObject('Object Repository/Lihat Semua/Bayar/12. Bayar - Lainnya/09. TextView - CT ARSA PEDULI PENDIDIKAN'),
+Mobile.verifyElementText(findTestObject('Object Repository/Lihat Semua/Bayar/12. Bayar - Lainnya/07. TextView-CT ARSA PEDULI PENDIDIKAN'),
 	'CT ARSA PEDULI PENDIDIKAN')
 
-Mobile.verifyElementText(findTestObject('Object Repository/Lihat Semua/Bayar/12. Bayar - Lainnya/10. TextView - Donasi'),
-	'Donasi')
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Bayar - Lainnya\\05.png')
 
-Mobile.delay(1)
+Mobile.pressBack()
+
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Bayar - Lainnya\\06.png')
+
+Mobile.pressBack()
+
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Bayar - Lainnya\\07.png')
+
+Mobile.pressBack()
+
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Bayar - Lainnya\\08.png')
-
-Mobile.tap(findTestObject('Object Repository/Lihat Semua/Bayar/12. Bayar - Lainnya/11. ViewGroup - Back Button Daftar Produk'), 0)
-
-Mobile.delay(1)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Bayar - Lainnya\\09.png')
-
-Mobile.tap(findTestObject('Object Repository/Lihat Semua/Bayar/12. Bayar - Lainnya/12. PathView - Back Button'), 0)
 
 Mobile.closeApplication()

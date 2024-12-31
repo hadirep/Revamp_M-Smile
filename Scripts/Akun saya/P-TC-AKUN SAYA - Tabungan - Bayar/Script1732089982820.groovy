@@ -38,31 +38,31 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('com.bankmega.msmiledev')
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-AKUN SAYA - Tabungan - Bayar\\01.png')
 
 Mobile.tap(findTestObject('Object Repository/Akun saya/Tabungan/Bayar/01. ImageView - Akun Saya'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Akun saya/Tabungan/Bayar/02. SvgView - Cek Saldo'), 0)
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-AKUN SAYA - Tabungan - Bayar\\02.png')
 
 Mobile.tap(findTestObject('Object Repository/Akun saya/Tabungan/Bayar/03. ImageView - Klik Detail Tabungan'), 0)
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-AKUN SAYA - Tabungan - Bayar\\03.png')
 
 Mobile.tap(findTestObject('Object Repository/Akun saya/Tabungan/Bayar/04. TextView - Mutasi'), 0)
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-AKUN SAYA - Tabungan - Bayar\\04.png')
 
 Mobile.tap(findTestObject('Object Repository/Akun saya/Tabungan/Bayar/05. ViewGroup - Back Button Mutasi'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Akun saya/Tabungan/Bayar/06. TextView - E-Statement'), 0)
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-AKUN SAYA - Tabungan - Bayar\\05.png')
 
 Mobile.pressBack()
@@ -161,7 +161,7 @@ Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-AKUN SAYA - Tabungan
 
 Mobile.tap(findTestObject('Object Repository/Akun saya/Tabungan/Bayar/27. ViewGroup-Bagikan'), 0)
 
-Mobile.delay(2)
+Mobile.delay(4)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-AKUN SAYA - Tabungan - Bayar\\19.png')
 
 Mobile.pressBack()
@@ -173,6 +173,11 @@ Mobile.tapAtPosition(1140, 465)
 
 Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-AKUN SAYA - Tabungan - Bayar\\21.png')
+
+Mobile.pressBack()
+
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-AKUN SAYA - Tabungan - Bayar\\22.png')
 
 Mobile.closeApplication()
 

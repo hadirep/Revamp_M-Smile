@@ -19,51 +19,55 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('com.bankmega.msmiledev')
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Bayar - Telepon, Handphone\\01.png')
 
-Mobile.tap(findTestObject('Object Repository/Lihat Semua/Bayar/01. Bayar - Telepon, Handphone/01. ViewGroup - Lihat Semua'), 0)
+Mobile.tap(findTestObject('Object Repository/Lihat Semua/Bayar/01. Bayar - Telepon, Handphone/01. ViewGroup-Lihat Semua'), 0)
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Bayar - Telepon, Handphone\\02.png')
 
 Mobile.scrollToText('Lainnya')
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Bayar - Telepon, Handphone\\03.png')
 
-Mobile.tap(findTestObject('Object Repository/Lihat Semua/Bayar/01. Bayar - Telepon, Handphone/02. ViewGroup - Telpon Handphone'), 0)
+Mobile.tap(findTestObject('Object Repository/Lihat Semua/Bayar/01. Bayar - Telepon, Handphone/02. ViewGroup-Telpon Handphone'), 0)
 
-Mobile.delay(1)
+Mobile.tap(findTestObject('Object Repository/Lihat Semua/Bayar/01. Bayar - Telepon, Handphone/03. SvgView-Cek Saldo'), 0)
+
+Mobile.delay(4)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Bayar - Telepon, Handphone\\04.png')
 
-Mobile.tap(findTestObject('Object Repository/Lihat Semua/Bayar/01. Bayar - Telepon, Handphone/03. SvgView - Cek Saldo'), 0)
+Mobile.tap(findTestObject('Object Repository/Lihat Semua/Bayar/01. Bayar - Telepon, Handphone/04. EditText-Daftar Produk'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Lihat Semua/Bayar/01. Bayar - Telepon, Handphone/04. EditText - Field Daftar Produk'), 0)
+Mobile.verifyElementText(findTestObject('Object Repository/Lihat Semua/Bayar/01. Bayar - Telepon, Handphone/05. TextView-XL'), 'XL')
 
-Mobile.tap(findTestObject('Object Repository/Lihat Semua/Bayar/01. Bayar - Telepon, Handphone/05. EditText - Cari Produk'), 0)
+Mobile.verifyElementText(findTestObject('Object Repository/Lihat Semua/Bayar/01. Bayar - Telepon, Handphone/06. TextView-TELKOM PAY'), 'TELKOM PAY')
 
-Mobile.tap(findTestObject('Object Repository/Lihat Semua/Bayar/01. Bayar - Telepon, Handphone/06. ScrollView - Tap Body'), 0)
+Mobile.verifyElementText(findTestObject('Object Repository/Lihat Semua/Bayar/01. Bayar - Telepon, Handphone/07. TextView-SMARTFREN'), 'SMARTFREN')
 
-Mobile.verifyElementText(findTestObject('Object Repository/Lihat Semua/Bayar/01. Bayar - Telepon, Handphone/07. TextView - XL'), 'XL')
+Mobile.verifyElementText(findTestObject('Object Repository/Lihat Semua/Bayar/01. Bayar - Telepon, Handphone/08. TextView-KARTUHALO'), 'KARTUHALO')
 
-Mobile.verifyElementText(findTestObject('Object Repository/Lihat Semua/Bayar/01. Bayar - Telepon, Handphone/08. TextView - TELKOM PAY'), 'TELKOM PAY')
+Mobile.verifyElementText(findTestObject('Object Repository/Lihat Semua/Bayar/01. Bayar - Telepon, Handphone/09. TextView-INDOSAT OOREDOO'), 'INDOSAT OOREDOO')
 
-Mobile.verifyElementText(findTestObject('Object Repository/Lihat Semua/Bayar/01. Bayar - Telepon, Handphone/09. TextView - SMARTFREN'), 'SMARTFREN')
-
-Mobile.verifyElementText(findTestObject('Object Repository/Lihat Semua/Bayar/01. Bayar - Telepon, Handphone/10. TextView - KARTUHALO'), 'KARTUHALO')
-
-Mobile.verifyElementText(findTestObject('Object Repository/Lihat Semua/Bayar/01. Bayar - Telepon, Handphone/11. TextView - INDOSAT OOREDOO'), 'INDOSAT OOREDOO')
-
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Bayar - Telepon, Handphone\\05.png')
 
-Mobile.tap(findTestObject('Object Repository/Lihat Semua/Bayar/01. Bayar - Telepon, Handphone/12. ViewGroup - Back Button Daftar Produk'), 0)
+Mobile.pressBack()
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Bayar - Telepon, Handphone\\06.png')
 
-Mobile.tap(findTestObject('Object Repository/Lihat Semua/Bayar/01. Bayar - Telepon, Handphone/13. PathView - Back Button'), 0)
+Mobile.pressBack()
+
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Bayar - Telepon, Handphone\\07.png')
+
+Mobile.pressBack()
+
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Bayar - Telepon, Handphone\\08.png')
 
 Mobile.closeApplication()
 

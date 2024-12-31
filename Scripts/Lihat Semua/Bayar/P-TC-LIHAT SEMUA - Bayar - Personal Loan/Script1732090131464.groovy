@@ -19,55 +19,47 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('com.bankmega.msmiledev')
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Bayar - Personal Loan\\01.png')
 
-Mobile.tap(findTestObject('Object Repository/Lihat Semua/Bayar/04. Bayar - Personal Loan/01. ViewGroup - Lihat Semua'), 0)
+Mobile.tap(findTestObject('Object Repository/Lihat Semua/Bayar/04. Bayar - Personal Loan/01. ViewGroup-Lihat Semua'), 0)
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Bayar - Personal Loan\\02.png')
 
 Mobile.scrollToText('Lainnya')
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Bayar - Personal Loan\\03.png')
 
-Mobile.tap(findTestObject('Object Repository/Lihat Semua/Bayar/04. Bayar - Personal Loan/02. ViewGroup - Personal Loan'), 0)
+Mobile.tap(findTestObject('Object Repository/Lihat Semua/Bayar/04. Bayar - Personal Loan/02. ViewGroup-Personal Loan'), 0)
 
-Mobile.delay(1)
+Mobile.tap(findTestObject('Object Repository/Lihat Semua/Bayar/04. Bayar - Personal Loan/03. SvgView-Cek Saldo'), 0)
+
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Bayar - Personal Loan\\04.png')
 
-Mobile.tap(findTestObject('Object Repository/Lihat Semua/Bayar/04. Bayar - Personal Loan/03. SvgView - Cek Saldo'), 0)
+Mobile.tap(findTestObject('Object Repository/Lihat Semua/Bayar/04. Bayar - Personal Loan/04. EditText-Daftar Produk'), 0)
 
-Mobile.delay(1)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Bayar - Personal Loan\\05.png')
-
-Mobile.tap(findTestObject('Object Repository/Lihat Semua/Bayar/04. Bayar - Personal Loan/04. EditText - Field Daftar Produk'), 0)
-
-Mobile.delay(1)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Bayar - Personal Loan\\06.png')
-
-Mobile.tap(findTestObject('Object Repository/Lihat Semua/Bayar/04. Bayar - Personal Loan/05. EditText - Cari Produk'), 0)
-
-Mobile.delay(1)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Bayar - Personal Loan\\07.png')
-
-Mobile.tap(findTestObject('Object Repository/Lihat Semua/Bayar/04. Bayar - Personal Loan/06. ScrollView - Tap Body Daftar Produk'), 0)
-
-Mobile.delay(1)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Bayar - Personal Loan\\08.png')
-
-Mobile.verifyElementText(findTestObject('Object Repository/Lihat Semua/Bayar/04. Bayar - Personal Loan/07. TextView - MEGA CASH LINE'), 
+Mobile.verifyElementText(findTestObject('Object Repository/Lihat Semua/Bayar/04. Bayar - Personal Loan/05. TextView-verif MEGA CASH LINE'), 
 	'MEGA CASH LINE')
 
-Mobile.delay(1)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Bayar - Personal Loan\\09.png')
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Bayar - Personal Loan\\05.png')
 
-Mobile.tap(findTestObject('Object Repository/Lihat Semua/Bayar/04. Bayar - Personal Loan/08. ViewGroup - Back Button Daftar Produk'), 0)
+Mobile.pressBack()
 
-Mobile.delay(1)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Bayar - Personal Loan\\10.png')
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Bayar - Personal Loan\\06.png')
 
-Mobile.tap(findTestObject('Object Repository/Lihat Semua/Bayar/04. Bayar - Personal Loan/09. PathView - Back Button'), 0)
+Mobile.pressBack()
+
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Bayar - Personal Loan\\07.png')
+
+Mobile.pressBack()
+
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Bayar - Personal Loan\\08.png')
 
 Mobile.closeApplication()
