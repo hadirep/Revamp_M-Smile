@@ -92,12 +92,14 @@ Mobile.verifyElementText(findTestObject('Object Repository/Inbox/Pengumuman/Pers
 Mobile.verifyElementText(findTestObject('Object Repository/Inbox/Pengumuman/Personal/18. TextView-verif body, detail 3'), 
 	'Pergi liburan naik kereta api bayar tiketnya tanpa antri. Klik menu bayar di M-Smile dan pilih tiket kereta api ya! Bayarnya gampang bikin liburan makin nyaman!')
 
+Mobile.pressBack()
+
 Mobile.delay(1)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-INBOX - Pengumuman - Personal\\08.png')
 
 Mobile.pressBack()
 
-Mobile.pressBack()
+Mobile.delay(1)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-INBOX - Pengumuman - Personal\\09.png')
 
 Mobile.closeApplication()
-

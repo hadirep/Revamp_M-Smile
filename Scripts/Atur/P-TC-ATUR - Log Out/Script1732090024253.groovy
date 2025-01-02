@@ -19,15 +19,17 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('com.bankmega.msmiledev')
 
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-ATUR - Log Out\\01.png')
 
 Mobile.tap(findTestObject('Object Repository/Atur/Atur - Log Out/01. Button-Atur Akun'), 0)
 
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-ATUR - Log Out\\02.png')
 
 Mobile.tap(findTestObject('Object Repository/Atur/Atur - Log Out/02. Button-Log Out'), 0)
 
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-ATUR - Log Out\\03.png')
 
 Mobile.closeApplication()
-

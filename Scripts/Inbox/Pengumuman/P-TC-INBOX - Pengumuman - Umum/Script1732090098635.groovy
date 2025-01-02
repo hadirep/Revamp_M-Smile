@@ -81,5 +81,9 @@ Mobile.pressBack()
 Mobile.delay(1)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-INBOX - Pengumuman - Umum\\07.png')
 
-Mobile.closeApplication()
+Mobile.pressBack()
 
+Mobile.delay(1)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-INBOX - Pengumuman - Umum\\08.png')
+
+Mobile.closeApplication()

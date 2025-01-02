@@ -19,17 +19,17 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('com.bankmega.msmiledev')
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Layanan - Ubah Jadi Cicilan\\01.png')
 
 Mobile.tap(findTestObject('Object Repository/Lihat Semua/Layanan/Ubah Jadi Cicilan/01. ViewGroup-Lihat Semua'), 0)
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Layanan - Ubah Jadi Cicilan\\02.png')
 
 Mobile.scrollToText('Layanan')
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Layanan - Ubah Jadi Cicilan\\03.png')
 
 Mobile.tap(findTestObject('Object Repository/Lihat Semua/Layanan/Ubah Jadi Cicilan/02. ImageView-Ubah Jadi Cicilan'), 0)
@@ -44,7 +44,7 @@ Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Layana
 
 Mobile.tap(findTestObject('Object Repository/Lihat Semua/Layanan/Ubah Jadi Cicilan/04. ViewGroup-Lanjut'), 0)
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Layanan - Ubah Jadi Cicilan\\06.png')
 
 Mobile.scrollToText('Saya telah setuju')

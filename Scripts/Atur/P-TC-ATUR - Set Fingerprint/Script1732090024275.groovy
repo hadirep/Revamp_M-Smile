@@ -19,23 +19,24 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('com.bankmega.msmiledev')
 
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-ATUR - Set Fingerprint\\01.png')
 
 Mobile.tap(findTestObject('Object Repository/Atur/Atur - Set Fingerprint/01. PathView - Icon Atur Akun'), 0)
 
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-ATUR - Set Fingerprint\\02.png')
 
 Mobile.tap(findTestObject('Object Repository/Atur/Atur - Set Fingerprint/02. TextView - Fingerprint'), 0)
 
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-ATUR - Set Fingerprint\\03.png')
-
 Mobile.tap(findTestObject('Object Repository/Atur/Atur - Set Fingerprint/03. Switch - Aktifkan fingerprint'), 0)
 
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-ATUR - Set Fingerprint\\04.png')
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-ATUR - Set Fingerprint\\03.png')
 
 Mobile.pressBack()
 
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-ATUR - Set Fingerprint\\05.png')
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-ATUR - Set Fingerprint\\04.png')
 
 Mobile.closeApplication()
-
