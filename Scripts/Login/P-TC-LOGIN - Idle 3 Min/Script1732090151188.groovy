@@ -37,12 +37,12 @@ Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LOGIN - Idle 3 Min\\
 
 Mobile.tap(findTestObject('Object Repository/Login/Idle 3 Min/03. Button-Klik Login'), 0)
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LOGIN - Idle 3 Min\\03.png')
 
 Mobile.delay(180)
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LOGIN - Idle 3 Min\\04.png')
 
 Mobile.closeApplication()

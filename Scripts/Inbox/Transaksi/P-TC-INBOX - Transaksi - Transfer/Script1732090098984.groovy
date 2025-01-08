@@ -19,12 +19,12 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('com.bankmega.msmiledev')
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-INBOX - Transaksi - Transfer\\01.png')
 
 Mobile.tap(findTestObject('Object Repository/Inbox/Transaksi/Transfer/01. ViewGroup-Inbox'), 0)
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-INBOX - Transaksi - Transfer\\02.png')
 
 Mobile.tap(findTestObject('Object Repository/Inbox/Transaksi/Transfer/02. ViewGroup-Transfer'), 0)
@@ -38,13 +38,13 @@ Mobile.verifyElementText(findTestObject('Object Repository/Inbox/Transaksi/Trans
 Mobile.verifyElementText(findTestObject('Object Repository/Inbox/Transaksi/Transfer/05. TextView-verif Rp. 10.000'),
 	'Rp. 10.000')
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-INBOX - Transaksi - Transfer\\03.png')
 
 Mobile.tap(findTestObject('Object Repository/Inbox/Transaksi/Transfer/06. ViewGroup-Tap List 1'), 0)
 
 Mobile.verifyElementText(findTestObject('Object Repository/Inbox/Transaksi/Transfer/07. TextView-verif Transfer Berhasil'), 
-    'Transfer Berhasil!')
+    'Transfer Berhasil')
 
 Mobile.verifyElementText(findTestObject('Object Repository/Inbox/Transaksi/Transfer/08. TextView-verif Rp. 10.000'),
 	'Rp. 10.000')
@@ -64,56 +64,33 @@ Mobile.verifyElementText(findTestObject('Object Repository/Inbox/Transaksi/Trans
 Mobile.verifyElementText(findTestObject('Object Repository/Inbox/Transaksi/Transfer/13. TextView-verif total Rp.  10.000'), 
     'Rp.  10.000')
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-INBOX - Transaksi - Transfer\\04.png')
 
-Mobile.tap(findTestObject('Object Repository/Inbox/Transaksi/Transfer/14. ViewGroup-Tap Split Bill'), 0)
+Mobile.tap(findTestObject('Object Repository/Inbox/Transaksi/Transfer/14. ViewGroup-Tap Bagikan'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Inbox/Transaksi/Transfer/15. ViewGroup-Tap Bagikan'), 0)
-
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-INBOX - Transaksi - Transfer\\05.png')
 
-Mobile.tap(findTestObject('Object Repository/Inbox/Transaksi/Transfer/16. ImageView-WhatsApp'), 0)
+Mobile.pressBack()
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-INBOX - Transaksi - Transfer\\06.png')
 
-Mobile.tap(findTestObject('Object Repository/Inbox/Transaksi/Transfer/17. Button-Search Contact'), 0)
+Mobile.tap(findTestObject('Object Repository/Inbox/Transaksi/Transfer/15. GroupView-Close Button'), 0)
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-INBOX - Transaksi - Transfer\\07.png')
 
-Mobile.setText(findTestObject('Object Repository/Inbox/Transaksi/Transfer/18. EditText-Search name or number'),
-	'Data', 0)
+Mobile.pressBack()
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-INBOX - Transaksi - Transfer\\08.png')
 
-Mobile.tap(findTestObject('Object Repository/Inbox/Transaksi/Transfer/19. LinearLayout-Click Contact'), 0)
+Mobile.pressBack()
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-INBOX - Transaksi - Transfer\\09.png')
-
-Mobile.tap(findTestObject('Object Repository/Inbox/Transaksi/Transfer/20. ImageButton-Share to contact'), 0)
-
-Mobile.delay(1)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-INBOX - Transaksi - Transfer\\10.png')
-
-Mobile.tap(findTestObject('Object Repository/Inbox/Transaksi/Transfer/21. ImageButton-Share to contact 2'), 0)
-
-Mobile.delay(1)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-INBOX - Transaksi - Transfer\\11.png')
-
-Mobile.pressBack()
-Mobile.pressBack()
-Mobile.pressBack()
-
-Mobile.tap(findTestObject('Object Repository/Inbox/Transaksi/Transfer/22. GroupView-Close Button'), 0)
-
-Mobile.pressBack()
-
-Mobile.pressBack()
 
 Mobile.closeApplication()
 

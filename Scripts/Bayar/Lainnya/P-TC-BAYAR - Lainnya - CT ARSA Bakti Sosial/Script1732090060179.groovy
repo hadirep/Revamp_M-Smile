@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('com.bankmega.msmiledev')
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Lainnya - CT ARSA Bakti Sosial\\01.png')
 
 Mobile.tap(findTestObject('Object Repository/Lainnya/CT ARSA Bakti Sosial/01. ViewGroup-Bayar'), 0)
@@ -110,7 +110,7 @@ Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Lainnya - CT
 
 Mobile.tap(findTestObject('Object Repository/Lainnya/CT ARSA Bakti Sosial/23. ViewGroup-Bagikan'), 0)
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Lainnya - CT ARSA Bakti Sosial\\11.png')
 
 Mobile.pressBack()

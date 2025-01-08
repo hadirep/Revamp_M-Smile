@@ -19,12 +19,12 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('com.bankmega.msmiledev')
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Topup - Go-Pay Driver\\01.png')
 
 Mobile.tap(findTestObject('Object Repository/Lihat Semua/Topup/Go-Pay Driver/01. ViewGroup-Lihat Semua'), 0)
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Topup - Go-Pay Driver\\02.png')
 
 Mobile.tap(findTestObject('Object Repository/Lihat Semua/Topup/Go-Pay Driver/02. ImageView-Gopay Driver'), 0)
@@ -39,7 +39,7 @@ Mobile.setText(findTestObject('Object Repository/Lihat Semua/Topup/Go-Pay Driver
 
 Mobile.hideKeyboard()
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Topup - Go-Pay Driver\\03.png')
 
 Mobile.tap(findTestObject('Object Repository/Lihat Semua/Topup/Go-Pay Driver/06. ViewGroup-Lanjut'), 0)
@@ -55,22 +55,22 @@ Mobile.verifyElementText(findTestObject('Object Repository/Lihat Semua/Topup/Go-
 Mobile.verifyElementText(findTestObject('Object Repository/Lihat Semua/Topup/Go-Pay Driver/10. TextView-E-Wallet'), 
 	'E-Wallet')
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Topup - Go-Pay Driver\\04.png')
 
 Mobile.pressBack()
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Topup - Go-Pay Driver\\05.png')
 
 Mobile.pressBack()
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Topup - Go-Pay Driver\\06.png')
 
 Mobile.pressBack()
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Topup - Go-Pay Driver\\07.png')
 
 Mobile.closeApplication()

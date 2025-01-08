@@ -32,31 +32,29 @@ Mobile.tap(findTestObject('Object Repository/Inbox/Transaksi/Bayar/02. ViewGroup
 Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-INBOX - Transaksi - Bayar\\03.png')
 
-Mobile.verifyElementText(findTestObject('Object Repository/Inbox/Transaksi/Bayar/03. TextView-verif kartu kredit bank lain'), 
-    'kartu kredit bank lain')
+Mobile.verifyElementText(findTestObject('Object Repository/Inbox/Transaksi/Bayar/03. TextView-verif Telkom'), 
+    'Telkom')
 
-Mobile.verifyElementText(findTestObject('Object Repository/Inbox/Transaksi/Bayar/04. TextView-verif 5401844210627787'), '5401844210627787')
+Mobile.verifyElementText(findTestObject('Object Repository/Inbox/Transaksi/Bayar/04. TextView-verif 081102125001'), '081102125001')
 
-Mobile.verifyElementText(findTestObject('Object Repository/Inbox/Transaksi/Bayar/05. TextView-verif Rp. 15.000'), 'Rp. 15.000')
+Mobile.verifyElementText(findTestObject('Object Repository/Inbox/Transaksi/Bayar/05. TextView-verif Rp. 51.903'), 'Rp. 51.903')
 
 Mobile.tap(findTestObject('Object Repository/Inbox/Transaksi/Bayar/06. ViewGroup-Klik bill'), 0)
 
 Mobile.verifyElementText(findTestObject('Object Repository/Inbox/Transaksi/Bayar/07. TextView-verif Top Up Berhasil'), 'Top Up Berhasil!')
 
-Mobile.verifyElementText(findTestObject('Object Repository/Inbox/Transaksi/Bayar/08. TextView-verif Rp.  15.000'), 'Rp.  15.000')
+Mobile.verifyElementText(findTestObject('Object Repository/Inbox/Transaksi/Bayar/08. TextView-verif Rp.  51.903'), 'Rp.  51.903')
 
-Mobile.verifyElementText(findTestObject('Object Repository/Inbox/Transaksi/Bayar/09. TextView-verif 5401844210627787'), '5401844210627787')
+Mobile.verifyElementText(findTestObject('Object Repository/Inbox/Transaksi/Bayar/09. TextView-verif nominal Rp. 49.403'), 'Rp. 49.403')
 
-Mobile.verifyElementText(findTestObject('Object Repository/Inbox/Transaksi/Bayar/10. TextView-verif nominal Rp. 7.500'), 'Rp. 7.500')
+Mobile.verifyElementText(findTestObject('Object Repository/Inbox/Transaksi/Bayar/10. TextView-verif adm Rp. 2.500'), 'Rp. 2.500')
 
-Mobile.verifyElementText(findTestObject('Object Repository/Inbox/Transaksi/Bayar/11. TextView-verif adm Rp. 7.500'), 'Rp. 7.500')
-
-Mobile.verifyElementText(findTestObject('Object Repository/Inbox/Transaksi/Bayar/12. TextView-verif total Rp.  15.000'), 'Rp.  15.000')
+Mobile.verifyElementText(findTestObject('Object Repository/Inbox/Transaksi/Bayar/11. TextView-verif Total Rp. 51.903'), 'Rp.  51.903')
 
 Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-INBOX - Transaksi - Bayar\\04.png')
 
-Mobile.tap(findTestObject('Object Repository/Inbox/Transaksi/Bayar/13. ViewGroup-Bagikan'), 0)
+Mobile.tap(findTestObject('Object Repository/Inbox/Transaksi/Bayar/12. ViewGroup-Bagikan'), 0)
 
 Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-INBOX - Transaksi - Bayar\\05.png')
@@ -66,12 +64,14 @@ Mobile.pressBack()
 Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-INBOX - Transaksi - Bayar\\06.png')
 
-Mobile.tap(findTestObject('Object Repository/Inbox/Transaksi/Bayar/14. GroupView-Close Button'), 0)
+Mobile.tap(findTestObject('Object Repository/Inbox/Transaksi/Bayar/13. GroupView-Close Button'), 0)
 
 Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-INBOX - Transaksi - Bayar\\07.png')
 
 Mobile.pressBack()
 
-Mobile.closeApplication()
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-INBOX - Transaksi - Bayar\\07.png')
 
+Mobile.closeApplication()

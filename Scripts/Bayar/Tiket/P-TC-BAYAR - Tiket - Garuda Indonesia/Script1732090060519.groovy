@@ -29,15 +29,15 @@ Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Tiket - Garu
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Tiket/Garuda Indonesia/02. SvgView-Tiket'), 0)
 
-Mobile.delay(2)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Tiket - Garuda Indonesia\\03.png')
-
 Mobile.tap(findTestObject('Object Repository/Bayar/Tiket/Garuda Indonesia/03. SvgView-Cek Saldo'), 0)
 
 Mobile.delay(2)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Tiket - Garuda Indonesia\\04.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Tiket - Garuda Indonesia\\03.png')
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Tiket/Garuda Indonesia/04. EditText-Tap Field Daftar Produk'), 0)
+
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Tiket - Garuda Indonesia\\04.png')
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Tiket/Garuda Indonesia/05. TextView-GARUDA INDONESIA'), 0)
 
@@ -53,9 +53,12 @@ Mobile.setText(findTestObject('Object Repository/Bayar/Tiket/Garuda Indonesia/08
 Mobile.pressBack()
 
 Mobile.delay(2)
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Tiket - Garuda Indonesia\\06.png')
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Tiket/Garuda Indonesia/09. ViewGroup-Ok'), 0)
+
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Tiket - Garuda Indonesia\\07.png')
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Tiket/Garuda Indonesia/10. ViewGroup-Lanjut'), 0)
 
@@ -83,6 +86,9 @@ Mobile.setText(findTestObject('Object Repository/Bayar/Tiket/Garuda Indonesia/18
 
 Mobile.hideKeyboard()
 
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Tiket - Garuda Indonesia\\08.png')
+
 Mobile.tap(findTestObject('Object Repository/Bayar/Tiket/Garuda Indonesia/19. ViewGroup-Bayar'), 0)
 
 Mobile.verifyElementText(findTestObject('Object Repository/Bayar/Tiket/Garuda Indonesia/20. TextView-Pembayaran Berhasil'), 
@@ -107,21 +113,21 @@ Mobile.verifyElementText(findTestObject('Object Repository/Bayar/Tiket/Garuda In
 	'Rp. 1.043.412')
 
 Mobile.delay(2)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Tiket - Garuda Indonesia\\06.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Tiket - Garuda Indonesia\\09.png')
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Tiket/Garuda Indonesia/27. ViewGroup-Bagikan'), 0)
 
 Mobile.delay(4)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Tiket - Garuda Indonesia\\07.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Tiket - Garuda Indonesia\\10.png')
 
 Mobile.pressBack()
 
 Mobile.delay(2)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Tiket - Garuda Indonesia\\08.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Tiket - Garuda Indonesia\\11.png')
 
 Mobile.tapAtPosition(1147, 465)
 
 Mobile.delay(2)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Tiket - Garuda Indonesia\\09.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Tiket - Garuda Indonesia\\12.png')
 
 Mobile.closeApplication()

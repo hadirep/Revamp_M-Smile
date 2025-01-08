@@ -19,12 +19,12 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('com.bankmega.msmiledev')
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-INBOX - Transaksi - QRIS\\01.png')
 
 Mobile.tap(findTestObject('Object Repository/Inbox/Transaksi/QRIS/01. ViewGroup-Inbox'), 0)
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-INBOX - Transaksi - QRIS\\02.png')
 
 Mobile.tap(findTestObject('Object Repository/Inbox/Transaksi/QRIS/02. ViewGroup-QRIS'), 0)
@@ -41,7 +41,7 @@ Mobile.verifyElementText(findTestObject('Object Repository/Inbox/Transaksi/QRIS/
 Mobile.verifyElementText(findTestObject('Object Repository/Inbox/Transaksi/QRIS/06. TextView-verif Rp. 20.000'),
 	'Rp. 20.000')
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-INBOX - Transaksi - QRIS\\03.png')
 
 Mobile.tap(findTestObject('Object Repository/Inbox/Transaksi/QRIS/07. ViewGroup-Tap Line 1'), 0)
@@ -61,22 +61,22 @@ Mobile.verifyElementText(findTestObject('Object Repository/Inbox/Transaksi/QRIS/
 Mobile.verifyElementText(findTestObject('Object Repository/Inbox/Transaksi/QRIS/12. TextView-verif Total Bayar Rp. 20.000'), 
     'Rp. 20.000')
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-INBOX - Transaksi - QRIS\\04.png')
 
 Mobile.tap(findTestObject('Object Repository/Inbox/Transaksi/QRIS/13. ViewGroup-Bagikan'), 0)
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-INBOX - Transaksi - QRIS\\05.png')
 
 Mobile.tap(findTestObject('Object Repository/Inbox/Transaksi/QRIS/14. Button - Cancel'), 0)
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-INBOX - Transaksi - QRIS\\06.png')
 
 Mobile.tap(findTestObject('Object Repository/Inbox/Transaksi/QRIS/15. GroupView-Close Button'), 0)
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-INBOX - Transaksi - QRIS\\07.png')
 
 Mobile.closeApplication()

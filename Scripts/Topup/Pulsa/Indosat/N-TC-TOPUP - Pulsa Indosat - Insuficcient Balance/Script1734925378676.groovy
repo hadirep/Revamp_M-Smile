@@ -19,17 +19,17 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('com.bankmega.msmiledev')
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Pulsa Indosat - Insuficcient Balance\\01.png')
 
 Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/Indosat - Insuficcient Balance/01. ViewGroup - Button Top Up'), 0)
 
-Mobile.delay(1)
+Mobile.delay(5)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Pulsa Indosat - Insuficcient Balance\\02.png')
 
 Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/Indosat - Insuficcient Balance/02. View - Icon Pulsa'), 0)
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Pulsa Indosat - Insuficcient Balance\\03.png')
 
 Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/Indosat - Insuficcient Balance/03. EditText - Input nomor'), 0)
@@ -39,12 +39,12 @@ Mobile.setText(findTestObject('Object Repository/Topup/Pulsa/Indosat - Insuficci
 
 Mobile.hideKeyboard()
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Pulsa Indosat - Insuficcient Balance\\04.png')
 
 Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/Indosat - Insuficcient Balance/05. ViewGroup - Lanjut'), 0)
 
-Mobile.delay(1)
+Mobile.delay(2)
 
 Mobile.swipe(900, 500, 100, 500)
 
@@ -54,7 +54,7 @@ Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/Indosat - Insuficcient 
 
 Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/Indosat - Insuficcient Balance/07. TextView-25000'), 0)
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Pulsa Indosat - Insuficcient Balance\\05.png')
 
 Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/Indosat - Insuficcient Balance/08. ViewGroup-Lanjut'), 0)
@@ -93,44 +93,41 @@ Mobile.setText(findTestObject('Object Repository/Topup/Pulsa/Indosat - Insuficci
 
 Mobile.hideKeyboard()
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Pulsa Indosat - Insuficcient Balance\\06.png')
 
 Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/Indosat - Insuficcient Balance/15. ViewGroup-Lanjut'), 0)
 
-Mobile.delay(4)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Pulsa Indosat - Insuficcient Balance\\07.png')
-
 Mobile.verifyElementText(findTestObject('Object Repository/Topup/Pulsa/Indosat - Insuficcient Balance/16. TextView-verif Insuficcient Balance'),
 	'Dana Anda tidak cukup untuk melakukan transaksi. Pastikan sumber dana yang anda pilih cukup untuk melakukan transaksi [H51]')
 
-Mobile.delay(1)
+Mobile.delay(4)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Pulsa Indosat - Insuficcient Balance\\07.png')
+
+Mobile.delay(2)
+Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/Indosat - Insuficcient Balance/17. TextView-OK'), 0)
+
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Pulsa Indosat - Insuficcient Balance\\08.png')
 
-Mobile.delay(1)
-Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/Indosat - Insuficcient Balance/17. TextView-OK'), 0)
+Mobile.pressBack()
 
 Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Pulsa Indosat - Insuficcient Balance\\09.png')
 
 Mobile.pressBack()
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Pulsa Indosat - Insuficcient Balance\\10.png')
 
 Mobile.pressBack()
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Pulsa Indosat - Insuficcient Balance\\11.png')
 
 Mobile.pressBack()
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Pulsa Indosat - Insuficcient Balance\\12.png')
-
-Mobile.pressBack()
-
-Mobile.delay(1)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Pulsa Indosat - Insuficcient Balance\\13.png')
 
 Mobile.closeApplication()

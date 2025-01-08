@@ -123,7 +123,12 @@ Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TRANSFER - Overbooki
 
 Mobile.tap(findTestObject('Object Repository/Transfer/Transfer - Overbooking/14.button-close'), 0)
 
+Mobile.delay(3)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TRANSFER - Overbooking\\07.png')
+	
 Mobile.pressBack()
 
+Mobile.delay(3)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TRANSFER - Overbooking\\08.png')
+	
 Mobile.closeApplication()
-

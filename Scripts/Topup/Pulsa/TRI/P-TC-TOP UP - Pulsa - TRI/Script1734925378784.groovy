@@ -19,17 +19,17 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('com.bankmega.msmiledev')
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Pulsa TRI\\01.png')
 
 Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/TRI/01. ViewGroup-Top Up'), 0)
 
-Mobile.delay(1)
+Mobile.delay(5)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Pulsa TRI\\02.png')
 
 Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/TRI/02. View-Pulsa'), 0)
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Pulsa TRI\\03.png')
 
 Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/TRI/03. EditText-Input nomor'), 0)
@@ -39,7 +39,7 @@ Mobile.setText(findTestObject('Object Repository/Topup/Pulsa/TRI/03. EditText-In
 
 Mobile.hideKeyboard()
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Pulsa TRI\\04.png')
 
 Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/TRI/04. ViewGroup-Lanjut'), 0)
@@ -48,7 +48,7 @@ Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/TRI/05. GroupView-Pilih
 
 Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/TRI/06. TextView-30000'), 0)
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Pulsa TRI\\05.png')
 
 Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/TRI/07. ViewGroup-Lanjut'), 0)
@@ -87,7 +87,7 @@ Mobile.setText(findTestObject('Object Repository/Topup/Pulsa/TRI/13. EditText-M-
 
 Mobile.hideKeyboard()
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Pulsa TRI\\06.png')
 
 Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/TRI/14. ViewGroup-Lanjut'), 0)
@@ -118,23 +118,23 @@ Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Pulsa TRI\\0
 
 Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/TRI/21. ViewGroup-Bagikan'), 0)
 
-Mobile.delay(2)
+Mobile.delay(4)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Pulsa TRI\\08.png')
 
 Mobile.delay(2)
 Mobile.pressBack()
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Pulsa TRI\\09.png')
 
 Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/TRI/22. GroupView-Close Button'), 0)
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Pulsa TRI\\10.png')
 
 Mobile.pressBack()
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Pulsa TRI\\11.png')
 
 Mobile.closeApplication()

@@ -19,17 +19,17 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('com.bankmega.msmiledev')
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Topup - M-Money\\01.png')
 
 Mobile.tap(findTestObject('Object Repository/Lihat Semua/Topup/M-Money/01. ViewGroup-Lihat Semua'), 0)
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Topup - M-Money\\02.png')
 
 Mobile.tap(findTestObject('Object Repository/Lihat Semua/Topup/M-Money/02. ImageView-M-Money'), 0)
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Topup - M-Money\\03.png')
 
 Mobile.tap(findTestObject('Object Repository/Lihat Semua/Topup/M-Money/03. EditText-Tap Nopel'), 0)
@@ -38,7 +38,7 @@ Mobile.setText(findTestObject('Object Repository/Lihat Semua/Topup/M-Money/04. E
 
 Mobile.hideKeyboard()
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Topup - M-Money\\04.png')
 
 Mobile.tap(findTestObject('Object Repository/Lihat Semua/Topup/M-Money/05. ViewGroup-Lanjut'), 0)
@@ -49,19 +49,19 @@ Mobile.verifyElementText(findTestObject('Object Repository/Lihat Semua/Topup/M-M
 Mobile.verifyElementText(findTestObject('Object Repository/Lihat Semua/Topup/M-Money/07. EditText-verif M-Money'), 
 	'M-Money')
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Topup - M-Money\\05.png')
 
 Mobile.pressBack()
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Topup - M-Money\\06.png')
 
 Mobile.pressBack()
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Topup - M-Money\\07.png')
 
 Mobile.pressBack()
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Topup - M-Money\\08.png')
 
 Mobile.closeApplication()

@@ -19,12 +19,12 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('com.bankmega.msmiledev')
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\N-TC-TRANSFER - Overbooking - Rekening Pengirim Dormant\\01.png')
 
 Mobile.tap(findTestObject('Transfer/Transfer - Overbooking/01.Button-Transfer'), 0)
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\N-TC-TRANSFER - Overbooking - Rekening Pengirim Dormant\\02.png')
 
 Mobile.tap(findTestObject('Object Repository/Transfer/Transfer - Overbooking/02.Button-tf bank mega'), 0)
@@ -35,7 +35,7 @@ Mobile.setText(findTestObject('Object Repository/Transfer/Transfer - Overbooking
 
 Mobile.pressBack()
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\N-TC-TRANSFER - Overbooking - Rekening Pengirim Dormant\\03.png')
 
 Mobile.tap(findTestObject('Object Repository/Transfer/Transfer - Overbooking/04.Button-OK'), 0)
@@ -63,7 +63,7 @@ Mobile.pressBack()
 Mobile.delay(3)
 Mobile.swipe(900, 500, 100, 500)
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\N-TC-TRANSFER - Overbooking - Rekening Pengirim Dormant\\04.png')
 
 Mobile.tap(findTestObject('Object Repository/Transfer/Transfer - Overbooking/09.button-lanjut'), 0)
@@ -102,7 +102,7 @@ Mobile.setText(findTestObject('Object Repository/Transfer/Transfer - Overbooking
 
 Mobile.hideKeyboard()
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\N-TC-TRANSFER - Overbooking - Rekening Pengirim Dormant\\05.png')
 
 Mobile.tap(findTestObject('Object Repository/Transfer/Transfer - Overbooking/12-button-lanjut'), 0)
@@ -115,7 +115,7 @@ Mobile.verifyElementText(findTestObject('Object Repository/Transfer/Transfer - O
 
 Mobile.verifyElementText(findTestObject('Object Repository/Transfer/Transfer - Overbooking/14.TextView-Norek tidak aktif'), 'Nomor rekening tujuan tidak ditemukan/rekening sumber dana Anda tidak aktif. Untuk aktivasi rekening sumber dana, lakukan pada menu Pengaturan Atur Akun, dengan nonaktifkan dan aktifkan kembali sebagai sumber dana lalu lakukan transaksi atas rekening tersebut [H77]')
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\N-TC-TRANSFER - Overbooking - Rekening Pengirim Dormant\\06.png')
 
 Mobile.tap(findTestObject('Object Repository/Transfer/Transfer - Overbooking/15.Button-OK'), 0)
@@ -127,4 +127,6 @@ Mobile.tap(findTestObject('Object Repository/Transfer/Transfer - Overbooking/15.
 Mobile.delay(2)
 
 Mobile.pressBack()
+
+Mobile.closeApplication()
 

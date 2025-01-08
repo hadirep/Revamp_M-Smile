@@ -29,32 +29,27 @@ Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-QRIS - Terima Transf
 
 Mobile.tap(findTestObject('Object Repository/QRIS/Terima Transfer/02. GroupView-Terima Transfer'), 0)
 
-//Mobile.tap(findTestObject('Object Repository/QRIS/Terima Transfer/03. SvgView-Cek Saldo'), 0)
+Mobile.tap(findTestObject('Object Repository/QRIS/Terima Transfer/03. EditText-Nominal'), 0)
 
-Mobile.tap(findTestObject('Object Repository/QRIS/Terima Transfer/04. EditText-Nominal'), 0)
-
-Mobile.setText(findTestObject('Object Repository/QRIS/Terima Transfer/04. EditText-Nominal'), '100.000', 0)
+Mobile.setText(findTestObject('Object Repository/QRIS/Terima Transfer/03. EditText-Nominal'), '100.000', 0)
 
 Mobile.hideKeyboard()
 
 Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-QRIS - Terima Transfer\\03.png')
 
-Mobile.tap(findTestObject('Object Repository/QRIS/Terima Transfer/05. ViewGroup-Lanjut'), 0)
+Mobile.tap(findTestObject('Object Repository/QRIS/Terima Transfer/04. ViewGroup-Lanjut'), 0)
 
-Mobile.verifyElementText(findTestObject('Object Repository/QRIS/Terima Transfer/06. TextView-HADI RAHMAH ESA PUTRA'),
+Mobile.verifyElementText(findTestObject('Object Repository/QRIS/Terima Transfer/05. TextView-HADI RAHMAH ESA PUTRA'),
 	'HADI RAHMAH ESA PUTRA')
 
-Mobile.verifyElementText(findTestObject('Object Repository/QRIS/Terima Transfer/07. TextView-MEGA DANA ESTATEMENT'),
+Mobile.verifyElementText(findTestObject('Object Repository/QRIS/Terima Transfer/06. TextView-MEGA DANA ESTATEMENT'),
 	'MEGA DANA ESTATEMENT')
-
-Mobile.verifyElementText(findTestObject('Object Repository/QRIS/Terima Transfer/08. TextView-010740021017780'),
-	'010740021017780')
 
 Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-QRIS - Terima Transfer\\04.png')
 
-Mobile.tap(findTestObject('Object Repository/QRIS/Terima Transfer/09. ViewGroup-Bagikan QRIS'), 0)
+Mobile.tap(findTestObject('Object Repository/QRIS/Terima Transfer/07. ViewGroup-Bagikan QRIS'), 0)
 
 Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-QRIS - Terima Transfer\\05.png')
@@ -64,27 +59,27 @@ Mobile.pressBack()
 Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-QRIS - Terima Transfer\\06.png')
 
-Mobile.tap(findTestObject('Object Repository/QRIS/Terima Transfer/10. ViewGroup-Cek Status'), 0)
+Mobile.tap(findTestObject('Object Repository/QRIS/Terima Transfer/08. ViewGroup-Cek Status'), 0)
 
 Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-QRIS - Terima Transfer\\07.png')
 
-Mobile.verifyElementText(findTestObject('Object Repository/QRIS/Terima Transfer/11. TextView-Transaksi Berhasil'),
+Mobile.verifyElementText(findTestObject('Object Repository/QRIS/Terima Transfer/09. TextView-Transaksi Berhasil'),
 	'Transaksi Berhasil!')
 
-Mobile.verifyElementText(findTestObject('Object Repository/QRIS/Terima Transfer/12. TextView-Rp. 100.000'),
+Mobile.verifyElementText(findTestObject('Object Repository/QRIS/Terima Transfer/10. TextView-Rp. 100.000'),
 	'Rp. 100.000')
 
-Mobile.verifyElementText(findTestObject('Object Repository/QRIS/Terima Transfer/13. TextView-FINDI NUR WITRIANI'),
+Mobile.verifyElementText(findTestObject('Object Repository/QRIS/Terima Transfer/11. TextView-FINDI NUR WITRIANI'),
 	'FINDI NUR WITRIANI')
 
-Mobile.verifyElementText(findTestObject('Object Repository/QRIS/Terima Transfer/14. TextView-Nominal Rp. 100.000'),
+Mobile.verifyElementText(findTestObject('Object Repository/QRIS/Terima Transfer/12. TextView-Nominal Rp. 100.000'),
 	'Rp. 100.000')
 
-Mobile.verifyElementText(findTestObject('Object Repository/QRIS/Terima Transfer/15. TextView-Total Transfer Rp. 100.000'),
+Mobile.verifyElementText(findTestObject('Object Repository/QRIS/Terima Transfer/13. TextView-Total Transfer Rp. 100.000'),
 	'Rp. 100.000')
 
-Mobile.tap(findTestObject('Object Repository/QRIS/Terima Transfer/16. ViewGroup-Bagikan'), 0)
+Mobile.tap(findTestObject('Object Repository/QRIS/Terima Transfer/14. ViewGroup-Bagikan'), 0)
 
 Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-QRIS - Terima Transfer\\08.png')

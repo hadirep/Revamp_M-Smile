@@ -39,10 +39,13 @@ Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Tiket - KAI\
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Tiket/KAI/04. EditText-Tap Field Daftar Produk'), 0)
 
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Tiket - KAI\\05.png')
+
 Mobile.tap(findTestObject('Object Repository/Bayar/Tiket/KAI/05. TextView-KAI'), 0)
 
 Mobile.delay(2)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Tiket - KAI\\05.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Tiket - KAI\\06.png')
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Tiket/KAI/06. TextView-Tap Field Nopel'), 0)
 
@@ -53,9 +56,12 @@ Mobile.setText(findTestObject('Object Repository/Bayar/Tiket/KAI/08. EditText-Se
 Mobile.pressBack()
 
 Mobile.delay(2)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Tiket - KAI\\06.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Tiket - KAI\\07.png')
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Tiket/KAI/09. ViewGroup-Ok'), 0)
+
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Tiket - KAI\\08.png')
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Tiket/KAI/10. ViewGroup-Lanjut'), 0)
 
@@ -83,7 +89,12 @@ Mobile.setText(findTestObject('Object Repository/Bayar/Tiket/KAI/18. EditText-Se
 
 Mobile.hideKeyboard()
 
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Tiket - KAI\\09.png')
+
 Mobile.tap(findTestObject('Object Repository/Bayar/Tiket/KAI/19. ViewGroup-Bayar'), 0)
+
+Mobile.delay(10)
 
 Mobile.verifyElementText(findTestObject('Object Repository/Bayar/Tiket/KAI/20. TextView-Pembayaran Berhasil'), 
 	'Pembayaran Berhasil!')
@@ -106,22 +117,22 @@ Mobile.verifyElementText(findTestObject('Object Repository/Bayar/Tiket/KAI/25. T
 Mobile.verifyElementText(findTestObject('Object Repository/Bayar/Tiket/KAI/26. TextView-verif Rp. 1.135.912'), 
 	'Rp. 1.135.912')
 
-Mobile.delay(4)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Tiket - KAI\\07.png')
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Tiket - KAI\\10.png')
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Tiket/KAI/27. ViewGroup-Bagikan'), 0)
 
-Mobile.delay(2)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Tiket - KAI\\08.png')
+Mobile.delay(4)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Tiket - KAI\\11.png')
 
 Mobile.pressBack()
 
 Mobile.delay(2)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Tiket - KAI\\09.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Tiket - KAI\\12.png')
 
 Mobile.tapAtPosition(1147, 465)
 
 Mobile.delay(2)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Tiket - KAI\\10.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Tiket - KAI\\13.png')
 
 Mobile.closeApplication()

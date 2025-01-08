@@ -19,74 +19,74 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('com.bankmega.msmiledev')
 
-Mobile.delay(1)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-AKUN SAYA - Tabungan - Topup\01.png')
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-AKUN SAYA - Tabungan - Topup\\01.png')
 
-Mobile.tap(findTestObject('Object Repository/Akun saya/Tabungan/Topup/01. ImageView - Akun Saya'), 0)
+Mobile.tap(findTestObject('Object Repository/Akun saya/Tabungan/Topup/01. ImageView-Akun Saya'), 0)
 
-Mobile.delay(1)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-AKUN SAYA - Tabungan - Topup\02.png')
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-AKUN SAYA - Tabungan - Topup\\02.png')
 
-Mobile.tap(findTestObject('Object Repository/Akun saya/Tabungan/Topup/02. SvgView - Cek Saldo'), 0)
+Mobile.tap(findTestObject('Object Repository/Akun saya/Tabungan/Topup/02. SvgView-Cek Saldo'), 0)
 
-Mobile.delay(1)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-AKUN SAYA - Tabungan - Topup\03.png')
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-AKUN SAYA - Tabungan - Topup\\03.png')
 
-Mobile.tap(findTestObject('Object Repository/Akun saya/Tabungan/Topup/03. ImageView - Klik Detail Tabungan'), 0)
+Mobile.tap(findTestObject('Object Repository/Akun saya/Tabungan/Topup/03. ImageView-Klik Detail Tabungan'), 0)
 
-Mobile.delay(1)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-AKUN SAYA - Tabungan - Topup\04.png')
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-AKUN SAYA - Tabungan - Topup\\04.png')
 
-Mobile.tap(findTestObject('Object Repository/Akun saya/Tabungan/Topup/04. TextView - Mutasi'), 0)
+Mobile.tap(findTestObject('Object Repository/Akun saya/Tabungan/Topup/04. TextView-Mutasi'), 0)
 
-Mobile.delay(1)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-AKUN SAYA - Tabungan - Topup\05.png')
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-AKUN SAYA - Tabungan - Topup\\05.png')
 
-Mobile.tap(findTestObject('Object Repository/Akun saya/Tabungan/Topup/05. ViewGroup - Back Button Mutasi'), 0)
+Mobile.tap(findTestObject('Object Repository/Akun saya/Tabungan/Topup/05. ViewGroup-Back Button Mutasi'), 0)
 
-Mobile.delay(1)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-AKUN SAYA - Tabungan - Topup\06.png')
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-AKUN SAYA - Tabungan - Topup\\06.png')
 
-Mobile.tap(findTestObject('Object Repository/Akun saya/Tabungan/Topup/06. TextView - E-Statement'), 0)
+Mobile.tap(findTestObject('Object Repository/Akun saya/Tabungan/Topup/06. TextView-E-Statement'), 0)
 
-Mobile.delay(1)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-AKUN SAYA - Tabungan - Topup\07.png')
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-AKUN SAYA - Tabungan - Topup\\07.png')
 
 Mobile.pressBack()
 
-Mobile.delay(1)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-AKUN SAYA - Tabungan - Topup\08.png')
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-AKUN SAYA - Tabungan - Topup\\08.png')
 
 Mobile.tap(findTestObject('Object Repository/Akun saya/Tabungan/Topup/07. ImageView-Top Up'), 0)
 
-Mobile.delay(1)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-AKUN SAYA - Tabungan - Topup\09.png')
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-AKUN SAYA - Tabungan - Topup\\09.png')
 
 Mobile.tap(findTestObject('Object Repository/Akun saya/Tabungan/Topup/08. View-Icon Pulsa'), 0)
 
-Mobile.delay(1)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-AKUN SAYA - Tabungan - Topup\10.png')
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-AKUN SAYA - Tabungan - Topup\\10.png')
 
-Mobile.tap(findTestObject('Object Repository/Akun saya/Tabungan/Topup/09. EditText - Input nomor'), 0)
+Mobile.tap(findTestObject('Object Repository/Akun saya/Tabungan/Topup/09. EditText-Input nomor'), 0)
 
-Mobile.setText(findTestObject('Object Repository/Akun saya/Tabungan/Topup/09. EditText - Input nomor'),
+Mobile.setText(findTestObject('Object Repository/Akun saya/Tabungan/Topup/09. EditText-Input nomor'),
 	'085770056083', 0)
 
 Mobile.hideKeyboard()
 
-Mobile.delay(1)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-AKUN SAYA - Tabungan - Topup\11.png')
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-AKUN SAYA - Tabungan - Topup\\11.png')
 
 Mobile.tap(findTestObject('Object Repository/Akun saya/Tabungan/Topup/10. ViewGroup-Lanjut'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Akun saya/Tabungan/Topup/11. SvgView - Cek Saldo'), 0)
+Mobile.tap(findTestObject('Object Repository/Akun saya/Tabungan/Topup/11. SvgView-Cek Saldo'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Akun saya/Tabungan/Topup/12. SvgView-Pilih Nominal'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Akun saya/Tabungan/Topup/13. TextView-25000'), 0)
 
-Mobile.delay(1)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-AKUN SAYA - Tabungan - Topup\12.png')
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-AKUN SAYA - Tabungan - Topup\\12.png')
 
 Mobile.tap(findTestObject('Object Repository/Akun saya/Tabungan/Topup/14. ViewGroup-Lanjut'), 0)
 
@@ -124,8 +124,8 @@ Mobile.setText(findTestObject('Object Repository/Akun saya/Tabungan/Topup/20. Ed
 
 Mobile.hideKeyboard()
 
-Mobile.delay(1)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-AKUN SAYA - Tabungan - Topup\13.png')
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-AKUN SAYA - Tabungan - Topup\\13.png')
 
 Mobile.tap(findTestObject('Object Repository/Akun saya/Tabungan/Topup/21. ViewGroup-Lanjut'), 0)
 
@@ -150,25 +150,37 @@ Mobile.verifyElementText(findTestObject('Object Repository/Akun saya/Tabungan/To
 Mobile.verifyElementText(findTestObject('Object Repository/Akun saya/Tabungan/Topup/27. TextView-verif total Rp. 26.500'), 
 	'Rp.  26.500')
 
-Mobile.delay(1)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-AKUN SAYA - Tabungan - Topup\13.png')
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-AKUN SAYA - Tabungan - Topup\\13.png')
 
 Mobile.tap(findTestObject('Object Repository/Akun saya/Tabungan/Topup/28. ViewGroup-Bagikan'), 0)
 
-Mobile.delay(1)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-AKUN SAYA - Tabungan - Topup\14.png')
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-AKUN SAYA - Tabungan - Topup\\14.png')
 
 Mobile.pressBack()
 
-Mobile.delay(1)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-AKUN SAYA - Tabungan - Topup\15.png')
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-AKUN SAYA - Tabungan - Topup\\15.png')
 
 Mobile.tap(findTestObject('Object Repository/Akun saya/Tabungan/Topup/29. GroupView-Button Close'), 0)
 
-Mobile.pressBack()
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-AKUN SAYA - Tabungan - Topup\\16.png')
 
 Mobile.pressBack()
 
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-AKUN SAYA - Tabungan - Topup\\17.png')
+
 Mobile.pressBack()
+
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-AKUN SAYA - Tabungan - Topup\\18.png')
+
+Mobile.pressBack()
+
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-AKUN SAYA - Tabungan - Topup\\19.png')
 
 Mobile.closeApplication()

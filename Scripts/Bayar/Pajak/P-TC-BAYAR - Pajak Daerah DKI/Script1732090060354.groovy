@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('com.bankmega.msmiledev')
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Pajak Daerah DKI\\01.png')
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Pajak-MPN/PAJAK DAERAH (DKI Jakarta)/01. ViewGroup-Bayar'), 0)
@@ -41,14 +41,14 @@ Mobile.tap(findTestObject('Object Repository/Bayar/Pajak-MPN/PAJAK DAERAH (DKI J
 Mobile.setText(findTestObject('Object Repository/Bayar/Pajak-MPN/PAJAK DAERAH (DKI Jakarta)/06. EditText-Input Baru'), 
     '003456786100', 0)
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Pajak Daerah DKI\\04.png')
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Pajak-MPN/PAJAK DAERAH (DKI Jakarta)/08. ViewGroup-OK'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Pajak-MPN/PAJAK DAERAH (DKI Jakarta)/09. SvgView-Cek Saldo'), 0)
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Pajak Daerah DKI\\05.png')
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Pajak-MPN/PAJAK DAERAH (DKI Jakarta)/10. ViewGroup-Lanjut'), 0)
@@ -68,7 +68,7 @@ Mobile.setText(findTestObject('Object Repository/Bayar/Pajak-MPN/PAJAK DAERAH (D
 
 Mobile.pressBack()
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Pajak Daerah DKI\\06.png')
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Pajak-MPN/PAJAK DAERAH (DKI Jakarta)/18. ViewGroup-Bayar'), 0)
@@ -88,7 +88,7 @@ Mobile.verifyElementText(findTestObject('Object Repository/Bayar/Pajak-MPN/PAJAK
 Mobile.verifyElementText(findTestObject('Object Repository/Bayar/Pajak-MPN/PAJAK DAERAH (DKI Jakarta)/23. TextView-verif Total Rp. 5.502.500'), 
 	'Rp. 5.502.500')
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Pajak Daerah DKI\\07.png')
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Pajak-MPN/PAJAK DAERAH (DKI Jakarta)/24. ViewGroup-Bagikan'), 0)
@@ -98,12 +98,12 @@ Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Pajak Daerah
 
 Mobile.pressBack()
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Pajak Daerah DKI\\09.png')
 
 Mobile.tapAtPosition(1145, 442)
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Pajak Daerah DKI\\10.png')
 
 Mobile.closeApplication()
