@@ -23,84 +23,91 @@ Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/Telkomsel-Insuficcient 
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\N-TC-TOP UP-Pulsa - TRI - Dormant\\01.png')
+Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\N-TC-TOP UP-Pulsa - TRI - Insufficient\\01.png')
 
 Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/Telkomsel-Insuficcient Balance/002.ViewGroup - Pulsa'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\N-TC-TOP UP-Pulsa - TRI - Dormant\\02.png')
+Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\N-TC-TOP UP-Pulsa - TRI - Insufficient\\02.png')
 
 Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/Telkomsel-Insuficcient Balance/003.TextView - Pulsa'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\N-TC-TOP UP-Pulsa - TRI - Dormant\\03.png')
+Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\N-TC-TOP UP-Pulsa - TRI - Insufficient\\03.png')
 
 Mobile.tap(findTestObject('Topup/Pulsa/XL-Dormant/003.EditText -Input Number'), 0)
 
 Mobile.setText(findTestObject('Topup/Pulsa/XL-Dormant/003.EditText -Input Number'), '0895634311811', 0)
 
-Mobile.tap(findTestObject('Topup/Pulsa/XL-Dormant/13.TextView - Lanjut'), 0)
-
-Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/Telkomsel-Insuficcient Balance/005.PathView - Pilih Nominal'), 0)
-
-Mobile.tap(findTestObject('Topup/Paket Data/TRI-Dormant/06.TextView - 150000'), 0)
+Mobile.tap(findTestObject('Topup/Pulsa/13.TextView - Lanjut'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\N-TC-TOP UP-Pulsa - TRI - Dormant\\04.png')
+Mobile.swipe(900, 500, 100, 500)
+
+Mobile.swipe(900, 500, 100, 500)
+
+Mobile.tap(findTestObject('Topup/Pulsa/Smartfren/07.PathView 0 Pilih Nominal'), 0)
+
+Mobile.tap(findTestObject('Topup/Pulsa/TRI/08. TextView - 30000'), 0)
+
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\N-TC-TOP UP-Pulsa - TRI - Insufficient\\04.png')
 
 Mobile.tap(findTestObject('Topup/Pulsa/Telkomsel-Insuficcient Balance/008.ViewGroup - Lanjut'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Topup/Paket Data/TRI-Dormant/07.ViewGroup - Input PIN'), 0)
+Mobile.tap(findTestObject('Topup/Paket Data/TRI-Dormant_Insufficient/11.EditText - M-PIN'), 0)
 
-Mobile.setText(findTestObject('Topup/Paket Data/TRI-Dormant/07.EditText - PIN'), '111111', 0)
-
-Mobile.pressBack()
-
-Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\N-TC-TOP UP-Pulsa - TRI - Dormant\\05.png')
-
-Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/Telkomsel-Insuficcient Balance/016.ViewGroup - Lanjut Pebayaran'), 0)
-
-Mobile.tap(findTestObject('Topup/Paket Data/TRI-Dormant/17.ViewGroup - error dormant'), 0)
-
-Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\N-TC-TOP UP-Pulsa - TRI - Dormant\\06.png')
-
-Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/Telkomsel-Insuficcient Balance/018.TextView - OK'), 0)
-
-Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\N-TC-TOP UP-Pulsa - TRI - Dormant\\07.png')
+Mobile.setText(findTestObject('Topup/Paket Data/TRI-Dormant_Insufficient/12.EditText - Input PIN'), '111111', 0)
 
 Mobile.pressBack()
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\N-TC-TOP UP-Pulsa - TRI - Dormant\\08.png')
+Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\N-TC-TOP UP-Pulsa - TRI - Insufficient\\05.png')
+
+Mobile.tap(findTestObject('Topup/Pulsa/Smartfren/010.ViewGroup - Lanjut'), 0)
+
+Mobile.tap(findTestObject('Topup/Paket Data/TRI-Dormant_Insufficient/15.ViewGroup - Notif Error Insufficient'), 0)
+
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\N-TC-TOP UP-Pulsa - TRI - Insufficient\\06.png')
+
+Mobile.tap(findTestObject('Topup/Paket Data/TRI-Dormant_Insufficient/16.TextView - OK (Insufficient)'), 0)
+
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\N-TC-TOP UP-Pulsa - TRI - Insufficient\\07.png')
 
 Mobile.pressBack()
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\N-TC-TOP UP-Pulsa - TRI - Dormant\\09.png')
+Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\N-TC-TOP UP-Pulsa - TRI - Insufficient\\08.png')
 
 Mobile.pressBack()
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\N-TC-TOP UP-Pulsa - TRI - Dormant\\10.png')
+Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\N-TC-TOP UP-Pulsa - TRI - Insufficient\\09.png')
 
 Mobile.pressBack()
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\N-TC-TOP UP-Pulsa - TRI - Dormant\\11.png')
+Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\N-TC-TOP UP-Pulsa - TRI - Insufficient\\10.png')
+
+Mobile.pressBack()
+
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\N-TC-TOP UP-Pulsa - TRI - Insufficient\\11.png')
 
 Mobile.closeApplication()
+

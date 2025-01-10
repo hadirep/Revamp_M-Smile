@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>N-TC-TOP UP - Pulsa - TRI - Dormant</name>
+   <name>N-TC-TOP UP-Pulsa - TRI - Dormant</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>e44ab9a9-2c30-416f-8931-24bc7692e76f</testCaseGuid>

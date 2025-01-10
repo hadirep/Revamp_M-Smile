@@ -59,7 +59,7 @@ Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\N-TC-TOP UP-Pulsa - Telkomsel - Dormant\\05.png')
 
-Mobile.tap(findTestObject('Topup/Paket Data/TRI-Dormant/06.ViewGroup - Lanjut ke sumber dana'), 0)
+Mobile.tap(findTestObject('null'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
@@ -79,7 +79,7 @@ Mobile.pressBack()
 
 Mobile.tap(findTestObject('Topup/Pulsa/Telkomsel-Insuficcient Balance/16.ViewGroup - Lanjut'), 0)
 
-Mobile.tap(findTestObject('Topup/Paket Data/TRI-Dormant/17.ViewGroup - Notice Dormant'), 0)
+Mobile.tap(findTestObject('null'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
