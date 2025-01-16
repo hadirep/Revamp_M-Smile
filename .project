@@ -3473,7 +3473,11 @@
 			</matcher>
 		</filter>
 		<filter>
+<<<<<<< Updated upstream
 			<id>1736500909249</id>
+=======
+			<id>1736497774421</id>
+>>>>>>> Stashed changes
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -3482,7 +3486,11 @@
 			</matcher>
 		</filter>
 		<filter>
+<<<<<<< Updated upstream
 			<id>1736500909296</id>
+=======
+			<id>1736497774452</id>
+>>>>>>> Stashed changes
 			<name></name>
 			<type>6</type>
 			<matcher>
@@ -3491,7 +3499,11 @@
 			</matcher>
 		</filter>
 		<filter>
+<<<<<<< Updated upstream
 			<id>1736502881811</id>
+=======
+			<id>1736499188317</id>
+>>>>>>> Stashed changes
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -3500,7 +3512,83 @@
 			</matcher>
 		</filter>
 		<filter>
+<<<<<<< Updated upstream
 			<id>1736502881842</id>
+=======
+			<id>1736499188380</id>
+			<name></name>
+			<type>6</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>(.*\.svn-base$)|(.*\.png$)|(.*\.log$)|(.*\.xlsx$)|(.*\.xls$)|(.*\.csv$)|(.*\.txt$)</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1736734425561</id>
+			<name></name>
+			<type>10</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>.*\.svn$</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1736734425638</id>
+			<name></name>
+			<type>6</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>(.*\.svn-base$)|(.*\.png$)|(.*\.log$)|(.*\.xlsx$)|(.*\.xls$)|(.*\.csv$)|(.*\.txt$)</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1736819432493</id>
+			<name></name>
+			<type>10</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>.*\.svn$</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1736819432547</id>
+			<name></name>
+			<type>6</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>(.*\.svn-base$)|(.*\.png$)|(.*\.log$)|(.*\.xlsx$)|(.*\.xls$)|(.*\.csv$)|(.*\.txt$)</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1736905989860</id>
+			<name></name>
+			<type>10</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>.*\.svn$</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1736905989982</id>
+			<name></name>
+			<type>6</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>(.*\.svn-base$)|(.*\.png$)|(.*\.log$)|(.*\.xlsx$)|(.*\.xls$)|(.*\.csv$)|(.*\.txt$)</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1736992416497</id>
+			<name></name>
+			<type>10</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>.*\.svn$</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1736992416545</id>
+>>>>>>> Stashed changes
 			<name></name>
 			<type>6</type>
 			<matcher>
