@@ -24,7 +24,7 @@ Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Kartu Kredit
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Kartu Kredit/Kartu Kredit Bank Lain/01. ViewGroup - Bayar'), 0)
 
-Mobile.delay(2)
+Mobile.delay(5)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - Kartu Kredit Bank Lain\\02.png')
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Kartu Kredit/Kartu Kredit Bank Lain/02. ViewGroup - Kartu Kredit'), 0)

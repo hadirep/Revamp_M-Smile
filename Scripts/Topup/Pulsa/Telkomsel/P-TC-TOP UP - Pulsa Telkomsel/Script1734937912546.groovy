@@ -19,18 +19,18 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('com.bankmega.msmiledev')
 
-Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-TOPUP - Pulsa Telkomsel\\01.png')
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Pulsa Telkomsel\\01.png')
 
 Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/Telkomsel/01. ViewGroup - Button Top Up'), 0)
 
-Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-TOPUP - Pulsa Telkomsel\\02.png')
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Pulsa Telkomsel\\02.png')
 
 Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/Telkomsel/02. View - Icon Pulsa'), 0)
 
-Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-TOPUP - Pulsa Telkomsel\\03.png')
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Pulsa Telkomsel\\03.png')
 
 Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/Telkomsel/03. EditText - Input nomor'), 0)
 
@@ -39,19 +39,19 @@ Mobile.setText(findTestObject('Object Repository/Topup/Pulsa/Telkomsel/03. EditT
 
 Mobile.hideKeyboard()
 
-Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-TOPUP - Pulsa Telkomsel\\04.png')
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Pulsa Telkomsel\\04.png')
 
 Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/Telkomsel/05. ViewGroup - Lanjut'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/Telkomsel/06. SvgView - Cek Saldo'), 0)
+Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/Telkomsel/06. SvgView-Cek Saldo'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/Telkomsel/07. SvgView - Pilih Nominal'), 0)
+Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/Telkomsel/07. SvgView-Pilih Nominal'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/Telkomsel/08. TextView-15000'), 0)
 
-Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-TOPUP - Pulsa Telkomsel\\05.png')
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Pulsa Telkomsel\\05.png')
 
 Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/Telkomsel/09. ViewGroup - Lanjut'), 0)
 
@@ -89,8 +89,8 @@ Mobile.setText(findTestObject('Object Repository/Topup/Pulsa/Telkomsel/15. EditT
 
 Mobile.hideKeyboard()
 
-Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-TOPUP - Pulsa Telkomsel\\06.png')
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Pulsa Telkomsel\\06.png')
 
 Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/Telkomsel/16. ViewGroup-Lanjut'), 0)
 
@@ -115,17 +115,17 @@ Mobile.verifyElementText(findTestObject('Object Repository/Topup/Pulsa/Telkomsel
 Mobile.verifyElementText(findTestObject('Object Repository/Topup/Pulsa/Telkomsel/22. TextView - Rp. 16.500'), 
 	'Rp.  16.500')
 
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-TOPUP - Pulsa Telkomsel\\07.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Pulsa Telkomsel\\07.png')
 
 Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/Telkomsel/23. ViewGroup - Bagikan'), 0)
 
-Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-TOPUP - Pulsa Telkomsel\\08.png')
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Pulsa Telkomsel\\08.png')
 
 Mobile.pressBack()
 
-Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-TOPUP - Pulsa Telkomsel\\09.png')
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Pulsa Telkomsel\\09.png')
 
 Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/Telkomsel/24. GroupView-Button Close'), 0)
 

@@ -19,17 +19,17 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('com.bankmega.msmiledev')
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LAYANAN - Transaksi Terjadwal - Bayar - Daftar Baru\\01.png')
 
 Mobile.tap(findTestObject('Object Repository/Layanan/Transaksi Terjadwal/Bayar/01.ViewGroup-Layanan'), 0)
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LAYANAN - Transaksi Terjadwal - Bayar - Daftar Baru\\02.png')
 
 Mobile.tap(findTestObject('Object Repository/Layanan/Transaksi Terjadwal/Bayar/02.GroupView-Transaksi Terjadwal'), 0)
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LAYANAN - Transaksi Terjadwal - Bayar - Daftar Baru\\03.png')
 
 Mobile.tap(findTestObject('Object Repository/Layanan/Transaksi Terjadwal/Bayar/03.ViewGroup-Bayar'), 0)
@@ -52,7 +52,7 @@ Mobile.tap(findTestObject('Object Repository/Layanan/Transaksi Terjadwal/Bayar/0
 
 Mobile.setText(findTestObject('Object Repository/Layanan/Transaksi Terjadwal/Bayar/08.EditText-Input Baru'), '085770056083', 0)
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LAYANAN - Transaksi Terjadwal - Bayar - Daftar Baru\\05.png')
 
 Mobile.tap(findTestObject('Object Repository/Layanan/Transaksi Terjadwal/Bayar/09.ViewGroup-OK'), 0)
@@ -63,12 +63,12 @@ Mobile.setText(findTestObject('Object Repository/Layanan/Transaksi Terjadwal/Bay
 
 Mobile.pressBack()
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LAYANAN - Transaksi Terjadwal - Bayar - Daftar Baru\\06.png')
 
 Mobile.tap(findTestObject('Object Repository/Layanan/Transaksi Terjadwal/Bayar/11.CheckBox-SnK'), 0)
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LAYANAN - Transaksi Terjadwal - Bayar - Daftar Baru\\07.png')
 
 Mobile.tap(findTestObject('Object Repository/Layanan/Transaksi Terjadwal/Bayar/12.ViewGroup-Lanjut'), 0)
@@ -84,12 +84,12 @@ Mobile.setText(findTestObject('Object Repository/Layanan/Transaksi Terjadwal/Bay
 
 Mobile.pressBack()
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LAYANAN - Transaksi Terjadwal - Bayar - Daftar Baru\\08.png')
 
 Mobile.tap(findTestObject('Object Repository/Layanan/Transaksi Terjadwal/Bayar/15.ViewGroup-Lanjut'), 0)
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LAYANAN - Transaksi Terjadwal - Bayar - Daftar Baru\\09.png')
 
 Mobile.waitForElementPresent(findTestObject('Object Repository/Layanan/Transaksi Terjadwal/Bayar/16.TextView-Pendaftaran Transaksi Terjadwal Berhasil'), 0)
@@ -100,12 +100,12 @@ Mobile.verifyElementText(findTestObject('Object Repository/Layanan/Transaksi Ter
 
 Mobile.verifyElementText(findTestObject('Object Repository/Layanan/Transaksi Terjadwal/Bayar/16.TextView-tgl'), tgl)
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LAYANAN - Transaksi Terjadwal - Bayar - Daftar Baru\\10.png')
 
 Mobile.tap(findTestObject('Object Repository/Layanan/Transaksi Terjadwal/Bayar/18.GroupView-Close'), 0)
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LAYANAN - Transaksi Terjadwal - Bayar - Daftar Baru\\11.png')
 
 Mobile.closeApplication()

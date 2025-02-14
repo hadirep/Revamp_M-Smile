@@ -19,80 +19,80 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('com.bankmega.msmiledev')
 
-Mobile.tap(findTestObject('Object Repository/Topik Populer/01.PathView - Bantuan'), 0)
+Mobile.tap(findTestObject('Object Repository/Bantuan/Topik Populer/01.PathView - Bantuan'), 0)
 
-Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(2)
 
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Topik Populer\\01.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BANTUAN - Topik Populer\\01.png')
 
-Mobile.tap(findTestObject('Object Repository/Topik Populer/02.TextView - TOPIK POPULER'), 0)
+Mobile.tap(findTestObject('Object Repository/Bantuan/Topik Populer/02.TextView - TOPIK POPULER'), 0)
 
-Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(2)
 
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Topik Populer\\02.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BANTUAN - Topik Populer\\02.png')
 
-Mobile.tap(findTestObject('Object Repository/Topik Populer/03.TextView - Question 1'), 0)
+Mobile.tap(findTestObject('Object Repository/Bantuan/Topik Populer/03.TextView - Question 1'), 0)
 
-Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(2)
 
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Topik Populer\\03.png')
-
-Mobile.pressBack()
-
-Mobile.tap(findTestObject('Object Repository/Topik Populer/04.TextView - Question 2'), 0)
-
-Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Topik Populer\\04.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BANTUAN - Topik Populer\\03.png')
 
 Mobile.pressBack()
 
-Mobile.tap(findTestObject('Object Repository/Topik Populer/05.TextView - Question 3'), 0)
+Mobile.tap(findTestObject('Object Repository/Bantuan/Topik Populer/04.TextView - Question 2'), 0)
 
-Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(2)
 
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Topik Populer\\05.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BANTUAN - Topik Populer\\04.png')
 
 Mobile.pressBack()
 
-Mobile.tap(findTestObject('Object Repository/Topik Populer/06.TextView - Question 4'), 0)
+Mobile.tap(findTestObject('Object Repository/Bantuan/Topik Populer/05.TextView - Question 3'), 0)
 
-Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(2)
 
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Topik Populer\\06.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BANTUAN - Topik Populer\\05.png')
+
+Mobile.pressBack()
+
+Mobile.tap(findTestObject('Object Repository/Bantuan/Topik Populer/06.TextView - Question 4'), 0)
+
+Mobile.delay(2)
+
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BANTUAN - Topik Populer\\06.png')
 
 Mobile.pressBack()
 
 Mobile.scrollToText('Apa itu fitur investasi di aplikasi M-Smile?', FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Object Repository/Topik Populer/07.TextView - Question 5'), 0)
+Mobile.tap(findTestObject('Object Repository/Bantuan/Topik Populer/07.TextView - Question 5'), 0)
 
-Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(2)
 
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Topik Populer\\07.png')
-
-Mobile.pressBack()
-
-Mobile.tap(findTestObject('Object Repository/Topik Populer/08.TextView - Question 6'), 0)
-
-Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Topik Populer\\08.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BANTUAN - Topik Populer\\07.png')
 
 Mobile.pressBack()
 
-Mobile.tap(findTestObject('Object Repository/Topik Populer/07.TextView - Question 7'), 0)
+Mobile.tap(findTestObject('Object Repository/Bantuan/Topik Populer/08.TextView - Question 6'), 0)
 
-Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(2)
 
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Topik Populer\\09.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BANTUAN - Topik Populer\\08.png')
 
 Mobile.pressBack()
 
-Mobile.tap(findTestObject('Object Repository/Topik Populer/09.PathView - Home Button'), 0)
+Mobile.tap(findTestObject('Object Repository/Bantuan/Topik Populer/07.TextView - Question 7'), 0)
 
-Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(2)
 
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BANTUAN - Topik Populer\\10.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BANTUAN - Topik Populer\\09.png')
+
+Mobile.pressBack()
+
+Mobile.tap(findTestObject('Object Repository/Bantuan/Topik Populer/09.PathView - Home Button'), 0)
+
+Mobile.delay(2)
+
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BANTUAN - Topik Populer\\10.png')
 
 Mobile.closeApplication()

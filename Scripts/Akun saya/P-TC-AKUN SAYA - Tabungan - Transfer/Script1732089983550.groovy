@@ -24,9 +24,9 @@ Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-AKUN SAYA - Tabungan
 
 Mobile.tap(findTestObject('Object Repository/Akun saya/Tabungan/Transfer/01. ImageView-Akun Saya'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Akun saya/Tabungan/Transfer/02. SvgView-Cek Saldo'), 0)
+//Mobile.tap(findTestObject('Object Repository/Akun saya/Tabungan/Transfer/02. SvgView-Cek Saldo'), 0)
 
-Mobile.delay(2)
+Mobile.delay(10)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-AKUN SAYA - Tabungan - Transfer\\02.png')
 
 Mobile.tap(findTestObject('Object Repository/Akun saya/Tabungan/Transfer/03. ImageView-Klik Detail Tabungan'), 0)

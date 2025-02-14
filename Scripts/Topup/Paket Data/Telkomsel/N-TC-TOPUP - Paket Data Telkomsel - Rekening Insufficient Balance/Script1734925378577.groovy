@@ -19,98 +19,107 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('com.bankmega.msmiledev')
 
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\N-TC-TOPUP - Paket Data Telkomsel - Insufficient Balance\\01.png')
+
+Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/Telkomsel - Insufficient Balance/01. Button-Topup'), 0)
+
+Mobile.delay(5)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\N-TC-TOPUP - Paket Data Telkomsel - Insufficient Balance\\02.png')
+
+Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/Telkomsel - Insufficient Balance/02. Button-Paket Data'), 0)
+
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\N-TC-TOPUP - Paket Data Telkomsel - Insufficient Balance\\03.png')
+
+Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/Telkomsel - Insufficient Balance/03. EditText-Input Nomor'), 0)
+
+Mobile.setText(findTestObject('Object Repository/Topup/Paket Data/Telkomsel - Insufficient Balance/03. EditText-Input Nomor'), 
+	'0812666666001', 0)
+
+Mobile.hideKeyboard()
+
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\N-TC-TOPUP - Paket Data Telkomsel - Insufficient Balance\\04.png')
+
+Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/Telkomsel - Insufficient Balance/04. Button-Lanjut'), 0)
+
+Mobile.delay(3)
+Mobile.swipe(900, 500, 100, 500)
+
 Mobile.delay(1)
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\N-TC-TOPUP - Paket Data Telkomsel - Rekening Insufficient Balance\\01.png')
+Mobile.swipe(900, 500, 100, 500)
 
-Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/Telkomsel/01-button-topup'), 0)
+Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/Telkomsel - Insufficient Balance/05. SvgView-Jenis Paket'), 0)
 
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\N-TC-TOPUP - Paket Data Telkomsel - Rekening Insufficient Balance\\02.png')
+Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/Telkomsel - Insufficient Balance/06. ViewGroup-10000'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/Telkomsel/02-button-paket data'), 0)
+Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/Telkomsel - Insufficient Balance/07. SvgView-Waktu Transaksi'), 0)
 
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\N-TC-TOPUP - Paket Data Telkomsel - Rekening Insufficient Balance\\03.png')
+Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/Telkomsel - Insufficient Balance/08. ViewGroup-Sekarang'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/Telkomsel/03-EditText-input nomor'), 0)
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\N-TC-TOPUP - Paket Data Telkomsel - Insufficient Balance\\05.png')
 
-Mobile.setText(findTestObject('Object Repository/Topup/Paket Data/Telkomsel/03-EditText-input nomor'), '0821666666001', 0)
+Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/Telkomsel - Insufficient Balance/09. Button-Lanjut'), 0)
+
+Mobile.verifyElementText(findTestObject('Object Repository/Topup/Paket Data/Telkomsel - Insufficient Balance/10. TextView-verif Pembelian PULSA INTERNET TELKOMSEL'), 
+	'Pembelian PULSA INTERNET TELKOMSEL')
+
+Mobile.verifyElementText(findTestObject('Object Repository/Topup/Paket Data/Telkomsel - Insufficient Balance/11. TextView-verif 0812666666001'),
+	'0812666666001')
+
+Mobile.verifyElementText(findTestObject('Object Repository/Topup/Paket Data/Telkomsel - Insufficient Balance/12. TextView-verif Nominal Rp. 10.000'),
+	'Rp. 10.000')
+
+Mobile.verifyElementText(findTestObject('Object Repository/Topup/Paket Data/Telkomsel - Insufficient Balance/13. TextView-verif Adm Rp. 1.500'),
+	'Rp. 1.500')
+
+Mobile.verifyElementText(findTestObject('Object Repository/Topup/Paket Data/Telkomsel - Insufficient Balance/14. TextView-verif Total Rp. 11.500'),
+	'Rp.  11.500')
+
+Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/Telkomsel - Insufficient Balance/15. TextView-Tap M-PIN'), 0)
+
+Mobile.setText(findTestObject('Object Repository/Topup/Paket Data/Telkomsel - Insufficient Balance/16. EditText-Set M-PIN'), 
+	'111111', 0)
+
+Mobile.hideKeyboard()
+
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\N-TC-TOPUP - Paket Data Telkomsel - Insufficient Balance\\06.png')
+
+Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/Telkomsel - Insufficient Balance/17. ViewGroup-Lanjut'), 0)
+
+Mobile.verifyElementText(findTestObject('Object Repository/Topup/Paket Data/Telkomsel - Insufficient Balance/18. TextView-Rekening Insufficient Balance'),
+	'Dana Anda tidak cukup untuk melakukan transaksi. Pastikan sumber dana yang Anda pilih cukup atau tidak kurang dari Saldo Minimum. [F51]')
+
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\N-TC-TOPUP - Paket Data Telkomsel - Insufficient Balance\\07.png')
+
+Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/Telkomsel - Insufficient Balance/19. TextView-OK'), 0)
+
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\N-TC-TOPUP - Paket Data Telkomsel - Insufficient Balance\\08.png')
 
 Mobile.pressBack()
 
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\N-TC-TOPUP - Paket Data Telkomsel - Rekening Insufficient Balance\\04.png')
-
-Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/Telkomsel/04-button-lanjut'), 0)
-
-String nomor = Mobile.getText(findTestObject('Object Repository/Topup/Paket Data/Telkomsel/05-EditText-no'), 0)
-
-println(nomor)
-
-Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/Telkomsel/06-dropdown-jenispkt'), 0)
-
-Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/Telkomsel/06-dropdown-paket internet'), 0)
-
-String nominal = Mobile.getText(findTestObject('Object Repository/Topup/Paket Data/Telkomsel/07-TextView-nominal'), 0)
-
-println(nominal)
-
-Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/Telkomsel/08-dropdown-waktu-tx'), 0)
-
-Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/Telkomsel/08-dropdown-sekarang'), 0)
-
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\N-TC-TOPUP - Paket Data Telkomsel - Rekening Insufficient Balance\\05.png')
-
-Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/Telkomsel/09-button-lanjut'), 0)
-
-Mobile.verifyElementText(findTestObject('Object Repository/Topup/Paket Data/Telkomsel/10-TextView-notelkom'), nomor)
-
-Mobile.verifyElementText(findTestObject('Object Repository/Topup/Paket Data/Telkomsel/10-TextView-nominaltrx'), nominal)
-
-int byadm = 1500
-
-String adm = String.format('%,d', byadm).replace(',', '.')
-
-Mobile.verifyElementText(findTestObject('Object Repository/Topup/Paket Data/Telkomsel/10-TextView-biaya-admin'), 'Rp. ' + adm)
-
-String byadmin = Mobile.getText(findTestObject('Object Repository/Topup/Paket Data/Telkomsel/10-TextView-biaya-admin'), 0)
-
-String nominalangka = nominal.replaceAll('[^\\d]', '') //mereplace string selain angka (Rp.) agar dapat diubah tipe datanya
-
-int nominalint = nominalangka.toInteger()
-
-//merubah tipe data nominal dari string ke int
-int totaltopup = nominalint + byadm //perhitungan nominal paket data ditambah biaya admin
-
-println(totaltopup)
-
-String tot = String.format('%,d', totaltopup).replace(',', '.')
-
-println(tot)
-
-Mobile.verifyElementText(findTestObject('Object Repository/Topup/Paket Data/Telkomsel/10-TextView-totalpembelian'), 'Rp.  ' + tot)
-
-String total = Mobile.getText(findTestObject('Object Repository/Topup/Paket Data/Telkomsel/10-TextView-totalpembelian'), 0)
-
-println(total)
-
-Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/Telkomsel/11-EditText-mpin'), 0)
-
-Mobile.setText(findTestObject('Object Repository/Topup/Paket Data/Telkomsel/11-EditText-mpin'), '111111', 0)
-
-Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/Telkomsel/12-button- lanjut'), 0)
-
-Mobile.verifyElementText(findTestObject('Object Repository/Topup/Paket Data/Telkomsel/17-TextView - Error'), 'Error')
-
-Mobile.verifyElementText(findTestObject('Object Repository/Topup/Paket Data/Telkomsel/17-TextView - Dana tidak cukup'), 'Dana Anda tidak cukup untuk melakukan transaksi. Pastikan sumber dana yang Anda pilih cukup atau tidak kurang dari Saldo Minimum. [F51]')
-
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\N-TC-TOPUP - Paket Data Telkomsel - Rekening Insufficient Balance\\06.png')
-
 Mobile.delay(2)
-
-Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/Telkomsel/17-button-ok'), 0)
-
-Mobile.delay(2)
-
-Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/Telkomsel/16-ViewGroup-button Batal'), 0)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\N-TC-TOPUP - Paket Data Telkomsel - Insufficient Balance\\09.png')
 
 Mobile.pressBack()
+
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\N-TC-TOPUP - Paket Data Telkomsel - Insufficient Balance\\10.png')
+
+Mobile.pressBack()
+
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\N-TC-TOPUP - Paket Data Telkomsel - Insufficient Balance\\11.png')
+
+Mobile.pressBack()
+
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\N-TC-TOPUP - Paket Data Telkomsel - Insufficient Balance\\12.png')
 
 Mobile.closeApplication()
+
