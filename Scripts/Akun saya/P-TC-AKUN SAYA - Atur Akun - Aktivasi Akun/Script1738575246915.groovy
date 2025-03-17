@@ -22,7 +22,7 @@ Mobile.startExistingApplication('com.bankmega.msmiledev')
 Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-AKUN SAYA - Atur Akun - Aktivasi Akun\\01.png')
 
-Mobile.tap(findTestObject('Object Repository/Akun Saya/Atur Akun/Aktivasi Akun/01. ViewGroup-Akun Saya'), 0)
+Mobile.tap(findTestObject('Object Repository/Akun Saya/Atur Akun/Aktivasi Akun/01. PathView-Akun Saya'), 0)
 
 Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-AKUN SAYA - Atur Akun - Aktivasi Akun\\02.png')
