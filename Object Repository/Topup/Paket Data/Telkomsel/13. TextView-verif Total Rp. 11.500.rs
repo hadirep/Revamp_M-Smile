@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MobileElementEntity>
    <description></description>
-   <name>14. TextView-verif Total Rp. 11.500</name>
+   <name>13. TextView-verif Total Rp. 11.500</name>
    <tag></tag>
    <elementGuidId>8ddd764e-0598-410d-aa9c-4491c46a0b8a</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>

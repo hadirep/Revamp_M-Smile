@@ -22,16 +22,16 @@ Mobile.startExistingApplication('com.bankmega.msmiledev')
 Mobile.delay(1)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - PLN - Prepaid\\01.png')
 
-Mobile.tap(findTestObject('Object Repository/Topup/PLN/Prepaid-Positive/01. ViewGroup-Topup'), 0)
+Mobile.tap(findTestObject('Object Repository/Topup/PLN/Prepaid-Positive/01. SvgView-Topup dan Bayar'), 0)
 
 Mobile.delay(1)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - PLN - Prepaid\\02.png')
 
 Mobile.tap(findTestObject('Object Repository/Topup/PLN/Prepaid-Positive/02. View-PLN'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Topup/PLN/Prepaid-Positive/03. EditText-Tap Nopel'), 0)
+Mobile.tap(findTestObject('Object Repository/Topup/PLN/Prepaid-Positive/03. EditText-Input No Billing'), 0)
 
-Mobile.setText(findTestObject('Object Repository/Topup/PLN/Prepaid-Positive/04. EditText-Set Nopel'), '110026302395', 0)
+Mobile.setText(findTestObject('Object Repository/Topup/PLN/Prepaid-Positive/03. EditText-Input No Billing'), '110026302395', 0)
 
 Mobile.hideKeyboard()
 

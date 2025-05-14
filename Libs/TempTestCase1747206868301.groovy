@@ -18,9 +18,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.w
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.testng.keyword.internal.TestNGDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\H23120~1\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Topup\\Pulsa\\XL-Axis\\P-TC-TOP UP - Pulsa - XL-Axis\\20250514_105002\\execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\H23120~1\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Topup\\Paket Data\\Telkomsel\\P-TC-TOPUP - Paket Data Telkomsel\\20250514_141428\\execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runTestCase('Test Cases/Topup/Pulsa/XL-Axis/P-TC-TOP UP - Pulsa - XL-Axis', new TestCaseBinding('Test Cases/Topup/Pulsa/XL-Axis/P-TC-TOP UP - Pulsa - XL-Axis',[:]), FailureHandling.STOP_ON_FAILURE , false)
+        TestCaseMain.runTestCase('Test Cases/Topup/Paket Data/Telkomsel/P-TC-TOPUP - Paket Data Telkomsel', new TestCaseBinding('Test Cases/Topup/Paket Data/Telkomsel/P-TC-TOPUP - Paket Data Telkomsel',[:]), FailureHandling.STOP_ON_FAILURE , false)
     
