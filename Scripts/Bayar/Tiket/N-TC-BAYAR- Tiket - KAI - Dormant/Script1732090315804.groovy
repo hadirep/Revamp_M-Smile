@@ -19,57 +19,59 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('com.bankmega.msmiledev')
 
-Mobile.tap(findTestObject('Object Repository/Bayar/Tiket/KAI Dormant Insuficient/01.ViewGroup - Bayar'), 0)
+Mobile.tap(findTestObject('01.New Update Script Repo/Top Up Bayar - Tiket/01. Top Up_Bayar - Tiket'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\N-TC-BAYAR- Tiket - KAI - Dormant\\01.png')
 
-Mobile.tap(findTestObject('Object Repository/Bayar/Tiket/KAI Dormant Insuficient/02.RectView - Tiket'), 0)
+Mobile.tap(findTestObject('01.New Update Script Repo/Top Up Bayar - Tiket/02. Tiket'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\N-TC-BAYAR- Tiket - KAI - Dormant\\02.png')
 
-Mobile.tap(findTestObject('Object Repository/Bayar/Tiket/KAI Dormant Insuficient/03.EditText - Daftar Produk'), 0)
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.swipe(900, 500, 100, 500)
+
+Mobile.swipe(900, 500, 100, 500)
+
+Mobile.tap(findTestObject('01.New Update Script Repo/Top Up Bayar - Tiket/03. Daftar Produk'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Object Repository/Bayar/Tiket/KAI Dormant Insuficient/04.TextView - KAI'), 0)
+Mobile.tap(findTestObject('01.New Update Script Repo/Top Up Bayar - Tiket/04. KAI'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\N-TC-BAYAR- Tiket - KAI - Dormant\\03.png')
 
-Mobile.tap(findTestObject('Object Repository/Bayar/Tiket/KAI Dormant Insuficient/05.EditText - Input Nomor'), 0)
+Mobile.tap(findTestObject('01.New Update Script Repo/Top Up Bayar - Tiket/05. Nomor Pelanggan'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Bayar/Tiket/KAI Dormant Insuficient/06.EditText - Input Baru'), 0)
+Mobile.tap(findTestObject('01.New Update Script Repo/Top Up Bayar - Tiket/06. Input Nopel'), 0)
+
+Mobile.setText(findTestObject('Object Repository/Bayar/Tiket/KAI Dormant Insuficient/07.EditText - Input Baru Nopel'), '1999123459001', 
+    0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\N-TC-BAYAR- Tiket - KAI - Dormant\\04.png')
 
-Mobile.setText(findTestObject('Object Repository/Bayar/Tiket/KAI Dormant Insuficient/07.EditText - Input Baru Nopel'), '1999123459001', 
-    0)
-
-Mobile.tap(findTestObject('Object Repository/Bayar/Tiket/KAI Dormant Insuficient/08.ScrollView - Close Keyboard'), 0)
+Mobile.tap(findTestObject('01.New Update Script Repo/Top Up Bayar - Tiket/07. OK'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\N-TC-BAYAR- Tiket - KAI - Dormant\\05.png')
 
-Mobile.tap(findTestObject('Object Repository/Bayar/Tiket/KAI Dormant Insuficient/09.ViewGroup - Ok'), 0)
-
-Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\N-TC-BAYAR- Tiket - KAI - Dormant\\06.png')
-Mobile.tap(findTestObject('Object Repository/Bayar/Tiket/KAI Dormant Insuficient/10.ViewGroup - Lanjut'), 0)
+Mobile.tap(findTestObject('01.New Update Script Repo/Top Up Bayar - Tiket/08. Lanjut'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\N-TC-BAYAR- Tiket - KAI - Dormant\\07.png')
 
-Mobile.tap(findTestObject('Object Repository/Bayar/Tiket/KAI Dormant Insuficient/11.TextView - Konfirmasi Pembayaran'), 0)
+Mobile.tap(findTestObject('Object Repository/Bayar/Tiket/KAI Dormant Insuficient/11.TextView - Konfirmasi Pembayaran'), 
+    0)
 
 Mobile.tap(findTestObject('Object Repository/Bayar/Tiket/KAI Dormant Insuficient/12.EditText - Input PIN'), 0)
 

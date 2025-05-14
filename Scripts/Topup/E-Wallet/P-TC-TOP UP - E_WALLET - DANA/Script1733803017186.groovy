@@ -19,19 +19,19 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('com.bankmega.msmiledev')
 
-Mobile.tap(findTestObject('Object Repository/Topup/E-Wallet/Dana/01.ViewGroup - Top Up'), 0)
+Mobile.tap(findTestObject('01.New Update Script Repo/Top Up Bayar - Ewallet/01. Top Up_Bayar - E-wallet'), 0)
 
 Mobile.delay(1)
 
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-TOP UP - E_WALLET - DANA\\01.png')
 
-Mobile.tap(findTestObject('Object Repository/Topup/E-Wallet/Dana/02.ViewGroup - E-Wallet'), 0)
+Mobile.tap(findTestObject('01.New Update Script Repo/Top Up Bayar - Ewallet/02. E-wallet'), 0)
 
 Mobile.delay(1)
 
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-TOP UP - E_WALLET - DANA\\02.png')
 
-Mobile.tap(findTestObject('Object Repository/Topup/E-Wallet/Dana/03.ViewGroup - DANA'), 0)
+Mobile.tap(findTestObject('01.New Update Script Repo/Top Up Bayar - Ewallet/03. Dana'), 0)
 
 Mobile.delay(1)
 

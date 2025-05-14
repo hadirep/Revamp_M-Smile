@@ -19,80 +19,91 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('com.bankmega.msmiledev')
 
-Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/Smartfren/Smartfren/001.ViewGroup - Top Up'), 0)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-TOP UP - Pulsa - Smartfren\\01.PNG')
+
+Mobile.tap(findTestObject('01.New Update Script Repo/Top up Bayar - Pulsa/01. Top Up_Bayar - Pulsa'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\P-TC-TOP UP-Pulsa - Smartfren\\01.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-TOP UP - Pulsa - Smartfren\\02.PNG')
 
-Mobile.tap(findTestObject('Topup/Pulsa/Smartfren/Smartfren/002.View Telepon'), 0)
-
-Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\P-TC-TOP UP-Pulsa - Smartfren\\02.png')
-
-Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/Smartfren/Smartfren/003.EditText - Input Nomor'), 0)
-
-Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\P-TC-TOP UP-Pulsa - Smartfren\\03.png')
-
-Mobile.setText(findTestObject('Object Repository/Topup/Pulsa/Smartfren/Smartfren/004.EditText - Masukkan Nomor'), '088230002000', 
-    0)
-
-Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\P-TC-TOP UP-Pulsa - Smartfren\\04.png')
-
-Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/Smartfren/Smartfren/005.ViewGroup - Lanjut'), 0)
-
-Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\P-TC-TOP UP-Pulsa - Smartfren\\05.png')
-
-Mobile.tap(findTestObject('Topup/Pulsa/Smartfren/Smartfren/07.PathView 0 Pilih Nominal'), 0)
-
-Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\P-TC-TOP UP-Pulsa - Smartfren\\06.png')
-
-Mobile.tap(findTestObject('Topup/Pulsa/Smartfren/Smartfren/07.TextView - 50000'), 0)
-
-Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\P-TC-TOP UP-Pulsa - Smartfren\\07.png')
-
-Mobile.tap(findTestObject('Topup/Pulsa/Smartfren/Smartfren/008.ViewGroup - Lanjut'), 0)
+Mobile.tap(findTestObject('01.New Update Script Repo/Top up Bayar - Pulsa/02. Pulsa'), 0)
 
 Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/Smartfren/Smartfren/009.EditText - Set PIN'), 0)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-TOP UP - Pulsa - Smartfren\\03.PNG')
 
-Mobile.setText(findTestObject('Object Repository/Topup/Pulsa/Smartfren/Smartfren/009.EditText - PIN'), '111111', 0)
+Mobile.tap(findTestObject('01.New Update Script Repo/Top up Bayar - Pulsa/03. Input Nomor'), 0)
+
+Mobile.setText(findTestObject('01.New Update Script Repo/Top up Bayar - Pulsa/03. Input Nomor'), '088809399553', 0)
+
+Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-TOP UP - Pulsa - Smartfren\\04.PNG')
+
+Mobile.tap(findTestObject('Topup/Pulsa/Telkomsel-Insuficcient Balance/005.ViewGroup - Lanjut'), 0)
+
+Mobile.tap(findTestObject('01.New Update Script Repo/Top up Bayar - Pulsa/Cek Saldo'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\P-TC-TOP UP-Pulsa - Smartfren\\08.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-TOP UP - Pulsa - Smartfren\\05.PNG')
+
+Mobile.tap(findTestObject('Topup/Pulsa/Smartfren/07.PathView 0 Pilih Nominal'), 0)
+
+Mobile.tap(findTestObject('Topup/Pulsa/Smartfren/08.Nominal 50000'), 0)
+
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-TOP UP - Pulsa - Smartfren\\06.PNG')
+
+Mobile.tap(findTestObject('Topup/Pulsa/Smartfren/09.Lanjut'), 0)
+
+Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-TOP UP - Pulsa - Smartfren\\07.PNG')
+
+Mobile.tap(findTestObject('Topup/Pulsa/Smartfren/10.Set PIN'), 0)
+
+Mobile.setText(findTestObject('Topup/Pulsa/Smartfren/11.Input PIN'), '111111', 0)
+
+Mobile.tap(findTestObject('Topup/Pulsa/Smartfren/05.Close Tab'), 0)
+
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-TOP UP - Pulsa - Smartfren\\08.PNG')
+
+Mobile.tap(findTestObject('Topup/Pulsa/Smartfren/13.Lanjut'), 0)
+
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-TOP UP - Pulsa - Smartfren\\09.PNG')
+
+Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/Telkomsel-Insuficcient Balance/018.TextView - OK'), 0)
 
 Mobile.pressBack()
 
-Mobile.tap(findTestObject('Topup/Pulsa/Smartfren/Smartfren/10.ViewGroup - Lanjut'), 0)
-
-Mobile.tap(findTestObject('Topup/Pulsa/Smartfren/Smartfren/011.ImageView - Pembayaran Berhasil'), 0)
-
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\P-TC-TOP UP-Pulsa - Smartfren\\09.png')
-
-Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/Smartfren/Smartfren/012.PathView - Close'), 0)
-
-Mobile.tap(findTestObject('Topup/Pulsa/Smartfren/Smartfren/com.horcrux.svg.PathView'), 0)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-TOP UP - Pulsa - Smartfren\\10.PNG')
 
 Mobile.pressBack()
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\P-TC-TOP UP-Pulsa - Smartfren\\10.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-TOP UP - Pulsa - Smartfren\\11.PNG')
+
+Mobile.pressBack()
+
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-TOP UP - Pulsa - Smartfren\\12.PNG')
+
+Mobile.pressBack()
+
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-TOP UP - Pulsa - Smartfren\\13.PNG')
 
 Mobile.closeApplication()
 

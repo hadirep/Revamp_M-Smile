@@ -19,100 +19,106 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('com.bankmega.msmiledev')
 
-Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/Smartfren/Smartfren/001.ViewGroup - Top Up'), 0)
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\N-TC-TOP UP - Pulsa - SmartfernL - Dormant\\01.png')
+
+Mobile.tap(findTestObject('01.New Update Script Repo/Top up Bayar - Pulsa/01. Top Up_Bayar - Pulsa'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\N-TC-TOP UP-Pulsa - Smartfren - Dormant\\01.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\N-TC-TOP UP - Pulsa - SmartfernL - Dormant\\02.png')
 
-Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/Smartfren/Smartfren/002.View Telepon'), 0)
-
-Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\N-TC-TOP UP-Pulsa - Smartfren - Dormant\\02.png')
-
-Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/Smartfren/Smartfren/003.EditText - Input Nomor'), 0)
+Mobile.tap(findTestObject('01.New Update Script Repo/Top up Bayar - Pulsa/02. Pulsa'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\N-TC-TOP UP-Pulsa - Smartfren - Dormant\\03.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\N-TC-TOP UP - Pulsa - SmartfernL - Dormant\\03.png')
 
-Mobile.setText(findTestObject('Object Repository/Topup/Pulsa/Smartfren/Smartfren/004.EditText - Masukkan Nomor'), '088809399553', 
+Mobile.tap(findTestObject('01.New Update Script Repo/Top up Bayar - Pulsa/03. Input Nomor'), 0)
+
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\N-TC-TOP UP - Pulsa - SmartfernL - Dormant\\04.png')
+
+Mobile.setText(findTestObject('01.New Update Script Repo/Top up Bayar - Pulsa/03. Input Nomor'), '088809399553', 
     0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\N-TC-TOP UP-Pulsa - Smartfren - Dormant\\04.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\N-TC-TOP UP - Pulsa - SmartfernL - Dormant\\05.png')
 
-Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/Smartfren/Smartfren/005.ViewGroup - Lanjut'), 0)
-
-Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\N-TC-TOP UP-Pulsa - Smartfren - Dormant\\05.png')
-
-Mobile.tap(findTestObject('Topup/Pulsa/Smartfren/Smartfren/07.PathView 0 Pilih Nominal'), 0)
+Mobile.tap(findTestObject('Topup/Pulsa/Smartfren/05.Close Tab'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\N-TC-TOP UP-Pulsa - Smartfren - Dormant\\06.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\N-TC-TOP UP - Pulsa - SmartfernL - Dormant\\06.png')
 
-Mobile.tap(findTestObject('Topup/Pulsa/Smartfren/Smartfren/07.TextView - 50000'), 0)
-
-Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\N-TC-TOP UP-Pulsa - Smartfren - Dormant\\07.png')
-
-Mobile.tap(findTestObject('Topup/Pulsa/Smartfren/Smartfren/008.ViewGroup - Lanjut'), 0)
-
-Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/Smartfren/Smartfren/009.EditText - Set PIN'), 0)
-
-Mobile.setText(findTestObject('Object Repository/Topup/Pulsa/Smartfren/Smartfren/009.EditText - PIN'), '111111', 0)
+Mobile.tap(findTestObject('01.New Update Script Repo/Top up Bayar - Pulsa/04. Lanjut'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\N-TC-TOP UP-Pulsa - Smartfren - Dormant\\08.png')
+Mobile.swipe(900, 500, 100, 500)
 
-Mobile.pressBack()
+Mobile.swipe(900, 500, 100, 500)
 
-Mobile.tap(findTestObject('Topup/Pulsa/Smartfren/Smartfren/10.ViewGroup - Lanjut'), 0)
+Mobile.tap(findTestObject('Topup/Pulsa/Smartfren/07.PathView 0 Pilih Nominal'), 0)
 
-Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\N-TC-TOP UP - Pulsa - SmartfernL - Dormant\\07.png')
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\N-TC-TOP UP-Pulsa - Smartfren - Dormant\\09.png')
-
-Mobile.tap(findTestObject('Topup/Pulsa/Smartfren/Smartfren/013.ViewGroup - Notice Error'), 0)
+Mobile.tap(findTestObject('Topup/Pulsa/Smartfren/08.Nominal 50000'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\N-TC-TOP UP-Pulsa - Smartfren - Dormant\\10.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\N-TC-TOP UP - Pulsa - SmartfernL - Dormant\\08.png')
 
-Mobile.tap(findTestObject('Topup/Pulsa/Smartfren/Smartfren/014.TextView - OK'), 0)
-
-Mobile.pressBack()
+Mobile.tap(findTestObject('Topup/Pulsa/Smartfren/09.Lanjut'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\N-TC-TOP UP-Pulsa - Smartfren - Dormant\\11.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\N-TC-TOP UP - Pulsa - SmartfernL - Dormant\\09.png')
+
+Mobile.tap(findTestObject('Topup/Pulsa/Smartfren/10.Set PIN'), 0)
+
+Mobile.setText(findTestObject('Topup/Pulsa/Smartfren/11.Input PIN'), '111111', 0)
+
+Mobile.tap(findTestObject('Topup/Pulsa/Smartfren/05.Close Tab'), 0)
+
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\N-TC-TOP UP - Pulsa - SmartfernL - Dormant\\10.png')
+
+Mobile.tap(findTestObject('Topup/Pulsa/Smartfren/13.Lanjut'), 0)
+
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\N-TC-TOP UP - Pulsa - SmartfernL - Dormant\\11.png')
+
+Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/Telkomsel-Insuficcient Balance/018.TextView - OK'), 0)
 
 Mobile.pressBack()
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\N-TC-TOP UP-Pulsa - Smartfren - Dormant\\12.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\N-TC-TOP UP - Pulsa - SmartfernL - Dormant\\12.png')
 
 Mobile.pressBack()
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\N-TC-TOP UP-Pulsa - Smartfren - Dormant\\13.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\N-TC-TOP UP - Pulsa - SmartfernL - Dormant\\13.png')
 
 Mobile.pressBack()
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\N-TC-TOP UP-Pulsa - Smartfren - Dormant\\14.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\N-TC-TOP UP - Pulsa - SmartfernL - Dormant\\14.png')
+
+Mobile.pressBack()
+
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\N-TC-TOP UP - Pulsa - SmartfernL - Dormant\\15.png')
 
 Mobile.closeApplication()
 

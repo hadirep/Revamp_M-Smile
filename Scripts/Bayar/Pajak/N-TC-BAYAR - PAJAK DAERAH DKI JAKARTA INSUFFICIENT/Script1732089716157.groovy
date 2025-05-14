@@ -19,15 +19,13 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('com.bankmega.msmiledev')
 
-Mobile.tap(findTestObject('Object Repository/Bayar/Pajak-MPN/Pajak - Pajak DKI Jakarta Dormnant-Insufficient/01.ViewGroup - Bayar'), 
-    0)
+Mobile.tap(findTestObject('01.New Update Script Repo/Top Up Bayar - Pajak/01. Top Up_Bayar - Pajak'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp_M-Smile\\Screenshoot\\N-TC-BAYAR - PAJAK DAERAH DKI JAKARTA INSUFFICIENT\\01.png')
 
-Mobile.tap(findTestObject('Object Repository/Bayar/Pajak-MPN/Pajak - Pajak DKI Jakarta Dormnant-Insufficient/02.SvgView - Pajak MPN'), 
-    0)
+Mobile.tap(findTestObject('01.New Update Script Repo/Top Up Bayar - Pajak/02. Pajak-MPN'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
@@ -39,36 +37,31 @@ Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp_M-Smile\\Screenshoot\\N-TC-BAYAR - PAJAK DAERAH DKI JAKARTA INSUFFICIENT\\02.png')
 
-Mobile.tap(findTestObject('Object Repository/Bayar/Pajak-MPN/Pajak - Pajak DKI Jakarta Dormnant-Insufficient/03.EditText - Daftra Produk'), 
-    0)
+Mobile.tap(findTestObject('01.New Update Script Repo/Top Up Bayar - Pajak/03. Daftar Produk'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp_M-Smile\\Screenshoot\\N-TC-BAYAR - PAJAK DAERAH DKI JAKARTA INSUFFICIENT\\03.png')
 
-Mobile.tap(findTestObject('Object Repository/Bayar/Pajak-MPN/Pajak - Pajak DKI Jakarta Dormnant-Insufficient/04.TextView - PAJAK DAERAH (DKI Jakarta)'), 
-    0)
+Mobile.tap(findTestObject('01.New Update Script Repo/Top Up Bayar - Pajak/04. Pajak Daerah DKI Jakarta'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp_M-Smile\\Screenshoot\\N-TC-BAYAR - PAJAK DAERAH DKI JAKARTA INSUFFICIENT\\04.png')
 
-Mobile.tap(findTestObject('Object Repository/Bayar/Pajak-MPN/Pajak - Pajak DKI Jakarta Dormnant-Insufficient/05.ViewGroup - Nopel'), 
-    0)
+Mobile.tap(findTestObject('01.New Update Script Repo/Top Up Bayar - Pajak/05. Nomor Tagihan'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp_M-Smile\\Screenshoot\\N-TC-BAYAR - PAJAK DAERAH DKI JAKARTA INSUFFICIENT\\05.png')
 
-Mobile.tap(findTestObject('Object Repository/Bayar/Pajak-MPN/Pajak - Pajak DKI Jakarta Dormnant-Insufficient/06.EditText - Input Baru'), 
-    0)
+Mobile.tap(findTestObject('01.New Update Script Repo/Top Up Bayar - Pajak/06. Input Baru'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp_M-Smile\\Screenshoot\\N-TC-BAYAR - PAJAK DAERAH DKI JAKARTA INSUFFICIENT\\06.png')
 
-Mobile.setText(findTestObject('Object Repository/Bayar/Pajak-MPN/Pajak - Pajak DKI Jakarta Dormnant-Insufficient/07.EditText - Input Baru Nopel'), 
-    '003456786100', 0)
+Mobile.setText(findTestObject('01.New Update Script Repo/Top Up Bayar - Pajak/06. Input Baru'), '003456786100', 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
@@ -98,8 +91,8 @@ Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp_M-Smile\\Screenshoot\\N-TC-BAYAR - PAJAK DAERAH DKI JAKARTA INSUFFICIENT\\10.png')
 
-Mobile.setText(findTestObject('Bayar/Pajak-MPN/Pajak - Pajak DKI Jakarta Dormnant-Insufficient/12.EditText - PIN'), 
-    '111111', 0)
+Mobile.setText(findTestObject('Bayar/Pajak-MPN/Pajak - Pajak DKI Jakarta Dormnant-Insufficient/12.EditText - PIN'), '111111', 
+    0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
@@ -126,8 +119,7 @@ Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp_M-Smile\\Screenshoot\\N-TC-BAYAR - PAJAK DAERAH DKI JAKARTA DORMANT\\14.png')
 
-Mobile.tap(findTestObject('Bayar/Pajak-MPN/Pajak - Pajak DKI Jakarta Dormnant-Insufficient/16.TextView - OK'), 
-    0)
+Mobile.tap(findTestObject('Bayar/Pajak-MPN/Pajak - Pajak DKI Jakarta Dormnant-Insufficient/16.TextView - OK'), 0)
 
 Mobile.pressBack()
 
