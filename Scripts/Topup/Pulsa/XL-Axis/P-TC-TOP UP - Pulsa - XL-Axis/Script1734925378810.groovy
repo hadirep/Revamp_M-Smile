@@ -41,7 +41,7 @@ Mobile.startExistingApplication('com.bankmega.msmiledev')
 Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Pulsa - XL-Axis\\01.png')
 
-Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/XL-Axis/01. ViewGroup-Top Up'), 0)
+Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/XL-Axis/01. SvgView-Topup dan Bayar'), 0)
 
 Mobile.delay(5)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Pulsa - XL-Axis\\02.png')
@@ -51,9 +51,9 @@ Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/XL-Axis/02. View-Pulsa'
 Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Pulsa - XL-Axis\\03.png')
 
-Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/XL-Axis/03. EditText-Input nomor'), 0)
+Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/XL-Axis/03. EditText-Input No HP'), 0)
 
-Mobile.setText(findTestObject('Object Repository/Topup/Pulsa/XL-Axis/03. EditText-Input nomor'),
+Mobile.setText(findTestObject('Object Repository/Topup/Pulsa/XL-Axis/03. EditText-Input No HP'),
 	'087777190770', 0)
 
 Mobile.hideKeyboard()

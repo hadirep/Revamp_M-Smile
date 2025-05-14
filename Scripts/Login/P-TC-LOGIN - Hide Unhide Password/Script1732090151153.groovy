@@ -20,34 +20,34 @@ import org.openqa.selenium.Keys as Keys
 Mobile.startExistingApplication('com.bankmega.msmiledev')
 
 Mobile.delay(1)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LOGIN - Hide Unhide Password\\01.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\TC-011 - P-TC-LOGIN - Hide Unhide Password\\01.png')
 
 Mobile.tap(findTestObject('Object Repository/Login/Hide Unhide/01. ViewGroup - Button Login'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LOGIN - Hide Unhide Password\\02.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\TC-011 - P-TC-LOGIN - Hide Unhide Password\\02.png')
 
 Mobile.tap(findTestObject('Object Repository/Login/Hide Unhide/02. EditText - Klik Field Password'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LOGIN - Hide Unhide Password\\03.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\TC-011 - P-TC-LOGIN - Hide Unhide Password\\03.png')
 
 Mobile.setText(findTestObject('Object Repository/Login/Hide Unhide/03. EditText - Input Password'), 'Bankmega1', 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LOGIN - Hide Unhide Password\\04.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\TC-011 - P-TC-LOGIN - Hide Unhide Password\\04.png')
 
 Mobile.tap(findTestObject('Object Repository/Login/Hide Unhide/04. GroupView - Unhide Password'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LOGIN - Hide Unhide Password\\05.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\TC-011 - P-TC-LOGIN - Hide Unhide Password\\05.png')
 
 Mobile.tap(findTestObject('Object Repository/Login/Hide Unhide/05. ViewGroup - Hide Password'), 0)
 
 Mobile.delay(5)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LOGIN - Hide Unhide Password\\06.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\TC-011 - P-TC-LOGIN - Hide Unhide Password\\06.png')
 
 Mobile.tap(findTestObject('Object Repository/Login/Hide Unhide/06. ViewGroup - Login'), 0)
 
-Mobile.delay(1)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LOGIN - Hide Unhide Password\\07.png')
+Mobile.delay(3)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\TC-011 - P-TC-LOGIN - Hide Unhide Password\\07.png')

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>N-TC-TRANSFER - Overbooking - Insufficient Balance</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>38529b1e-9c6d-4d4b-a2c8-b4b976fd843a</testCaseGuid>
-</TestCaseEntity>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>N-TC-TRANSFER - Overbooking - Rekening Pengirim Dormant</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>28c14271-ed6b-4895-893c-65c745678cdb</testCaseGuid>
-</TestCaseEntity>

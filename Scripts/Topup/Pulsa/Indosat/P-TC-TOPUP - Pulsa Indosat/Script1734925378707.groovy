@@ -20,27 +20,27 @@ import org.openqa.selenium.Keys as Keys
 Mobile.startExistingApplication('com.bankmega.msmiledev')
 
 Mobile.delay(2)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Pulsa Indosat\\01.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\TC-019 - P-TC-TOPUP - Pulsa Indosat\\01.png')
 
-Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/Indosat/01. ViewGroup - Button Top Up'), 0)
+Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/Indosat/01. SvgView-Topup dan Bayar'), 0)
 
 Mobile.delay(4)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Pulsa Indosat\\02.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\TC-019 - P-TC-TOPUP - Pulsa Indosat\\02.png')
 
-Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/Indosat/02. View - Icon Pulsa'), 0)
+Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/Indosat/02. View-Pulsa'), 0)
 
 Mobile.delay(2)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Pulsa Indosat\\03.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\TC-019 - P-TC-TOPUP - Pulsa Indosat\\03.png')
 
-Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/Indosat/03. EditText - Input nomor'), 0)
+Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/Indosat/03. EditText-Input No HP'), 0)
 
-Mobile.setText(findTestObject('Object Repository/Topup/Pulsa/Indosat/03. EditText - Input nomor'),
+Mobile.setText(findTestObject('Object Repository/Topup/Pulsa/Indosat/03. EditText-Input No HP'),
 	'085770056083', 0)
 
 Mobile.hideKeyboard()
 
 Mobile.delay(2)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Pulsa Indosat\\04.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\TC-019 - P-TC-TOPUP - Pulsa Indosat\\04.png')
 
 Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/Indosat/05. ViewGroup - Lanjut'), 0)
 
@@ -49,7 +49,7 @@ Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/Indosat/06. PathView-Pi
 Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/Indosat/07. TextView-25000'), 0)
 
 Mobile.delay(2)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Pulsa Indosat\\05.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\TC-019 - P-TC-TOPUP - Pulsa Indosat\\05.png')
 
 Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/Indosat/08. ViewGroup-Lanjut'), 0)
 
@@ -88,7 +88,7 @@ Mobile.setText(findTestObject('Object Repository/Topup/Pulsa/Indosat/14. EditTex
 Mobile.hideKeyboard()
 
 Mobile.delay(2)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Pulsa Indosat\\06.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\TC-019 - P-TC-TOPUP - Pulsa Indosat\\06.png')
 
 Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/Indosat/15. ViewGroup-Lanjut'), 0)
 
@@ -98,7 +98,7 @@ Mobile.verifyElementText(findTestObject('Object Repository/Topup/Pulsa/Indosat/1
 String status = Mobile.getText(findTestObject('Object Repository/Topup/Pulsa/Indosat/16. TextView-Top Up Berhasil'), 0)
 println(status)
 
-Mobile.verifyElementText(findTestObject('Object Repository/Topup/Pulsa/Indosat/17. TextView-Rp. 26.500'), 
+Mobile.verifyElementText(findTestObject('Object Repository/Topup/Pulsa/Indosat/17. TextView-Rp.  26.500'), 
 	'Rp.  26.500')
 
 Mobile.verifyElementText(findTestObject('Object Repository/Topup/Pulsa/Indosat/18. TextView-085770056083'), 
@@ -110,31 +110,27 @@ Mobile.verifyElementText(findTestObject('Object Repository/Topup/Pulsa/Indosat/1
 Mobile.verifyElementText(findTestObject('Object Repository/Topup/Pulsa/Indosat/20. TextView-Rp. 1.500'), 
 	'Rp. 1.500')
 
-Mobile.verifyElementText(findTestObject('Object Repository/Topup/Pulsa/Indosat/21. TextView-Rp. 26.500'), 
+Mobile.verifyElementText(findTestObject('Object Repository/Topup/Pulsa/Indosat/21. TextView-Rp.  26.500'), 
 	'Rp.  26.500')
 
 Mobile.delay(2)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Pulsa Indosat\\07.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\TC-019 - P-TC-TOPUP - Pulsa Indosat\\07.png')
 
 Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/Indosat/22. ViewGroup-Bagikan'), 0)
 
 Mobile.delay(4)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Pulsa Indosat\\08.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\TC-019 - P-TC-TOPUP - Pulsa Indosat\\08.png')
 
 Mobile.delay(2)
 Mobile.pressBack()
 
 Mobile.delay(2)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Pulsa Indosat\\09.png')
-
-Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/Indosat/23. GroupView-Button Close'), 0)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\TC-019 - P-TC-TOPUP - Pulsa Indosat\\09.png')
 
 Mobile.delay(2)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Pulsa Indosat\\10.png')
-
-Mobile.pressBack()
+Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/Indosat/23. GroupView-Close Button'), 0)
 
 Mobile.delay(2)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Pulsa Indosat\\11.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\TC-019 - P-TC-TOPUP - Pulsa Indosat\\10.png')
 
 Mobile.closeApplication()

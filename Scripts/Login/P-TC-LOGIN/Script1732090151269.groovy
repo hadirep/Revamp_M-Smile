@@ -20,12 +20,12 @@ import org.openqa.selenium.Keys as Keys
 Mobile.startExistingApplication('com.bankmega.msmiledev')
 
 Mobile.delay(1)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LOGIN\\01.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\TC-005 - P-TC-LOGIN\\01.png')
 
 Mobile.tap(findTestObject('Object Repository/Login/Normal/01. Button-Login'), 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LOGIN\\02.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\TC-005 - P-TC-LOGIN\\02.png')
 
 Mobile.tap(findTestObject('Object Repository/Login/Normal/02. EditText-Input password'), 0)
 
@@ -34,9 +34,9 @@ Mobile.delay(1)
 Mobile.setText(findTestObject('Object Repository/Login/Normal/02. EditText-Input password'), GlobalVariable.pasLogin ,0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LOGIN\\03.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\TC-005 - P-TC-LOGIN\\03.png')
 
 Mobile.tap(findTestObject('Object Repository/Login/Normal/03. Button-Klik Login'), 0)
 
-Mobile.delay(1)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LOGIN\\04.png')
+Mobile.delay(3)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\TC-005 - P-TC-LOGIN\\04.png')

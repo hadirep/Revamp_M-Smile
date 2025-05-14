@@ -20,27 +20,27 @@ import org.openqa.selenium.Keys as Keys
 Mobile.startExistingApplication('com.bankmega.msmiledev')
 
 Mobile.delay(2)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Pulsa Indosat - Dormant\\01.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\TC-021 - P-TC-TOPUP - Pulsa Indosat - Dormant\\01.png')
 
-Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/Indosat - Dormant/01. ViewGroup - Button Top Up'), 0)
+Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/Indosat/01. SvgView-Topup dan Bayar'), 0)
 
-Mobile.delay(5)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Pulsa Indosat - Dormant\\02.png')
+Mobile.delay(4)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\TC-021 - P-TC-TOPUP - Pulsa Indosat - Dormant\\02.png')
 
-Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/Indosat - Dormant/02. View - Icon Pulsa'), 0)
+Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/Indosat/02. View-Pulsa'), 0)
 
 Mobile.delay(2)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Pulsa Indosat - Dormant\\03.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\TC-021 - P-TC-TOPUP - Pulsa Indosat - Dormant\\03.png')
 
-Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/Indosat - Dormant/03. EditText - Input nomor'), 0)
+Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/Indosat/03. EditText-Input No HP'), 0)
 
-Mobile.setText(findTestObject('Object Repository/Topup/Pulsa/Indosat - Dormant/03. EditText - Input nomor'),
+Mobile.setText(findTestObject('Object Repository/Topup/Pulsa/Indosat - Dormant/03. EditText-Input No HP'),
 	'085770056083', 0)
 
 Mobile.hideKeyboard()
 
 Mobile.delay(2)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Pulsa Indosat - Dormant\\04.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\TC-021 - P-TC-TOPUP - Pulsa Indosat - Dormant\\04.png')
 
 Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/Indosat - Dormant/05. ViewGroup - Lanjut'), 0)
 
@@ -53,7 +53,7 @@ Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/Indosat - Dormant/06. P
 Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/Indosat - Dormant/07. TextView-25000'), 0)
 
 Mobile.delay(2)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Pulsa Indosat - Dormant\\05.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\TC-021 - P-TC-TOPUP - Pulsa Indosat - Dormant\\05.png')
 
 Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/Indosat - Dormant/08. ViewGroup-Lanjut'), 0)
 
@@ -92,12 +92,12 @@ Mobile.setText(findTestObject('Object Repository/Topup/Pulsa/Indosat - Dormant/1
 Mobile.hideKeyboard()
 
 Mobile.delay(2)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Pulsa Indosat - Dormant\\06.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\TC-021 - P-TC-TOPUP - Pulsa Indosat - Dormant\\06.png')
 
 Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/Indosat - Dormant/15. ViewGroup-Lanjut'), 0)
 
 Mobile.delay(4)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Pulsa Indosat - Dormant\\07.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\TC-021 - P-TC-TOPUP - Pulsa Indosat - Dormant\\07.png')
 
 Mobile.verifyElementText(findTestObject('Object Repository/Topup/Pulsa/Indosat - Dormant/16. TextView-verif Dormant'),
 	'Nomor rekening tujuan tidak ditemukan/rekening sumber dana Anda tidak aktif. Untuk aktivasi rekening sumber dana, lakukan pada menu Pengaturan Atur Akun, dengan nonaktifkan dan aktifkan kembali sebagai sumber dana lalu lakukan transaksi atas rekening tersebut [H77]')
@@ -105,27 +105,27 @@ Mobile.verifyElementText(findTestObject('Object Repository/Topup/Pulsa/Indosat -
 Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/Indosat - Dormant/17. TextView-OK'), 0)
 
 Mobile.delay(2)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Pulsa Indosat - Dormant\\08.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\TC-021 - P-TC-TOPUP - Pulsa Indosat - Dormant\\08.png')
 
 Mobile.delay(2)
 Mobile.pressBack()
 
 Mobile.delay(2)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Pulsa Indosat - Dormant\\09.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\TC-021 - P-TC-TOPUP - Pulsa Indosat - Dormant\\09.png')
 
 Mobile.pressBack()
 
 Mobile.delay(2)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Pulsa Indosat - Dormant\\10.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\TC-021 - P-TC-TOPUP - Pulsa Indosat - Dormant\\10.png')
 
 Mobile.pressBack()
 
 Mobile.delay(2)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Pulsa Indosat - Dormant\\11.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\TC-021 - P-TC-TOPUP - Pulsa Indosat - Dormant\\11.png')
 
 Mobile.pressBack()
 
 Mobile.delay(2)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Pulsa Indosat - Dormant\\12.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\TC-021 - P-TC-TOPUP - Pulsa Indosat - Dormant\\12.png')
 
 Mobile.closeApplication()

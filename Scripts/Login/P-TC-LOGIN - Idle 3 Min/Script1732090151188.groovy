@@ -20,7 +20,7 @@ import org.openqa.selenium.Keys as Keys
 Mobile.startExistingApplication('com.bankmega.msmiledev')
 
 Mobile.delay(1)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LOGIN - Idle 3 Min\\01.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\TC-006 - P-TC-LOGIN - Idle 3 Min\\01.png')
 
 Mobile.tap(findTestObject('Object Repository/Login/Idle 3 Min/01. Button-Login'), 0)
 
@@ -33,17 +33,17 @@ Mobile.delay(1)
 Mobile.setText(findTestObject('Object Repository/Login/Idle 3 Min/02. EditText-Input password'), 'Bankmega1', 0)
 
 Mobile.delay(1)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LOGIN - Idle 3 Min\\02.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\TC-006 - P-TC-LOGIN - Idle 3 Min\\02.png')
 
 Mobile.tap(findTestObject('Object Repository/Login/Idle 3 Min/03. Button-Klik Login'), 0)
 
 Mobile.delay(2)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LOGIN - Idle 3 Min\\03.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\TC-006 - P-TC-LOGIN - Idle 3 Min\\03.png')
 
 Mobile.delay(180)
 
 Mobile.delay(2)
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LOGIN - Idle 3 Min\\04.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\TC-006 - P-TC-LOGIN - Idle 3 Min\\04.png')
 
 Mobile.closeApplication()
 
