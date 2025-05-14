@@ -19,118 +19,116 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('com.bankmega.msmiledev')
 
-Mobile.delay(1)
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Pulsa Telkomsel\\01.png')
 
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-TOPUP - Pulsa Telkomsel\\01.png')
+Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/Telkomsel/01. ViewGroup - Button Top Up'), 0)
 
-Mobile.tap(findTestObject('01.New Update Script Repo/Top up Bayar - Pulsa/01. Top Up_Bayar - Pulsa'), 0)
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Pulsa Telkomsel\\02.png')
 
-Mobile.delay(1)
+Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/Telkomsel/02. View - Icon Pulsa'), 0)
 
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-TOPUP - Pulsa Telkomsel\\02.png')
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Pulsa Telkomsel\\03.png')
 
-Mobile.tap(findTestObject('01.New Update Script Repo/Top up Bayar - Pulsa/02. Pulsa'), 0)
+Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/Telkomsel/03. EditText - Input nomor'), 0)
 
-Mobile.delay(1)
-
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-TOPUP - Pulsa Telkomsel\\03.png')
-
-Mobile.tap(findTestObject('01.New Update Script Repo/Top up Bayar - Pulsa/03. Input Nomor'), 0)
-
-Mobile.setText(findTestObject('01.New Update Script Repo/Top up Bayar - Pulsa/03. Input Nomor'), '0812666666001', 
-    0)
+Mobile.setText(findTestObject('Object Repository/Topup/Pulsa/Telkomsel/03. EditText - Input nomor'),
+	'0812666666001', 0)
 
 Mobile.hideKeyboard()
 
-Mobile.delay(1)
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Pulsa Telkomsel\\04.png')
 
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-TOPUP - Pulsa Telkomsel\\04.png')
+Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/Telkomsel/05. ViewGroup - Lanjut'), 0)
 
-Mobile.tap(findTestObject('01.New Update Script Repo/Top up Bayar - Pulsa/04. Lanjut'), 0)
+Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/Telkomsel/06. SvgView-Cek Saldo'), 0)
 
-Mobile.tap(findTestObject('01.New Update Script Repo/Top up Bayar - Pulsa/05. Pilih Nominal'), 0)
+Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/Telkomsel/07. SvgView-Pilih Nominal'), 0)
 
-Mobile.tap(findTestObject('01.New Update Script Repo/Top up Bayar - Pulsa/06. Nominal'), 0)
+Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/Telkomsel/08. TextView-15000'), 0)
 
-Mobile.delay(1)
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Pulsa Telkomsel\\05.png')
 
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-TOPUP - Pulsa Telkomsel\\05.png')
+Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/Telkomsel/09. ViewGroup - Lanjut'), 0)
 
-Mobile.tap(findTestObject('01.New Update Script Repo/Top up Bayar - Pulsa/07. Lanjut'), 0)
+Mobile.verifyElementText(findTestObject('Object Repository/Topup/Pulsa/Telkomsel/10. TextView - Pembelian PULSA REGULER TELKOMSEL'),
+	'Pembelian PULSA REGULER TELKOMSEL')
 
-Mobile.verifyElementText(findTestObject('Object Repository/Topup/Pulsa/Telkomsel/10. TextView - Pembelian PULSA REGULER TELKOMSEL'), 
-    'Pembelian PULSA REGULER TELKOMSEL')
+Mobile.verifyElementText(findTestObject('Object Repository/Topup/Pulsa/Telkomsel/11. TextView - verif 0812666666001'), 
+	'0812666666001')
 
-Mobile.verifyElementText(findTestObject('Object Repository/Topup/Pulsa/Telkomsel/11. TextView - verif 0812666666001'), '0812666666001')
-
-String nomor = Mobile.getText(findTestObject('Object Repository/Topup/Pulsa/Telkomsel/11. TextView - verif 0812666666001'), 
-    0)
-
+String nomor = Mobile.getText(findTestObject('Object Repository/Topup/Pulsa/Telkomsel/11. TextView - verif 0812666666001'), 0)
 println(nomor)
 
-Mobile.verifyElementText(findTestObject('Object Repository/Topup/Pulsa/Telkomsel/12. TextView - Rp. 15.000'), 'Rp. 15.000')
+Mobile.verifyElementText(findTestObject('Object Repository/Topup/Pulsa/Telkomsel/12. TextView - Rp. 15.000'), 
+	'Rp. 15.000')
 
 String nominal = Mobile.getText(findTestObject('Object Repository/Topup/Pulsa/Telkomsel/12. TextView - Rp. 15.000'), 0)
-
 println(nominal)
 
-Mobile.verifyElementText(findTestObject('Object Repository/Topup/Pulsa/Telkomsel/13. TextView - Rp. 1.500'), 'Rp. 1.500')
+Mobile.verifyElementText(findTestObject('Object Repository/Topup/Pulsa/Telkomsel/13. TextView - Rp. 1.500'), 
+	'Rp. 1.500')
 
 String admin = Mobile.getText(findTestObject('Object Repository/Topup/Pulsa/Telkomsel/13. TextView - Rp. 1.500'), 0)
-
 println(admin)
 
-Mobile.verifyElementText(findTestObject('Object Repository/Topup/Pulsa/Telkomsel/14. TextView - Rp.  16.500'), 'Rp.  16.500')
+Mobile.verifyElementText(findTestObject('Object Repository/Topup/Pulsa/Telkomsel/14. TextView - Rp.  16.500'), 
+	'Rp.  16.500')
 
 String total = Mobile.getText(findTestObject('Object Repository/Topup/Pulsa/Telkomsel/14. TextView - Rp.  16.500'), 0)
-
 println(total)
 
 Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/Telkomsel/15. EditText - M-PIN'), 0)
 
-Mobile.setText(findTestObject('Object Repository/Topup/Pulsa/Telkomsel/15. EditText - M-PIN'), '111111', 0)
+Mobile.setText(findTestObject('Object Repository/Topup/Pulsa/Telkomsel/15. EditText - M-PIN'), 
+	'111111', 0)
 
 Mobile.hideKeyboard()
 
-Mobile.delay(1)
-
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-TOPUP - Pulsa Telkomsel\\06.png')
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Pulsa Telkomsel\\06.png')
 
 Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/Telkomsel/16. ViewGroup-Lanjut'), 0)
 
-Mobile.verifyElementText(findTestObject('Object Repository/Topup/Pulsa/Telkomsel/17. TextView-Top Up Berhasil'), 'Top Up Berhasil!')
+Mobile.verifyElementText(findTestObject('Object Repository/Topup/Pulsa/Telkomsel/17. TextView-Top Up Berhasil'), 
+	'Top Up Berhasil!')
 
 String status = Mobile.getText(findTestObject('Object Repository/Topup/Pulsa/Telkomsel/17. TextView-Top Up Berhasil'), 0)
-
 println(status)
 
-Mobile.verifyElementText(findTestObject('Object Repository/Topup/Pulsa/Telkomsel/18. TextView-Rp. 16.500'), 'Rp.  16.500')
+Mobile.verifyElementText(findTestObject('Object Repository/Topup/Pulsa/Telkomsel/18. TextView-Rp. 16.500'), 
+	'Rp.  16.500')
 
-Mobile.verifyElementText(findTestObject('Object Repository/Topup/Pulsa/Telkomsel/19. TextView - 0812666666001'), '0812666666001')
+Mobile.verifyElementText(findTestObject('Object Repository/Topup/Pulsa/Telkomsel/19. TextView - 0812666666001'), 
+	'0812666666001')
 
-Mobile.verifyElementText(findTestObject('Object Repository/Topup/Pulsa/Telkomsel/20. TextView - Rp. 15.000'), 'Rp. 15.000')
+Mobile.verifyElementText(findTestObject('Object Repository/Topup/Pulsa/Telkomsel/20. TextView - Rp. 15.000'), 
+	'Rp. 15.000')
 
-Mobile.verifyElementText(findTestObject('Object Repository/Topup/Pulsa/Telkomsel/21. TextView - Rp. 1.500'), 'Rp. 1.500')
+Mobile.verifyElementText(findTestObject('Object Repository/Topup/Pulsa/Telkomsel/21. TextView - Rp. 1.500'), 
+	'Rp. 1.500')
 
-Mobile.verifyElementText(findTestObject('Object Repository/Topup/Pulsa/Telkomsel/22. TextView - Rp. 16.500'), 'Rp.  16.500')
+Mobile.verifyElementText(findTestObject('Object Repository/Topup/Pulsa/Telkomsel/22. TextView - Rp. 16.500'), 
+	'Rp.  16.500')
 
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-TOPUP - Pulsa Telkomsel\\07.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Pulsa Telkomsel\\07.png')
 
 Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/Telkomsel/23. ViewGroup - Bagikan'), 0)
 
-Mobile.delay(1)
-
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-TOPUP - Pulsa Telkomsel\\08.png')
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Pulsa Telkomsel\\08.png')
 
 Mobile.pressBack()
 
-Mobile.delay(1)
-
-Mobile.takeScreenshot('C:\\Users\\H23070017\\Katalon Studio\\Msmile Revamp\\Screenshot\\P-TC-TOPUP - Pulsa Telkomsel\\09.png')
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Pulsa Telkomsel\\09.png')
 
 Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/Telkomsel/24. GroupView-Button Close'), 0)
 
 Mobile.pressBack()
 
 Mobile.closeApplication()
-

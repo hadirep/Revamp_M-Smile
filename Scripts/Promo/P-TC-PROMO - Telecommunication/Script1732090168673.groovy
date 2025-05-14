@@ -19,47 +19,47 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('com.bankmega.msmiledev')
 
-Mobile.delay(2)
+Mobile.delay(1)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-PROMO - Telecommunication\\01.png')
 
 Mobile.tap(findTestObject('Object Repository/Promo/Telecommunication/01. Button - Promo'), 0)
 
-Mobile.delay(2)
+Mobile.delay(1)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-PROMO - Telecommunication\\02.png')
 
-Mobile.swipe(900, 880, 70, 855)
+Mobile.swipe(900, 880, 30, 880)
 
-Mobile.delay(2)
+Mobile.delay(1)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-PROMO - Telecommunication\\03.png')
 
 Mobile.tap(findTestObject('Object Repository/Promo/Telecommunication/02. ViewGroup - Telecommunication'), 0)
 
-Mobile.delay(2)
+Mobile.delay(1)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-PROMO - Telecommunication\\04.png')
 
 Mobile.tap(findTestObject('Object Repository/Promo/Telecommunication/03. ViewGroup - Telecommunication 1'), 0)
 
-Mobile.delay(2)
+Mobile.delay(1)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-PROMO - Telecommunication\\05.png')
 
 Mobile.tap(findTestObject('Object Repository/Promo/Telecommunication/04. ViewGroup - Back Btn Telecommunication 1'), 0)
 
-Mobile.delay(2)
+Mobile.delay(1)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-PROMO - Telecommunication\\06.png')
 
 Mobile.tap(findTestObject('Object Repository/Promo/Telecommunication/05. ViewGroup -Telecommunication 2'), 0)
 
-Mobile.delay(2)
+Mobile.delay(1)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-PROMO - Telecommunication\\07.png')
 
 Mobile.tap(findTestObject('Object Repository/Promo/Telecommunication/06. ViewGroup - Back Btn Telecommunication 2'), 0)
 
-Mobile.delay(2)
+Mobile.delay(1)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-PROMO - Telecommunication\\08.png')
 
 Mobile.pressBack()
 
-Mobile.delay(2)
+Mobile.delay(1)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-PROMO - Telecommunication\\09.png')
 
 Mobile.closeApplication()

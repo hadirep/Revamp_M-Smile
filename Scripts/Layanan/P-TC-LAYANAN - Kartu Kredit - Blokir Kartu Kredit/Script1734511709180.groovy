@@ -63,5 +63,25 @@ Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LAYANAN - Kartu Kred
 
 Mobile.tap(findTestObject('Object Repository/Layanan/Kartu Kredit/Blokir Kartu Kredit/10. ViewGroup-Lanjut'), 0)
 
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LAYANAN - Kartu Kredit - Blokir Kartu Kredit\\08.png')
+
+Mobile.tap(findTestObject('Object Repository/Layanan/Kartu Kredit/Blokir Kartu Kredit/11. TextView - Ok'), 0)
+
+Mobile.pressBack()
+
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LAYANAN - Kartu Kredit - Blokir Kartu Kredit\\09.png')
+
+Mobile.pressBack()
+
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LAYANAN - Kartu Kredit - Blokir Kartu Kredit\\10.png')
+
+Mobile.pressBack()
+
+Mobile.delay(2)
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LAYANAN - Kartu Kredit - Blokir Kartu Kredit\\11.png')
+
 Mobile.closeApplication()
 

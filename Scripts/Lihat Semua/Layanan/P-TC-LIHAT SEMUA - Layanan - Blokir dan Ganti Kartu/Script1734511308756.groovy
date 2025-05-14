@@ -19,12 +19,12 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('com.bankmega.msmiledev')
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Layanan - Blokir dan Ganti Kartu\\01.png')
 
 Mobile.tap(findTestObject('Object Repository/Lihat Semua/Layanan/Blokir dan Ganti Kartu/01. ViewGroup-Lihat Semua'), 0)
 
-Mobile.delay(1)
+Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-LIHAT SEMUA - Layanan - Blokir dan Ganti Kartu\\02.png')
 
 Mobile.scrollToText('Blokir & Ganti Kartu')
