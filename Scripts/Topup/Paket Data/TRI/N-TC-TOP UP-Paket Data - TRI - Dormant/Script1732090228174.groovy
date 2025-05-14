@@ -19,124 +19,107 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('com.bankmega.msmiledev')
 
-Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/TRI/TRI-Dormant/01.ViewGroup - Top Up'), 0)
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\N-TC-TOP UP-Paket Data - TRI - Dormant\\01.png')
+
+Mobile.tap(findTestObject('Topup/Paket Data/Paket Data New/01.Top Up dan Bayar'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\N-TC-TOP UP-Paket Data - TRI - Dormant\\01.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\N-TC-TOP UP-Paket Data - TRI - Dormant\\02.png')
 
-Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/TRI/TRI-Dormant/02.View - Paket Data'), 0)
-
-Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\N-TC-TOP UP-Paket Data - TRI - Dormant\\02.png')
-
-Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/TRI/TRI-Dormant/03.EditText - Set Nomor HP'), 0)
-
-Mobile.setText(findTestObject('Object Repository/Topup/Paket Data/TRI/TRI-Dormant/04.EditText - Masukan Nomor'), '0895634311811', 
-    0)
+Mobile.tap(findTestObject('Topup/Paket Data/Paket Data New/02.Paket Data'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\N-TC-TOP UP-Paket Data - TRI - Dormant\\03.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\N-TC-TOP UP-Paket Data - TRI - Dormant\\03.png')
 
-Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/TRI/TRI-Dormant/05.ViewGroup - Lanjut'), 0)
+Mobile.tap(findTestObject('01.New Update Script Repo/Top Up Bayar - Paket Data/03. Input Number'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/TRI/TRI-Dormant/android.view.ViewGroup'), 0)
-
-Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/TRI/TRI-Dormant/06.PathView - Pilih Paket'), 0)
-
-Mobile.scrollToText('Happy 75GB')
+Mobile.setText(findTestObject('01.New Update Script Repo/Top Up Bayar - Paket Data/03. Add Number'), '08951234567', 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\N-TC-TOP UP-Paket Data - TRI - Dormant\\04.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\N-TC-TOP UP-Paket Data - TRI - Dormant\\04.png')
 
-Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/TRI/TRI-Dormant/07.ViewGroup - Happy 75GB'), 0)
+Mobile.pressBack()
 
-Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/TRI/TRI-Dormant/08.PathView - Plih Waktu Transaksi'), 0)
+Mobile.tap(findTestObject('Topup/Paket Data/Paket Data New/04.Lanjut'), 0)
 
-Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(2)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\N-TC-TOP UP-Paket Data - TRI - Dormant\\05.png')
+Mobile.swipe(900, 500, 100, 500)
 
-Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/TRI/TRI-Dormant/09.TextView - Sekarang'), 0)
-
-Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/TRI/TRI-Dormant/10.ViewGroup - Konfirmasi Pembayaran'), 0)
+Mobile.swipe(900, 500, 100, 500)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\N-TC-TOP UP-Paket Data - TRI - Dormant\\06.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\N-TC-TOP UP-Paket Data - TRI - Dormant\\05.png')
 
-Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/TRI/TRI-Dormant/11.EditText - Set PIN'), 0)
+Mobile.tap(findTestObject('Topup/Paket Data/Paket Data New/05.Jenis Paket'), 0)
 
-Mobile.setText(findTestObject('Object Repository/Topup/Paket Data/TRI/TRI-Dormant/12.EditText - Input PIN'), '111111', 0)
+Mobile.tap(findTestObject('Topup/Paket Data/Paket Data New/06.Jenis Paket - Happy 13GB'), 0)
+
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\N-TC-TOP UP-Paket Data - TRI - Dormant\\06.png')
+
+Mobile.tap(findTestObject('Topup/Paket Data/Paket Data New/07.Lanjut'), 0)
+
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\N-TC-TOP UP-Paket Data - TRI - Dormant\\07.png')
+
+Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(findTestObject('Topup/Paket Data/Paket Data New/08.Input PIN'), 0)
+
+Mobile.setText(findTestObject('Topup/Paket Data/Paket Data New/08.Input PIN'), '111111', 0)
 
 Mobile.pressBack()
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\N-TC-TOP UP-Paket Data - TRI - Dormant\\07.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\N-TC-TOP UP-Paket Data - TRI - Dormant\\08.png')
 
-Mobile.tap(findTestObject('Topup/Paket Data/TRI/TRI-Dormant/13.ViewGroup - Lanjut'), 0)
+Mobile.tap(findTestObject('Topup/Paket Data/Paket Data New/09. Lanjut Pembayaran'), 0)
 
-Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\N-TC-TOP UP-Paket Data - TRI - Dormant\\08.png')
-
-Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/TRI/TRI-Dormant/14.ViewGroup - Notice Error'), 0)
+Mobile.tap(findTestObject('Topup/Paket Data/TRI-Dormant/10. Notice Dormant'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\N-TC-TOP UP-Paket Data - TRI - Dormant\\09.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\N-TC-TOP UP-Paket Data - TRI - Dormant\\09.png')
 
-Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/TRI/TRI-Dormant/15.TextView - OK'), 0)
+Mobile.tap(findTestObject('Topup/Paket Data/TRI-Dormant/11. OK (Dormant)'), 0)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\N-TC-TOP UP-Paket Data - TRI - Dormant\\07.png')
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\N-TC-TOP UP-Paket Data - TRI - Dormant\\10.png')
 
 Mobile.pressBack()
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\N-TC-TOP UP-Paket Data - TRI - Dormant\\08.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\N-TC-TOP UP-Paket Data - TRI - Dormant\\11.png')
 
 Mobile.pressBack()
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\N-TC-TOP UP-Paket Data - TRI - Dormant\\09.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\N-TC-TOP UP-Paket Data - TRI - Dormant\\12.png')
 
 Mobile.pressBack()
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\N-TC-TOP UP-Paket Data - TRI - Dormant\\10.png')
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\N-TC-TOP UP-Paket Data - TRI - Dormant\\13.png')
 
 Mobile.pressBack()
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\N-TC-TOP UP-Paket Data - TRI - Dormant\\11.png')
-
-Mobile.pressBack()
-
-Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\N-TC-TOP UP-Paket Data - TRI - Dormant\\12.png')
-
-Mobile.pressBack()
-
-Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\N-TC-TOP UP-Paket Data - TRI - Dormant\\13.png')
-
-Mobile.pressBack()
-
-Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.takeScreenshot('C:\\Users\\H24090018\\Katalon Studio\\Revamp M-Smile - TRFP\\Screenshoot\\N-TC-TOP UP-Paket Data - TRI - Dormant\\12.png')
-
-Mobile.pressBack()
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\N-TC-TOP UP-Paket Data - TRI - Dormant\\14.png')
 
 Mobile.closeApplication()
 

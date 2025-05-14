@@ -1,0 +1,139 @@
+import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
+import com.kms.katalon.core.testcase.TestCase as TestCase
+import com.kms.katalon.core.testdata.TestData as TestData
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
+import com.kms.katalon.core.testobject.TestObject as TestObject
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
+
+Mobile.startExistingApplication('com.bankmega.msmiledev')
+
+Mobile.delay(2)
+
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshoot\\P-TC-BAYAR - TV Kabel dan Internet  - Transivision\\01.png')
+
+Mobile.tap(findTestObject('01.New Update Script Repo/Top Up Bayar - TV Kabel - Transvision/01. Top Up_Bayar - TV Kabel'), 
+    0)
+
+Mobile.delay(2)
+
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - TV Kabel dan Internet - Internet Telkom\\02.png')
+
+Mobile.tap(findTestObject('01.New Update Script Repo/Top Up Bayar - TV Kabel - Transvision/02. TV Kabel dan Internet'), 
+    0)
+
+Mobile.delay(2)
+
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - TV Kabel dan Internet - Internet Telkom\\03.png')
+
+Mobile.tap(findTestObject('01.New Update Script Repo/Top Up Bayar - TV Kabel - Transvision/03. Daftar Produk'), 0)
+
+Mobile.delay(2)
+
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - TV Kabel dan Internet - Internet Telkom\\05.png')
+
+Mobile.tap(findTestObject('01.New Update Script Repo/Top Up Bayar - TV Kabel - Transvision/04. Transvision'), 0)
+
+Mobile.delay(2)
+
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - TV Kabel dan Internet - Internet Telkom\\06.png')
+
+Mobile.tap(findTestObject('01.New Update Script Repo/Top Up Bayar - TV Kabel - Transvision/05. Nomor Pelanggan'), 0)
+
+Mobile.delay(2)
+
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - TV Kabel dan Internet - Internet Telkom\\07.png')
+
+Mobile.tap(findTestObject('01.New Update Script Repo/Top Up Bayar - TV Kabel - Transvision/06. Input Nomor Pelanggan'), 
+    0)
+
+Mobile.delay(2)
+
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - TV Kabel dan Internet - Internet Telkom\\08.png')
+
+Mobile.pressBack()
+
+Mobile.setText(findTestObject('01.New Update Script Repo/Top Up Bayar - TV Kabel - Transvision/06.EditText - Input Baru'), 
+    '0123456789001', 0)
+
+Mobile.delay(2)
+
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - TV Kabel dan Internet - Internet Telkom\\09.png')
+
+Mobile.pressBack()
+
+Mobile.delay(2)
+
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - TV Kabel dan Internet - Internet Telkom\\10.png')
+
+Mobile.tap(findTestObject('01.New Update Script Repo/Top Up Bayar - TV Kabel - Transvision/07. Ok'), 0)
+
+Mobile.delay(2)
+
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - TV Kabel dan Internet - Internet Telkom\\11.png')
+
+Mobile.tap(findTestObject('01.New Update Script Repo/Top Up Bayar - TV Kabel - Transvision/08. Lanjut'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Bayar/TV Kabel dan Internet/Internet Telkom/17. ViewGroup-Tap M-PIN'), 0)
+
+Mobile.setText(findTestObject('Object Repository/Bayar/TV Kabel dan Internet/Internet Telkom/18. EditText-Set M-PIN'), '111111', 
+    0)
+
+Mobile.hideKeyboard()
+
+Mobile.delay(2)
+
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - TV Kabel dan Internet - Internet Telkom\\12.png')
+
+Mobile.tap(findTestObject('Object Repository/Bayar/TV Kabel dan Internet/Internet Telkom/19. ViewGroup-Bayar'), 0)
+
+Mobile.verifyElementText(findTestObject('Object Repository/Bayar/TV Kabel dan Internet/Internet Telkom/20. TextView-verif Pembayaran Berhasil'), 
+    'Pembayaran Berhasil!')
+
+Mobile.verifyElementText(findTestObject('Object Repository/Bayar/TV Kabel dan Internet/Internet Telkom/21. TextView-verif Rp. 51.903'), 
+    'Rp. 51.903')
+
+Mobile.verifyElementText(findTestObject('Object Repository/Bayar/TV Kabel dan Internet/Internet Telkom/22. TextView-verif Nominal Rp. 49.403'), 
+    'Rp. 49.403')
+
+Mobile.verifyElementText(findTestObject('Object Repository/Bayar/TV Kabel dan Internet/Internet Telkom/23. TextView-verif Admin Rp. 2500'), 
+    'Rp. 2500')
+
+Mobile.verifyElementText(findTestObject('Object Repository/Bayar/TV Kabel dan Internet/Internet Telkom/24. TextView-verif Total Rp. 51.903'), 
+    'Rp. 51.903')
+
+Mobile.delay(2)
+
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - TV Kabel dan Internet - Internet Telkom\\13.png')
+
+Mobile.tap(findTestObject('Object Repository/Bayar/TV Kabel dan Internet/Internet Telkom/25. ViewGroup-Bagikan'), 0)
+
+Mobile.delay(5)
+
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - TV Kabel dan Internet - Internet Telkom\\14.png')
+
+Mobile.tap(findTestObject('Object Repository/Bayar/TV Kabel dan Internet/Internet Telkom/26. Button-Cancel'), 0)
+
+Mobile.delay(2)
+
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - TV Kabel dan Internet - Internet Telkom\\15.png')
+
+Mobile.tapAtPosition(1144, 440)
+
+Mobile.delay(2)
+
+Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-BAYAR - TV Kabel dan Internet - Internet Telkom\\16.png')
+
+Mobile.closeApplication()
+
