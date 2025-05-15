@@ -31,7 +31,7 @@ Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Pulsa TRI\\0
 
 Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/TRI/02. View-Pulsa'), 0)
 
-Mobile.delay(2)
+Mobile.delay(3)
 
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Pulsa TRI\\03.png')
 
@@ -103,15 +103,15 @@ String status = Mobile.getText(findTestObject('Object Repository/Topup/Pulsa/TRI
 
 println(status)
 
-Mobile.verifyElementText(findTestObject('Object Repository/Topup/Pulsa/TRI/16. TextView-verif Rp. 30.000'), 'Rp.  30.000')
+Mobile.verifyElementText(findTestObject('Object Repository/Topup/Pulsa/TRI/16. TextView-verify Rp.  30.000'), 'Rp.  30.000')
 
 Mobile.verifyElementText(findTestObject('Object Repository/Topup/Pulsa/TRI/17. TextView-verif 089789000105'), '089789000105')
 
-Mobile.verifyElementText(findTestObject('Object Repository/Topup/Pulsa/TRI/18. TextView-verif Nominal Rp. 30.000'), 'Rp. 30.000')
+Mobile.verifyElementText(findTestObject('Object Repository/Topup/Pulsa/TRI/18. TextView-verify Nominal Rp. 30.000'), 'Rp. 30.000')
 
-Mobile.verifyElementText(findTestObject('Object Repository/Topup/Pulsa/TRI/19. TextView-verif Adm Rp. 0'), 'Rp. 0')
+Mobile.verifyElementText(findTestObject('Object Repository/Topup/Pulsa/TRI/19. TextView-verify adm Rp. 0'), 'Rp. 0')
 
-Mobile.verifyElementText(findTestObject('Object Repository/Topup/Pulsa/TRI/20. TextView-verif Total Rp. 30.000'), 'Rp.  30.000')
+Mobile.verifyElementText(findTestObject('Object Repository/Topup/Pulsa/TRI/20. TextView-verify total Rp. 30.000'), 'Rp.  30.000')
 
 Mobile.delay(4)
 
@@ -136,12 +136,6 @@ Mobile.tap(findTestObject('Object Repository/Topup/Pulsa/TRI/22. GroupView-Close
 Mobile.delay(2)
 
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Pulsa TRI\\10.png')
-
-Mobile.pressBack()
-
-Mobile.delay(2)
-
-Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Pulsa TRI\\11.png')
 
 Mobile.closeApplication()
 

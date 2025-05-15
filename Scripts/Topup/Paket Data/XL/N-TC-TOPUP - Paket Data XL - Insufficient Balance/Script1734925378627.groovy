@@ -22,7 +22,7 @@ Mobile.startExistingApplication('com.bankmega.msmiledev')
 Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Paket Data XL-Axis - Insufficient Balance\\01.png')
 
-Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/XL-Axis - Insufficient Balance/01. Button-Topup'), 0)
+Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/XL-Axis - Insufficient Balance/01. SvgView-Topup dan Bayar'), 0)
 
 Mobile.delay(5)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Paket Data XL-Axis - Insufficient Balance\\02.png')
@@ -32,9 +32,9 @@ Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/XL-Axis - Insuffic
 Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Paket Data XL-Axis - Insufficient Balance\\03.png')
 
-Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/XL-Axis - Insufficient Balance/03. EditText-Input Nomor'), 0)
+Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/XL-Axis - Insufficient Balance/03. EditText-Input No HP'), 0)
 
-Mobile.setText(findTestObject('Object Repository/Topup/Paket Data/XL-Axis - Insufficient Balance/03. EditText-Input Nomor'), '087777190770', 0)
+Mobile.setText(findTestObject('Object Repository/Topup/Paket Data/XL-Axis - Insufficient Balance/03. EditText-Input No HP'), '087777190770', 0)
 
 Mobile.pressBack()
 
@@ -53,48 +53,44 @@ Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/XL-Axis - Insuffic
 
 Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/XL-Axis - Insufficient Balance/06. ViewGroup-32000'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/XL-Axis - Insufficient Balance/07. SvgView-Waktu Transaksi'), 0)
-
-Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/XL-Axis - Insufficient Balance/08. ViewGroup-Sekarang'), 0)
-
 Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Paket Data XL-Axis - Insufficient Balance\\05.png')
 
-Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/XL-Axis - Insufficient Balance/09. ViewGroup-Lanjut'), 0)
+Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/XL-Axis - Insufficient Balance/07. ViewGroup-Lanjut'), 0)
 
-Mobile.verifyElementText(findTestObject('Object Repository/Topup/Paket Data/XL-Axis - Insufficient Balance/10. TextView-verif Pembelian PAKET DATA XL'), 
+Mobile.verifyElementText(findTestObject('Object Repository/Topup/Paket Data/XL-Axis - Insufficient Balance/08. TextView-verify Pembelian PAKET DATA XL'), 
 	'Pembelian PAKET DATA XL')
 
-Mobile.verifyElementText(findTestObject('Object Repository/Topup/Paket Data/XL-Axis - Insufficient Balance/11. TextView-verif 087777190770'), 
+Mobile.verifyElementText(findTestObject('Object Repository/Topup/Paket Data/XL-Axis - Insufficient Balance/09. TextView-verify 087777190770'), 
 	'087777190770')
 
-Mobile.verifyElementText(findTestObject('Object Repository/Topup/Paket Data/XL-Axis - Insufficient Balance/12. TextView-verif Nominal Rp. 32.000'), 
+Mobile.verifyElementText(findTestObject('Object Repository/Topup/Paket Data/XL-Axis - Insufficient Balance/10. TextView-verify Nominal Rp. 32.000'), 
 	'Rp. 32.000')
 
-Mobile.verifyElementText(findTestObject('Object Repository/Topup/Paket Data/XL-Axis - Insufficient Balance/13. TextView-verif Adm Rp. 1.500'), 
+Mobile.verifyElementText(findTestObject('Object Repository/Topup/Paket Data/XL-Axis - Insufficient Balance/11. TextView-verify adm Rp. 1.500'), 
 	'Rp. 1.500')
 
-Mobile.verifyElementText(findTestObject('Object Repository/Topup/Paket Data/XL-Axis - Insufficient Balance/14. TextView-verif Rp.  33.500'), 
+Mobile.verifyElementText(findTestObject('Object Repository/Topup/Paket Data/XL-Axis - Insufficient Balance/12. TextView-verify Rp. 33.500'), 
 	'Rp.  33.500')
 
-Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/XL-Axis - Insufficient Balance/15. EditText-Tap M-PIN'), 0)
+Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/XL-Axis - Insufficient Balance/13. EditText-Tap M-PIN'), 0)
 
-Mobile.setText(findTestObject('Object Repository/Topup/Paket Data/XL-Axis - Insufficient Balance/16. EditText-Set M-PIN'), '111111', 0)
+Mobile.setText(findTestObject('Object Repository/Topup/Paket Data/XL-Axis - Insufficient Balance/14. EditText-Set M-PIN'), '111111', 0)
 
 Mobile.hideKeyboard()
 
 Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Paket Data XL-Axis - Insufficient Balance\\06.png')
 
-Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/XL-Axis - Insufficient Balance/17. ViewGroup-Lanjut'), 0)
+Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/XL-Axis - Insufficient Balance/15. ViewGroup-Lanjut'), 0)
 
-Mobile.verifyElementText(findTestObject('Object Repository/Topup/Paket Data/XL-Axis - Insufficient Balance/18. TextView-verif Insufficient Balance'),
+Mobile.verifyElementText(findTestObject('Object Repository/Topup/Paket Data/XL-Axis - Insufficient Balance/16. TextView-verify Insufficient Balance'),
 	'Dana Anda tidak cukup untuk melakukan transaksi. Pastikan sumber dana yang anda pilih cukup untuk melakukan transaksi [M51]')
 
 Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Paket Data XL-Axis - Insufficient Balance\\07.png')
 
-Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/XL-Axis - Insufficient Balance/19. ViewGroup-OK'), 0)
+Mobile.tap(findTestObject('Object Repository/Topup/Paket Data/XL-Axis - Insufficient Balance/17. ViewGroup-OK'), 0)
 
 Mobile.delay(2)
 Mobile.takeScreenshot('D:\\Revamp_M-Smile\\Screenshot\\P-TC-TOPUP - Paket Data XL-Axis - Insufficient Balance\\08.png')
